@@ -6,7 +6,7 @@ import { dirname, join } from 'node:path'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-const { GITHUB_TOKEN, REPO_OWNER, REPO_NAME } = process.env
+let { GITHUB_TOKEN, REPO_OWNER, REPO_NAME } = process.env
 
 const headers = {
   Authorization: `Bearer ${GITHUB_TOKEN}`,
@@ -15,7 +15,9 @@ const headers = {
 }
 
 // const baseUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`;
-const baseUrl = `https://api.github.com/repos/KarinJS/Karin`
+REPO_OWNER = 'KarinJS'
+REPO_NAME = 'Karin'
+const baseUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`
 
 const dataDir = join(__dirname, 'data')
 
@@ -27,8 +29,8 @@ if (!fs.existsSync(dataDir)) {
 const apiEndpoints = [
   `${baseUrl}`,                     // 获取仓库状态
   `${baseUrl}/contributors`,        // 获取贡献者列表
-  `${baseUrl}/pulls?state=all`,     // 获取 PR
-  `${baseUrl}/issues?state=all`,    // 获取 issue
+  `https://api.github.com/search/issues?q=repo:${REPO_OWNER}/${REPO_NAME}+type:pr`,     // PR总数
+  `https://api.github.com/search/issues?q=repo:${REPO_OWNER}/${REPO_NAME}+type:issue`,  // Issue总数
   `${baseUrl}/stargazers`,          // 获取 STARS
   `${baseUrl}/forks`,               // 获取 FORK
   `${baseUrl}/subscribers`,         // 获取关注数据
