@@ -28,6 +28,7 @@ const apiEndpoints = [
   `${baseUrl}`,                     // 获取仓库状态
   `${baseUrl}/contributors`,        // 获取贡献者列表
   `${baseUrl}/pulls`,               // 获取 PR
+  `${baseUrl}/issues`,              // 获取 issue
   `${baseUrl}/stargazers`,          // 获取 STARS
   `${baseUrl}/forks`,               // 获取 FORK
   `${baseUrl}/subscribers`,         // 获取关注数据
