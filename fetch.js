@@ -14,42 +14,47 @@ const headers = {
   Accept: 'application/vnd.github.spiderman-preview+json'
 }
 
-// const baseUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`;
 REPO_OWNER = 'KarinJS'
 REPO_NAME = 'Karin'
 const baseUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`
 
 const dataDir = join(__dirname, 'data')
 
-if (!fs.existsSync(dataDir)) {
+/** 清空data目录 */
+function clearDataDirectory () {
+  if (fs.existsSync(dataDir)) {
+    fs.rmSync(dataDir, { recursive: true })
+    console.log(`Cleared data directory at ${dataDir}`)
+  }
   fs.mkdirSync(dataDir, { recursive: true })
   console.log(`Created data directory at ${dataDir}`)
 }
 
+clearDataDirectory()
+
 const apiEndpoints = [
-  `${baseUrl}`,                     // 获取仓库状态
-  `${baseUrl}/contributors`,        // 获取贡献者列表
-  `https://api.github.com/search/issues?q=repo:${REPO_OWNER}/${REPO_NAME}+type:pr`,     // PR总数
-  `https://api.github.com/search/issues?q=repo:${REPO_OWNER}/${REPO_NAME}+type:issue`,  // Issue总数
-  `${baseUrl}/stargazers`,          // 获取 STARS
-  `${baseUrl}/forks`,               // 获取 FORK
-  `${baseUrl}/subscribers`,         // 获取关注数据
-  `${baseUrl}/commits`,             // 获取最后提交时间
-  `${baseUrl}/tags`,                // 获取最新 tag
-  `${baseUrl}/license`,             // 获取最新版本许可证
-  `${baseUrl}/discussions`,         // 获取讨论数据
-  `${baseUrl}/releases`,            // 获取releases信息
-  `${baseUrl}/branches`,            // 获取分支列表
+  `${baseUrl}`,
+  `${baseUrl}/contributors`,
+  `https://api.github.com/search/issues?q=repo:${REPO_OWNER}/${REPO_NAME}+type:pr`,
+  `https://api.github.com/search/issues?q=repo:${REPO_OWNER}/${REPO_NAME}+type:issue`,
+  `${baseUrl}/stargazers`,
+  `${baseUrl}/forks`,
+  `${baseUrl}/subscribers`,
+  `${baseUrl}/commits`,
+  `${baseUrl}/tags`,
+  `${baseUrl}/license`,
+  `${baseUrl}/discussions`,
+  `${baseUrl}/releases`,
+  `${baseUrl}/branches`,
 ]
 
 async function fetchAndSaveData () {
   for (const endpoint of apiEndpoints) {
     try {
       const response = await axios.get(endpoint, { headers })
-      // 特殊处理搜索接口的文件名
       const isSearchEndpoint = endpoint.includes('/search/issues')
       const fileName = isSearchEndpoint ?
-        `${new URL(endpoint).searchParams.get('q').includes('type:pr') ? 'pr' : 'issue'}.json` :
+        `${new URL(endpoint).searchParams.get('q').includes('type:pr') ? 'pulls' : 'issues'}.json` :
         `${endpoint.split('/').pop().split('?')[0]}.json`
 
       const filePath = join(dataDir, fileName)
