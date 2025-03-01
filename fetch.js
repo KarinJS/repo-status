@@ -27,8 +27,8 @@ if (!fs.existsSync(dataDir)) {
 const apiEndpoints = [
   `${baseUrl}`,                     // 获取仓库状态
   `${baseUrl}/contributors`,        // 获取贡献者列表
-  `${baseUrl}/pulls`,               // 获取 PR
-  `${baseUrl}/issues`,              // 获取 issue
+  `${baseUrl}/pulls?state=all`,     // 获取 PR
+  `${baseUrl}/issues?state=all`,    // 获取 issue
   `${baseUrl}/stargazers`,          // 获取 STARS
   `${baseUrl}/forks`,               // 获取 FORK
   `${baseUrl}/subscribers`,         // 获取关注数据
@@ -36,13 +36,15 @@ const apiEndpoints = [
   `${baseUrl}/tags`,                // 获取最新 tag
   `${baseUrl}/license`,             // 获取最新版本许可证
   `${baseUrl}/discussions`,         // 获取讨论数据
+  `${baseUrl}/releases`,            // 获取releases信息
+  `${baseUrl}/branches`,            // 获取分支列表
 ]
 
 async function fetchAndSaveData () {
   for (const endpoint of apiEndpoints) {
     try {
       const response = await axios.get(endpoint, { headers })
-      const fileName = `${endpoint.split('/').pop()}.json`
+      const fileName = `${endpoint.split('/').pop().split('?')[0]}.json`
       const filePath = join(dataDir, fileName) // 文件路径
       fs.writeFileSync(filePath, JSON.stringify(response.data, null, 2))
       console.log(`Data saved to ${filePath}`)
