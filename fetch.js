@@ -46,8 +46,13 @@ async function fetchAndSaveData () {
   for (const endpoint of apiEndpoints) {
     try {
       const response = await axios.get(endpoint, { headers })
-      const fileName = `${endpoint.split('/').pop().split('?')[0]}.json`
-      const filePath = join(dataDir, fileName) // 文件路径
+      // 特殊处理搜索接口的文件名
+      const isSearchEndpoint = endpoint.includes('/search/issues')
+      const fileName = isSearchEndpoint ?
+        `${new URL(endpoint).searchParams.get('q').includes('type:pr') ? 'pr' : 'issue'}.json` :
+        `${endpoint.split('/').pop().split('?')[0]}.json`
+
+      const filePath = join(dataDir, fileName)
       fs.writeFileSync(filePath, JSON.stringify(response.data, null, 2))
       console.log(`Data saved to ${filePath}`)
     } catch (error) {
