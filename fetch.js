@@ -1,0 +1,54 @@
+import axios from 'axios'
+import fs from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+const { GITHUB_TOKEN, REPO_OWNER, REPO_NAME } = process.env
+
+const headers = {
+  Authorization: `Bearer ${GITHUB_TOKEN}`,
+  'Content-Type': 'application/json',
+  Accept: 'application/vnd.github.spiderman-preview+json'
+}
+
+// const baseUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`;
+const baseUrl = `https://api.github.com/repos/KarinJS/Karin`
+
+const dataDir = join(__dirname, 'data')
+
+if (!fs.existsSync(dataDir)) {
+  fs.mkdirSync(dataDir, { recursive: true })
+  console.log(`Created data directory at ${dataDir}`)
+}
+
+const apiEndpoints = [
+  `${baseUrl}`,                     // 获取仓库状态
+  `${baseUrl}/contributors`,        // 获取贡献者列表
+  `${baseUrl}/pulls`,               // 获取 PR
+  `${baseUrl}/stargazers`,          // 获取 STARS
+  `${baseUrl}/forks`,               // 获取 FORK
+  `${baseUrl}/subscribers`,         // 获取关注数据
+  `${baseUrl}/commits`,             // 获取最后提交时间
+  `${baseUrl}/tags`,                // 获取最新 tag
+  `${baseUrl}/license`,             // 获取最新版本许可证
+  `${baseUrl}/discussions`,         // 获取讨论数据
+]
+
+async function fetchAndSaveData () {
+  for (const endpoint of apiEndpoints) {
+    try {
+      const response = await axios.get(endpoint, { headers })
+      const fileName = `${endpoint.split('/').pop()}.json`
+      const filePath = join(dataDir, fileName) // 文件路径
+      fs.writeFileSync(filePath, JSON.stringify(response.data, null, 2))
+      console.log(`Data saved to ${filePath}`)
+    } catch (error) {
+      console.error(`Error fetching data from ${endpoint}:`, error.message)
+    }
+  }
+}
+
+fetchAndSaveData()

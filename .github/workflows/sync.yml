@@ -1,0 +1,68 @@
+name: Fetch GitHub Data
+
+on:
+  # 支持手动触发
+  workflow_dispatch:
+  schedule:
+    - cron: '15 * * * *'
+      timezone: Asia/Shanghai
+    - cron: '30 * * * *'
+      timezone: Asia/Shanghai
+    - cron: '45 * * * *'
+      timezone: Asia/Shanghai
+    - cron: '1 * * * *'
+      timezone: Asia/Shanghai
+
+  push:
+      branches:
+      - main
+
+jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 安装node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 21
+          registry-url: "https://registry.npmjs.org"
+
+      - name: 安装pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9.7.1
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Fetch and save data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: node fetch.js
+
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit"
+          else
+            git commit -m "new data changes"
+          fi
+
+      - name: Commit and push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+          commit_message: "Update GitHub repo data"
+          force_with_lease: true
