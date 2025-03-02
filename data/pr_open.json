@@ -34,7 +34,7 @@
     },
     "body": null,
     "created_at": "2025-02-28T15:02:22Z",
-    "updated_at": "2025-03-02T14:24:16Z",
+    "updated_at": "2025-03-02T14:29:14Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": null,
@@ -49,11 +49,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/289/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/289/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/5cc771a725bcec46a9d5c52681dab3d6d22b2cac",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/c404d63240ef3750d32d538958fa01eeec91491a",
     "head": {
       "label": "KarinJS:aboutus",
       "ref": "aboutus",
-      "sha": "5cc771a725bcec46a9d5c52681dab3d6d22b2cac",
+      "sha": "c404d63240ef3750d32d538958fa01eeec91491a",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -144,7 +144,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-01T05:44:37Z",
-        "pushed_at": "2025-03-02T14:24:15Z",
+        "pushed_at": "2025-03-02T14:29:13Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -281,7 +281,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-01T05:44:37Z",
-        "pushed_at": "2025-03-02T14:24:15Z",
+        "pushed_at": "2025-03-02T14:29:13Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -347,7 +347,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/289/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/5cc771a725bcec46a9d5c52681dab3d6d22b2cac"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/c404d63240ef3750d32d538958fa01eeec91491a"
       }
     },
     "author_association": "COLLABORATOR",
