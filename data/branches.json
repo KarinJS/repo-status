@@ -42,8 +42,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "f39f9e670583734f6db5e160dd67116893cd67bb",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f39f9e670583734f6db5e160dd67116893cd67bb"
+      "sha": "e7181441b2b4c86b1f557a8e17c735e2396817f8",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e7181441b2b4c86b1f557a8e17c735e2396817f8"
     },
     "protected": true
   },
@@ -64,18 +64,10 @@
     "protected": false
   },
   {
-    "name": "refactor-config",
-    "commit": {
-      "sha": "0f1a35b10bb750485a1ce9659104a8ea8553b1b0",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/0f1a35b10bb750485a1ce9659104a8ea8553b1b0"
-    },
-    "protected": false
-  },
-  {
     "name": "release-please--branches--main",
     "commit": {
-      "sha": "3332514758b7ad981970fde091507a4763002781",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3332514758b7ad981970fde091507a4763002781"
+      "sha": "6124274b5b6059ca00754ec4bdc0f98471b16264",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/6124274b5b6059ca00754ec4bdc0f98471b16264"
     },
     "protected": false
   },
