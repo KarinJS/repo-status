@@ -42,8 +42,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "e7181441b2b4c86b1f557a8e17c735e2396817f8",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e7181441b2b4c86b1f557a8e17c735e2396817f8"
+      "sha": "03bb60214734866b3782908bef80e38d6fa0545e",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/03bb60214734866b3782908bef80e38d6fa0545e"
     },
     "protected": true
   },
@@ -60,14 +60,6 @@
     "commit": {
       "sha": "dfde81c543705c1d9a89cb775e06fa52a5401867",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/dfde81c543705c1d9a89cb775e06fa52a5401867"
-    },
-    "protected": false
-  },
-  {
-    "name": "release-please--branches--main",
-    "commit": {
-      "sha": "6124274b5b6059ca00754ec4bdc0f98471b16264",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/6124274b5b6059ca00754ec4bdc0f98471b16264"
     },
     "protected": false
   },
