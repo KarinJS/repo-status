@@ -19,7 +19,7 @@
     "type": "User",
     "user_view_type": "public",
     "site_admin": false,
-    "contributions": 252
+    "contributions": 253
   },
   {
     "login": "github-actions[bot]",
@@ -41,7 +41,7 @@
     "type": "Bot",
     "user_view_type": "public",
     "site_admin": false,
-    "contributions": 56
+    "contributions": 57
   },
   {
     "login": "ikechan8370",
@@ -66,28 +66,6 @@
     "contributions": 19
   },
   {
-    "login": "bietiaop",
-    "id": 43831609,
-    "node_id": "MDQ6VXNlcjQzODMxNjA5",
-    "avatar_url": "https://avatars.githubusercontent.com/u/43831609?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/bietiaop",
-    "html_url": "https://github.com/bietiaop",
-    "followers_url": "https://api.github.com/users/bietiaop/followers",
-    "following_url": "https://api.github.com/users/bietiaop/following{/other_user}",
-    "gists_url": "https://api.github.com/users/bietiaop/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/bietiaop/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/bietiaop/subscriptions",
-    "organizations_url": "https://api.github.com/users/bietiaop/orgs",
-    "repos_url": "https://api.github.com/users/bietiaop/repos",
-    "events_url": "https://api.github.com/users/bietiaop/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/bietiaop/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false,
-    "contributions": 17
-  },
-  {
     "login": "ikenxuan",
     "id": 112480306,
     "node_id": "U_kgDOBrRQMg",
@@ -104,6 +82,28 @@
     "repos_url": "https://api.github.com/users/ikenxuan/repos",
     "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
     "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "contributions": 18
+  },
+  {
+    "login": "bietiaop",
+    "id": 43831609,
+    "node_id": "MDQ6VXNlcjQzODMxNjA5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/43831609?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bietiaop",
+    "html_url": "https://github.com/bietiaop",
+    "followers_url": "https://api.github.com/users/bietiaop/followers",
+    "following_url": "https://api.github.com/users/bietiaop/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bietiaop/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bietiaop/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bietiaop/subscriptions",
+    "organizations_url": "https://api.github.com/users/bietiaop/orgs",
+    "repos_url": "https://api.github.com/users/bietiaop/repos",
+    "events_url": "https://api.github.com/users/bietiaop/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bietiaop/received_events",
     "type": "User",
     "user_view_type": "public",
     "site_admin": false,
