@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-03-07T09:37:04Z",
-    "updated_at": "2025-03-07T09:37:35Z",
+    "updated_at": "2025-03-07T12:39:32Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "sub_issues_summary": {
@@ -66,7 +66,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/299.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>web: 1.4.8</summary>\n\n## [1.4.8](https://github.com/KarinJS/Karin/compare/web-v1.4.7...web-v1.4.8) (2025-03-07)\n\n\n### 🐛 Bug Fixes\n\n* 暂时移除右滑呼出侧边栏 ([b115a44](https://github.com/KarinJS/Karin/commit/b115a441f8d250bfd607853a70fb9e0959461416))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是将给定的 pull request 总结翻译成中文的结果：\n\n## Sourcery 总结\n\nBug 修复：\n- 临时移除滑动打开侧边栏功能。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nBug Fixes:\n- Temporarily remove the swipe-to-open sidebar feature.\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.4.8</summary>\n\n## [1.4.8](https://github.com/KarinJS/Karin/compare/core-v1.4.7...core-v1.4.8) (2025-03-07)\n\n\n### 🐛 Bug Fixes\n\n* 启动时依赖缺失不打印依赖的问题 ([5d1d98a](https://github.com/KarinJS/Karin/commit/5d1d98a584e03fcf66652d15dbe532e88429dea7))\n</details>\n\n<details><summary>web: 1.4.8</summary>\n\n## [1.4.8](https://github.com/KarinJS/Karin/compare/web-v1.4.7...web-v1.4.8) (2025-03-07)\n\n\n### 🐛 Bug Fixes\n\n* 暂时移除右滑呼出侧边栏 ([b115a44](https://github.com/KarinJS/Karin/commit/b115a441f8d250bfd607853a70fb9e0959461416))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/299/reactions",
