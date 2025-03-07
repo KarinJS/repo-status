@@ -8,6 +8,14 @@
     "protected": false
   },
   {
+    "name": "changelog",
+    "commit": {
+      "sha": "ad434056fd92f67ba0d7eeda067683327cc28a21",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/ad434056fd92f67ba0d7eeda067683327cc28a21"
+    },
+    "protected": false
+  },
+  {
     "name": "dev",
     "commit": {
       "sha": "d060e4f30cda0c2c1792c65012bb315825676a79",
