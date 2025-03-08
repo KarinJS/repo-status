@@ -34,10 +34,10 @@
     },
     "body": "好的，这是将 pull request 总结翻译成中文的结果：\n\n## Sourcery 总结\n\n添加了一个新功能，用于在主页卡片上显示更新提示，包括一个包含更新日志的模态框。\n\n新功能：\n- 在主页卡片上实现了更新提示，包括一个包含更新日志的模态框。\n- 当有新版本可用时，显示一个包含更新日志的模态框。\n- 添加了一个工具提示，用于指示版本检测何时失败。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nAdds a new feature to display update prompts on the homepage card, including a modal with the changelog.\n\nNew Features:\n- Implements update prompts on the homepage card, including a modal with the changelog.\n- Displays a modal with the changelog when a new version is available.\n- Adds a tooltip to indicate when version detection fails.\n\n</details>",
     "created_at": "2025-03-07T17:09:51Z",
-    "updated_at": "2025-03-08T19:11:01Z",
+    "updated_at": "2025-03-08T19:45:29Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c4acf09077656aa73c2de9b9bd1a3e2c0a661603",
+    "merge_commit_sha": "339ae82f10bb8c1979bbd159bad949b7b30a2000",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -49,11 +49,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/301/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/301/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/f1a35b0915f0724911f41af5682b791c17efc4a1",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/11cb403e5ae9c5b89d8535be0c613d9ce4146c10",
     "head": {
       "label": "KarinJS:changelog",
       "ref": "changelog",
-      "sha": "f1a35b0915f0724911f41af5682b791c17efc4a1",
+      "sha": "11cb403e5ae9c5b89d8535be0c613d9ce4146c10",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -144,7 +144,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-07T14:29:03Z",
-        "pushed_at": "2025-03-08T19:11:00Z",
+        "pushed_at": "2025-03-08T19:45:28Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -281,7 +281,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-07T14:29:03Z",
-        "pushed_at": "2025-03-08T19:11:00Z",
+        "pushed_at": "2025-03-08T19:45:28Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -347,7 +347,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/301/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/f1a35b0915f0724911f41af5682b791c17efc4a1"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/11cb403e5ae9c5b89d8535be0c613d9ce4146c10"
       }
     },
     "author_association": "COLLABORATOR",
@@ -509,7 +509,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-07T14:29:03Z",
-        "pushed_at": "2025-03-08T19:11:00Z",
+        "pushed_at": "2025-03-08T19:45:28Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -646,7 +646,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-07T14:29:03Z",
-        "pushed_at": "2025-03-08T19:11:00Z",
+        "pushed_at": "2025-03-08T19:45:28Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
