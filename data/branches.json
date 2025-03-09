@@ -8,22 +8,6 @@
     "protected": false
   },
   {
-    "name": "dependabot/npm_and_yarn/axios-1.8.2",
-    "commit": {
-      "sha": "b5770164d8578bccd3c347d3988772662b33b76c",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/b5770164d8578bccd3c347d3988772662b33b76c"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/packages/core/axios-1.8.2",
-    "commit": {
-      "sha": "ae9fb778eabbae116b4ba3837b3edd4a008b05bc",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/ae9fb778eabbae116b4ba3837b3edd4a008b05bc"
-    },
-    "protected": false
-  },
-  {
     "name": "dev",
     "commit": {
       "sha": "d060e4f30cda0c2c1792c65012bb315825676a79",
@@ -58,8 +42,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "3f7efc52fdcf2f9b5708800e57c88b6658034817",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3f7efc52fdcf2f9b5708800e57c88b6658034817"
+      "sha": "c2e3379670a56c2bd1abd88fbe6315766a479348",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/c2e3379670a56c2bd1abd88fbe6315766a479348"
     },
     "protected": true
   },
@@ -82,8 +66,8 @@
   {
     "name": "release-please--branches--main",
     "commit": {
-      "sha": "1092c843bca7ad26140e7ad739d5f35a0a8ef564",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1092c843bca7ad26140e7ad739d5f35a0a8ef564"
+      "sha": "e1a4fa60bf73e8a6dd4658bfa736e6a6776c52ed",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e1a4fa60bf73e8a6dd4658bfa736e6a6776c52ed"
     },
     "protected": false
   },
