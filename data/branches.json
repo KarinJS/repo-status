@@ -24,6 +24,14 @@
     "protected": false
   },
   {
+    "name": "feat-NetworkCard",
+    "commit": {
+      "sha": "36d228e7b12baac69dae6989c6ba361ac87d4646",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/36d228e7b12baac69dae6989c6ba361ac87d4646"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
@@ -42,8 +50,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "c2e3379670a56c2bd1abd88fbe6315766a479348",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/c2e3379670a56c2bd1abd88fbe6315766a479348"
+      "sha": "2d97516866376365c47d69d106e45dee88ffc819",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/2d97516866376365c47d69d106e45dee88ffc819"
     },
     "protected": true
   },
@@ -60,14 +68,6 @@
     "commit": {
       "sha": "dfde81c543705c1d9a89cb775e06fa52a5401867",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/dfde81c543705c1d9a89cb775e06fa52a5401867"
-    },
-    "protected": false
-  },
-  {
-    "name": "release-please--branches--main",
-    "commit": {
-      "sha": "e1a4fa60bf73e8a6dd4658bfa736e6a6776c52ed",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e1a4fa60bf73e8a6dd4658bfa736e6a6776c52ed"
     },
     "protected": false
   },
