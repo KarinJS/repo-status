@@ -34,10 +34,10 @@
     },
     "body": "好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n在仪表盘中添加了一个网络监控卡，显示实时的上传和下载速度，以及总数据传输量。它从服务器获取网络统计数据，并使用 ECharts 图表将其可视化。\n\n新功能：\n- 在仪表盘中引入了一个网络监控卡，提供实时的网络统计数据。\n- 添加了一个新的 API 接口，用于从服务器检索网络状态信息。\n\n测试：\n- 添加了一个新的 API 接口，用于从服务器检索网络状态信息。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nAdds a network monitoring card to the dashboard, displaying real-time upload and download speeds, as well as total data transferred. It fetches network statistics from the server and visualizes them using an ECharts graph.\n\nNew Features:\n- Introduces a network monitoring card to the dashboard, providing real-time network statistics.\n- Adds a new API endpoint to retrieve network status information from the server.\n\nTests:\n- Adds a new API endpoint to retrieve network status information from the server.\n\n</details>",
     "created_at": "2025-03-09T21:04:02Z",
-    "updated_at": "2025-03-10T13:49:50Z",
+    "updated_at": "2025-03-10T14:16:22Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "603acecb875eae0d7918dbdb057c0b4295811e0c",
+    "merge_commit_sha": "7d553205371876896c764bfb6bc0db2f033693b4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -49,11 +49,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/304/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/304/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/9595839b601f478fc49d06b36b94980e185f573a",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/1cb0b452e1e3203a5f9aead85e15fb26ee4f0b60",
     "head": {
       "label": "KarinJS:feat-NetworkCard",
       "ref": "feat-NetworkCard",
-      "sha": "9595839b601f478fc49d06b36b94980e185f573a",
+      "sha": "1cb0b452e1e3203a5f9aead85e15fb26ee4f0b60",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -144,7 +144,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-09T20:53:33Z",
-        "pushed_at": "2025-03-10T13:49:49Z",
+        "pushed_at": "2025-03-10T14:16:21Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -281,7 +281,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-03-09T20:53:33Z",
-        "pushed_at": "2025-03-10T13:49:49Z",
+        "pushed_at": "2025-03-10T14:16:21Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -347,7 +347,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/304/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/9595839b601f478fc49d06b36b94980e185f573a"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/1cb0b452e1e3203a5f9aead85e15fb26ee4f0b60"
       }
     },
     "author_association": "COLLABORATOR",
