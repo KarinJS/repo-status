@@ -24,6 +24,14 @@
     "protected": false
   },
   {
+    "name": "fix-style",
+    "commit": {
+      "sha": "d6536c5ee7ec6bd67b2686d553d10eebcec16b6f",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d6536c5ee7ec6bd67b2686d553d10eebcec16b6f"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
