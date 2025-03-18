@@ -94,6 +94,7 @@
     "updated_at": "2025-03-15T13:58:30Z",
     "closed_at": "2025-03-15T13:58:30Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -191,6 +192,7 @@
     "updated_at": "2025-03-17T14:54:14Z",
     "closed_at": "2025-03-17T14:54:01Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -296,6 +298,7 @@
     "updated_at": "2025-03-14T15:51:20Z",
     "closed_at": "2025-03-14T15:51:07Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -401,6 +404,7 @@
     "updated_at": "2025-03-12T12:55:09Z",
     "closed_at": "2025-03-12T12:54:53Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -506,6 +510,7 @@
     "updated_at": "2025-03-12T11:56:57Z",
     "closed_at": "2025-03-12T11:56:42Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -611,6 +616,7 @@
     "updated_at": "2025-03-12T11:50:53Z",
     "closed_at": "2025-03-12T11:50:40Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -716,6 +722,7 @@
     "updated_at": "2025-03-12T11:16:19Z",
     "closed_at": "2025-03-12T11:16:06Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -811,6 +818,7 @@
     "updated_at": "2025-03-12T10:49:51Z",
     "closed_at": "2025-03-12T10:49:49Z",
     "author_association": "COLLABORATOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -916,6 +924,7 @@
     "updated_at": "2025-03-12T10:57:04Z",
     "closed_at": "2025-03-12T03:01:23Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1011,6 +1020,7 @@
     "updated_at": "2025-03-12T03:00:03Z",
     "closed_at": "2025-03-12T03:00:01Z",
     "author_association": "COLLABORATOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1116,6 +1126,7 @@
     "updated_at": "2025-03-09T20:49:29Z",
     "closed_at": "2025-03-09T20:49:27Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1221,6 +1232,7 @@
     "updated_at": "2025-03-09T20:49:45Z",
     "closed_at": "2025-03-09T20:49:43Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1316,6 +1328,7 @@
     "updated_at": "2025-03-09T16:53:15Z",
     "closed_at": "2025-03-09T16:53:14Z",
     "author_association": "COLLABORATOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1421,6 +1434,7 @@
     "updated_at": "2025-03-09T20:53:48Z",
     "closed_at": "2025-03-09T20:53:29Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1526,6 +1540,7 @@
     "updated_at": "2025-03-07T13:13:39Z",
     "closed_at": "2025-03-07T13:13:27Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1631,6 +1646,7 @@
     "updated_at": "2025-03-07T09:15:23Z",
     "closed_at": "2025-03-07T09:15:10Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1726,6 +1742,7 @@
     "updated_at": "2025-03-05T18:07:16Z",
     "closed_at": "2025-03-05T18:07:14Z",
     "author_association": "COLLABORATOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1831,6 +1848,7 @@
     "updated_at": "2025-03-05T18:08:06Z",
     "closed_at": "2025-03-05T18:07:51Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -1936,6 +1954,7 @@
     "updated_at": "2025-03-04T17:41:44Z",
     "closed_at": "2025-03-04T17:41:25Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2041,6 +2060,7 @@
     "updated_at": "2025-03-04T17:39:55Z",
     "closed_at": "2025-03-04T17:39:39Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2146,6 +2166,7 @@
     "updated_at": "2025-03-04T17:21:15Z",
     "closed_at": "2025-03-04T17:21:01Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2241,6 +2262,7 @@
     "updated_at": "2025-03-04T15:52:23Z",
     "closed_at": "2025-03-04T15:52:21Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2346,6 +2368,7 @@
     "updated_at": "2025-03-04T15:55:13Z",
     "closed_at": "2025-03-04T15:54:54Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2451,6 +2474,7 @@
     "updated_at": "2025-03-01T03:23:27Z",
     "closed_at": "2025-03-01T03:23:13Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2546,6 +2570,7 @@
     "updated_at": "2025-03-02T16:25:10Z",
     "closed_at": "2025-03-02T16:25:08Z",
     "author_association": "COLLABORATOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2693,6 +2718,7 @@
     "updated_at": "2025-03-01T03:03:23Z",
     "closed_at": "2025-03-01T03:03:23Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2832,6 +2858,7 @@
     "updated_at": "2025-03-01T03:19:20Z",
     "closed_at": "2025-03-01T03:19:20Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -2929,6 +2956,7 @@
     "updated_at": "2025-02-28T03:42:53Z",
     "closed_at": "2025-02-28T03:42:35Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3034,6 +3062,7 @@
     "updated_at": "2025-02-27T13:45:36Z",
     "closed_at": "2025-02-27T13:45:20Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3129,6 +3158,7 @@
     "updated_at": "2025-02-27T13:44:03Z",
     "closed_at": "2025-02-27T13:44:02Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3224,6 +3254,7 @@
     "updated_at": "2025-02-27T06:26:36Z",
     "closed_at": "2025-02-27T06:24:46Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3329,6 +3360,7 @@
     "updated_at": "2025-02-27T06:26:38Z",
     "closed_at": "2025-02-27T06:26:21Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3424,6 +3456,7 @@
     "updated_at": "2025-02-27T05:55:58Z",
     "closed_at": "2025-02-27T05:54:40Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3529,6 +3562,7 @@
     "updated_at": "2025-02-26T09:43:42Z",
     "closed_at": "2025-02-26T09:43:28Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3634,6 +3668,7 @@
     "updated_at": "2025-02-26T09:38:24Z",
     "closed_at": "2025-02-26T09:38:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3739,6 +3774,7 @@
     "updated_at": "2025-02-25T13:02:14Z",
     "closed_at": "2025-02-25T13:01:56Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3844,6 +3880,7 @@
     "updated_at": "2025-02-24T07:47:32Z",
     "closed_at": "2025-02-24T07:47:14Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -3949,6 +3986,7 @@
     "updated_at": "2025-02-24T06:59:11Z",
     "closed_at": "2025-02-24T06:58:57Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4054,6 +4092,7 @@
     "updated_at": "2025-02-23T08:46:51Z",
     "closed_at": "2025-02-23T08:46:37Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4159,6 +4198,7 @@
     "updated_at": "2025-02-23T08:11:23Z",
     "closed_at": "2025-02-23T08:11:07Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4264,6 +4304,7 @@
     "updated_at": "2025-02-18T03:01:12Z",
     "closed_at": "2025-02-18T03:00:55Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4369,6 +4410,7 @@
     "updated_at": "2025-02-16T02:32:31Z",
     "closed_at": "2025-02-16T02:32:18Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4474,6 +4516,7 @@
     "updated_at": "2025-02-16T01:34:22Z",
     "closed_at": "2025-02-16T01:34:05Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4621,6 +4664,7 @@
     "updated_at": "2025-02-15T14:27:12Z",
     "closed_at": "2025-02-15T14:27:12Z",
     "author_association": "COLLABORATOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4718,6 +4762,7 @@
     "updated_at": "2025-02-15T15:34:07Z",
     "closed_at": "2025-02-15T15:33:51Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4823,6 +4868,7 @@
     "updated_at": "2025-02-14T18:29:13Z",
     "closed_at": "2025-02-14T18:28:57Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -4918,6 +4964,7 @@
     "updated_at": "2025-02-14T18:06:53Z",
     "closed_at": "2025-02-14T18:06:53Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5023,6 +5070,7 @@
     "updated_at": "2025-02-14T16:25:00Z",
     "closed_at": "2025-02-14T16:24:46Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5128,6 +5176,7 @@
     "updated_at": "2025-02-14T15:47:16Z",
     "closed_at": "2025-02-14T15:46:59Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5233,6 +5282,7 @@
     "updated_at": "2025-02-14T14:46:08Z",
     "closed_at": "2025-02-14T14:46:06Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5330,6 +5380,7 @@
     "updated_at": "2025-02-14T13:11:59Z",
     "closed_at": "2025-02-14T13:11:44Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5435,6 +5486,7 @@
     "updated_at": "2025-02-14T09:04:53Z",
     "closed_at": "2025-02-14T09:04:35Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5582,6 +5634,7 @@
     "updated_at": "2025-02-14T09:03:44Z",
     "closed_at": "2025-02-14T09:03:44Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5669,6 +5722,7 @@
     "updated_at": "2025-02-14T09:03:44Z",
     "closed_at": "2025-02-14T09:03:42Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5774,6 +5828,7 @@
     "updated_at": "2025-02-13T13:36:37Z",
     "closed_at": "2025-02-13T13:34:33Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5871,6 +5926,7 @@
     "updated_at": "2025-02-11T13:42:41Z",
     "closed_at": "2025-02-11T13:42:20Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -5966,6 +6022,7 @@
     "updated_at": "2025-02-12T22:44:44Z",
     "closed_at": "2025-02-11T10:31:57Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6071,6 +6128,7 @@
     "updated_at": "2025-02-11T10:33:13Z",
     "closed_at": "2025-02-11T10:32:54Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6176,6 +6234,7 @@
     "updated_at": "2025-02-11T07:14:29Z",
     "closed_at": "2025-02-11T07:14:09Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6281,6 +6340,7 @@
     "updated_at": "2025-02-10T12:05:34Z",
     "closed_at": "2025-02-10T12:04:58Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6428,6 +6488,7 @@
     "updated_at": "2025-02-14T09:03:43Z",
     "closed_at": "2025-02-14T09:03:43Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6525,6 +6586,7 @@
     "updated_at": "2025-02-10T11:20:42Z",
     "closed_at": "2025-02-10T11:20:24Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6620,6 +6682,7 @@
     "updated_at": "2025-02-08T14:01:45Z",
     "closed_at": "2025-02-08T14:01:43Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6725,6 +6788,7 @@
     "updated_at": "2025-02-08T14:23:56Z",
     "closed_at": "2025-02-08T14:23:43Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6830,6 +6894,7 @@
     "updated_at": "2025-02-08T14:23:31Z",
     "closed_at": "2025-02-08T14:23:29Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -6935,6 +7000,7 @@
     "updated_at": "2025-01-21T15:23:35Z",
     "closed_at": "2025-01-21T15:23:20Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7040,6 +7106,7 @@
     "updated_at": "2025-01-20T09:28:27Z",
     "closed_at": "2025-01-20T09:28:26Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7137,6 +7204,7 @@
     "updated_at": "2025-01-21T13:17:24Z",
     "closed_at": "2025-01-21T13:17:04Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7242,6 +7310,7 @@
     "updated_at": "2025-01-18T22:14:27Z",
     "closed_at": "2025-01-18T22:14:10Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7347,6 +7416,7 @@
     "updated_at": "2025-01-18T21:54:27Z",
     "closed_at": "2025-01-18T21:54:13Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7452,6 +7522,7 @@
     "updated_at": "2025-01-17T10:54:41Z",
     "closed_at": "2025-01-17T10:54:28Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7557,6 +7628,7 @@
     "updated_at": "2025-01-16T21:43:38Z",
     "closed_at": "2025-01-16T21:43:24Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7662,6 +7734,7 @@
     "updated_at": "2025-01-16T21:40:03Z",
     "closed_at": "2025-01-16T21:39:49Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7767,6 +7840,7 @@
     "updated_at": "2025-01-16T20:42:50Z",
     "closed_at": "2025-01-16T20:42:34Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7872,6 +7946,7 @@
     "updated_at": "2025-01-16T20:37:32Z",
     "closed_at": "2025-01-16T20:37:18Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -7977,6 +8052,7 @@
     "updated_at": "2025-01-16T20:30:56Z",
     "closed_at": "2025-01-16T20:30:43Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8082,6 +8158,7 @@
     "updated_at": "2025-01-16T17:54:17Z",
     "closed_at": "2025-01-16T17:54:02Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8187,6 +8264,7 @@
     "updated_at": "2025-01-16T17:40:21Z",
     "closed_at": "2025-01-16T17:40:02Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8292,6 +8370,7 @@
     "updated_at": "2025-01-16T09:35:42Z",
     "closed_at": "2025-01-16T09:35:25Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8397,6 +8476,7 @@
     "updated_at": "2025-01-16T09:33:43Z",
     "closed_at": "2025-01-16T09:33:43Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8494,6 +8574,7 @@
     "updated_at": "2025-01-16T09:33:43Z",
     "closed_at": "2025-01-16T09:33:43Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8591,6 +8672,7 @@
     "updated_at": "2025-01-16T08:48:13Z",
     "closed_at": "2025-01-16T08:47:59Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8696,6 +8778,7 @@
     "updated_at": "2025-01-16T08:46:50Z",
     "closed_at": "2025-01-16T08:46:50Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8793,6 +8876,7 @@
     "updated_at": "2025-01-15T16:35:17Z",
     "closed_at": "2025-01-15T16:34:59Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -8898,6 +8982,7 @@
     "updated_at": "2025-01-15T16:10:33Z",
     "closed_at": "2025-01-15T16:10:17Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9003,6 +9088,7 @@
     "updated_at": "2025-01-15T15:55:51Z",
     "closed_at": "2025-01-15T15:55:34Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9108,6 +9194,7 @@
     "updated_at": "2025-01-15T15:24:33Z",
     "closed_at": "2025-01-15T15:24:14Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9213,6 +9300,7 @@
     "updated_at": "2025-01-15T15:16:03Z",
     "closed_at": "2025-01-15T15:15:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9318,6 +9406,7 @@
     "updated_at": "2025-01-15T15:02:11Z",
     "closed_at": "2025-01-15T15:01:54Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9423,6 +9512,7 @@
     "updated_at": "2025-01-15T14:42:02Z",
     "closed_at": "2025-01-15T14:41:47Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9528,6 +9618,7 @@
     "updated_at": "2025-01-15T14:39:39Z",
     "closed_at": "2025-01-15T14:39:38Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9633,6 +9724,7 @@
     "updated_at": "2025-01-15T14:26:21Z",
     "closed_at": "2025-01-15T14:26:21Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9738,6 +9830,7 @@
     "updated_at": "2025-01-15T13:32:39Z",
     "closed_at": "2025-01-15T13:32:23Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9843,6 +9936,7 @@
     "updated_at": "2025-01-15T11:29:53Z",
     "closed_at": "2025-01-15T11:29:41Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -9948,6 +10042,7 @@
     "updated_at": "2025-01-15T10:30:49Z",
     "closed_at": "2025-01-15T10:30:36Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10053,6 +10148,7 @@
     "updated_at": "2025-01-15T10:07:53Z",
     "closed_at": "2025-01-15T10:07:36Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10200,6 +10296,7 @@
     "updated_at": "2025-01-15T15:54:20Z",
     "closed_at": "2025-01-15T15:54:20Z",
     "author_association": "COLLABORATOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10297,6 +10394,7 @@
     "updated_at": "2025-01-15T09:57:58Z",
     "closed_at": "2025-01-15T09:57:42Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10444,6 +10542,7 @@
     "updated_at": "2025-01-15T15:54:55Z",
     "closed_at": "2025-01-15T15:54:55Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10541,6 +10640,7 @@
     "updated_at": "2025-01-15T08:57:43Z",
     "closed_at": "2025-01-15T08:57:24Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10646,6 +10746,7 @@
     "updated_at": "2025-01-15T08:55:10Z",
     "closed_at": "2025-01-15T08:55:10Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10751,6 +10852,7 @@
     "updated_at": "2025-01-15T08:51:48Z",
     "closed_at": "2025-01-15T08:51:33Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10856,6 +10958,7 @@
     "updated_at": "2025-01-15T08:46:22Z",
     "closed_at": "2025-01-15T08:46:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -10961,6 +11064,7 @@
     "updated_at": "2025-01-15T08:39:52Z",
     "closed_at": "2025-01-15T08:37:28Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11066,6 +11170,7 @@
     "updated_at": "2025-01-15T08:30:44Z",
     "closed_at": "2025-01-15T08:30:23Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11213,6 +11318,7 @@
     "updated_at": "2025-01-15T08:17:49Z",
     "closed_at": "2025-01-15T08:17:49Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11310,6 +11416,7 @@
     "updated_at": "2025-01-15T08:17:20Z",
     "closed_at": "2025-01-15T08:17:11Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11415,6 +11522,7 @@
     "updated_at": "2025-01-15T08:16:00Z",
     "closed_at": "2025-01-15T08:15:57Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11510,6 +11618,7 @@
     "updated_at": "2024-12-03T07:24:48Z",
     "closed_at": "2024-12-03T07:24:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11605,6 +11714,7 @@
     "updated_at": "2025-01-15T08:17:25Z",
     "closed_at": "2025-01-15T08:17:25Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11710,6 +11820,7 @@
     "updated_at": "2024-11-24T05:59:56Z",
     "closed_at": "2024-11-24T05:59:40Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11815,6 +11926,7 @@
     "updated_at": "2024-11-23T14:01:57Z",
     "closed_at": "2024-11-23T14:01:40Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -11910,6 +12022,7 @@
     "updated_at": "2024-11-23T14:00:09Z",
     "closed_at": "2024-11-23T14:00:09Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12015,6 +12128,7 @@
     "updated_at": "2024-11-23T04:10:41Z",
     "closed_at": "2024-11-23T04:10:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12120,6 +12234,7 @@
     "updated_at": "2024-11-23T07:21:38Z",
     "closed_at": "2024-11-23T07:21:38Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12217,6 +12332,7 @@
     "updated_at": "2024-11-23T07:10:50Z",
     "closed_at": "2024-11-23T07:10:50Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12314,6 +12430,7 @@
     "updated_at": "2024-11-23T13:54:04Z",
     "closed_at": "2024-11-23T07:09:57Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12411,6 +12528,7 @@
     "updated_at": "2025-01-15T08:18:24Z",
     "closed_at": "2025-01-15T08:18:24Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12498,6 +12616,7 @@
     "updated_at": "2024-12-06T09:18:18Z",
     "closed_at": "2024-12-06T09:18:18Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12603,6 +12722,7 @@
     "updated_at": "2024-11-17T20:19:43Z",
     "closed_at": "2024-11-17T20:19:26Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12698,6 +12818,7 @@
     "updated_at": "2024-11-17T20:07:52Z",
     "closed_at": "2024-11-17T20:07:52Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12793,6 +12914,7 @@
     "updated_at": "2024-12-03T07:23:41Z",
     "closed_at": "2024-12-03T07:23:41Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12898,6 +13020,7 @@
     "updated_at": "2024-11-17T23:06:00Z",
     "closed_at": "2024-11-17T23:06:00Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -12995,6 +13118,7 @@
     "updated_at": "2024-10-19T17:07:01Z",
     "closed_at": "2024-10-19T17:06:41Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13100,6 +13224,7 @@
     "updated_at": "2024-10-14T11:22:08Z",
     "closed_at": "2024-10-14T11:21:49Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13247,6 +13372,7 @@
     "updated_at": "2025-01-15T08:17:57Z",
     "closed_at": "2025-01-15T08:17:57Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13344,6 +13470,7 @@
     "updated_at": "2024-10-14T11:12:55Z",
     "closed_at": "2024-10-14T11:12:33Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13449,6 +13576,7 @@
     "updated_at": "2024-10-07T15:38:32Z",
     "closed_at": "2024-10-07T15:38:11Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13554,6 +13682,7 @@
     "updated_at": "2024-10-06T04:00:48Z",
     "closed_at": "2024-10-06T04:00:30Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13659,6 +13788,7 @@
     "updated_at": "2024-10-05T11:51:12Z",
     "closed_at": "2024-10-05T11:51:11Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13756,6 +13886,7 @@
     "updated_at": "2024-10-06T02:03:20Z",
     "closed_at": "2024-10-05T13:08:38Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13862,6 +13993,7 @@
     "updated_at": "2024-11-17T23:05:40Z",
     "closed_at": "2024-11-17T23:05:40Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -13959,6 +14091,7 @@
     "updated_at": "2024-10-05T13:10:43Z",
     "closed_at": "2024-10-05T13:10:25Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14064,6 +14197,7 @@
     "updated_at": "2024-09-15T15:03:24Z",
     "closed_at": "2024-09-15T15:03:06Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14169,6 +14303,7 @@
     "updated_at": "2024-09-15T14:06:17Z",
     "closed_at": "2024-09-15T14:05:58Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14274,6 +14409,7 @@
     "updated_at": "2024-09-15T13:53:41Z",
     "closed_at": "2024-09-15T13:53:23Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14379,6 +14515,7 @@
     "updated_at": "2024-09-15T13:17:26Z",
     "closed_at": "2024-09-15T13:17:26Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14476,6 +14613,7 @@
     "updated_at": "2024-09-15T13:17:49Z",
     "closed_at": "2024-09-15T13:17:32Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14571,6 +14709,7 @@
     "updated_at": "2024-09-14T15:58:31Z",
     "closed_at": "2024-09-14T15:58:07Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14676,6 +14815,7 @@
     "updated_at": "2024-09-14T10:44:48Z",
     "closed_at": "2024-09-14T10:44:31Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14781,6 +14921,7 @@
     "updated_at": "2024-09-14T05:22:56Z",
     "closed_at": "2024-09-14T05:22:37Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14886,6 +15027,7 @@
     "updated_at": "2024-09-14T05:08:56Z",
     "closed_at": "2024-09-14T05:08:39Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -14991,6 +15133,7 @@
     "updated_at": "2024-09-14T05:02:34Z",
     "closed_at": "2024-09-14T05:02:15Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15096,6 +15239,7 @@
     "updated_at": "2024-09-14T00:07:37Z",
     "closed_at": "2024-09-14T00:07:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15191,6 +15335,7 @@
     "updated_at": "2025-01-15T08:17:37Z",
     "closed_at": "2025-01-15T08:17:37Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15296,6 +15441,7 @@
     "updated_at": "2024-09-12T16:39:25Z",
     "closed_at": "2024-09-12T16:39:08Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15391,6 +15537,7 @@
     "updated_at": "2024-09-12T16:13:10Z",
     "closed_at": "2024-09-12T16:13:10Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15488,6 +15635,7 @@
     "updated_at": "2024-09-12T16:35:36Z",
     "closed_at": "2024-09-12T16:35:19Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15593,6 +15741,7 @@
     "updated_at": "2024-09-12T16:29:08Z",
     "closed_at": "2024-09-12T16:29:07Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15732,6 +15881,7 @@
     "updated_at": "2024-11-17T23:06:36Z",
     "closed_at": "2024-11-17T23:06:36Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15829,6 +15979,7 @@
     "updated_at": "2024-09-12T16:11:49Z",
     "closed_at": "2024-09-12T16:11:49Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -15926,6 +16077,7 @@
     "updated_at": "2024-09-12T15:52:30Z",
     "closed_at": "2024-09-12T15:52:13Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16031,6 +16183,7 @@
     "updated_at": "2024-08-27T13:31:34Z",
     "closed_at": "2024-08-27T13:31:16Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16136,6 +16289,7 @@
     "updated_at": "2024-10-23T16:58:57Z",
     "closed_at": "2024-08-27T13:27:09Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16233,6 +16387,7 @@
     "updated_at": "2024-08-27T13:28:44Z",
     "closed_at": "2024-08-27T13:28:44Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16330,6 +16485,7 @@
     "updated_at": "2024-09-12T16:34:26Z",
     "closed_at": "2024-09-12T16:34:26Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16427,6 +16583,7 @@
     "updated_at": "2024-09-12T15:50:45Z",
     "closed_at": "2024-09-12T15:50:44Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16524,6 +16681,7 @@
     "updated_at": "2024-08-26T09:50:25Z",
     "closed_at": "2024-08-26T09:50:09Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16629,6 +16787,7 @@
     "updated_at": "2024-09-12T13:37:56Z",
     "closed_at": "2024-09-12T13:37:56Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16726,6 +16885,7 @@
     "updated_at": "2024-09-12T15:50:04Z",
     "closed_at": "2024-09-12T15:50:04Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16823,6 +16983,7 @@
     "updated_at": "2024-09-12T15:50:52Z",
     "closed_at": "2024-09-12T15:50:52Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -16920,6 +17081,7 @@
     "updated_at": "2024-08-27T13:30:08Z",
     "closed_at": "2024-08-27T13:30:08Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17017,6 +17179,7 @@
     "updated_at": "2024-08-25T22:24:39Z",
     "closed_at": "2024-08-25T22:24:21Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17122,6 +17285,7 @@
     "updated_at": "2024-08-21T12:28:43Z",
     "closed_at": "2024-08-21T12:28:24Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17227,6 +17391,7 @@
     "updated_at": "2024-08-18T09:51:52Z",
     "closed_at": "2024-08-18T09:51:34Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17332,6 +17497,7 @@
     "updated_at": "2024-09-12T15:51:16Z",
     "closed_at": "2024-09-12T15:51:16Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17429,6 +17595,7 @@
     "updated_at": "2024-11-17T23:03:31Z",
     "closed_at": "2024-11-17T23:03:31Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17526,6 +17693,7 @@
     "updated_at": "2024-08-18T09:52:32Z",
     "closed_at": "2024-08-18T09:52:32Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17623,6 +17791,7 @@
     "updated_at": "2024-08-17T15:07:45Z",
     "closed_at": "2024-08-17T15:07:31Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17728,6 +17897,7 @@
     "updated_at": "2024-08-17T00:58:58Z",
     "closed_at": "2024-08-17T00:58:42Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17823,6 +17993,7 @@
     "updated_at": "2024-08-16T21:43:05Z",
     "closed_at": "2024-08-16T21:43:05Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -17952,6 +18123,7 @@
     "updated_at": "2024-09-12T16:12:14Z",
     "closed_at": "2024-09-12T16:12:14Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18081,6 +18253,7 @@
     "updated_at": "2024-08-16T21:43:15Z",
     "closed_at": "2024-08-16T21:43:15Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18178,6 +18351,7 @@
     "updated_at": "2024-08-16T14:13:20Z",
     "closed_at": "2024-08-16T14:13:05Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18273,6 +18447,7 @@
     "updated_at": "2024-08-15T22:18:59Z",
     "closed_at": "2024-08-15T22:18:58Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18378,6 +18553,7 @@
     "updated_at": "2024-08-15T22:19:48Z",
     "closed_at": "2024-08-15T22:19:32Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18483,6 +18659,7 @@
     "updated_at": "2024-08-15T16:18:22Z",
     "closed_at": "2024-08-15T16:18:05Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18588,6 +18765,7 @@
     "updated_at": "2024-08-15T12:52:36Z",
     "closed_at": "2024-08-15T12:52:16Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18693,6 +18871,7 @@
     "updated_at": "2024-08-15T12:44:11Z",
     "closed_at": "2024-08-15T12:43:53Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18798,6 +18977,7 @@
     "updated_at": "2024-08-14T07:58:04Z",
     "closed_at": "2024-08-14T07:57:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18893,6 +19073,7 @@
     "updated_at": "2024-10-20T17:14:21Z",
     "closed_at": "2024-08-14T07:57:57Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -18998,6 +19179,7 @@
     "updated_at": "2024-08-14T07:24:21Z",
     "closed_at": "2024-08-14T07:24:21Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19095,6 +19277,7 @@
     "updated_at": "2024-08-14T07:53:33Z",
     "closed_at": "2024-08-14T07:53:33Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19192,6 +19375,7 @@
     "updated_at": "2024-08-13T14:44:21Z",
     "closed_at": "2024-08-13T14:44:03Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19297,6 +19481,7 @@
     "updated_at": "2024-08-12T12:48:01Z",
     "closed_at": "2024-08-12T12:47:40Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19392,6 +19577,7 @@
     "updated_at": "2024-08-12T12:46:58Z",
     "closed_at": "2024-08-12T12:46:58Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19497,6 +19683,7 @@
     "updated_at": "2024-08-12T10:51:04Z",
     "closed_at": "2024-08-12T10:50:47Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19602,6 +19789,7 @@
     "updated_at": "2024-08-12T01:58:27Z",
     "closed_at": "2024-08-12T01:58:12Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19707,6 +19895,7 @@
     "updated_at": "2024-08-21T12:26:48Z",
     "closed_at": "2024-08-21T12:26:48Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19804,6 +19993,7 @@
     "updated_at": "2024-08-13T10:18:53Z",
     "closed_at": "2024-08-13T10:18:52Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19901,6 +20091,7 @@
     "updated_at": "2024-11-17T23:01:41Z",
     "closed_at": "2024-11-17T23:01:41Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -19998,6 +20189,7 @@
     "updated_at": "2024-08-21T12:31:03Z",
     "closed_at": "2024-08-21T12:31:03Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20095,6 +20287,7 @@
     "updated_at": "2024-08-16T14:13:39Z",
     "closed_at": "2024-08-16T14:13:39Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20192,6 +20385,7 @@
     "updated_at": "2024-08-12T01:06:37Z",
     "closed_at": "2024-08-12T01:06:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20297,6 +20491,7 @@
     "updated_at": "2024-08-12T00:52:39Z",
     "closed_at": "2024-08-12T00:52:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20392,6 +20587,7 @@
     "updated_at": "2024-08-12T00:51:41Z",
     "closed_at": "2024-08-12T00:51:41Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20487,6 +20683,7 @@
     "updated_at": "2024-08-10T20:10:43Z",
     "closed_at": "2024-08-10T20:10:43Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20592,6 +20789,7 @@
     "updated_at": "2024-08-10T11:43:02Z",
     "closed_at": "2024-08-10T11:42:44Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20697,6 +20895,7 @@
     "updated_at": "2024-08-10T11:39:25Z",
     "closed_at": "2024-08-10T11:39:25Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20794,6 +20993,7 @@
     "updated_at": "2024-08-12T00:50:42Z",
     "closed_at": "2024-08-12T00:50:42Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20891,6 +21091,7 @@
     "updated_at": "2024-08-09T00:29:02Z",
     "closed_at": "2024-08-09T00:28:41Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -20996,6 +21197,7 @@
     "updated_at": "2024-08-07T10:36:45Z",
     "closed_at": "2024-08-07T10:36:30Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21101,6 +21303,7 @@
     "updated_at": "2024-08-09T00:06:45Z",
     "closed_at": "2024-08-09T00:06:45Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21198,6 +21401,7 @@
     "updated_at": "2024-08-05T12:07:23Z",
     "closed_at": "2024-08-05T12:07:03Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21303,6 +21507,7 @@
     "updated_at": "2024-08-05T11:18:58Z",
     "closed_at": "2024-08-05T11:18:42Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21408,6 +21613,7 @@
     "updated_at": "2024-08-05T11:01:32Z",
     "closed_at": "2024-08-05T11:01:17Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21513,6 +21719,7 @@
     "updated_at": "2024-08-05T00:12:31Z",
     "closed_at": "2024-08-05T00:12:16Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21618,6 +21825,7 @@
     "updated_at": "2024-08-09T00:16:01Z",
     "closed_at": "2024-08-09T00:16:01Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21715,6 +21923,7 @@
     "updated_at": "2024-08-04T13:30:14Z",
     "closed_at": "2024-08-04T13:29:58Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21820,6 +22029,7 @@
     "updated_at": "2024-08-01T09:39:50Z",
     "closed_at": "2024-08-01T09:39:29Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -21925,6 +22135,7 @@
     "updated_at": "2024-07-31T17:43:03Z",
     "closed_at": "2024-07-31T17:42:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22030,6 +22241,7 @@
     "updated_at": "2024-07-31T17:02:51Z",
     "closed_at": "2024-07-31T17:02:33Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22135,6 +22347,7 @@
     "updated_at": "2024-07-30T17:25:01Z",
     "closed_at": "2024-07-30T17:24:45Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22240,6 +22453,7 @@
     "updated_at": "2024-07-30T16:20:17Z",
     "closed_at": "2024-07-30T16:19:58Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22345,6 +22559,7 @@
     "updated_at": "2024-07-30T15:16:54Z",
     "closed_at": "2024-07-30T15:16:36Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22450,6 +22665,7 @@
     "updated_at": "2024-07-30T14:57:33Z",
     "closed_at": "2024-07-30T14:57:14Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22555,6 +22771,7 @@
     "updated_at": "2024-07-30T14:51:26Z",
     "closed_at": "2024-07-30T14:51:09Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22660,6 +22877,7 @@
     "updated_at": "2024-07-29T05:46:45Z",
     "closed_at": "2024-07-29T05:46:27Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22765,6 +22983,7 @@
     "updated_at": "2024-08-09T00:06:59Z",
     "closed_at": "2024-08-09T00:06:59Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22862,6 +23081,7 @@
     "updated_at": "2024-07-26T12:16:48Z",
     "closed_at": "2024-07-26T12:16:31Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -22967,6 +23187,7 @@
     "updated_at": "2024-07-26T12:07:10Z",
     "closed_at": "2024-07-26T12:06:51Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23072,6 +23293,7 @@
     "updated_at": "2024-07-24T06:56:44Z",
     "closed_at": "2024-07-24T06:56:28Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23177,6 +23399,7 @@
     "updated_at": "2024-07-20T06:23:20Z",
     "closed_at": "2024-07-20T06:23:05Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23282,6 +23505,7 @@
     "updated_at": "2024-07-19T20:35:34Z",
     "closed_at": "2024-07-19T20:35:18Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23387,6 +23611,7 @@
     "updated_at": "2024-07-19T17:39:33Z",
     "closed_at": "2024-07-19T17:39:15Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23492,6 +23717,7 @@
     "updated_at": "2024-07-19T17:09:41Z",
     "closed_at": "2024-07-19T17:09:24Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23597,6 +23823,7 @@
     "updated_at": "2024-07-19T14:54:06Z",
     "closed_at": "2024-07-19T14:53:49Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23702,6 +23929,7 @@
     "updated_at": "2024-07-19T14:25:39Z",
     "closed_at": "2024-07-19T14:25:24Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23807,6 +24035,7 @@
     "updated_at": "2024-07-19T13:52:40Z",
     "closed_at": "2024-07-19T13:52:24Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -23912,6 +24141,7 @@
     "updated_at": "2024-07-16T03:26:50Z",
     "closed_at": "2024-07-16T03:26:36Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24017,6 +24247,7 @@
     "updated_at": "2024-07-14T17:57:54Z",
     "closed_at": "2024-07-14T17:57:37Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24122,6 +24353,7 @@
     "updated_at": "2024-07-14T17:39:49Z",
     "closed_at": "2024-07-14T17:39:34Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24227,6 +24459,7 @@
     "updated_at": "2024-07-14T14:51:50Z",
     "closed_at": "2024-07-14T14:51:37Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24332,6 +24565,7 @@
     "updated_at": "2024-07-13T15:17:27Z",
     "closed_at": "2024-07-13T15:17:14Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24437,6 +24671,7 @@
     "updated_at": "2024-07-12T18:43:06Z",
     "closed_at": "2024-07-12T18:42:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24542,6 +24777,7 @@
     "updated_at": "2024-07-12T18:33:39Z",
     "closed_at": "2024-07-12T18:33:21Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24647,6 +24883,7 @@
     "updated_at": "2024-07-12T18:32:56Z",
     "closed_at": "2024-07-12T18:32:56Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24744,6 +24981,7 @@
     "updated_at": "2024-07-10T05:08:08Z",
     "closed_at": "2024-07-10T05:07:54Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24849,6 +25087,7 @@
     "updated_at": "2024-07-09T17:44:25Z",
     "closed_at": "2024-07-09T17:44:08Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -24954,6 +25193,7 @@
     "updated_at": "2024-08-16T14:09:42Z",
     "closed_at": "2024-08-16T14:09:42Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25051,6 +25291,7 @@
     "updated_at": "2024-07-09T17:27:37Z",
     "closed_at": "2024-07-09T17:27:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25156,6 +25397,7 @@
     "updated_at": "2024-07-08T12:09:34Z",
     "closed_at": "2024-07-08T12:09:17Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25261,6 +25503,7 @@
     "updated_at": "2024-07-08T06:02:48Z",
     "closed_at": "2024-07-08T06:02:34Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25366,6 +25609,7 @@
     "updated_at": "2024-07-08T05:58:54Z",
     "closed_at": "2024-07-08T05:58:38Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25471,6 +25715,7 @@
     "updated_at": "2024-07-07T12:21:47Z",
     "closed_at": "2024-07-07T12:21:33Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25576,6 +25821,7 @@
     "updated_at": "2024-07-09T16:59:56Z",
     "closed_at": "2024-07-09T16:59:56Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25673,6 +25919,7 @@
     "updated_at": "2024-07-09T17:09:29Z",
     "closed_at": "2024-07-09T17:09:29Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25770,6 +26017,7 @@
     "updated_at": "2024-07-06T09:14:38Z",
     "closed_at": "2024-07-06T09:14:23Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25875,6 +26123,7 @@
     "updated_at": "2024-07-05T11:45:07Z",
     "closed_at": "2024-07-05T11:44:52Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -25989,6 +26238,7 @@
     "updated_at": "2024-08-09T00:07:18Z",
     "closed_at": "2024-08-09T00:07:18Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26086,6 +26336,7 @@
     "updated_at": "2024-07-05T11:45:07Z",
     "closed_at": "2024-07-05T11:45:06Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26183,6 +26434,7 @@
     "updated_at": "2024-07-04T09:56:01Z",
     "closed_at": "2024-07-04T09:55:45Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26288,6 +26540,7 @@
     "updated_at": "2024-07-04T06:30:35Z",
     "closed_at": "2024-07-04T06:30:15Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26393,6 +26646,7 @@
     "updated_at": "2024-07-04T05:09:59Z",
     "closed_at": "2024-07-04T05:09:44Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26498,6 +26752,7 @@
     "updated_at": "2024-07-03T11:36:43Z",
     "closed_at": "2024-07-03T11:36:30Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26603,6 +26858,7 @@
     "updated_at": "2024-07-03T11:19:03Z",
     "closed_at": "2024-07-03T11:18:49Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26726,6 +26982,7 @@
     "updated_at": "2024-11-17T23:05:08Z",
     "closed_at": "2024-11-17T23:03:59Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26823,6 +27080,7 @@
     "updated_at": "2024-07-03T00:23:01Z",
     "closed_at": "2024-07-03T00:22:43Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -26928,6 +27186,7 @@
     "updated_at": "2024-07-04T05:15:02Z",
     "closed_at": "2024-07-04T05:15:02Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27025,6 +27284,7 @@
     "updated_at": "2024-07-03T11:19:06Z",
     "closed_at": "2024-07-03T11:19:06Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27122,6 +27382,7 @@
     "updated_at": "2024-07-04T05:14:08Z",
     "closed_at": "2024-07-04T05:14:08Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27228,6 +27489,7 @@
     "updated_at": "2024-07-04T05:14:54Z",
     "closed_at": "2024-07-04T05:14:54Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27325,6 +27587,7 @@
     "updated_at": "2024-07-03T11:19:13Z",
     "closed_at": "2024-07-03T11:19:13Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27422,6 +27685,7 @@
     "updated_at": "2024-07-04T09:54:51Z",
     "closed_at": "2024-07-04T09:54:51Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27519,6 +27783,7 @@
     "updated_at": "2024-08-09T00:07:25Z",
     "closed_at": "2024-08-09T00:07:25Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27616,6 +27881,7 @@
     "updated_at": "2024-07-02T07:01:12Z",
     "closed_at": "2024-07-02T07:00:56Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27721,6 +27987,7 @@
     "updated_at": "2024-07-02T06:56:45Z",
     "closed_at": "2024-07-02T06:56:32Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27826,6 +28093,7 @@
     "updated_at": "2024-07-02T06:15:36Z",
     "closed_at": "2024-07-02T06:15:20Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -27931,6 +28199,7 @@
     "updated_at": "2024-07-02T06:12:12Z",
     "closed_at": "2024-07-02T06:11:55Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28036,6 +28305,7 @@
     "updated_at": "2024-07-02T05:39:20Z",
     "closed_at": "2024-07-02T05:39:06Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28141,6 +28411,7 @@
     "updated_at": "2024-07-02T05:01:23Z",
     "closed_at": "2024-07-02T05:01:07Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28246,6 +28517,7 @@
     "updated_at": "2024-07-02T04:55:57Z",
     "closed_at": "2024-07-02T04:55:43Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28351,6 +28623,7 @@
     "updated_at": "2024-07-01T01:32:02Z",
     "closed_at": "2024-07-01T01:32:01Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28456,6 +28729,7 @@
     "updated_at": "2024-07-01T01:31:48Z",
     "closed_at": "2024-07-01T01:31:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28561,6 +28835,7 @@
     "updated_at": "2024-06-30T23:30:35Z",
     "closed_at": "2024-06-30T23:30:21Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28666,6 +28941,7 @@
     "updated_at": "2024-06-30T23:20:25Z",
     "closed_at": "2024-06-30T23:20:11Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28771,6 +29047,7 @@
     "updated_at": "2024-06-30T15:09:35Z",
     "closed_at": "2024-06-30T15:09:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28876,6 +29153,7 @@
     "updated_at": "2024-06-30T15:04:42Z",
     "closed_at": "2024-06-30T15:04:25Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -28981,6 +29259,7 @@
     "updated_at": "2024-06-29T07:02:42Z",
     "closed_at": "2024-06-29T07:02:30Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29086,6 +29365,7 @@
     "updated_at": "2024-06-29T05:28:35Z",
     "closed_at": "2024-06-29T05:28:22Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29191,6 +29471,7 @@
     "updated_at": "2024-06-28T08:51:35Z",
     "closed_at": "2024-06-28T08:51:19Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29296,6 +29577,7 @@
     "updated_at": "2024-06-28T08:45:51Z",
     "closed_at": "2024-06-28T08:45:35Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29401,6 +29683,7 @@
     "updated_at": "2024-06-28T07:48:04Z",
     "closed_at": "2024-06-28T07:47:47Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29506,6 +29789,7 @@
     "updated_at": "2024-06-28T07:11:35Z",
     "closed_at": "2024-06-28T07:11:18Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29611,6 +29895,7 @@
     "updated_at": "2024-06-28T05:55:13Z",
     "closed_at": "2024-06-28T05:54:57Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29716,6 +30001,7 @@
     "updated_at": "2024-06-28T05:31:00Z",
     "closed_at": "2024-06-28T05:30:46Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29821,6 +30107,7 @@
     "updated_at": "2024-06-28T04:32:23Z",
     "closed_at": "2024-06-28T04:32:09Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -29926,6 +30213,7 @@
     "updated_at": "2024-06-28T03:53:31Z",
     "closed_at": "2024-06-28T03:53:16Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30031,6 +30319,7 @@
     "updated_at": "2024-06-27T05:34:13Z",
     "closed_at": "2024-06-27T05:33:57Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30136,6 +30425,7 @@
     "updated_at": "2024-06-27T05:21:08Z",
     "closed_at": "2024-06-27T05:20:51Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30241,6 +30531,7 @@
     "updated_at": "2024-06-26T09:56:08Z",
     "closed_at": "2024-06-26T09:55:52Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30346,6 +30637,7 @@
     "updated_at": "2024-06-26T09:51:04Z",
     "closed_at": "2024-06-26T09:51:04Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30451,6 +30743,7 @@
     "updated_at": "2024-06-26T09:41:02Z",
     "closed_at": "2024-06-26T09:40:47Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30556,6 +30849,7 @@
     "updated_at": "2024-06-26T09:26:25Z",
     "closed_at": "2024-06-26T09:26:10Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30661,6 +30955,7 @@
     "updated_at": "2024-06-26T08:39:27Z",
     "closed_at": "2024-06-26T08:39:11Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30766,6 +31061,7 @@
     "updated_at": "2024-06-26T08:39:33Z",
     "closed_at": "2024-06-26T08:23:27Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -30922,6 +31218,7 @@
     "updated_at": "2024-07-04T09:57:40Z",
     "closed_at": "2024-07-04T09:57:40Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31019,6 +31316,7 @@
     "updated_at": "2024-06-19T14:54:18Z",
     "closed_at": "2024-06-18T18:22:35Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31158,6 +31456,7 @@
     "updated_at": "2024-07-09T17:20:48Z",
     "closed_at": "2024-07-09T17:20:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31245,6 +31544,7 @@
     "updated_at": "2024-06-17T11:55:41Z",
     "closed_at": "2024-06-17T11:55:40Z",
     "author_association": "MEMBER",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31401,6 +31701,7 @@
     "updated_at": "2024-11-12T05:33:49Z",
     "closed_at": "2024-11-12T05:33:49Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31488,6 +31789,7 @@
     "updated_at": "2024-05-22T09:16:04Z",
     "closed_at": "2024-05-22T09:16:04Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31583,6 +31885,7 @@
     "updated_at": "2024-05-13T05:27:19Z",
     "closed_at": "2024-05-13T05:27:19Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31678,6 +31981,7 @@
     "updated_at": "2024-05-11T14:27:28Z",
     "closed_at": "2024-05-11T14:27:28Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31773,6 +32077,7 @@
     "updated_at": "2024-05-11T14:27:40Z",
     "closed_at": "2024-05-11T14:27:40Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31868,6 +32173,7 @@
     "updated_at": "2024-05-09T12:56:48Z",
     "closed_at": "2024-05-09T12:56:48Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -31982,6 +32288,7 @@
     "updated_at": "2024-08-18T05:30:59Z",
     "closed_at": "2024-08-18T05:30:59Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -32069,6 +32376,7 @@
     "updated_at": "2024-04-30T22:08:45Z",
     "closed_at": "2024-04-30T22:08:45Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -32164,6 +32472,7 @@
     "updated_at": "2024-04-11T08:59:35Z",
     "closed_at": "2024-04-11T07:55:18Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -32259,6 +32568,7 @@
     "updated_at": "2024-04-10T13:26:04Z",
     "closed_at": "2024-04-10T13:26:04Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -32354,6 +32664,7 @@
     "updated_at": "2024-04-05T21:55:07Z",
     "closed_at": "2024-04-05T21:55:07Z",
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -32449,6 +32760,7 @@
     "updated_at": "2024-04-04T09:09:09Z",
     "closed_at": "2024-04-04T09:09:09Z",
     "author_association": "NONE",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,

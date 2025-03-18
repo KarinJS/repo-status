@@ -52,6 +52,7 @@
     "updated_at": "2025-03-18T04:31:18Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
@@ -146,6 +147,7 @@
     "updated_at": "2025-03-17T05:35:04Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
+    "type": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
