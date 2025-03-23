@@ -1536,7 +1536,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-03-20T09:46:11Z",
-    "updated_at": "2025-03-22T01:16:05Z",
+    "updated_at": "2025-03-23T14:21:09Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -1554,7 +1554,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/318.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/core-v1.7.7...core-v1.7.8) (2025-03-22)\n\n\n### 🐛 Bug Fixes\n\n* fix [#316](https://github.com/KarinJS/Karin/issues/316) ([4c2340b](https://github.com/KarinJS/Karin/commit/4c2340bbd47c193182e2b1761e1840e39c7b3e70))\n* fix [#322](https://github.com/KarinJS/Karin/issues/322) ([4214772](https://github.com/KarinJS/Karin/commit/421477269702d06d67d915000186efc5177f9f69))\n* **网络监控:** 优化网络监控组件的轮询和图表管理 ([73369c7](https://github.com/KarinJS/Karin/commit/73369c791c5c4b7a59e5c31ff6ec464523d490ac))\n</details>\n\n<details><summary>web: 1.7.7</summary>\n\n## [1.7.7](https://github.com/KarinJS/Karin/compare/web-v1.7.6...web-v1.7.7) (2025-03-22)\n\n\n### 🐛 Bug Fixes\n\n* **网络监控:** 优化网络监控组件的轮询和图表管理 ([73369c7](https://github.com/KarinJS/Karin/commit/73369c791c5c4b7a59e5c31ff6ec464523d490ac))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/core-v1.7.7...core-v1.7.8) (2025-03-23)\n\n\n### 🐛 Bug Fixes\n\n* fix [#316](https://github.com/KarinJS/Karin/issues/316) ([4c2340b](https://github.com/KarinJS/Karin/commit/4c2340bbd47c193182e2b1761e1840e39c7b3e70))\n* fix [#322](https://github.com/KarinJS/Karin/issues/322) ([4214772](https://github.com/KarinJS/Karin/commit/421477269702d06d67d915000186efc5177f9f69))\n* **网络监控:** 优化网络监控组件的轮询和图表管理 ([73369c7](https://github.com/KarinJS/Karin/commit/73369c791c5c4b7a59e5c31ff6ec464523d490ac))\n\n\n### 💄 Styles\n\n* 优化部分样式 ([5eaaeed](https://github.com/KarinJS/Karin/commit/5eaaeed6722efdd9e282e9ab43b5f59c5975ab3f))\n</details>\n\n<details><summary>web: 1.7.7</summary>\n\n## [1.7.7](https://github.com/KarinJS/Karin/compare/web-v1.7.6...web-v1.7.7) (2025-03-23)\n\n\n### 🐛 Bug Fixes\n\n* **网络监控:** 优化网络监控组件的轮询和图表管理 ([73369c7](https://github.com/KarinJS/Karin/commit/73369c791c5c4b7a59e5c31ff6ec464523d490ac))\n\n\n### 💄 Styles\n\n* 优化部分样式 ([5eaaeed](https://github.com/KarinJS/Karin/commit/5eaaeed6722efdd9e282e9ab43b5f59c5975ab3f))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/318/reactions",
