@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.9</summary>\n\n## [1.7.9](https://github.com/KarinJS/Karin/compare/core-v1.7.8...core-v1.7.9) (2025-03-24)\n\n\n### ⚡️ Performance\n\n* 优化日志显示 ([f3339a9](https://github.com/KarinJS/Karin/commit/f3339a998c16588e24a7418fa9e5b8ff7987462f))\n</details>\n\n<details><summary>web: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/web-v1.7.7...web-v1.7.8) (2025-03-24)\n\n\n### 💄 Styles\n\n* `accordion-pro`组件下`input`组件溢出屏幕 ([b75c845](https://github.com/KarinJS/Karin/commit/b75c84573acbbc29660bad55f7c026b58b55c25a))\n* fix [#321](https://github.com/KarinJS/Karin/issues/321) 修正移动端在`添加新卡片`后呼出键盘 ([e647c0e](https://github.com/KarinJS/Karin/commit/e647c0ee6cf43f808a856848200238e02baf6c0c))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.9</summary>\n\n## [1.7.9](https://github.com/KarinJS/Karin/compare/core-v1.7.8...core-v1.7.9) (2025-03-24)\n\n\n### 🐛 Bug Fixes\n\n* close [#332](https://github.com/KarinJS/Karin/issues/332) ([3c80968](https://github.com/KarinJS/Karin/commit/3c80968366d9e2b963ac3d6f49101ee788490adf))\n\n\n### ⚡️ Performance\n\n* 优化日志显示 ([f3339a9](https://github.com/KarinJS/Karin/commit/f3339a998c16588e24a7418fa9e5b8ff7987462f))\n</details>\n\n<details><summary>web: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/web-v1.7.7...web-v1.7.8) (2025-03-24)\n\n\n### 💄 Styles\n\n* `accordion-pro`组件下`input`组件溢出屏幕 ([b75c845](https://github.com/KarinJS/Karin/commit/b75c84573acbbc29660bad55f7c026b58b55c25a))\n* fix [#321](https://github.com/KarinJS/Karin/issues/321) 修正移动端在`添加新卡片`后呼出键盘 ([e647c0e](https://github.com/KarinJS/Karin/commit/e647c0ee6cf43f808a856848200238e02baf6c0c))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "created_at": "2025-03-24T03:59:39Z",
-    "updated_at": "2025-03-24T04:13:48Z",
+    "updated_at": "2025-03-24T04:16:45Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "c03df6ee7a295316713e957354bd3f3b9f692dce",
+    "merge_commit_sha": "c183fc5ad997673ebe673c3aba14c6226bf2666d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -59,11 +59,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/335/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/335/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/4e6d0afb0ea388933a2f8f9bb3b59107fd829901",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/cfc82f4301639c01d0779a8a71a816194c8b678e",
     "head": {
       "label": "KarinJS:release-please--branches--main",
       "ref": "release-please--branches--main",
-      "sha": "4e6d0afb0ea388933a2f8f9bb3b59107fd829901",
+      "sha": "cfc82f4301639c01d0779a8a71a816194c8b678e",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -153,8 +153,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-03-24T04:13:24Z",
-        "pushed_at": "2025-03-24T04:13:47Z",
+        "updated_at": "2025-03-24T04:16:17Z",
+        "pushed_at": "2025-03-24T04:16:44Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -174,7 +174,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 16,
+        "open_issues_count": 15,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -192,7 +192,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 16,
+        "open_issues": 15,
         "watchers": 112,
         "default_branch": "main"
       }
@@ -200,7 +200,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "e647c0ee6cf43f808a856848200238e02baf6c0c",
+      "sha": "3c80968366d9e2b963ac3d6f49101ee788490adf",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -290,8 +290,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-03-24T04:13:24Z",
-        "pushed_at": "2025-03-24T04:13:47Z",
+        "updated_at": "2025-03-24T04:16:17Z",
+        "pushed_at": "2025-03-24T04:16:44Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -311,7 +311,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 16,
+        "open_issues_count": 15,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -329,7 +329,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 16,
+        "open_issues": 15,
         "watchers": 112,
         "default_branch": "main"
       }
@@ -357,7 +357,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/335/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/4e6d0afb0ea388933a2f8f9bb3b59107fd829901"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/cfc82f4301639c01d0779a8a71a816194c8b678e"
       }
     },
     "author_association": "CONTRIBUTOR",
