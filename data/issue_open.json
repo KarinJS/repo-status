@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-03-24T03:59:39Z",
-    "updated_at": "2025-03-24T03:59:53Z",
+    "updated_at": "2025-03-24T04:07:24Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -67,7 +67,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/335.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>web: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/web-v1.7.7...web-v1.7.8) (2025-03-24)\n\n\n### 💄 Styles\n\n* `accordion-pro`组件下`input`组件溢出屏幕 ([b75c845](https://github.com/KarinJS/Karin/commit/b75c84573acbbc29660bad55f7c026b58b55c25a))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n发布 web 包 1.7.8 版本。\n\n杂务：\n- 更新 web 包版本至 1.7.8。\n- 更新 CHANGELOG.md 文件中 web 包的版本至 1.7.8。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRelease version 1.7.8 of the web package.\n\nChores:\n- Update web package to version 1.7.8.\n- Update CHANGELOG.md for web package to version 1.7.8.\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.9</summary>\n\n## [1.7.9](https://github.com/KarinJS/Karin/compare/core-v1.7.8...core-v1.7.9) (2025-03-24)\n\n\n### ⚡️ Performance\n\n* 优化日志显示 ([f3339a9](https://github.com/KarinJS/Karin/commit/f3339a998c16588e24a7418fa9e5b8ff7987462f))\n</details>\n\n<details><summary>web: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/web-v1.7.7...web-v1.7.8) (2025-03-24)\n\n\n### 💄 Styles\n\n* `accordion-pro`组件下`input`组件溢出屏幕 ([b75c845](https://github.com/KarinJS/Karin/commit/b75c84573acbbc29660bad55f7c026b58b55c25a))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/335/reactions",

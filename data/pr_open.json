@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>web: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/web-v1.7.7...web-v1.7.8) (2025-03-24)\n\n\n### 💄 Styles\n\n* `accordion-pro`组件下`input`组件溢出屏幕 ([b75c845](https://github.com/KarinJS/Karin/commit/b75c84573acbbc29660bad55f7c026b58b55c25a))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n发布 web 包 1.7.8 版本。\n\n杂务：\n- 更新 web 包版本至 1.7.8。\n- 更新 CHANGELOG.md 文件中 web 包的版本至 1.7.8。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRelease version 1.7.8 of the web package.\n\nChores:\n- Update web package to version 1.7.8.\n- Update CHANGELOG.md for web package to version 1.7.8.\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.9</summary>\n\n## [1.7.9](https://github.com/KarinJS/Karin/compare/core-v1.7.8...core-v1.7.9) (2025-03-24)\n\n\n### ⚡️ Performance\n\n* 优化日志显示 ([f3339a9](https://github.com/KarinJS/Karin/commit/f3339a998c16588e24a7418fa9e5b8ff7987462f))\n</details>\n\n<details><summary>web: 1.7.8</summary>\n\n## [1.7.8](https://github.com/KarinJS/Karin/compare/web-v1.7.7...web-v1.7.8) (2025-03-24)\n\n\n### 💄 Styles\n\n* `accordion-pro`组件下`input`组件溢出屏幕 ([b75c845](https://github.com/KarinJS/Karin/commit/b75c84573acbbc29660bad55f7c026b58b55c25a))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "created_at": "2025-03-24T03:59:39Z",
-    "updated_at": "2025-03-24T03:59:53Z",
+    "updated_at": "2025-03-24T04:07:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5a9d29b367db8729eb20ea58d85b2fa2665056f2",
+    "merge_commit_sha": "9b24b11d106642ac635d4857f05e4b36b5103594",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -59,11 +59,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/335/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/335/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/d201ff78cf4ff46deb3dc5e16fa0a3733d96090e",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/a507f7a5022ee51bd641e74b2999bfee220d6f21",
     "head": {
       "label": "KarinJS:release-please--branches--main",
       "ref": "release-please--branches--main",
-      "sha": "d201ff78cf4ff46deb3dc5e16fa0a3733d96090e",
+      "sha": "a507f7a5022ee51bd641e74b2999bfee220d6f21",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -153,8 +153,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-03-24T03:59:09Z",
-        "pushed_at": "2025-03-24T03:59:38Z",
+        "updated_at": "2025-03-24T04:06:55Z",
+        "pushed_at": "2025-03-24T04:07:23Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -200,7 +200,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "b75c84573acbbc29660bad55f7c026b58b55c25a",
+      "sha": "f3339a998c16588e24a7418fa9e5b8ff7987462f",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -290,8 +290,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-03-24T03:59:09Z",
-        "pushed_at": "2025-03-24T03:59:38Z",
+        "updated_at": "2025-03-24T04:06:55Z",
+        "pushed_at": "2025-03-24T04:07:23Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -357,7 +357,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/335/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/d201ff78cf4ff46deb3dc5e16fa0a3733d96090e"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/a507f7a5022ee51bd641e74b2999bfee220d6f21"
       }
     },
     "author_association": "CONTRIBUTOR",
