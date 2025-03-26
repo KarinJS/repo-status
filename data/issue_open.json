@@ -1,5 +1,92 @@
 [
   {
+    "url": "https://api.github.com/repos/KarinJS/Karin/issues/341",
+    "repository_url": "https://api.github.com/repos/KarinJS/Karin",
+    "labels_url": "https://api.github.com/repos/KarinJS/Karin/issues/341/labels{/name}",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/341/comments",
+    "events_url": "https://api.github.com/repos/KarinJS/Karin/issues/341/events",
+    "html_url": "https://github.com/KarinJS/Karin/issues/341",
+    "id": 2950570341,
+    "node_id": "I_kwDOLcebn86v3iFl",
+    "number": 341,
+    "title": "Bug: 手风琴Pro组件渲染数据出错",
+    "user": {
+      "login": "ikenxuan",
+      "id": 112480306,
+      "node_id": "U_kgDOBrRQMg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ikenxuan",
+      "html_url": "https://github.com/ikenxuan",
+      "followers_url": "https://api.github.com/users/ikenxuan/followers",
+      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
+      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
+      "repos_url": "https://api.github.com/users/ikenxuan/repos",
+      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 6654977162,
+        "node_id": "LA_kwDOLcebn88AAAABjKrkig",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/bug",
+        "name": "bug",
+        "color": "d73a4a",
+        "default": true,
+        "description": "Something isn't working"
+      },
+      {
+        "id": 8328366415,
+        "node_id": "LA_kwDOLcebn88AAAAB8GjJTw",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/web",
+        "name": "web",
+        "color": "20E970",
+        "default": false,
+        "description": "前端面板页面相关"
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 1,
+    "created_at": "2025-03-26T19:12:19Z",
+    "updated_at": "2025-03-26T19:12:29Z",
+    "closed_at": null,
+    "author_association": "COLLABORATOR",
+    "type": null,
+    "sub_issues_summary": {
+      "total": 0,
+      "completed": 0,
+      "percent_completed": 0
+    },
+    "active_lock_reason": null,
+    "body": "### 描述问题\n\n数据源：\n```ts\nconst data = [\n  {\n    title: '数据项1',\n    input: '数据项1',\n    switch: true,\n  },\n  {\n    input: '数据项2',\n    switch: false,\n  },\n]\n```\n组件编写：\n```ts\n  components: () => [\n    components.accordionPro.create(\n      'accordion-pro-key',\n      data,\n      {\n        children: components.accordion.createItem('item-key', {\n          title: '子项标题',\n          subtitle: '子项副标题',\n          children: [\n            components.input.string('input', {\n              type: 'text',\n            }), // 这里需要与data的key一致\n            components.switch.create('switch'),\n          ],\n        }),\n      }),\n  ],\n```\n然而前端无法渲染对应的数据，只成功渲染了定义子组件本身的相关内容（如title）,传给子组件的默认值无法成功渲染。\n\n### 复现步骤\n\n如上\n\n### 预期行为\n\n成功渲染对应数据\n\n### 实际行为\n\n如图：\n\n![Image](https://github.com/user-attachments/assets/2285184c-5ab1-490b-b024-a105c90e0f97)\n\n此处的字符串输入框应该显示`数据项1`，但结果为空\n\n### 操作系统\n\nwin11\n\n### Node.js 版本\n\nany\n\n### 项目版本\n\n1.7.9\n\n### 附加信息\n\n_No response_",
+    "closed_by": null,
+    "reactions": {
+      "url": "https://api.github.com/repos/KarinJS/Karin/issues/341/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/341/timeline",
+    "performed_via_github_app": null,
+    "state_reason": null
+  },
+  {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/340",
     "repository_url": "https://api.github.com/repos/KarinJS/Karin",
     "labels_url": "https://api.github.com/repos/KarinJS/Karin/issues/340/labels{/name}",
@@ -126,6 +213,15 @@
         "color": "d73a4a",
         "default": true,
         "description": "Something isn't working"
+      },
+      {
+        "id": 8328369349,
+        "node_id": "LA_kwDOLcebn88AAAAB8GjUxQ",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/core",
+        "name": "core",
+        "color": "A4460E",
+        "default": false,
+        "description": "后端相关"
       }
     ],
     "state": "open",
@@ -177,7 +273,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-03-26T09:53:33Z",
-    "updated_at": "2025-03-26T10:04:55Z",
+    "updated_at": "2025-03-26T19:12:43Z",
     "closed_at": null,
     "author_association": "COLLABORATOR",
     "type": null,
