@@ -144,7 +144,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-03-24T05:32:36Z",
-    "updated_at": "2025-03-24T13:14:10Z",
+    "updated_at": "2025-03-26T01:22:31Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -162,7 +162,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/337.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.10</summary>\n\n## [1.7.10](https://github.com/KarinJS/Karin/compare/core-v1.7.9...core-v1.7.10) (2025-03-24)\n\n\n### 🐛 Bug Fixes\n\n* sqlite3 锁定5.1.6 ([5c8589e](https://github.com/KarinJS/Karin/commit/5c8589e3825ac58c13734d11707e9009eaea0190))\n* 清理日志有点多 ([5d9895a](https://github.com/KarinJS/Karin/commit/5d9895a3d9dd23895a3519aaaad0666c0af48022))\n\n\n### ✅ Tests\n\n* 初步适配`puppeteer-server` ([264eb11](https://github.com/KarinJS/Karin/commit/264eb11f7a928eaebb363a8526342b2588a2525d))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.10</summary>\n\n## [1.7.10](https://github.com/KarinJS/Karin/compare/core-v1.7.9...core-v1.7.10) (2025-03-26)\n\n\n### 🐛 Bug Fixes\n\n* sqlite3 锁定5.1.6 ([5c8589e](https://github.com/KarinJS/Karin/commit/5c8589e3825ac58c13734d11707e9009eaea0190))\n* 清理日志有点多 ([5d9895a](https://github.com/KarinJS/Karin/commit/5d9895a3d9dd23895a3519aaaad0666c0af48022))\n\n\n### ✅ Tests\n\n* 初步适配`puppeteer-server` ([264eb11](https://github.com/KarinJS/Karin/commit/264eb11f7a928eaebb363a8526342b2588a2525d))\n</details>\n\n<details><summary>web: 1.7.9</summary>\n\n## [1.7.9](https://github.com/KarinJS/Karin/compare/web-v1.7.8...web-v1.7.9) (2025-03-26)\n\n\n### 💄 Styles\n\n* 开关深色模式样式 ([809dc08](https://github.com/KarinJS/Karin/commit/809dc0899f52d99342cdeebba6d8dfc5d10eacba))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/337/reactions",
