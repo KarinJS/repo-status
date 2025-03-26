@@ -10,8 +10,8 @@
   {
     "name": "dependabot/npm_and_yarn/vite-6.1.2",
     "commit": {
-      "sha": "f80c12329132ed93ef9c761679787ad07da573fb",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f80c12329132ed93ef9c761679787ad07da573fb"
+      "sha": "36a3189e2b8ce9ba9361df97d5aedb2a295b34a6",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/36a3189e2b8ce9ba9361df97d5aedb2a295b34a6"
     },
     "protected": false
   },
@@ -50,8 +50,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "809dc0899f52d99342cdeebba6d8dfc5d10eacba",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/809dc0899f52d99342cdeebba6d8dfc5d10eacba"
+      "sha": "16063d52da1d1d130ccbbf80a811c5cc80a35884",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/16063d52da1d1d130ccbbf80a811c5cc80a35884"
     },
     "protected": true
   },
@@ -68,14 +68,6 @@
     "commit": {
       "sha": "dfde81c543705c1d9a89cb775e06fa52a5401867",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/dfde81c543705c1d9a89cb775e06fa52a5401867"
-    },
-    "protected": false
-  },
-  {
-    "name": "release-please--branches--main",
-    "commit": {
-      "sha": "28642091d9e93ecab1ad0119e947b5826602775e",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/28642091d9e93ecab1ad0119e947b5826602775e"
     },
     "protected": false
   },
