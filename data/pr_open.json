@@ -183,7 +183,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 14,
+        "open_issues_count": 15,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -201,7 +201,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 14,
+        "open_issues": 15,
         "watchers": 112,
         "default_branch": "main"
       }
@@ -320,7 +320,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 14,
+        "open_issues_count": 15,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -338,7 +338,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 14,
+        "open_issues": 15,
         "watchers": 112,
         "default_branch": "main"
       }
@@ -548,7 +548,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 14,
+        "open_issues_count": 15,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -566,7 +566,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 14,
+        "open_issues": 15,
         "watchers": 112,
         "default_branch": "main"
       }
@@ -685,7 +685,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 14,
+        "open_issues_count": 15,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -703,7 +703,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 14,
+        "open_issues": 15,
         "watchers": 112,
         "default_branch": "main"
       }
