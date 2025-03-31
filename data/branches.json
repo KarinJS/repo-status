@@ -8,14 +8,6 @@
     "protected": false
   },
   {
-    "name": "beta-package",
-    "commit": {
-      "sha": "1309c936492bc26714b6eafb9f9477ac3f127688",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1309c936492bc26714b6eafb9f9477ac3f127688"
-    },
-    "protected": false
-  },
-  {
     "name": "choer-npm",
     "commit": {
       "sha": "2bba473b1592180151169d3afa295b936b19e617",
@@ -66,8 +58,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "0753973a8853ef477fe187e5b67809cd7f13482e",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/0753973a8853ef477fe187e5b67809cd7f13482e"
+      "sha": "426fd47c0b33ee77cc73fac9879fda3467e5af01",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/426fd47c0b33ee77cc73fac9879fda3467e5af01"
     },
     "protected": true
   },
@@ -90,8 +82,8 @@
   {
     "name": "release-please--branches--main",
     "commit": {
-      "sha": "33ea9834a41881783087e4a755ac340417a91605",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/33ea9834a41881783087e4a755ac340417a91605"
+      "sha": "69315cddf73bae22eac62579691f65820bfce5e5",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/69315cddf73bae22eac62579691f65820bfce5e5"
     },
     "protected": false
   },
