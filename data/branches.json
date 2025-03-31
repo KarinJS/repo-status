@@ -8,6 +8,14 @@
     "protected": false
   },
   {
+    "name": "beta-package",
+    "commit": {
+      "sha": "0a2ea18d9a031c9423a5c717d87a2d791234abde",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/0a2ea18d9a031c9423a5c717d87a2d791234abde"
+    },
+    "protected": false
+  },
+  {
     "name": "choer-npm",
     "commit": {
       "sha": "2bba473b1592180151169d3afa295b936b19e617",
