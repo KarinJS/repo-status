@@ -154,7 +154,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-05T12:30:24Z",
-        "pushed_at": "2025-04-05T12:30:21Z",
+        "pushed_at": "2025-04-08T03:35:17Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -291,7 +291,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-05T12:30:24Z",
-        "pushed_at": "2025-04-05T12:30:21Z",
+        "pushed_at": "2025-04-08T03:35:17Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -509,7 +509,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-05T12:30:24Z",
-        "pushed_at": "2025-04-05T12:30:21Z",
+        "pushed_at": "2025-04-08T03:35:17Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -646,7 +646,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-05T12:30:24Z",
-        "pushed_at": "2025-04-05T12:30:21Z",
+        "pushed_at": "2025-04-08T03:35:17Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -754,10 +754,10 @@
     },
     "body": "好的，这是将拉取请求摘要翻译成中文的结果：\n\n## Sourcery 总结\n\n在 Web 界面中添加依赖管理功能，允许用户查看、筛选和管理项目依赖项和 Karin 插件。\n\n新功能：\n- 在 Web UI 中实现全面的依赖管理页面\n- 增加按类型（全部、Karin 插件、可更新）查看和筛选依赖项的功能\n- 为依赖项提供版本选择和管理\n\n增强功能：\n- 为依赖管理创建可重用组件\n- 实现依赖项的搜索和筛选功能\n- 为插件和包类型添加可视化指示器\n\n杂项：\n- 修改插件加载逻辑，以减少初始化期间不必要的错误日志记录\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nAdd a dependency management feature to the web interface, allowing users to view, filter, and manage project dependencies and Karin plugins\n\nNew Features:\n- Implement a comprehensive dependency management page in the web UI\n- Add ability to view and filter dependencies by type (all, Karin plugins, updatable)\n- Provide version selection and management for dependencies\n\nEnhancements:\n- Create reusable components for dependency management\n- Implement search and filtering functionality for dependencies\n- Add visual indicators for plugin and package types\n\nChores:\n- Modify plugin loading logic to reduce unnecessary error logging during initialization\n\n</details>",
     "created_at": "2025-03-28T04:40:14Z",
-    "updated_at": "2025-03-29T12:04:41Z",
+    "updated_at": "2025-04-08T03:35:18Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": null,
+    "merge_commit_sha": "3495ee53d9c5a4a25f9fcc8ee48197758b4e9bc2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -769,11 +769,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/344/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/344/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/eef0010bcb5875b1bb568d5ad4463a1799fe0bf7",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/f682757b22892667ba814b284c7c1fab6a38907c",
     "head": {
       "label": "KarinJS:feat-328",
       "ref": "feat-328",
-      "sha": "eef0010bcb5875b1bb568d5ad4463a1799fe0bf7",
+      "sha": "f682757b22892667ba814b284c7c1fab6a38907c",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -864,7 +864,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-05T12:30:24Z",
-        "pushed_at": "2025-04-05T12:30:21Z",
+        "pushed_at": "2025-04-08T03:35:17Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -910,7 +910,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "b04eac9cdd392c95f30ac0022b46adbca3dd586f",
+      "sha": "b6452564630ed7fb86b92a36ba21b6efd29e3c11",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -1001,7 +1001,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-05T12:30:24Z",
-        "pushed_at": "2025-04-05T12:30:21Z",
+        "pushed_at": "2025-04-08T03:35:17Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1067,7 +1067,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/344/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/eef0010bcb5875b1bb568d5ad4463a1799fe0bf7"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/f682757b22892667ba814b284c7c1fab6a38907c"
       }
     },
     "author_association": "MEMBER",
