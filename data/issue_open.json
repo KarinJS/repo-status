@@ -430,7 +430,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-03-29T11:06:51Z",
-    "updated_at": "2025-04-05T06:39:49Z",
+    "updated_at": "2025-04-16T16:05:17Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -448,7 +448,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/353.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.15</summary>\n\n## [1.7.15](https://github.com/KarinJS/Karin/compare/core-v1.7.14...core-v1.7.15) (2025-04-05)\n\n\n### 🐛 Bug Fixes\n\n* **core:** 补全hooks API注释 ([1080fe6](https://github.com/KarinJS/Karin/commit/1080fe6dbdc18565aab9e4ea04448a42ee9bdfb4))\n* 在加载插件时，添加对非开发环境下不加载main ([0753973](https://github.com/KarinJS/Karin/commit/0753973a8853ef477fe187e5b67809cd7f13482e))\n</details>\n\n<details><summary>web: 1.7.13</summary>\n\n## [1.7.13](https://github.com/KarinJS/Karin/compare/web-v1.7.12...web-v1.7.13) (2025-04-05)\n\n\n### 🐛 Bug Fixes\n\n* 最小复现包ci ([#354](https://github.com/KarinJS/Karin/issues/354)) ([426fd47](https://github.com/KarinJS/Karin/commit/426fd47c0b33ee77cc73fac9879fda3467e5af01))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.7.15</summary>\n\n## [1.7.15](https://github.com/KarinJS/Karin/compare/core-v1.7.14...core-v1.7.15) (2025-04-16)\n\n\n### 🐛 Bug Fixes\n\n* **core:** 补全hooks API注释 ([1080fe6](https://github.com/KarinJS/Karin/commit/1080fe6dbdc18565aab9e4ea04448a42ee9bdfb4))\n* 在加载插件时，添加对非开发环境下不加载main ([0753973](https://github.com/KarinJS/Karin/commit/0753973a8853ef477fe187e5b67809cd7f13482e))\n</details>\n\n<details><summary>web: 1.7.13</summary>\n\n## [1.7.13](https://github.com/KarinJS/Karin/compare/web-v1.7.12...web-v1.7.13) (2025-04-16)\n\n\n### 🐛 Bug Fixes\n\n* 最小复现包ci ([#354](https://github.com/KarinJS/Karin/issues/354)) ([426fd47](https://github.com/KarinJS/Karin/commit/426fd47c0b33ee77cc73fac9879fda3467e5af01))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/353/reactions",
@@ -770,7 +770,7 @@
     "milestone": null,
     "comments": 8,
     "created_at": "2025-03-28T04:40:14Z",
-    "updated_at": "2025-04-16T15:52:02Z",
+    "updated_at": "2025-04-16T16:00:37Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
