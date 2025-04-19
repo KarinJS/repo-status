@@ -154,7 +154,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-19T10:35:45Z",
-        "pushed_at": "2025-04-19T07:46:30Z",
+        "pushed_at": "2025-04-19T12:32:40Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -289,7 +289,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-19T10:35:45Z",
-        "pushed_at": "2025-04-19T07:46:30Z",
+        "pushed_at": "2025-04-19T12:32:40Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -395,10 +395,10 @@
     },
     "body": "好的，这是将拉取请求摘要翻译成中文的结果：\n\n## Sourcery 总结\n\n在 Web 界面中添加依赖管理功能，允许用户查看、筛选和管理项目依赖项和 Karin 插件。\n\n新功能：\n- 在 Web UI 中实现全面的依赖管理页面\n- 增加按类型（全部、Karin 插件、可更新）查看和筛选依赖项的功能\n- 为依赖项提供版本选择和管理\n\n增强功能：\n- 为依赖管理创建可重用组件\n- 实现依赖项的搜索和筛选功能\n- 为插件和包类型添加可视化指示器\n\n杂项：\n- 修改插件加载逻辑，以减少初始化期间不必要的错误日志记录\n\n<details>\n<summary>Original summary in English</summary>\n\n好的，这是将拉取请求摘要翻译成中文的结果：\n\n## Sourcery 总结\n\n在 Web 界面中实现依赖管理功能，允许用户查看、过滤和管理项目依赖项和 Karin 插件。\n\n新功能：\n- 在 Web UI 中添加全面的依赖管理页面\n- 实现按类型（全部、Karin 插件、可更新）过滤依赖项\n- 为依赖项提供版本选择和管理\n\n增强功能：\n- 为依赖管理创建可重用组件\n- 实现依赖项的搜索和过滤功能\n- 为插件和包类型添加可视化指示器\n\n测试：\n- 为依赖项和插件管理功能添加测试实用程序\n\n杂项：\n- 将包依赖项更新到最新版本\n- 重构和组织依赖项和插件管理的代码\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nImplement dependency management feature in the web interface, allowing users to view, filter, and manage project dependencies and Karin plugins\n\nNew Features:\n- Add comprehensive dependency management page in Web UI\n- Implement filtering dependencies by type (all, Karin plugins, updatable)\n- Provide version selection and management for dependencies\n\nEnhancements:\n- Create reusable components for dependency management\n- Implement search and filter functionality for dependencies\n- Add visual indicators for plugin and package types\n\nTests:\n- Add test utilities for dependency and plugin management functions\n\nChores:\n- Update package dependencies to latest versions\n- Refactor and organize code for dependency and plugin management\n\n</details>\n\n</details>",
     "created_at": "2025-03-28T04:40:14Z",
-    "updated_at": "2025-04-19T07:48:33Z",
+    "updated_at": "2025-04-19T12:34:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "21c72290876d999d8ddde99b8f1d612b1a255f7a",
+    "merge_commit_sha": "d38763e5428b2c41f59cec18e79875b8378d3fa8",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -410,11 +410,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/344/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/344/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/1e3b86c1367efe297c069e370f2433dfe20335f3",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/4ef06e008529586ef8a96ef4ead3b11c50b202f9",
     "head": {
       "label": "KarinJS:feat-328",
       "ref": "feat-328",
-      "sha": "1e3b86c1367efe297c069e370f2433dfe20335f3",
+      "sha": "4ef06e008529586ef8a96ef4ead3b11c50b202f9",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -505,7 +505,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-19T10:35:45Z",
-        "pushed_at": "2025-04-19T07:46:30Z",
+        "pushed_at": "2025-04-19T12:32:40Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -640,7 +640,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-04-19T10:35:45Z",
-        "pushed_at": "2025-04-19T07:46:30Z",
+        "pushed_at": "2025-04-19T12:32:40Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -704,7 +704,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/344/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/1e3b86c1367efe297c069e370f2433dfe20335f3"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/4ef06e008529586ef8a96ef4ead3b11c50b202f9"
       }
     },
     "author_association": "MEMBER",
