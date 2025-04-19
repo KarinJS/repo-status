@@ -153,7 +153,7 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-04-18T05:25:31Z",
+        "updated_at": "2025-04-19T10:35:45Z",
         "pushed_at": "2025-04-19T07:46:30Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
@@ -186,9 +186,7 @@
         "is_template": false,
         "web_commit_signoff_required": false,
         "topics": [
-          "karin",
-          "karin-plugin",
-          "kritor"
+          "karin"
         ],
         "visibility": "public",
         "forks": 12,
@@ -290,7 +288,7 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-04-18T05:25:31Z",
+        "updated_at": "2025-04-19T10:35:45Z",
         "pushed_at": "2025-04-19T07:46:30Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
@@ -323,9 +321,7 @@
         "is_template": false,
         "web_commit_signoff_required": false,
         "topics": [
-          "karin",
-          "karin-plugin",
-          "kritor"
+          "karin"
         ],
         "visibility": "public",
         "forks": 12,
@@ -508,7 +504,7 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-04-18T05:25:31Z",
+        "updated_at": "2025-04-19T10:35:45Z",
         "pushed_at": "2025-04-19T07:46:30Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
@@ -541,9 +537,7 @@
         "is_template": false,
         "web_commit_signoff_required": false,
         "topics": [
-          "karin",
-          "karin-plugin",
-          "kritor"
+          "karin"
         ],
         "visibility": "public",
         "forks": 12,
@@ -645,7 +639,7 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-04-18T05:25:31Z",
+        "updated_at": "2025-04-19T10:35:45Z",
         "pushed_at": "2025-04-19T07:46:30Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
@@ -678,9 +672,7 @@
         "is_template": false,
         "web_commit_signoff_required": false,
         "topics": [
-          "karin",
-          "karin-plugin",
-          "kritor"
+          "karin"
         ],
         "visibility": "public",
         "forks": 12,
