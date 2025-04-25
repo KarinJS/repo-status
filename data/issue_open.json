@@ -53,12 +53,12 @@
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "### 描述功能\n\n减少前端请求量\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": null,
     "reactions": {
@@ -131,12 +131,12 @@
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "### 描述功能\n\n前端快捷配置插件黑白名单插件、用户、群。\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": null,
     "reactions": {
@@ -218,12 +218,12 @@
     "closed_at": null,
     "author_association": "COLLABORATOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "### 描述功能\n\n增加可获取属性的组件例如：\n* 获取适配器列表\n* 获取对应适配器的群聊列表\n* 获取对应适配器的好友列表\n* ......\n\n### 动机\n\n通过可视化配置简化用户手动配置成本\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": null,
     "reactions": {
@@ -296,11 +296,6 @@
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -414,12 +409,12 @@
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "- [x] 将依赖包迁移为`@karinjs`里面 主要目的是缩减体积\n- [x] 从1.7 -> 无缝升级到1.8\n- [x] `.pnpmfile.cjs`\n- [x] `pm2`重构 解决端口占用问题\n- [x] 插件开发模板\n- [x] 前端重构插件管理、新增依赖管理\n- [x] `web.config`重构 解决无类型问题\n- [x] 升级依赖\n- [ ] 插件市场重构\n- [x] 插件配置引入缓存\n- [ ] `node-pty`升级版本\n- [ ] `sqlite3`稳定性提升",
     "closed_by": null,
     "reactions": {
@@ -492,12 +487,12 @@
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": null,
     "reactions": {
@@ -560,11 +555,6 @@
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": true,
     "pull_request": {
@@ -697,12 +687,12 @@
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": null,
     "reactions": {
@@ -817,12 +807,12 @@
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 1,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "- [x] 选中依赖、更新、卸载\n- [x] 设置页面\n   - [x] 切换版本\n   - [x] 自定义版本\n   - [x] 升级\n   - [x] 卸载\n- [x] 对接后端\n   - [x] 获取可用版本 这里用浏览器请求\n   - [x] 升级、更新、卸载\n   - [x] 任务队列\n- [ ] 全局依赖管理\n- [x] npm config管理\n- [x] 排序\n- [x] 生产、开发、对等依赖",
     "closed_by": null,
     "reactions": {
