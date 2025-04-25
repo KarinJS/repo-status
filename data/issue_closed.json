@@ -21117,12 +21117,12 @@
     "closed_at": "2024-09-12T13:37:56Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![image](https://github.com/user-attachments/assets/6e4c212a-0197-4fd1-8e01-eb205d3690f6)\r\n需要subtype区分\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "yongheng1014",
@@ -21215,12 +21215,12 @@
     "closed_at": "2024-09-12T15:50:04Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -21313,12 +21313,12 @@
     "closed_at": "2024-09-12T15:50:52Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -21411,12 +21411,12 @@
     "closed_at": "2024-08-27T13:30:08Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "更新到非git插件会报错导致全部更新退出？",
     "closed_by": {
       "login": "sj817",
@@ -21509,11 +21509,6 @@
     "closed_at": "2024-08-25T22:24:21Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -21615,11 +21610,6 @@
     "closed_at": "2024-08-21T12:28:24Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -21721,11 +21711,6 @@
     "closed_at": "2024-08-18T09:51:34Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -21827,12 +21812,12 @@
     "closed_at": "2024-09-12T15:51:16Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "给加载新增超时。",
     "closed_by": {
       "login": "sj817",
@@ -21925,12 +21910,12 @@
     "closed_at": "2024-11-17T23:03:31Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "`file`参数适配:\r\n  -  ~[ ]  `file://`不走模板渲染~\r\n  -  [x]  `http`\r\n  -  ~[ ] `utf-8`格式的`html`~\r\n  -  [x] 模板`html`\r\n  \r\n",
     "closed_by": {
       "login": "sj817",
@@ -22023,12 +22008,12 @@
     "closed_at": "2024-08-18T09:52:32Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![51d8cbafa0ca710cd8727f6bc6a10b85](https://github.com/user-attachments/assets/0fbb9f41-de92-4468-bd45-d28102aeddb1)\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -22121,11 +22106,6 @@
     "closed_at": "2024-08-17T15:07:31Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -22227,11 +22207,6 @@
     "closed_at": "2024-08-17T00:58:42Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -22323,12 +22298,12 @@
     "closed_at": "2024-08-16T21:43:05Z",
     "author_association": "NONE",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": null,
     "closed_by": {
       "login": "sj817",
@@ -22453,12 +22428,12 @@
     "closed_at": "2024-09-12T16:12:14Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "晚安😴",
     "closed_by": {
       "login": "sj817",
@@ -22583,12 +22558,12 @@
     "closed_at": "2024-08-16T21:43:15Z",
     "author_association": "NONE",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": null,
     "closed_by": {
       "login": "sj817",
@@ -22681,11 +22656,6 @@
     "closed_at": "2024-08-16T14:13:05Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -22777,11 +22747,6 @@
     "closed_at": "2024-08-15T22:18:58Z",
     "author_association": "MEMBER",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -22883,11 +22848,6 @@
     "closed_at": "2024-08-15T22:19:32Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -22989,11 +22949,6 @@
     "closed_at": "2024-08-15T16:18:05Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -23095,11 +23050,6 @@
     "closed_at": "2024-08-15T12:52:16Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -23201,11 +23151,6 @@
     "closed_at": "2024-08-15T12:43:53Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -23307,11 +23252,6 @@
     "closed_at": "2024-08-14T07:57:48Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -23403,11 +23343,6 @@
     "closed_at": "2024-08-14T07:57:57Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -23509,12 +23444,12 @@
     "closed_at": "2024-08-14T07:24:21Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![779bad375159cae900f94d5bb366b441](https://github.com/user-attachments/assets/d20d07c0-3ed6-4cc6-87bd-b52099febbf2)\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -23607,12 +23542,12 @@
     "closed_at": "2024-08-14T07:53:33Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![365bcc6bf6b4a77004c80a1ec92af476](https://github.com/user-attachments/assets/a2529ed2-af9b-4a3e-8f8d-d546830b5152)\r\n![b4ab012aea221ea4b5234dc30a9a971b](https://github.com/user-attachments/assets/a12cdf47-5511-4d0e-a3fb-2e71becb497b)\r\n\r\n## 复现步骤\r\n\r\n\r\n## 预期行为\r\n\r\n关闭日志打印\r\n\r\n## 实际行为\r\n\r\n实际仍打印日志\r\n\r\n## 环境信息\r\n\r\n- 操作系统：win11pro\r\n- Node.js 版本：20.1.15\r\n- 项目版本：node-karin11.5\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -23705,11 +23640,6 @@
     "closed_at": "2024-08-13T14:44:03Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -23811,11 +23741,6 @@
     "closed_at": "2024-08-12T12:47:40Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -23907,11 +23832,6 @@
     "closed_at": "2024-08-12T12:46:58Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -24013,11 +23933,6 @@
     "closed_at": "2024-08-12T10:50:47Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -24119,11 +24034,6 @@
     "closed_at": "2024-08-12T01:58:12Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -24225,12 +24135,12 @@
     "closed_at": "2024-08-21T12:26:48Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -24323,12 +24233,12 @@
     "closed_at": "2024-08-13T10:18:52Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -24421,12 +24331,12 @@
     "closed_at": "2024-11-17T23:01:41Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -24519,12 +24429,12 @@
     "closed_at": "2024-08-21T12:31:03Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -24617,12 +24527,12 @@
     "closed_at": "2024-08-16T14:13:39Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n原: `message`\r\n现: `adapter.message`\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -24715,11 +24625,6 @@
     "closed_at": "2024-08-12T01:06:22Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -24821,11 +24726,6 @@
     "closed_at": "2024-08-12T00:52:22Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -24917,11 +24817,6 @@
     "closed_at": "2024-08-12T00:51:41Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -25013,11 +24908,6 @@
     "closed_at": "2024-08-10T20:10:43Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -25119,11 +25009,6 @@
     "closed_at": "2024-08-10T11:42:44Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -25225,12 +25110,12 @@
     "closed_at": "2024-08-10T11:39:25Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -25323,12 +25208,12 @@
     "closed_at": "2024-08-12T00:50:42Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n1. 收到消息后\r\n2. 回复消息前\r\n3. 发送主动消息前\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -25421,11 +25306,6 @@
     "closed_at": "2024-08-09T00:28:41Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -25527,11 +25407,6 @@
     "closed_at": "2024-08-07T10:36:30Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -25633,12 +25508,12 @@
     "closed_at": "2024-08-09T00:06:45Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -25731,11 +25606,6 @@
     "closed_at": "2024-08-05T12:07:03Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -25837,11 +25707,6 @@
     "closed_at": "2024-08-05T11:18:42Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -25943,11 +25808,6 @@
     "closed_at": "2024-08-05T11:01:17Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26049,11 +25909,6 @@
     "closed_at": "2024-08-05T00:12:16Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26155,12 +26010,12 @@
     "closed_at": "2024-08-09T00:16:01Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -26253,11 +26108,6 @@
     "closed_at": "2024-08-04T13:29:58Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26359,11 +26209,6 @@
     "closed_at": "2024-08-01T09:39:29Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26465,11 +26310,6 @@
     "closed_at": "2024-07-31T17:42:48Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26571,11 +26411,6 @@
     "closed_at": "2024-07-31T17:02:33Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26677,11 +26512,6 @@
     "closed_at": "2024-07-30T17:24:45Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26783,11 +26613,6 @@
     "closed_at": "2024-07-30T16:19:58Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26889,11 +26714,6 @@
     "closed_at": "2024-07-30T15:16:36Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -26995,11 +26815,6 @@
     "closed_at": "2024-07-30T14:57:14Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27101,11 +26916,6 @@
     "closed_at": "2024-07-30T14:51:09Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27207,11 +27017,6 @@
     "closed_at": "2024-07-29T05:46:27Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27313,12 +27118,12 @@
     "closed_at": "2024-08-09T00:06:59Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -27411,11 +27216,6 @@
     "closed_at": "2024-07-26T12:16:31Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27517,11 +27317,6 @@
     "closed_at": "2024-07-26T12:06:51Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27623,11 +27418,6 @@
     "closed_at": "2024-07-24T06:56:28Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27729,11 +27519,6 @@
     "closed_at": "2024-07-20T06:23:05Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27835,11 +27620,6 @@
     "closed_at": "2024-07-19T20:35:18Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -27941,11 +27721,6 @@
     "closed_at": "2024-07-19T17:39:15Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28047,11 +27822,6 @@
     "closed_at": "2024-07-19T17:09:24Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28153,11 +27923,6 @@
     "closed_at": "2024-07-19T14:53:49Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28259,11 +28024,6 @@
     "closed_at": "2024-07-19T14:25:24Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28365,11 +28125,6 @@
     "closed_at": "2024-07-19T13:52:24Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28471,11 +28226,6 @@
     "closed_at": "2024-07-16T03:26:36Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28577,11 +28327,6 @@
     "closed_at": "2024-07-14T17:57:37Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28683,11 +28428,6 @@
     "closed_at": "2024-07-14T17:39:34Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28789,11 +28529,6 @@
     "closed_at": "2024-07-14T14:51:37Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -28895,11 +28630,6 @@
     "closed_at": "2024-07-13T15:17:14Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29001,11 +28731,6 @@
     "closed_at": "2024-07-12T18:42:48Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29107,11 +28832,6 @@
     "closed_at": "2024-07-12T18:33:21Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29213,12 +28933,12 @@
     "closed_at": "2024-07-12T18:32:56Z",
     "author_association": "NONE",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n无法使用pnpm run start启动karin\r\n\r\n## 复现步骤\r\n\r\n![image](https://github.com/KarinJS/Karin/assets/99504275/a25a4215-1f84-41dc-b4e5-e01c26b4faa3)\r\n\r\n## 预期行为\r\n\r\n预期应该pm2启动成功\r\n\r\n## 实际行为\r\n\r\n![image](https://github.com/KarinJS/Karin/assets/99504275/848d5706-5c7f-4456-bb82-9ea926037337)\r\n\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Ubuntu 22.04\r\n- Node.js 版本：v20.15.1\r\n- 项目版本：latest\r\n\r\n## 附加信息\r\n\r\n![image](https://github.com/KarinJS/Karin/assets/99504275/d8b92915-79c0-43fa-a2df-e8c13024de08)\r\n\r\n",
     "closed_by": {
       "login": "sj817",
@@ -29311,11 +29031,6 @@
     "closed_at": "2024-07-10T05:07:54Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29417,11 +29132,6 @@
     "closed_at": "2024-07-09T17:44:08Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29523,12 +29233,12 @@
     "closed_at": "2024-08-16T14:09:42Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -29621,11 +29331,6 @@
     "closed_at": "2024-07-09T17:27:22Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29727,11 +29432,6 @@
     "closed_at": "2024-07-08T12:09:17Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29833,11 +29533,6 @@
     "closed_at": "2024-07-08T06:02:34Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -29939,11 +29634,6 @@
     "closed_at": "2024-07-08T05:58:38Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -30045,11 +29735,6 @@
     "closed_at": "2024-07-07T12:21:33Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -30151,12 +29836,12 @@
     "closed_at": "2024-07-09T16:59:56Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -30249,12 +29934,12 @@
     "closed_at": "2024-07-09T17:09:29Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -30347,11 +30032,6 @@
     "closed_at": "2024-07-06T09:14:23Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -30453,11 +30133,6 @@
     "closed_at": "2024-07-05T11:44:52Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -30568,12 +30243,12 @@
     "closed_at": "2024-08-09T00:07:18Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -30666,12 +30341,12 @@
     "closed_at": "2024-07-05T11:45:06Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -30764,11 +30439,6 @@
     "closed_at": "2024-07-04T09:55:45Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -30870,11 +30540,6 @@
     "closed_at": "2024-07-04T06:30:15Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -30976,11 +30641,6 @@
     "closed_at": "2024-07-04T05:09:44Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -31082,11 +30742,6 @@
     "closed_at": "2024-07-03T11:36:30Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -31188,11 +30843,6 @@
     "closed_at": "2024-07-03T11:18:49Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -31312,12 +30962,12 @@
     "closed_at": "2024-11-17T23:03:59Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": "off-topic",
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": "off-topic",
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -31410,11 +31060,6 @@
     "closed_at": "2024-07-03T00:22:43Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -31516,12 +31161,12 @@
     "closed_at": "2024-07-04T05:15:02Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -31614,12 +31259,12 @@
     "closed_at": "2024-07-03T11:19:06Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -31712,12 +31357,12 @@
     "closed_at": "2024-07-04T05:14:08Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -31819,12 +31464,12 @@
     "closed_at": "2024-07-04T05:14:54Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -31917,12 +31562,12 @@
     "closed_at": "2024-07-03T11:19:13Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -32015,12 +31660,12 @@
     "closed_at": "2024-07-04T09:54:51Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -32113,12 +31758,12 @@
     "closed_at": "2024-08-09T00:07:25Z",
     "author_association": "MEMBER",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -32211,11 +31856,6 @@
     "closed_at": "2024-07-02T07:00:56Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -32317,11 +31957,6 @@
     "closed_at": "2024-07-02T06:56:32Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -32423,11 +32058,6 @@
     "closed_at": "2024-07-02T06:15:20Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -32529,11 +32159,6 @@
     "closed_at": "2024-07-02T06:11:55Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -32635,11 +32260,6 @@
     "closed_at": "2024-07-02T05:39:06Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -32741,11 +32361,6 @@
     "closed_at": "2024-07-02T05:01:07Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -32847,11 +32462,6 @@
     "closed_at": "2024-07-02T04:55:43Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -32953,11 +32563,6 @@
     "closed_at": "2024-07-01T01:32:01Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33059,11 +32664,6 @@
     "closed_at": "2024-07-01T01:31:48Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33165,11 +32765,6 @@
     "closed_at": "2024-06-30T23:30:21Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33271,11 +32866,6 @@
     "closed_at": "2024-06-30T23:20:11Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33377,11 +32967,6 @@
     "closed_at": "2024-06-30T15:09:22Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33483,11 +33068,6 @@
     "closed_at": "2024-06-30T15:04:25Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33589,11 +33169,6 @@
     "closed_at": "2024-06-29T07:02:30Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33695,11 +33270,6 @@
     "closed_at": "2024-06-29T05:28:22Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33801,11 +33371,6 @@
     "closed_at": "2024-06-28T08:51:19Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -33907,11 +33472,6 @@
     "closed_at": "2024-06-28T08:45:35Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34013,11 +33573,6 @@
     "closed_at": "2024-06-28T07:47:47Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34119,11 +33674,6 @@
     "closed_at": "2024-06-28T07:11:18Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34225,11 +33775,6 @@
     "closed_at": "2024-06-28T05:54:57Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34331,11 +33876,6 @@
     "closed_at": "2024-06-28T05:30:46Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34437,11 +33977,6 @@
     "closed_at": "2024-06-28T04:32:09Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34543,11 +34078,6 @@
     "closed_at": "2024-06-28T03:53:16Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34649,11 +34179,6 @@
     "closed_at": "2024-06-27T05:33:57Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34755,11 +34280,6 @@
     "closed_at": "2024-06-27T05:20:51Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34861,11 +34381,6 @@
     "closed_at": "2024-06-26T09:55:52Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -34967,11 +34482,6 @@
     "closed_at": "2024-06-26T09:51:04Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -35073,11 +34583,6 @@
     "closed_at": "2024-06-26T09:40:47Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -35179,11 +34684,6 @@
     "closed_at": "2024-06-26T09:26:10Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -35285,11 +34785,6 @@
     "closed_at": "2024-06-26T08:39:11Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -35391,11 +34886,6 @@
     "closed_at": "2024-06-26T08:23:27Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -35548,12 +35038,12 @@
     "closed_at": "2024-07-04T09:57:40Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "这是一个偶发性BUG 出现的原因有很多\r\n具体表现为 框架会漏消息（日志不显示 插件不匹配）但同样运行着的NoneBOT可以收到消息\r\n和 消息匹配错误 \r\n具体表现为 有A/B两个插件 A的命令为 运行状态 B的命令为 更新数据\r\n当用户发送 运行状态 的时候 框架会错误匹配到 更新数据\r\n![E780F651C033D39C0954E83C4ABB0F8E](https://github.com/KarinJS/Karin/assets/117048039/fd633849-69c3-48eb-8e15-6f8f5afacb69)\r\n上述插件 消息匹配到了隔壁的 更新数据 且日志也显示为匹配到[更新数据]\r\n\r\n且上述两个插件正则匹配无任何冲突 正常调用无任何问题 仅会在BOT消息过多时出现\r\n测试环境为 Karin 0.0.2 LLOneBOT 3.26.6 QQ9.9.11",
     "closed_by": {
       "login": "sj817",
@@ -35646,12 +35136,12 @@
     "closed_at": "2024-06-18T18:22:35Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "![image](https://github.com/KarinJS/Karin/assets/117048039/8968b872-2a9f-4869-8cac-5f7c9bffe3d6)\r\n当BOT出现群消息过多时 回复消息时会报错”发送超时“（但消息似乎正常发送了）\r\n测试环境为 Karin 0.0.2 LLOneBOT 3.26.6 QQ9.9.11",
     "closed_by": {
       "login": "sj817",
@@ -35786,12 +35276,12 @@
     "closed_at": "2024-07-09T17:20:48Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "当插件中 将 permission 值设置为 group_admin 时调用插件 无论是否为群管理员/群主/成员 插件均只会回复“暂无权限，只有群管理员才能操作”\r\n测试环境为 Karin 0.0.2 LLOneBOT 3.26.6 QQ9.9.11",
     "closed_by": {
       "login": "sj817",
@@ -35874,11 +35364,6 @@
     "closed_at": "2024-06-17T11:55:40Z",
     "author_association": "MEMBER",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36031,12 +35516,12 @@
     "closed_at": "2024-11-12T05:33:49Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "使用Karin写了一份大致的BOT雏形 且投入生产环境使用\r\n但由于文档缺失（如API）导致开发进度缓慢 望开发文档补全",
     "closed_by": {
       "login": "github-actions[bot]",
@@ -36119,11 +35604,6 @@
     "closed_at": "2024-05-22T09:16:04Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36215,11 +35695,6 @@
     "closed_at": "2024-05-13T05:27:19Z",
     "author_association": "NONE",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36311,11 +35786,6 @@
     "closed_at": "2024-05-11T14:27:28Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36407,11 +35877,6 @@
     "closed_at": "2024-05-11T14:27:40Z",
     "author_association": "NONE",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36503,11 +35968,6 @@
     "closed_at": "2024-05-09T12:56:48Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36618,12 +36078,12 @@
     "closed_at": "2024-08-18T05:30:59Z",
     "author_association": "NONE",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "![image](https://github.com/KarinJS/Karin/assets/94736026/e9f23ac1-1085-4844-bc0c-cb81f29a9548)\r\n",
     "closed_by": {
       "login": "github-actions[bot]",
@@ -36706,11 +36166,6 @@
     "closed_at": "2024-04-30T22:08:45Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36802,11 +36257,6 @@
     "closed_at": "2024-04-11T07:55:18Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36898,11 +36348,6 @@
     "closed_at": "2024-04-10T13:26:04Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -36994,11 +36439,6 @@
     "closed_at": "2024-04-05T21:55:07Z",
     "author_association": "CONTRIBUTOR",
     "type": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
     "active_lock_reason": null,
     "draft": false,
     "pull_request": {
@@ -37090,12 +36530,12 @@
     "closed_at": "2024-04-04T09:09:09Z",
     "author_association": "NONE",
     "type": null,
+    "active_lock_reason": null,
     "sub_issues_summary": {
       "total": 0,
       "completed": 0,
       "percent_completed": 0
     },
-    "active_lock_reason": null,
     "body": "话说Lain插件为啥删库了？",
     "closed_by": {
       "login": "sj817",
