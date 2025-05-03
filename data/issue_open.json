@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-05-03T17:10:49Z",
-    "updated_at": "2025-05-03T17:11:17Z",
+    "updated_at": "2025-05-03T17:27:18Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -62,7 +62,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/378.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.3</summary>\n\n## [1.8.3](https://github.com/KarinJS/Karin/compare/core-v1.8.2...core-v1.8.3) (2025-05-03)\n\n\n### 🐛 Bug Fixes\n\n* 修正axios ([8d093c0](https://github.com/KarinJS/Karin/commit/8d093c0f7cb2dfafdab79fd1ec8aa2a35f60b848))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 摘要：\n\n## Sourcery 总结\n\nBug 修复:\n- 修复了 axios 相关的问题\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nBug Fixes:\n- Fixed an issue with axios\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.3</summary>\n\n## [1.8.3](https://github.com/KarinJS/Karin/compare/core-v1.8.2...core-v1.8.3) (2025-05-03)\n\n\n### 🐛 Bug Fixes\n\n* 修正axios ([8d093c0](https://github.com/KarinJS/Karin/commit/8d093c0f7cb2dfafdab79fd1ec8aa2a35f60b848))\n* 更新axios版本至1.1.6 ([ee1b0b9](https://github.com/KarinJS/Karin/commit/ee1b0b94dfa58fc5d3774d75f31168c180b0073a))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/378/reactions",
