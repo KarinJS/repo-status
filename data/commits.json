@@ -1,5 +1,87 @@
 [
   {
+    "sha": "c032f6296024f78b38b391254122632045e028fe",
+    "node_id": "C_kwDOLcebn9oAKGMwMzJmNjI5NjAyNGY3OGIzOGIzOTEyNTQxMjI2MzIwNDVlMDI4ZmU",
+    "commit": {
+      "author": {
+        "name": "时瑾",
+        "email": "74231782+sj817@users.noreply.github.com",
+        "date": "2025-05-03T19:54:54Z"
+      },
+      "committer": {
+        "name": "时瑾",
+        "email": "74231782+sj817@users.noreply.github.com",
+        "date": "2025-05-03T19:54:54Z"
+      },
+      "message": "fix: 更新axios版本至1.1.7",
+      "tree": {
+        "sha": "a30d5f88d54ff12772c53a459baf579b343f66a6",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/a30d5f88d54ff12772c53a459baf579b343f66a6"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/c032f6296024f78b38b391254122632045e028fe",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaBZ0jgAKCRACP3ChuPjB\nlqZKAP952ppriLDKUiNHrSNOvR6guOLL/BoyFXHvV8DJ8IxtxAEAjqDsXS2wOPl7\nNkbLxJsQZUxWgf388fxmmv+rbWhLBgQ=\n=NgkP\n-----END PGP SIGNATURE-----",
+        "payload": "tree a30d5f88d54ff12772c53a459baf579b343f66a6\nparent 96122ee57799a1044e51192e2262a4a7b121f484\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1746302094 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1746302094 +0800\n\nfix: 更新axios版本至1.1.7\n",
+        "verified_at": "2025-05-03T19:55:11Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/c032f6296024f78b38b391254122632045e028fe",
+    "html_url": "https://github.com/KarinJS/Karin/commit/c032f6296024f78b38b391254122632045e028fe",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/c032f6296024f78b38b391254122632045e028fe/comments",
+    "author": {
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "96122ee57799a1044e51192e2262a4a7b121f484",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/96122ee57799a1044e51192e2262a4a7b121f484",
+        "html_url": "https://github.com/KarinJS/Karin/commit/96122ee57799a1044e51192e2262a4a7b121f484"
+      }
+    ]
+  },
+  {
     "sha": "96122ee57799a1044e51192e2262a4a7b121f484",
     "node_id": "C_kwDOLcebn9oAKDk2MTIyZWU1Nzc5OWExMDQ0ZTUxMTkyZTIyNjJhNGE3YjEyMWY0ODQ",
     "commit": {
@@ -2409,88 +2491,6 @@
         "sha": "2c8ff09c44fbdf78af3963170b1e6f8502fd7626",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/2c8ff09c44fbdf78af3963170b1e6f8502fd7626",
         "html_url": "https://github.com/KarinJS/Karin/commit/2c8ff09c44fbdf78af3963170b1e6f8502fd7626"
-      }
-    ]
-  },
-  {
-    "sha": "2c8ff09c44fbdf78af3963170b1e6f8502fd7626",
-    "node_id": "C_kwDOLcebn9oAKDJjOGZmMDljNDRmYmRmNzhhZjM5NjMxNzBiMWU2Zjg1MDJmZDc2MjY",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-05-01T05:25:40Z"
-      },
-      "committer": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-05-01T05:25:40Z"
-      },
-      "message": "feat: 增加插件热加载功能\n\n- 在 `load.ts` 中新增 `pkgHotReload` 函数，实现插件的热加载。\n- 将 `getPluginsInfo` 函数导出，以便在其他模块中使用。\n- 在 `installCustom.ts` 和 `installMarket.ts` 中集成热加载功能，确保插件安装后能够即时生效。",
-      "tree": {
-        "sha": "ed1f659ea349554dbb0ef0d3cc4c4629ab618165",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/ed1f659ea349554dbb0ef0d3cc4c4629ab618165"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/2c8ff09c44fbdf78af3963170b1e6f8502fd7626",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaBMF1AAKCRACP3ChuPjB\nlkRXAQCgu/i11fVPt9PAuppK2SnJFMVfHC4POrEBFVRNt28N7AD+IqDiKG6+DgFI\nKpiXAhONB4ouylp1cyc1VF7XbR6Oww0=\n=4UVp\n-----END PGP SIGNATURE-----",
-        "payload": "tree ed1f659ea349554dbb0ef0d3cc4c4629ab618165\nparent 24a47b16915f7338e4b9ec7d7bf050641b6a2365\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1746077140 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1746077140 +0800\n\nfeat: 增加插件热加载功能\n\n- 在 `load.ts` 中新增 `pkgHotReload` 函数，实现插件的热加载。\n- 将 `getPluginsInfo` 函数导出，以便在其他模块中使用。\n- 在 `installCustom.ts` 和 `installMarket.ts` 中集成热加载功能，确保插件安装后能够即时生效。\n",
-        "verified_at": "2025-05-01T05:26:08Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/2c8ff09c44fbdf78af3963170b1e6f8502fd7626",
-    "html_url": "https://github.com/KarinJS/Karin/commit/2c8ff09c44fbdf78af3963170b1e6f8502fd7626",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/2c8ff09c44fbdf78af3963170b1e6f8502fd7626/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "24a47b16915f7338e4b9ec7d7bf050641b6a2365",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/24a47b16915f7338e4b9ec7d7bf050641b6a2365",
-        "html_url": "https://github.com/KarinJS/Karin/commit/24a47b16915f7338e4b9ec7d7bf050641b6a2365"
       }
     ]
   }
