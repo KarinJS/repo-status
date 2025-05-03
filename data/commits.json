@@ -1,5 +1,87 @@
 [
   {
+    "sha": "b1ac8232bd56fedfb7c9109a2b154418f25e00d1",
+    "node_id": "C_kwDOLcebn9oAKGIxYWM4MjMyYmQ1NmZlZGZiN2M5MTA5YTJiMTU0NDE4ZjI1ZTAwZDE",
+    "commit": {
+      "author": {
+        "name": "时瑾",
+        "email": "74231782+sj817@users.noreply.github.com",
+        "date": "2025-05-03T04:50:11Z"
+      },
+      "committer": {
+        "name": "时瑾",
+        "email": "74231782+sj817@users.noreply.github.com",
+        "date": "2025-05-03T04:50:11Z"
+      },
+      "message": "ci: 优化工作流",
+      "tree": {
+        "sha": "5fa026229984d7e611f142e470daef15d96c2fe8",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/5fa026229984d7e611f142e470daef15d96c2fe8"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/b1ac8232bd56fedfb7c9109a2b154418f25e00d1",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaBWggwAKCRACP3ChuPjB\nlqeZAQCsAz00EZnVX4tF+tjcLiu/N9aAkGq7/H/hSd9yYLeKsAEA/QWDNNsSzWKo\n9keU5115v4Vw4uaZ4naax6El0PZepAc=\n=EOtk\n-----END PGP SIGNATURE-----",
+        "payload": "tree 5fa026229984d7e611f142e470daef15d96c2fe8\nparent 814af1e4cdbff2141a75dc739b56103f93267804\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1746247811 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1746247811 +0800\n\nci: 优化工作流\n",
+        "verified_at": "2025-05-03T04:50:31Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/b1ac8232bd56fedfb7c9109a2b154418f25e00d1",
+    "html_url": "https://github.com/KarinJS/Karin/commit/b1ac8232bd56fedfb7c9109a2b154418f25e00d1",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/b1ac8232bd56fedfb7c9109a2b154418f25e00d1/comments",
+    "author": {
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "814af1e4cdbff2141a75dc739b56103f93267804",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/814af1e4cdbff2141a75dc739b56103f93267804",
+        "html_url": "https://github.com/KarinJS/Karin/commit/814af1e4cdbff2141a75dc739b56103f93267804"
+      }
+    ]
+  },
+  {
     "sha": "814af1e4cdbff2141a75dc739b56103f93267804",
     "node_id": "C_kwDOLcebn9oAKDgxNGFmMWU0Y2RiZmYyMTQxYTc1ZGM3MzliNTYxMDNmOTMyNjc4MDQ",
     "commit": {
@@ -2384,88 +2466,6 @@
         "sha": "1c33d5a2eb931a867270ccb138b6563305872249",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/1c33d5a2eb931a867270ccb138b6563305872249",
         "html_url": "https://github.com/KarinJS/Karin/commit/1c33d5a2eb931a867270ccb138b6563305872249"
-      }
-    ]
-  },
-  {
-    "sha": "1c33d5a2eb931a867270ccb138b6563305872249",
-    "node_id": "C_kwDOLcebn9oAKDFjMzNkNWEyZWI5MzFhODY3MjcwY2NiMTM4YjY1NjMzMDU4NzIyNDk",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-04-28T04:02:19Z"
-      },
-      "committer": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-04-28T04:02:19Z"
-      },
-      "message": "fix: 移除不必要的 React 导入\n\n- 在 `PluginSelectorDialog.tsx` 中移除多余的 React 导入，优化代码结构，提升可读性。",
-      "tree": {
-        "sha": "6993c81ac9bfa768707f5181563aee11ad7f057b",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/6993c81ac9bfa768707f5181563aee11ad7f057b"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/1c33d5a2eb931a867270ccb138b6563305872249",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaA79ywAKCRACP3ChuPjB\nlmowAP9WaFKN99DSnh09OVuZAlKDIfEfMNgSXM0UtiZwfozKuwD/YgJpRcsZkooM\nuFpjaSsAnmCwTry8H12SmJhKAS7gSw4=\n=t6Ke\n-----END PGP SIGNATURE-----",
-        "payload": "tree 6993c81ac9bfa768707f5181563aee11ad7f057b\nparent 9c60dfd67f2d6f4bd4bba3196a40185af078ff43\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1745812939 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1745812939 +0800\n\nfix: 移除不必要的 React 导入\n\n- 在 `PluginSelectorDialog.tsx` 中移除多余的 React 导入，优化代码结构，提升可读性。\n",
-        "verified_at": "2025-04-28T04:07:23Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/1c33d5a2eb931a867270ccb138b6563305872249",
-    "html_url": "https://github.com/KarinJS/Karin/commit/1c33d5a2eb931a867270ccb138b6563305872249",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/1c33d5a2eb931a867270ccb138b6563305872249/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "9c60dfd67f2d6f4bd4bba3196a40185af078ff43",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/9c60dfd67f2d6f4bd4bba3196a40185af078ff43",
-        "html_url": "https://github.com/KarinJS/Karin/commit/9c60dfd67f2d6f4bd4bba3196a40185af078ff43"
       }
     ]
   }
