@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-05-03T05:35:16Z",
-    "updated_at": "2025-05-03T05:36:28Z",
+    "updated_at": "2025-05-03T05:41:35Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -62,7 +62,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/377.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.2</summary>\n\n## [1.8.2](https://github.com/KarinJS/Karin/compare/core-v1.8.1...core-v1.8.2) (2025-05-03)\n\n\n### 🐛 Bug Fixes\n\n* build error ([7facb80](https://github.com/KarinJS/Karin/commit/7facb80f5f7e4968916a57459c0293c856398147))\n* 处理`ERR_PNPM_PUBLIC_HOIST_PATTERN_DIFF` 提升兼容性 ([3ecb7d0](https://github.com/KarinJS/Karin/commit/3ecb7d0ac30245b18a0702da6a6604e7510e099b))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.2</summary>\n\n## [1.8.2](https://github.com/KarinJS/Karin/compare/core-v1.8.1...core-v1.8.2) (2025-05-03)\n\n\n### 🐛 Bug Fixes\n\n* build error ([7facb80](https://github.com/KarinJS/Karin/commit/7facb80f5f7e4968916a57459c0293c856398147))\n* 处理`ERR_PNPM_PUBLIC_HOIST_PATTERN_DIFF` 提升兼容性 ([3ecb7d0](https://github.com/KarinJS/Karin/commit/3ecb7d0ac30245b18a0702da6a6604e7510e099b))\n* 强制修复`ERR_PNPM_PUBLIC_HOIST_PATTERN_DIFF` ([b48b1b0](https://github.com/KarinJS/Karin/commit/b48b1b073a035dd6fe8d9f544f4a684761fabf37))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/377/reactions",
