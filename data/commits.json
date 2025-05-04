@@ -1,5 +1,87 @@
 [
   {
+    "sha": "9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f",
+    "node_id": "C_kwDOLcebn9oAKDlkOTlkM2U0ZTRjZTg1N2RiYzRiMDQ5MTVjODM0OTY5YTViYzBkNWY",
+    "commit": {
+      "author": {
+        "name": "时瑾",
+        "email": "shijinn520@gmail.com",
+        "date": "2025-05-04T18:21:14Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-04T18:21:14Z"
+      },
+      "message": "fix: close #385 (#386)",
+      "tree": {
+        "sha": "773002e273622a7035b4982c808cc72253eccc26",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/773002e273622a7035b4982c808cc72253eccc26"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoF7AaCRC1aQ7uu5UhlAAAOwoQAIYaO/WTVZ2XHUWqaD3hAlqZ\nQliNcB3SdbEUVipZVFBMKce6m8z5TqnhUPQyc3kp/2dt/6IDuqYcfRFKKj+H1QnT\nh6TbMMbeZDu8YQX61illSs0Qv8s9H3i/mio0GVhtXzVy9v83gC+kGrg9YgHvZn6H\n3OLAzJCq8mUWi0t2HgfJycL1RQXJVWiUlfhnbyopgYzlVwhWqHD9StblO4kqGZ7T\nrSNfoTC2ODW0lNp31HOjA7Mj0/K65dM2qGlg8+Vpd82AartSavq6KNhMn1erW5LC\njcNn/Dx620HyOdQm2gE4S3tu0/ET4W6T73gMqmW7cgILU0BpOHG3VATVQQPBDHsu\n8HjNZCTac7mBywKMBWpQm+eKESOSZk2+ms03EjXYvEiK0e4dGusEPxvWhekqfn65\nO4TBDISll6PZolpBnYex0OyiPgqlXzrJxl0p00WjYKtSeEgHxsSQp+IpcJw5O0gC\njvZq2pniVbE+qy22mXd4QbwRo1aIlumMvg7/4FZ2lfdF2poQ7WAn5bDPmwQhNdxd\nYJ9tUhMsTROle7/8N/v/Cqku32HnfT6ZOHN2WqaV/eEIPQ/MFhEi5rguqYQAH4D9\nZiFIfhFZGA4KT2fizyQNT/d0xZC869ETQepk/n75xONK2BluQwHQRmkbhq9AK7CV\nFuMdBoEMUzfXoMPus97f\n=y8Fo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 773002e273622a7035b4982c808cc72253eccc26\nparent 8797072ca9a5483f3cd0a524b9dbc22ae6434fe3\nauthor 时瑾 <shijinn520@gmail.com> 1746382874 +0800\ncommitter GitHub <noreply@github.com> 1746382874 +0800\n\nfix: close #385 (#386)\n\n",
+        "verified_at": "2025-05-04T18:21:36Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f",
+    "html_url": "https://github.com/KarinJS/Karin/commit/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f/comments",
+    "author": {
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8797072ca9a5483f3cd0a524b9dbc22ae6434fe3",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/8797072ca9a5483f3cd0a524b9dbc22ae6434fe3",
+        "html_url": "https://github.com/KarinJS/Karin/commit/8797072ca9a5483f3cd0a524b9dbc22ae6434fe3"
+      }
+    ]
+  },
+  {
     "sha": "8797072ca9a5483f3cd0a524b9dbc22ae6434fe3",
     "node_id": "C_kwDOLcebn9oAKDg3OTcwNzJjYTlhNTQ4M2YzY2QwYTUyNGI5ZGJjMjJhZTY0MzRmZTM",
     "commit": {
@@ -2409,88 +2491,6 @@
         "sha": "be97fae5815b808b3453853c9ed6929540f2b340",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/be97fae5815b808b3453853c9ed6929540f2b340",
         "html_url": "https://github.com/KarinJS/Karin/commit/be97fae5815b808b3453853c9ed6929540f2b340"
-      }
-    ]
-  },
-  {
-    "sha": "be97fae5815b808b3453853c9ed6929540f2b340",
-    "node_id": "C_kwDOLcebn9oAKGJlOTdmYWU1ODE1YjgwOGIzNDUzODUzYzllZDY5Mjk1NDBmMmIzNDA",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "shijinn520@gmail.com",
-        "date": "2025-05-03T04:30:48Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-05-03T04:30:48Z"
-      },
-      "message": "feat: 1.8.0 (#344)\n\n* feat: 新增依赖管理页面，优化插件版本兼容性检查，延迟日志输出以提高用户体验\n\n* feat: 在依赖管理页面中新增过滤功能，支持按类型筛选依赖项（全部、Karin 插件、可更新），并更新相关UI交互\n\n* style: 优化依赖管理页面的提示信息区域，调整布局和样式，使其更清晰易读。同时，更新 package.json 列的显示逻辑，仅在小屏幕以上显示。\n\n* feat: 新增依赖管理组件，包括依赖卡片、依赖表格、依赖设置和使用指南，支持依赖项的过滤功能\n\n* feat: task list core\n\n* chore: 更新 art-template 依赖为 npm:@karinjs/art-template@1.0.0\n\n* chore: 更新依赖版本为精确版本，移除 .gitignore 中的 pnpm-lock.yaml\n\n* chore: 更新 pnpm-lock.yaml 中的依赖版本为精确版本，新增 node-karin 依赖\n\n* chore: 更新依赖版本为精确版本，优化 package.json 和系统环境变量组件\n\n* feat: 新增插件市场、任务系统及热重载功能\n\n* feat: 新增npm包更新功能及相关命令\n\n* chore: 重构缓存模块路径，移除不再使用的文件\n\n* feat: 新增依赖列表缓存键名及相关路由\n\n* feat: 优化依赖管理路由及缓存逻辑\n\n* build: fix error\n\n* chore: 删除不再使用的事件监听器文档\n\n* Update package.json\n\n* feat: 优化依赖列表获取逻辑，增加依赖排序及插件标识\n\n* chore: 删除不再使用的依赖组件和相关导出\n\n* feat: 新增 @tanstack/react-virtual 依赖并优化依赖组件，使用 memo 和 useMemo 提升性能\n\n* fix: build error\n\n* feat: 增加按钮禁用状态逻辑，优化用户交互体验\n\n* feat: 优化懒加载依赖逻辑，支持小依赖列表直接加载并增加加载状态检查\n\n* refactor: 重构依赖管理参数接口，支持安装和删除操作，优化依赖更新逻辑\n\n* refactor: 增强依赖项接口，更新依赖管理逻辑，优化状态管理和用户交互体验\n\n* feat: 增加全选依赖更新逻辑，优化依赖管理体验\n\n* feat: 更新依赖管理页面标题和描述，增加图标和趣味性文案，提升用户体验\n\n* feat: 优化依赖管理组件，使用 memo 和 useCallback 提升性能，重构选择和版本变更逻辑\n\n* feat: 优化依赖表格组件，调整高度计算逻辑，增强空状态处理，重构懒加载依赖逻辑以支持更小的批量加载\n\n* feat: 新增安装依赖模态框组件，支持包名和版本查询，优化用户交互体验\n\n* style: 依赖模态框在移动端居中\n\n* refactor: 修复vite hmr失效的问题。更新依赖管理接口，支持添加操作，优化依赖项类型定义\n\n* feat: 更新依赖管理接口，支持升级操作，优化请求参数结构，增强用户交互体验\n\n* feat: 新增依赖适配后端，实时日志\n\n* feat: 依赖管理完成更新、卸载依赖\n\n* feat: 新增竞速请求功能，优化npm版本查询逻辑，重构依赖安装模态框组件\n\n* fix: 修复新增依赖指定版本无效\n\n* fix: 修复依赖管理中工作区参数传递方式，改为使用 args.push('-w')\n\n* feat: 新增npm配置管理功能，包含获取.npmrc文件列表、内容及保存功能，优化依赖管理组件\n\n* perf: 优化依赖获取超时时间为2分钟\n\n* feat: close #343\n\n* feat: 新增插件管理相关功能，包括插件更新返回值接口、路由配置及图标更新\n\n* style: 更新插件管理页面，新增下拉菜单操作，优化表格列样式及插件状态显示\n\n* style: 优化插件管理页面的描述文本和表格列样式，调整插件名称列的宽度\n\n* fix: 移除多余参数\n\n* style: 优化插件管理页面布局，调整组件排列方式\n\n* style: 优化插件管理页面的版本和状态显示逻辑，调整表格列样式\n\n* fix: 修正编译\n\n* fix: lock.yaml\n\n* fix: ci\n\n* fix: ...\n\n* fix: 更新sqlite3依赖版本至0.1.0，并在package.json中添加类型定义路径\n\n* build: fix error\n\n* perf: 加强`tsc`的检查\n\n* refactor: web暂时移除sandbox\n\n* fix: close #320\n\n* refactor: 优化Redis相关代码，移除不必要的导出，调整日志管理器的创建方式\n\n* feat: 新的入口\n\n* fix: lock\n\n* ci: fix build\n\n* fix: 优化一下cli\n\n* refactor: close #339  重构内部cli，迁移到单独的子包\n\n* build : fix error\n\n* build: fix error\n\n* build: fix error\n\n* build: fix error\n\n* fix: close #361 close ##362\n\n* ci: fix lock\n\n* fix: close #333\n\n* fix: defineConfig 支持save方法传递泛型\n\n* fix: 提升编译时`pnpm cp`脚本的兼容性\n\n* refactor: 重构插件加载，解耦加载、卸载、hmr为单独接口，暴露为高阶接口使用\n\n* feat: close #365\n\n* fix: 瑜笙姐姐说打包有类型问题\n\n* fix: 修正hmr task失效\n\n* refactor: ts插件开发模版\n\n* feat: sqlite3 express依赖提升 init时，若处于开发环境，则创建新的入口\n\n* refactor: karin-plugin-js\n\n* fix: 更新插件模板名称和相关链接，确保一致性\n\n* fix: 修正入口\n\n* refactor: create-karin close #364 close #363  close #330\n\n* feat: 添加Cron表达式编辑器组件及相关功能 close #326\n\n* style: 优化依赖表格组件的布局和样式\n\n* style: 优化依赖表格组件样式\n\n* feat: 添加模态框事件监听，优化小火箭按钮显示逻辑；更新依赖设置页面描述\n\n* fix: close #356 修正虚拟终端显示字体间隙问题\n\n* fix: 优化npmrc文件处理逻辑，确保正确检查public-hoist-pattern数组配置项\n\n* refactor: 更新插件市场相关函数，优化类型定义和数据处理逻辑\n\n* fix: 修正获取插件市场时的插件查找逻辑\n\n* perf: 优化依赖管理和过滤模式逻辑\n\n* style: 优化依赖管理页面的样式和布局，更新插件行组件，调整插件类型和状态显示逻辑\n\n* feat: 更新插件管理页面，增加插件加载进度条，调整批量加载大小\n\n* feat: 添加插件操作下拉菜单，优化插件行组件的显示逻辑\n\n* perf: 解耦插件管理页面\n\n* feat: 添加更新选项对话框组件，优化插件管理页面的全选逻辑\n\n* feat: 更新选项对话框组件，添加更新选项卡，优化用户交互体验\n\n* feat: 插件管理前后端初步对接`(获取插件列表)`\n\n* refactor: 重构插件管理相关组件，优化数据请求和加载逻辑，移除模拟数据\n\n* feat: 添加NPM插件统计卡片，优化插件筛选功能\n\n* feat: 更新插件管理功能，添加任务日志模态框，优化插件更新流程和状态管理\n\n* feat: 更新插件管理功能，优化插件更新和卸载逻辑，添加插件操作回调\n\n* fix: 修复插件行组件中下拉菜单的条件渲染逻辑，注释掉不必要的代码\n\n* feat: 在package.json中添加默认文件路径以支持新功能\n\n* fix: 修复web静态资源路径错误\n\n* fix: 修正安装虚拟终端后，动态加载失败的问题\n\n* refactor: 优化插件加载逻辑，简化入口文件处理；增强本地插件配置获取功能\n\n* refactor: 重构插件配置二级菜单 修正频繁获取。\n\n* feat: 添加发送消息和转发消息后的钩子功能，支持开发者自定义处理逻辑\n\n* chore: 提升`node-pty`版本 支持`nodejs 23`\n\n* fix: pty init\n\n* feat(create): 自定义`node-karin`版本\n\n* fix: 修复编译后启动顺序造成的`logger`函数不存在的问题\n\n* feat: 控制台支持 `rs` `restart` `stop`\n\n- stop: 停止\n- restart: 重启\n- rs: 重启\n\n* feat: 在依赖管理中添加加载状态指示器\n\n- 在 `DependencyTable` 组件中添加 `isLoading` 属性，显示加载状态。\n- 更新 `DependencyActionButtons` 组件的按钮状态逻辑，确保在加载时禁用按钮。\n\n* feat: 添加已加载命令插件缓存信息列表接口\n\n- 在 `router.ts` 中新增获取已加载命令插件缓存信息列表的路由。\n- 在 `list.ts` 中实现获取已加载命令插件缓存信息列表的逻辑。\n- 更新 `sidebar.tsx` 组件，支持侧边栏折叠功能。\n- 优化依赖管理，排除本地依赖的更新逻辑。\n- 更新相关类型定义，确保代码一致性。\n\n* feat: 更新缓存过期时间和版本信息\n\n- 将插件列表缓存的过期时间从5分钟更新为24小时。\n- 在获取已加载命令插件缓存信息列表的接口注释中添加版本信息1.8.0。\n\n* feat: 添加文件存在性检查和优化配置路径获取逻辑\n\n- 在 `config.ts` 中新增 `fileExists` 函数，用于检查文件是否存在。\n- 优化 `getWebConfigPathFromPkg`、`getNpmPluginConfigPath` 和 `getLocalPluginConfigPath` 函数，确保在获取配置路径时进行文件存在性检查。\n- 更新 `getConfigPath` 和 `loadConfig` 函数，增加错误处理逻辑，提升代码健壮性。\n- 在 `request.ts` 中调整登录重定向提示时间，从5秒改为2秒。\n\n* feat: 优化组件和接口，增强功能和可用性\n\n- 在 `group.tsx` 和 `private.tsx` 中修复了对象键的格式，确保一致性。\n- 在 `inputGroup.tsx` 中新增插件选择器功能，允许用户选择插件并添加到输入框组中。\n- 更新 `api.ts`，添加获取已加载命令插件缓存信息列表的接口。\n- 在 `index.ts` 中实现插件缓存机制，提升性能和用户体验。\n\n* style: close #357  更新输入组和插件选择器组件，优化用户体验\n\n- 在 `inputGroup.tsx` 中修改合并选中项目的逻辑，确保用户选择的项目能够正确合并并反馈选择结果。\n- 在 `PluginSelectorDialog.tsx` 中重构节点选择逻辑，增加节点选中状态检查，优化树结构构建，提升组件性能和可用性。\n- 更新按钮样式和文本，增强界面友好性。\n\n* feat: 更新插件选择器和命令插件缓存逻辑\n\n- 在 `list.ts` 中修改命令插件缓存结构，增加插件名称和方法信息，提升数据可读性。\n- 在 `cache.ts` 中更新已加载插件缓存列表的类型定义，确保与新结构一致。\n- 在 `PluginSelectorDialog.tsx` 中重构树节点结构，支持插件名称和方法的显示，优化用户体验。\n- 增加节点类型说明，提升界面友好性和可用性。\n\n* fix: 移除不必要的 React 导入\n\n- 在 `PluginSelectorDialog.tsx` 中移除多余的 React 导入，优化代码结构，提升可读性。\n\n* fix: sqlite3不转esm。\n\n* refactor: 重构路由导出和工具函数\n\n- 在 `index.ts` 中更新路由导出，移除不必要的 `indx.ts` 文件，简化代码结构。\n- 在 `app.ts` 中调整路由导入，确保使用最新的路由结构。\n- 在 `getMimeType.ts` 中将 `getMimeType` 函数导出，提升可复用性。\n- 在 `config/index.ts` 中移除不必要的导出，优化代码整洁性。\n\n* fix: 更新模块类型判断逻辑\n\n- 在多个文件中将 `isTsx` 函数替换为 `isTs`，确保模块类型判断的一致性。\n- 在 `load.ts` 和 `list.ts` 中更新相关逻辑，优化代码可读性。\n- 在 `config.ts` 中调整配置路径获取逻辑，提升代码整洁性。\n\n* feat: 添加项目启动时的文件存在性检查和初始化逻辑\n\n- 在 `start.ts` 中新增对项目文件和 `.npmrc` 文件的存在性检查，确保项目在升级到 1.8.0+ 版本时能够正确初始化。\n- 如果检查未通过，自动执行 `npx karin init` 命令进行项目初始化，提升用户体验。\n\n* feat: 增强webui插件安装和卸载日志记录\n\n- 在 `webui.ts` 中添加成功安装和卸载插件的日志记录，提升调试和监控能力。\n- 通过 `logger.mark` 方法记录插件安装和卸载的成功信息，确保用户能够清晰了解操作结果。\n\n* feat: 处理WebSocket连接中的敏感信息\n\n- 在 `ws.ts` 中对WebSocket连接请求的URL进行处理，去除敏感信息（如token、user_id和access_token），确保日志记录的安全性。\n- 更新日志输出，使用处理后的URL替代原始URL，提升信息安全性。\n\n* feat: 更新获取完整插件列表的逻辑\n\n- 在 `index.ts` 中修改 `getFullPluginList` 函数，新增 `refresh` 参数以支持缓存刷新功能。\n- 更新调用 `getPluginMarket` 的逻辑，确保在需要时获取最新的插件市场数据。\n\n* feat: 添加pnpm-lock.yaml文件删除逻辑\n\n- 在 `init.ts` 中新增逻辑，检查并删除项目目录下的 `pnpm-lock.yaml` 文件。\n- 删除后自动执行 `pnpm install -f` 命令，确保依赖项的正确安装，提升项目初始化的可靠性。\n\n* feat: 添加sqlite3安装命令\n\n- 在 `index.ts` 中新增 `sqlite3` 命令，支持安装sqlite3二进制文件，提升项目的数据库支持能力。\n- 更新命令描述，确保用户能够清晰了解该命令的功能。\n\n* Revert \"feat: 添加sqlite3安装命令\"\n\nThis reverts commit f9bd5e1d5d6e0b11ac6bda42a56e82fdcc9c6336.\n\n* feat: 适配`pnpm v10.x`\n\n- 在 `pnpm-lock.yaml` 中添加 `yaml` 依赖，并更新多个依赖的版本号，确保依赖项的兼容性和稳定性。\n- 在 `pnpm-workspace.yaml` 中新增 `@heroui/shared-utils`、`@karinjs/node-pty` 和 `@karinjs/sqlite3-cjs` 到 `onlyBuiltDependencies` 列表，提升构建依赖的管理能力。\n- 在 `cli-Internal` 的 `package.json` 中添加 `yaml` 依赖，确保项目功能的完整性。\n- 在 `init.ts` 中优化工作区创建逻辑，确保依赖提升和构建命令的正确执行。\n\n* feat: 支持多个dependency\n\n* feat: cli\n\n* fix: 工作区\n\n* feat: 更新适配器基类和插件管理逻辑\n\n- 在 `adapter/base/index.ts` 中将 `AdapterBase` 类的 `super` 和 `raw` 属性类型化，提升类型安全性。\n- 在 `init.ts` 中为 `package.json` 添加 `main` 字段，确保项目入口的正确性。\n- 在 `plugins/index.ts` 中优化插件导入逻辑，提升代码整洁性和可维护性。\n\n* fix: 修复KarinConvertAdapter消息转换逻辑\n\n* perf: 优化网络状态获取和监控可见性管理\n\n- 在 `network.ts` 中引入缓存机制，避免重复导入网络监控插件，提高性能。\n- 在 `key.ts` 中新增网络监控可见性状态键名。\n- 在 `dashboard/index.tsx` 中实现从 `localStorage` 读取和更新网络监控状态，提升用户体验。\n\n* refactor: 重构插件市场\n\n* style: 优化插件市场二次确认弹窗的样式\n\n* refactor: 重构插件市场完成\n\n* feat: 增加插件热加载功能\n\n- 在 `load.ts` 中新增 `pkgHotReload` 函数，实现插件的热加载。\n- 将 `getPluginsInfo` 函数导出，以便在其他模块中使用。\n- 在 `installCustom.ts` 和 `installMarket.ts` 中集成热加载功能，确保插件安装后能够即时生效。\n\n* feat: `pingRequest`\n\n* feat: 增强插件安装功能\n\n- 在 `installCustom.ts` 和 `installMarket.ts` 中更新 `installApp` 函数，新增 `ip` 参数以记录操作用户的 IP 地址。\n- 在 `load.ts` 中优化 `findPkgByFile` 函数，增加对 `app` 类型插件的判断逻辑。\n- 在 `hmr.ts` 中调整日志输出，使用 `logger.info` 替代 `logger.debug`，提升信息可读性。\n- 在 `github.ts` 中新增 `parseGithubUrl` 函数，优化 GitHub 地址解析逻辑。\n- 在 `MarketPluginInstallButton.tsx` 中实现 app 类型插件文件选择功能，允许用户选择要安装的文件。\n\n* build: fix error",
-      "tree": {
-        "sha": "e215d8dc2a14b5fe485535ab15c1ab0a1263867c",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/e215d8dc2a14b5fe485535ab15c1ab0a1263867c"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/be97fae5815b808b3453853c9ed6929540f2b340",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoFZv4CRC1aQ7uu5UhlAAAFrgQAGO1JJEAxbSONZ7tCgOuW6mJ\neX7EQYAj8EB8E/yl5uiaabAo0CMEmQwriftjo2RRfn2z1dbTAqrat97sOIaA3GFJ\ntF9BydxSTspeDsK43bLs+DEx0lhsy0ACzEJOHLGKm0Nj4Hsr+9qatEeqEvyQ1hNy\nzXBydq1zYA/Iw3saSOHfzVnfyEA6JGjwUZJAEWb5LuSA3pRNyUsuS9CppPjjFQLO\nspOjoWMjfShchCBlnA+EzAdL0YceU0GMy3fJpROnV0Ub5swmQSRsskGV5Y81qzW+\nfwlHTOimw1oOpRZUPV5pKesf6hJWqfwrS1gKD9BeSLeygurJWNJsgAfvAomLArWv\n5H4W93koRMIOtV+yzJBOa6ra9Wl2MqDib/+IxgOQ1FDJHvO26V1IdXfG+dXJcaaZ\nWeKbH9g5Nt/sCEpmPyd32Pa1pB2iTpSArqBBFRVQTbnndL1pOSfvTBjH+CempI8L\ngCu4bWXkd9489Af/Gp4FbVmS+/mcdTD6VBEEYSxl5WN9U9LgkBqxTMlPPYcAj3yL\nwIcsZc+8YmWZxnsKouA1poTQ13wpxlA15TsE7QkLHn45/5pCBGihLfMpQewyNcLi\nx697vjk0EXLvzPc4dHaLAi1SK3edvdeK0XMl6gGiecYpQmkp6haHNfBTLHqTkSmO\nxiwauKV3oKwx9E6YvlSw\n=0fIr\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree e215d8dc2a14b5fe485535ab15c1ab0a1263867c\nparent 30675d91b992b8d4f289cf9f4514ad3f5d04c5c5\nauthor 时瑾 <shijinn520@gmail.com> 1746246648 +0800\ncommitter GitHub <noreply@github.com> 1746246648 +0800\n\nfeat: 1.8.0 (#344)\n\n* feat: 新增依赖管理页面，优化插件版本兼容性检查，延迟日志输出以提高用户体验\n\n* feat: 在依赖管理页面中新增过滤功能，支持按类型筛选依赖项（全部、Karin 插件、可更新），并更新相关UI交互\n\n* style: 优化依赖管理页面的提示信息区域，调整布局和样式，使其更清晰易读。同时，更新 package.json 列的显示逻辑，仅在小屏幕以上显示。\n\n* feat: 新增依赖管理组件，包括依赖卡片、依赖表格、依赖设置和使用指南，支持依赖项的过滤功能\n\n* feat: task list core\n\n* chore: 更新 art-template 依赖为 npm:@karinjs/art-template@1.0.0\n\n* chore: 更新依赖版本为精确版本，移除 .gitignore 中的 pnpm-lock.yaml\n\n* chore: 更新 pnpm-lock.yaml 中的依赖版本为精确版本，新增 node-karin 依赖\n\n* chore: 更新依赖版本为精确版本，优化 package.json 和系统环境变量组件\n\n* feat: 新增插件市场、任务系统及热重载功能\n\n* feat: 新增npm包更新功能及相关命令\n\n* chore: 重构缓存模块路径，移除不再使用的文件\n\n* feat: 新增依赖列表缓存键名及相关路由\n\n* feat: 优化依赖管理路由及缓存逻辑\n\n* build: fix error\n\n* chore: 删除不再使用的事件监听器文档\n\n* Update package.json\n\n* feat: 优化依赖列表获取逻辑，增加依赖排序及插件标识\n\n* chore: 删除不再使用的依赖组件和相关导出\n\n* feat: 新增 @tanstack/react-virtual 依赖并优化依赖组件，使用 memo 和 useMemo 提升性能\n\n* fix: build error\n\n* feat: 增加按钮禁用状态逻辑，优化用户交互体验\n\n* feat: 优化懒加载依赖逻辑，支持小依赖列表直接加载并增加加载状态检查\n\n* refactor: 重构依赖管理参数接口，支持安装和删除操作，优化依赖更新逻辑\n\n* refactor: 增强依赖项接口，更新依赖管理逻辑，优化状态管理和用户交互体验\n\n* feat: 增加全选依赖更新逻辑，优化依赖管理体验\n\n* feat: 更新依赖管理页面标题和描述，增加图标和趣味性文案，提升用户体验\n\n* feat: 优化依赖管理组件，使用 memo 和 useCallback 提升性能，重构选择和版本变更逻辑\n\n* feat: 优化依赖表格组件，调整高度计算逻辑，增强空状态处理，重构懒加载依赖逻辑以支持更小的批量加载\n\n* feat: 新增安装依赖模态框组件，支持包名和版本查询，优化用户交互体验\n\n* style: 依赖模态框在移动端居中\n\n* refactor: 修复vite hmr失效的问题。更新依赖管理接口，支持添加操作，优化依赖项类型定义\n\n* feat: 更新依赖管理接口，支持升级操作，优化请求参数结构，增强用户交互体验\n\n* feat: 新增依赖适配后端，实时日志\n\n* feat: 依赖管理完成更新、卸载依赖\n\n* feat: 新增竞速请求功能，优化npm版本查询逻辑，重构依赖安装模态框组件\n\n* fix: 修复新增依赖指定版本无效\n\n* fix: 修复依赖管理中工作区参数传递方式，改为使用 args.push('-w')\n\n* feat: 新增npm配置管理功能，包含获取.npmrc文件列表、内容及保存功能，优化依赖管理组件\n\n* perf: 优化依赖获取超时时间为2分钟\n\n* feat: close #343\n\n* feat: 新增插件管理相关功能，包括插件更新返回值接口、路由配置及图标更新\n\n* style: 更新插件管理页面，新增下拉菜单操作，优化表格列样式及插件状态显示\n\n* style: 优化插件管理页面的描述文本和表格列样式，调整插件名称列的宽度\n\n* fix: 移除多余参数\n\n* style: 优化插件管理页面布局，调整组件排列方式\n\n* style: 优化插件管理页面的版本和状态显示逻辑，调整表格列样式\n\n* fix: 修正编译\n\n* fix: lock.yaml\n\n* fix: ci\n\n* fix: ...\n\n* fix: 更新sqlite3依赖版本至0.1.0，并在package.json中添加类型定义路径\n\n* build: fix error\n\n* perf: 加强`tsc`的检查\n\n* refactor: web暂时移除sandbox\n\n* fix: close #320\n\n* refactor: 优化Redis相关代码，移除不必要的导出，调整日志管理器的创建方式\n\n* feat: 新的入口\n\n* fix: lock\n\n* ci: fix build\n\n* fix: 优化一下cli\n\n* refactor: close #339  重构内部cli，迁移到单独的子包\n\n* build : fix error\n\n* build: fix error\n\n* build: fix error\n\n* build: fix error\n\n* fix: close #361 close ##362\n\n* ci: fix lock\n\n* fix: close #333\n\n* fix: defineConfig 支持save方法传递泛型\n\n* fix: 提升编译时`pnpm cp`脚本的兼容性\n\n* refactor: 重构插件加载，解耦加载、卸载、hmr为单独接口，暴露为高阶接口使用\n\n* feat: close #365\n\n* fix: 瑜笙姐姐说打包有类型问题\n\n* fix: 修正hmr task失效\n\n* refactor: ts插件开发模版\n\n* feat: sqlite3 express依赖提升 init时，若处于开发环境，则创建新的入口\n\n* refactor: karin-plugin-js\n\n* fix: 更新插件模板名称和相关链接，确保一致性\n\n* fix: 修正入口\n\n* refactor: create-karin close #364 close #363  close #330\n\n* feat: 添加Cron表达式编辑器组件及相关功能 close #326\n\n* style: 优化依赖表格组件的布局和样式\n\n* style: 优化依赖表格组件样式\n\n* feat: 添加模态框事件监听，优化小火箭按钮显示逻辑；更新依赖设置页面描述\n\n* fix: close #356 修正虚拟终端显示字体间隙问题\n\n* fix: 优化npmrc文件处理逻辑，确保正确检查public-hoist-pattern数组配置项\n\n* refactor: 更新插件市场相关函数，优化类型定义和数据处理逻辑\n\n* fix: 修正获取插件市场时的插件查找逻辑\n\n* perf: 优化依赖管理和过滤模式逻辑\n\n* style: 优化依赖管理页面的样式和布局，更新插件行组件，调整插件类型和状态显示逻辑\n\n* feat: 更新插件管理页面，增加插件加载进度条，调整批量加载大小\n\n* feat: 添加插件操作下拉菜单，优化插件行组件的显示逻辑\n\n* perf: 解耦插件管理页面\n\n* feat: 添加更新选项对话框组件，优化插件管理页面的全选逻辑\n\n* feat: 更新选项对话框组件，添加更新选项卡，优化用户交互体验\n\n* feat: 插件管理前后端初步对接`(获取插件列表)`\n\n* refactor: 重构插件管理相关组件，优化数据请求和加载逻辑，移除模拟数据\n\n* feat: 添加NPM插件统计卡片，优化插件筛选功能\n\n* feat: 更新插件管理功能，添加任务日志模态框，优化插件更新流程和状态管理\n\n* feat: 更新插件管理功能，优化插件更新和卸载逻辑，添加插件操作回调\n\n* fix: 修复插件行组件中下拉菜单的条件渲染逻辑，注释掉不必要的代码\n\n* feat: 在package.json中添加默认文件路径以支持新功能\n\n* fix: 修复web静态资源路径错误\n\n* fix: 修正安装虚拟终端后，动态加载失败的问题\n\n* refactor: 优化插件加载逻辑，简化入口文件处理；增强本地插件配置获取功能\n\n* refactor: 重构插件配置二级菜单 修正频繁获取。\n\n* feat: 添加发送消息和转发消息后的钩子功能，支持开发者自定义处理逻辑\n\n* chore: 提升`node-pty`版本 支持`nodejs 23`\n\n* fix: pty init\n\n* feat(create): 自定义`node-karin`版本\n\n* fix: 修复编译后启动顺序造成的`logger`函数不存在的问题\n\n* feat: 控制台支持 `rs` `restart` `stop`\n\n- stop: 停止\n- restart: 重启\n- rs: 重启\n\n* feat: 在依赖管理中添加加载状态指示器\n\n- 在 `DependencyTable` 组件中添加 `isLoading` 属性，显示加载状态。\n- 更新 `DependencyActionButtons` 组件的按钮状态逻辑，确保在加载时禁用按钮。\n\n* feat: 添加已加载命令插件缓存信息列表接口\n\n- 在 `router.ts` 中新增获取已加载命令插件缓存信息列表的路由。\n- 在 `list.ts` 中实现获取已加载命令插件缓存信息列表的逻辑。\n- 更新 `sidebar.tsx` 组件，支持侧边栏折叠功能。\n- 优化依赖管理，排除本地依赖的更新逻辑。\n- 更新相关类型定义，确保代码一致性。\n\n* feat: 更新缓存过期时间和版本信息\n\n- 将插件列表缓存的过期时间从5分钟更新为24小时。\n- 在获取已加载命令插件缓存信息列表的接口注释中添加版本信息1.8.0。\n\n* feat: 添加文件存在性检查和优化配置路径获取逻辑\n\n- 在 `config.ts` 中新增 `fileExists` 函数，用于检查文件是否存在。\n- 优化 `getWebConfigPathFromPkg`、`getNpmPluginConfigPath` 和 `getLocalPluginConfigPath` 函数，确保在获取配置路径时进行文件存在性检查。\n- 更新 `getConfigPath` 和 `loadConfig` 函数，增加错误处理逻辑，提升代码健壮性。\n- 在 `request.ts` 中调整登录重定向提示时间，从5秒改为2秒。\n\n* feat: 优化组件和接口，增强功能和可用性\n\n- 在 `group.tsx` 和 `private.tsx` 中修复了对象键的格式，确保一致性。\n- 在 `inputGroup.tsx` 中新增插件选择器功能，允许用户选择插件并添加到输入框组中。\n- 更新 `api.ts`，添加获取已加载命令插件缓存信息列表的接口。\n- 在 `index.ts` 中实现插件缓存机制，提升性能和用户体验。\n\n* style: close #357  更新输入组和插件选择器组件，优化用户体验\n\n- 在 `inputGroup.tsx` 中修改合并选中项目的逻辑，确保用户选择的项目能够正确合并并反馈选择结果。\n- 在 `PluginSelectorDialog.tsx` 中重构节点选择逻辑，增加节点选中状态检查，优化树结构构建，提升组件性能和可用性。\n- 更新按钮样式和文本，增强界面友好性。\n\n* feat: 更新插件选择器和命令插件缓存逻辑\n\n- 在 `list.ts` 中修改命令插件缓存结构，增加插件名称和方法信息，提升数据可读性。\n- 在 `cache.ts` 中更新已加载插件缓存列表的类型定义，确保与新结构一致。\n- 在 `PluginSelectorDialog.tsx` 中重构树节点结构，支持插件名称和方法的显示，优化用户体验。\n- 增加节点类型说明，提升界面友好性和可用性。\n\n* fix: 移除不必要的 React 导入\n\n- 在 `PluginSelectorDialog.tsx` 中移除多余的 React 导入，优化代码结构，提升可读性。\n\n* fix: sqlite3不转esm。\n\n* refactor: 重构路由导出和工具函数\n\n- 在 `index.ts` 中更新路由导出，移除不必要的 `indx.ts` 文件，简化代码结构。\n- 在 `app.ts` 中调整路由导入，确保使用最新的路由结构。\n- 在 `getMimeType.ts` 中将 `getMimeType` 函数导出，提升可复用性。\n- 在 `config/index.ts` 中移除不必要的导出，优化代码整洁性。\n\n* fix: 更新模块类型判断逻辑\n\n- 在多个文件中将 `isTsx` 函数替换为 `isTs`，确保模块类型判断的一致性。\n- 在 `load.ts` 和 `list.ts` 中更新相关逻辑，优化代码可读性。\n- 在 `config.ts` 中调整配置路径获取逻辑，提升代码整洁性。\n\n* feat: 添加项目启动时的文件存在性检查和初始化逻辑\n\n- 在 `start.ts` 中新增对项目文件和 `.npmrc` 文件的存在性检查，确保项目在升级到 1.8.0+ 版本时能够正确初始化。\n- 如果检查未通过，自动执行 `npx karin init` 命令进行项目初始化，提升用户体验。\n\n* feat: 增强webui插件安装和卸载日志记录\n\n- 在 `webui.ts` 中添加成功安装和卸载插件的日志记录，提升调试和监控能力。\n- 通过 `logger.mark` 方法记录插件安装和卸载的成功信息，确保用户能够清晰了解操作结果。\n\n* feat: 处理WebSocket连接中的敏感信息\n\n- 在 `ws.ts` 中对WebSocket连接请求的URL进行处理，去除敏感信息（如token、user_id和access_token），确保日志记录的安全性。\n- 更新日志输出，使用处理后的URL替代原始URL，提升信息安全性。\n\n* feat: 更新获取完整插件列表的逻辑\n\n- 在 `index.ts` 中修改 `getFullPluginList` 函数，新增 `refresh` 参数以支持缓存刷新功能。\n- 更新调用 `getPluginMarket` 的逻辑，确保在需要时获取最新的插件市场数据。\n\n* feat: 添加pnpm-lock.yaml文件删除逻辑\n\n- 在 `init.ts` 中新增逻辑，检查并删除项目目录下的 `pnpm-lock.yaml` 文件。\n- 删除后自动执行 `pnpm install -f` 命令，确保依赖项的正确安装，提升项目初始化的可靠性。\n\n* feat: 添加sqlite3安装命令\n\n- 在 `index.ts` 中新增 `sqlite3` 命令，支持安装sqlite3二进制文件，提升项目的数据库支持能力。\n- 更新命令描述，确保用户能够清晰了解该命令的功能。\n\n* Revert \"feat: 添加sqlite3安装命令\"\n\nThis reverts commit f9bd5e1d5d6e0b11ac6bda42a56e82fdcc9c6336.\n\n* feat: 适配`pnpm v10.x`\n\n- 在 `pnpm-lock.yaml` 中添加 `yaml` 依赖，并更新多个依赖的版本号，确保依赖项的兼容性和稳定性。\n- 在 `pnpm-workspace.yaml` 中新增 `@heroui/shared-utils`、`@karinjs/node-pty` 和 `@karinjs/sqlite3-cjs` 到 `onlyBuiltDependencies` 列表，提升构建依赖的管理能力。\n- 在 `cli-Internal` 的 `package.json` 中添加 `yaml` 依赖，确保项目功能的完整性。\n- 在 `init.ts` 中优化工作区创建逻辑，确保依赖提升和构建命令的正确执行。\n\n* feat: 支持多个dependency\n\n* feat: cli\n\n* fix: 工作区\n\n* feat: 更新适配器基类和插件管理逻辑\n\n- 在 `adapter/base/index.ts` 中将 `AdapterBase` 类的 `super` 和 `raw` 属性类型化，提升类型安全性。\n- 在 `init.ts` 中为 `package.json` 添加 `main` 字段，确保项目入口的正确性。\n- 在 `plugins/index.ts` 中优化插件导入逻辑，提升代码整洁性和可维护性。\n\n* fix: 修复KarinConvertAdapter消息转换逻辑\n\n* perf: 优化网络状态获取和监控可见性管理\n\n- 在 `network.ts` 中引入缓存机制，避免重复导入网络监控插件，提高性能。\n- 在 `key.ts` 中新增网络监控可见性状态键名。\n- 在 `dashboard/index.tsx` 中实现从 `localStorage` 读取和更新网络监控状态，提升用户体验。\n\n* refactor: 重构插件市场\n\n* style: 优化插件市场二次确认弹窗的样式\n\n* refactor: 重构插件市场完成\n\n* feat: 增加插件热加载功能\n\n- 在 `load.ts` 中新增 `pkgHotReload` 函数，实现插件的热加载。\n- 将 `getPluginsInfo` 函数导出，以便在其他模块中使用。\n- 在 `installCustom.ts` 和 `installMarket.ts` 中集成热加载功能，确保插件安装后能够即时生效。\n\n* feat: `pingRequest`\n\n* feat: 增强插件安装功能\n\n- 在 `installCustom.ts` 和 `installMarket.ts` 中更新 `installApp` 函数，新增 `ip` 参数以记录操作用户的 IP 地址。\n- 在 `load.ts` 中优化 `findPkgByFile` 函数，增加对 `app` 类型插件的判断逻辑。\n- 在 `hmr.ts` 中调整日志输出，使用 `logger.info` 替代 `logger.debug`，提升信息可读性。\n- 在 `github.ts` 中新增 `parseGithubUrl` 函数，优化 GitHub 地址解析逻辑。\n- 在 `MarketPluginInstallButton.tsx` 中实现 app 类型插件文件选择功能，允许用户选择要安装的文件。\n\n* build: fix error",
-        "verified_at": "2025-05-03T04:31:03Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/be97fae5815b808b3453853c9ed6929540f2b340",
-    "html_url": "https://github.com/KarinJS/Karin/commit/be97fae5815b808b3453853c9ed6929540f2b340",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/be97fae5815b808b3453853c9ed6929540f2b340/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "30675d91b992b8d4f289cf9f4514ad3f5d04c5c5",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/30675d91b992b8d4f289cf9f4514ad3f5d04c5c5",
-        "html_url": "https://github.com/KarinJS/Karin/commit/30675d91b992b8d4f289cf9f4514ad3f5d04c5c5"
       }
     ]
   }
