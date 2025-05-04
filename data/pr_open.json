@@ -34,7 +34,7 @@
     },
     "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>web: 1.8.1</summary>\n\n## [1.8.1](https://github.com/KarinJS/Karin/compare/web-v1.8.0...web-v1.8.1) (2025-05-04)\n\n\n### 💄 Styles\n\n* 移除不必要的背景色和调整暗模式边框颜色 ([8797072](https://github.com/KarinJS/Karin/commit/8797072ca9a5483f3cd0a524b9dbc22ae6434fe3))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n准备并发布 web 包的 1.8.1 版本\n\n文档：\n- 更新 CHANGELOG.md，添加 1.8.1 版本的变更记录\n\n杂项：\n- 将 web 包版本提升至 1.8.1\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPrepare and release version 1.8.1 of the web package\n\nDocumentation:\n- Update CHANGELOG.md with version 1.8.1 changes\n\nChores:\n- Bump web package version to 1.8.1\n\n</details>",
     "created_at": "2025-05-04T11:00:34Z",
-    "updated_at": "2025-05-04T11:00:45Z",
+    "updated_at": "2025-05-04T11:01:13Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "bff7247537e84407706ecc23dd79d3237b78a0e2",
