@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.6</summary>\n\n## [1.8.6](https://github.com/KarinJS/Karin/compare/core-v1.8.5...core-v1.8.6) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#372](https://github.com/KarinJS/Karin/issues/372) ([#388](https://github.com/KarinJS/Karin/issues/388)) ([f1d1556](https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded))\n\n\n### ♻️ Code Refactoring\n\n* 重构`getHistoryMsg`接口 支持传入`seq` ([#387](https://github.com/KarinJS/Karin/issues/387)) ([77f4292](https://github.com/KarinJS/Karin/commit/77f429202477f6dd2ff3df563b2b958d50e6ee32))\n</details>\n\n<details><summary>cli: 1.1.1</summary>\n\n## [1.1.1](https://github.com/KarinJS/Karin/compare/cli-v1.1.0...cli-v1.1.1) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#385](https://github.com/KarinJS/Karin/issues/385) ([#386](https://github.com/KarinJS/Karin/issues/386)) ([9d99d3e](https://github.com/KarinJS/Karin/commit/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f))\n</details>\n\n<details><summary>create-karin: 1.1.3</summary>\n\n## [1.1.3](https://github.com/KarinJS/Karin/compare/create-karin-v1.1.2...create-karin-v1.1.3) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#384](https://github.com/KarinJS/Karin/issues/384) ([#389](https://github.com/KarinJS/Karin/issues/389)) ([f7e1f9f](https://github.com/KarinJS/Karin/commit/f7e1f9f0249d386d4860cc840dd985474f6448be))\n</details>\n\n<details><summary>web: 1.8.1</summary>\n\n## [1.8.1](https://github.com/KarinJS/Karin/compare/web-v1.8.0...web-v1.8.1) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#372](https://github.com/KarinJS/Karin/issues/372) ([#388](https://github.com/KarinJS/Karin/issues/388)) ([f1d1556](https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded))\n\n\n### 💄 Styles\n\n* 移除不必要的背景色和调整暗模式边框颜色 ([8797072](https://github.com/KarinJS/Karin/commit/8797072ca9a5483f3cd0a524b9dbc22ae6434fe3))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.6</summary>\n\n## [1.8.6](https://github.com/KarinJS/Karin/compare/core-v1.8.5...core-v1.8.6) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* axios 1.1.8 ([0584a20](https://github.com/KarinJS/Karin/commit/0584a20af136bbce157dccf3e634513e28c9e455))\n* close [#372](https://github.com/KarinJS/Karin/issues/372) ([#388](https://github.com/KarinJS/Karin/issues/388)) ([f1d1556](https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded))\n\n\n### ♻️ Code Refactoring\n\n* 重构`getHistoryMsg`接口 支持传入`seq` ([#387](https://github.com/KarinJS/Karin/issues/387)) ([77f4292](https://github.com/KarinJS/Karin/commit/77f429202477f6dd2ff3df563b2b958d50e6ee32))\n</details>\n\n<details><summary>cli: 1.1.1</summary>\n\n## [1.1.1](https://github.com/KarinJS/Karin/compare/cli-v1.1.0...cli-v1.1.1) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#385](https://github.com/KarinJS/Karin/issues/385) ([#386](https://github.com/KarinJS/Karin/issues/386)) ([9d99d3e](https://github.com/KarinJS/Karin/commit/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f))\n</details>\n\n<details><summary>create-karin: 1.1.3</summary>\n\n## [1.1.3](https://github.com/KarinJS/Karin/compare/create-karin-v1.1.2...create-karin-v1.1.3) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#384](https://github.com/KarinJS/Karin/issues/384) ([#389](https://github.com/KarinJS/Karin/issues/389)) ([f7e1f9f](https://github.com/KarinJS/Karin/commit/f7e1f9f0249d386d4860cc840dd985474f6448be))\n</details>\n\n<details><summary>web: 1.8.1</summary>\n\n## [1.8.1](https://github.com/KarinJS/Karin/compare/web-v1.8.0...web-v1.8.1) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#372](https://github.com/KarinJS/Karin/issues/372) ([#388](https://github.com/KarinJS/Karin/issues/388)) ([f1d1556](https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded))\n\n\n### 💄 Styles\n\n* 移除不必要的背景色和调整暗模式边框颜色 ([8797072](https://github.com/KarinJS/Karin/commit/8797072ca9a5483f3cd0a524b9dbc22ae6434fe3))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "created_at": "2025-05-04T11:00:34Z",
-    "updated_at": "2025-05-05T04:41:22Z",
+    "updated_at": "2025-05-05T05:06:38Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a3c1ed2a577381010dd930896e46b5c27ca540d2",
+    "merge_commit_sha": "77a775cf117bc1b9c94168d6968405c1edcddcd1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -59,11 +59,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/382/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/382/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/5c7559554300b1d76d35fbc0a1716d60605c9a65",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/c6679f051fd0488eb751204badd30a3556cfdd39",
     "head": {
       "label": "KarinJS:release-please--branches--main",
       "ref": "release-please--branches--main",
-      "sha": "5c7559554300b1d76d35fbc0a1716d60605c9a65",
+      "sha": "c6679f051fd0488eb751204badd30a3556cfdd39",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -153,8 +153,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-05T05:03:15Z",
-        "pushed_at": "2025-05-05T05:03:13Z",
+        "updated_at": "2025-05-05T05:06:14Z",
+        "pushed_at": "2025-05-05T05:06:37Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -198,7 +198,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "f7e1f9f0249d386d4860cc840dd985474f6448be",
+      "sha": "0584a20af136bbce157dccf3e634513e28c9e455",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -288,8 +288,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-05T05:03:15Z",
-        "pushed_at": "2025-05-05T05:03:13Z",
+        "updated_at": "2025-05-05T05:06:14Z",
+        "pushed_at": "2025-05-05T05:06:37Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -353,7 +353,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/382/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/5c7559554300b1d76d35fbc0a1716d60605c9a65"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/c6679f051fd0488eb751204badd30a3556cfdd39"
       }
     },
     "author_association": "CONTRIBUTOR",
