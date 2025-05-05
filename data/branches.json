@@ -40,14 +40,6 @@
     "protected": false
   },
   {
-    "name": "fix-372",
-    "commit": {
-      "sha": "778b023e8d4cb08b49994303adf027f93f574827",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/778b023e8d4cb08b49994303adf027f93f574827"
-    },
-    "protected": false
-  },
-  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
@@ -66,8 +58,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f"
+      "sha": "f1d1556019099a5da8a3f3801640e76c17a65ded",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f1d1556019099a5da8a3f3801640e76c17a65ded"
     },
     "protected": true
   },
@@ -88,18 +80,10 @@
     "protected": false
   },
   {
-    "name": "refactor-getHistoryMsg",
-    "commit": {
-      "sha": "6a1b10fd331369230b585bbacff221246440d5d4",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/6a1b10fd331369230b585bbacff221246440d5d4"
-    },
-    "protected": false
-  },
-  {
     "name": "release-please--branches--main",
     "commit": {
-      "sha": "c240e21f45d60f4177a6cbfc1032acdd6ad8bf40",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/c240e21f45d60f4177a6cbfc1032acdd6ad8bf40"
+      "sha": "ae81c05c0fbb009958ea634bd6dcb966724c60cf",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/ae81c05c0fbb009958ea634bd6dcb966724c60cf"
     },
     "protected": false
   },
