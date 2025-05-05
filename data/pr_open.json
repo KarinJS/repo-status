@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.6</summary>\n\n## [1.8.6](https://github.com/KarinJS/Karin/compare/core-v1.8.5...core-v1.8.6) (2025-05-05)\n\n\n### ♻️ Code Refactoring\n\n* 重构`getHistoryMsg`接口 支持传入`seq` ([#387](https://github.com/KarinJS/Karin/issues/387)) ([77f4292](https://github.com/KarinJS/Karin/commit/77f429202477f6dd2ff3df563b2b958d50e6ee32))\n</details>\n\n<details><summary>cli: 1.1.1</summary>\n\n## [1.1.1](https://github.com/KarinJS/Karin/compare/cli-v1.1.0...cli-v1.1.1) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#385](https://github.com/KarinJS/Karin/issues/385) ([#386](https://github.com/KarinJS/Karin/issues/386)) ([9d99d3e](https://github.com/KarinJS/Karin/commit/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f))\n</details>\n\n<details><summary>web: 1.8.1</summary>\n\n## [1.8.1](https://github.com/KarinJS/Karin/compare/web-v1.8.0...web-v1.8.1) (2025-05-05)\n\n\n### 💄 Styles\n\n* 移除不必要的背景色和调整暗模式边框颜色 ([8797072](https://github.com/KarinJS/Karin/commit/8797072ca9a5483f3cd0a524b9dbc22ae6434fe3))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.6</summary>\n\n## [1.8.6](https://github.com/KarinJS/Karin/compare/core-v1.8.5...core-v1.8.6) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#372](https://github.com/KarinJS/Karin/issues/372) ([#388](https://github.com/KarinJS/Karin/issues/388)) ([f1d1556](https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded))\n\n\n### ♻️ Code Refactoring\n\n* 重构`getHistoryMsg`接口 支持传入`seq` ([#387](https://github.com/KarinJS/Karin/issues/387)) ([77f4292](https://github.com/KarinJS/Karin/commit/77f429202477f6dd2ff3df563b2b958d50e6ee32))\n</details>\n\n<details><summary>cli: 1.1.1</summary>\n\n## [1.1.1](https://github.com/KarinJS/Karin/compare/cli-v1.1.0...cli-v1.1.1) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#385](https://github.com/KarinJS/Karin/issues/385) ([#386](https://github.com/KarinJS/Karin/issues/386)) ([9d99d3e](https://github.com/KarinJS/Karin/commit/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f))\n</details>\n\n<details><summary>web: 1.8.1</summary>\n\n## [1.8.1](https://github.com/KarinJS/Karin/compare/web-v1.8.0...web-v1.8.1) (2025-05-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#372](https://github.com/KarinJS/Karin/issues/372) ([#388](https://github.com/KarinJS/Karin/issues/388)) ([f1d1556](https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded))\n\n\n### 💄 Styles\n\n* 移除不必要的背景色和调整暗模式边框颜色 ([8797072](https://github.com/KarinJS/Karin/commit/8797072ca9a5483f3cd0a524b9dbc22ae6434fe3))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "created_at": "2025-05-04T11:00:34Z",
-    "updated_at": "2025-05-05T04:19:39Z",
+    "updated_at": "2025-05-05T04:20:24Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "da4602115d659254ffdd498ac9c3eb613dfcdb19",
+    "merge_commit_sha": "982efb518c6344fe17c3d026474cc9eca518020b",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -59,11 +59,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/382/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/382/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/ae81c05c0fbb009958ea634bd6dcb966724c60cf",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/be51518375eff2199ea1757ac2ab0c507ce0153e",
     "head": {
       "label": "KarinJS:release-please--branches--main",
       "ref": "release-please--branches--main",
-      "sha": "ae81c05c0fbb009958ea634bd6dcb966724c60cf",
+      "sha": "be51518375eff2199ea1757ac2ab0c507ce0153e",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -154,7 +154,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-05-05T04:19:52Z",
-        "pushed_at": "2025-05-05T04:19:50Z",
+        "pushed_at": "2025-05-05T04:20:23Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -198,7 +198,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "77f429202477f6dd2ff3df563b2b958d50e6ee32",
+      "sha": "f1d1556019099a5da8a3f3801640e76c17a65ded",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -289,7 +289,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-05-05T04:19:52Z",
-        "pushed_at": "2025-05-05T04:19:50Z",
+        "pushed_at": "2025-05-05T04:20:23Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -353,7 +353,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/382/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/ae81c05c0fbb009958ea634bd6dcb966724c60cf"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/be51518375eff2199ea1757ac2ab0c507ce0153e"
       }
     },
     "author_association": "CONTRIBUTOR",
