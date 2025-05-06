@@ -1,59 +1,69 @@
 [
   {
-    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/395",
-    "id": 2501855596,
-    "node_id": "PR_kwDOLcebn86VH0ls",
-    "html_url": "https://github.com/KarinJS/Karin/pull/395",
-    "diff_url": "https://github.com/KarinJS/Karin/pull/395.diff",
-    "patch_url": "https://github.com/KarinJS/Karin/pull/395.patch",
-    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/395",
-    "number": 395,
+    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/396",
+    "id": 2501891156,
+    "node_id": "PR_kwDOLcebn86VH9RU",
+    "html_url": "https://github.com/KarinJS/Karin/pull/396",
+    "diff_url": "https://github.com/KarinJS/Karin/pull/396.diff",
+    "patch_url": "https://github.com/KarinJS/Karin/pull/396.patch",
+    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/396",
+    "number": 396,
     "state": "open",
     "locked": false,
-    "title": "fix: close #392",
+    "title": "chore: release main",
     "user": {
-      "login": "ikenxuan",
-      "id": 112480306,
-      "node_id": "U_kgDOBrRQMg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/ikenxuan",
-      "html_url": "https://github.com/ikenxuan",
-      "followers_url": "https://api.github.com/users/ikenxuan/followers",
-      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
-      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
-      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
-      "repos_url": "https://api.github.com/users/ikenxuan/repos",
-      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
-      "type": "User",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n改进 node-karin 的 CLI 入口点检测，支持多种文件格式并提供更好的错误处理\n\nBug 修复：\n- 增加对 .cjs 和 .mjs CLI 入口点文件的支持\n- 实施强大的 CLI 文件路径检测机制\n\n增强功能：\n- 创建一个新函数来获取可用的 CLI 路径\n- 改进未找到有效 CLI 入口时的错误消息\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nImprove CLI entry point detection for node-karin by supporting multiple file formats and providing better error handling\n\nBug Fixes:\n- Add support for both .cjs and .mjs CLI entry point files\n- Implement robust CLI file path detection mechanism\n\nEnhancements:\n- Create a new function to get the available CLI path\n- Improve error messaging when no valid CLI entry is found\n\n</details>",
-    "created_at": "2025-05-06T14:48:02Z",
-    "updated_at": "2025-05-06T14:50:12Z",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>cli: 1.1.2</summary>\n\n## [1.1.2](https://github.com/KarinJS/Karin/compare/cli-v1.1.1...cli-v1.1.2) (2025-05-06)\n\n\n### 🐛 Bug Fixes\n\n* close [#392](https://github.com/KarinJS/Karin/issues/392) ([#395](https://github.com/KarinJS/Karin/issues/395)) ([8b30db7](https://github.com/KarinJS/Karin/commit/8b30db7116363e1771d4716e1d03fd23336de58a))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n## Sourcery 总结\n\n准备并发布 Karin CLI 包的新版本 1.1.2\n\nBug 修复:\n- 解决 GitHub issue #392 中提到的问题\n\n日常任务:\n- 将 CLI 包版本从 1.1.1 升级到 1.1.2\n- 使用发布详情更新 CHANGELOG.md\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPrepare and publish a new release of the Karin CLI package version 1.1.2\n\nBug Fixes:\n- Resolve an issue referenced in GitHub issue #392\n\nChores:\n- Bump CLI package version from 1.1.1 to 1.1.2\n- Update CHANGELOG.md with release details\n\n</details>",
+    "created_at": "2025-05-06T15:02:08Z",
+    "updated_at": "2025-05-06T15:02:18Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b8ae9e1265a78f127cec439aed46eaac192c3d30",
+    "merge_commit_sha": "7721f6c05afd1de15e29d226dfe182b607004acd",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+      {
+        "id": 7128527407,
+        "node_id": "LA_kwDOLcebn88AAAABqOSyLw",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/autorelease:%20pending",
+        "name": "autorelease: pending",
+        "color": "ededed",
+        "default": false,
+        "description": null
+      }
+    ],
     "milestone": null,
     "draft": false,
-    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/395/commits",
-    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/395/comments",
+    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/396/commits",
+    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/396/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/395/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/7f7405968a09df1f433eb3ed8124ed69b7616ef4",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/396/comments",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/0c679e36ce704d53c58d2055cd9d211f9a983cf1",
     "head": {
-      "label": "KarinJS:fix-#392",
-      "ref": "fix-#392",
-      "sha": "7f7405968a09df1f433eb3ed8124ed69b7616ef4",
+      "label": "KarinJS:release-please--branches--main",
+      "ref": "release-please--branches--main",
+      "sha": "0c679e36ce704d53c58d2055cd9d211f9a983cf1",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -143,8 +153,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-05T05:07:22Z",
-        "pushed_at": "2025-05-06T14:47:33Z",
+        "updated_at": "2025-05-06T15:01:36Z",
+        "pushed_at": "2025-05-06T15:02:07Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -164,7 +174,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 10,
+        "open_issues_count": 9,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -180,7 +190,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 10,
+        "open_issues": 9,
         "watchers": 120,
         "default_branch": "main"
       }
@@ -188,7 +198,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "7d4d4b402eecec7624375a555a3037a94db8e055",
+      "sha": "8b30db7116363e1771d4716e1d03fd23336de58a",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -278,8 +288,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-05T05:07:22Z",
-        "pushed_at": "2025-05-06T14:47:33Z",
+        "updated_at": "2025-05-06T15:01:36Z",
+        "pushed_at": "2025-05-06T15:02:07Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -299,7 +309,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 10,
+        "open_issues_count": 9,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -315,38 +325,38 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 10,
+        "open_issues": 9,
         "watchers": 120,
         "default_branch": "main"
       }
     },
     "_links": {
       "self": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/395"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/396"
       },
       "html": {
-        "href": "https://github.com/KarinJS/Karin/pull/395"
+        "href": "https://github.com/KarinJS/Karin/pull/396"
       },
       "issue": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/395"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/396"
       },
       "comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/395/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/396/comments"
       },
       "review_comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/395/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/396/comments"
       },
       "review_comment": {
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}"
       },
       "commits": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/395/commits"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/396/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/7f7405968a09df1f433eb3ed8124ed69b7616ef4"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/0c679e36ce704d53c58d2055cd9d211f9a983cf1"
       }
     },
-    "author_association": "COLLABORATOR",
+    "author_association": "CONTRIBUTOR",
     "auto_merge": null,
     "active_lock_reason": null
   },
@@ -494,8 +504,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-05T05:07:22Z",
-        "pushed_at": "2025-05-06T14:47:33Z",
+        "updated_at": "2025-05-06T15:01:36Z",
+        "pushed_at": "2025-05-06T15:02:07Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -515,7 +525,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 10,
+        "open_issues_count": 9,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -531,7 +541,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 10,
+        "open_issues": 9,
         "watchers": 120,
         "default_branch": "main"
       }
@@ -629,8 +639,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-05T05:07:22Z",
-        "pushed_at": "2025-05-06T14:47:33Z",
+        "updated_at": "2025-05-06T15:01:36Z",
+        "pushed_at": "2025-05-06T15:02:07Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -650,7 +660,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 10,
+        "open_issues_count": 9,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -666,7 +676,7 @@
         ],
         "visibility": "public",
         "forks": 12,
-        "open_issues": 10,
+        "open_issues": 9,
         "watchers": 120,
         "default_branch": "main"
       }
