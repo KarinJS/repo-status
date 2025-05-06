@@ -40,6 +40,14 @@
     "protected": false
   },
   {
+    "name": "fix-#392",
+    "commit": {
+      "sha": "7f7405968a09df1f433eb3ed8124ed69b7616ef4",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7f7405968a09df1f433eb3ed8124ed69b7616ef4"
+    },
+    "protected": false
+  },
+  {
     "name": "fix-log",
     "commit": {
       "sha": "172146580272eb6daf7ef5c8669f4736ef69eb72",
