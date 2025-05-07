@@ -1,69 +1,59 @@
 [
   {
-    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/406",
-    "id": 2504053992,
-    "node_id": "PR_kwDOLcebn86VQNTo",
-    "html_url": "https://github.com/KarinJS/Karin/pull/406",
-    "diff_url": "https://github.com/KarinJS/Karin/pull/406.diff",
-    "patch_url": "https://github.com/KarinJS/Karin/pull/406.patch",
-    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/406",
-    "number": 406,
+    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/409",
+    "id": 2505600051,
+    "node_id": "PR_kwDOLcebn86VWGwz",
+    "html_url": "https://github.com/KarinJS/Karin/pull/409",
+    "diff_url": "https://github.com/KarinJS/Karin/pull/409.diff",
+    "patch_url": "https://github.com/KarinJS/Karin/pull/409.patch",
+    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/409",
+    "number": 409,
     "state": "open",
     "locked": false,
-    "title": "chore: release main",
+    "title": "fix: close #408",
     "user": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.9</summary>\n\n## [1.8.9](https://github.com/KarinJS/Karin/compare/core-v1.8.8...core-v1.8.9) (2025-05-07)\n\n\n### 🐛 Bug Fixes\n\n* 修复`web-config`读取的是缓存 ([#405](https://github.com/KarinJS/Karin/issues/405)) ([3335cef](https://github.com/KarinJS/Karin/commit/3335cefc70b811e11084f4cee1a87c8602ae6838))\n</details>\n\n<details><summary>web: 1.8.4</summary>\n\n## [1.8.4](https://github.com/KarinJS/Karin/compare/web-v1.8.3...web-v1.8.4) (2025-05-07)\n\n\n### 🐛 Bug Fixes\n\n* 修复`web-config`读取的是缓存 ([#405](https://github.com/KarinJS/Karin/issues/405)) ([3335cef](https://github.com/KarinJS/Karin/commit/3335cefc70b811e11084f4cee1a87c8602ae6838))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n执行核心包和 web 包的版本升级和更新日志\n\nBug 修复：\n- 修复 web-config 缓存读取问题\n\n日常维护：\n- 核心包版本从 1.8.8 升级到 1.8.9\n- Web 包版本从 1.8.3 升级到 1.8.4\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPerform version bump and changelog update for core and web packages\n\nBug Fixes:\n- Fix web-config cache reading issue\n\nChores:\n- Bump core package version from 1.8.8 to 1.8.9\n- Bump web package version from 1.8.3 to 1.8.4\n\n</details>",
-    "created_at": "2025-05-07T11:03:31Z",
-    "updated_at": "2025-05-07T11:05:41Z",
+    "body": "好的，这是将拉取请求摘要翻译成中文的结果：\n\n## Sourcery 总结\n\n增强手风琴组件以管理本地数据状态并将其与表单字段同步\n\nBug 修复：\n- 确保添加或删除手风琴项目时数据的一致性\n\n增强功能：\n- 实现手风琴项目的本地数据状态管理\n- 添加表单字段和本地数据之间的同步\n- 创建一个自定义删除处理程序，用于更新字段和本地数据\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nEnhance the accordion component to manage local data state and synchronize it with form fields\n\nBug Fixes:\n- Ensure data consistency when adding or removing accordion items\n\nEnhancements:\n- Implement local data state management for accordion items\n- Add synchronization between form fields and local data\n- Create a custom remove handler that updates both fields and local data\n\n</details>",
+    "created_at": "2025-05-07T22:34:44Z",
+    "updated_at": "2025-05-07T22:37:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "4b7c324a88a7e46280ed0f51c56e49b880c7c0a2",
+    "merge_commit_sha": "8dac188aa6a5814f12c8d60e4881985895bae420",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [
-      {
-        "id": 7128527407,
-        "node_id": "LA_kwDOLcebn88AAAABqOSyLw",
-        "url": "https://api.github.com/repos/KarinJS/Karin/labels/autorelease:%20pending",
-        "name": "autorelease: pending",
-        "color": "ededed",
-        "default": false,
-        "description": null
-      }
-    ],
+    "labels": [],
     "milestone": null,
     "draft": false,
-    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/406/commits",
-    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/406/comments",
+    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/409/commits",
+    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/409/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/406/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/37a022d31d312c4a1882b95cd40dc303be92931a",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/409/comments",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/16cdc324d037989f6e70b3ef5e57ab41de8c6e65",
     "head": {
-      "label": "KarinJS:release-please--branches--main",
-      "ref": "release-please--branches--main",
-      "sha": "37a022d31d312c4a1882b95cd40dc303be92931a",
+      "label": "KarinJS:fix-408",
+      "ref": "fix-408",
+      "sha": "16cdc324d037989f6e70b3ef5e57ab41de8c6e65",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -153,8 +143,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-07T11:03:11Z",
-        "pushed_at": "2025-05-07T22:29:31Z",
+        "updated_at": "2025-05-07T22:34:30Z",
+        "pushed_at": "2025-05-07T22:34:41Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -198,7 +188,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "3335cefc70b811e11084f4cee1a87c8602ae6838",
+      "sha": "56304a6090b717258a2c21391b9ce4442957c7c1",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -288,8 +278,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-05-07T11:03:11Z",
-        "pushed_at": "2025-05-07T22:29:31Z",
+        "updated_at": "2025-05-07T22:34:30Z",
+        "pushed_at": "2025-05-07T22:34:41Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -332,31 +322,31 @@
     },
     "_links": {
       "self": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/406"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/409"
       },
       "html": {
-        "href": "https://github.com/KarinJS/Karin/pull/406"
+        "href": "https://github.com/KarinJS/Karin/pull/409"
       },
       "issue": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/406"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/409"
       },
       "comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/406/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/409/comments"
       },
       "review_comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/406/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/409/comments"
       },
       "review_comment": {
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}"
       },
       "commits": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/406/commits"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/409/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/37a022d31d312c4a1882b95cd40dc303be92931a"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/16cdc324d037989f6e70b3ef5e57ab41de8c6e65"
       }
     },
-    "author_association": "CONTRIBUTOR",
+    "author_association": "MEMBER",
     "auto_merge": null,
     "active_lock_reason": null
   }
