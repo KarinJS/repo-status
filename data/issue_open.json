@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-05-07T10:02:40Z",
-    "updated_at": "2025-05-07T10:02:51Z",
+    "updated_at": "2025-05-07T10:16:44Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -62,7 +62,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/403.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.8</summary>\n\n## [1.8.8](https://github.com/KarinJS/Karin/compare/core-v1.8.7...core-v1.8.8) (2025-05-07)\n\n\n### 🐛 Bug Fixes\n\n* **onebot:** 控制台不输出`base64://...` ([#402](https://github.com/KarinJS/Karin/issues/402)) ([a51d382](https://github.com/KarinJS/Karin/commit/a51d382feda71bc5838a085d0123ea7ec9e56213))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n准备并发布 Karin 核心包的 1.8.8 版本\n\nBug 修复：\n- 阻止控制台在 OneBot 实现中输出 base64 URL\n\n杂务：\n- Bump package version to 1.8.8\n- 使用发行说明更新 CHANGELOG.md\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPrepare and release version 1.8.8 of the Karin core package\n\nBug Fixes:\n- Prevent console from outputting base64 URLs in OneBot implementation\n\nChores:\n- Bump package version to 1.8.8\n- Update CHANGELOG.md with release notes\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.8.8</summary>\n\n## [1.8.8](https://github.com/KarinJS/Karin/compare/core-v1.8.7...core-v1.8.8) (2025-05-07)\n\n\n### 🐛 Bug Fixes\n\n* `.npmrc` ([#404](https://github.com/KarinJS/Karin/issues/404)) ([7769c31](https://github.com/KarinJS/Karin/commit/7769c31b63f7d458d4f4ca21ba4c2cd523c83b5e))\n* **onebot:** 控制台不输出`base64://...` ([#402](https://github.com/KarinJS/Karin/issues/402)) ([a51d382](https://github.com/KarinJS/Karin/commit/a51d382feda71bc5838a085d0123ea7ec9e56213))\n</details>\n\n<details><summary>web: 1.8.3</summary>\n\n## [1.8.3](https://github.com/KarinJS/Karin/compare/web-v1.8.2...web-v1.8.3) (2025-05-07)\n\n\n### 🐛 Bug Fixes\n\n* `.npmrc` ([#404](https://github.com/KarinJS/Karin/issues/404)) ([7769c31](https://github.com/KarinJS/Karin/commit/7769c31b63f7d458d4f4ca21ba4c2cd523c83b5e))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/403/reactions",
