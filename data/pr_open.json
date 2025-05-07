@@ -154,7 +154,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-05-06T17:15:53Z",
-        "pushed_at": "2025-05-06T17:16:09Z",
+        "pushed_at": "2025-05-07T09:14:25Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -289,7 +289,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-05-06T17:15:53Z",
-        "pushed_at": "2025-05-06T17:16:09Z",
+        "pushed_at": "2025-05-07T09:14:25Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -393,12 +393,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n重构日志模块，以提供一个全面的、可配置的、灵活的日志系统，并具有高级功能\n\n新功能：\n- 实现一个具有多个日志级别的强大日志记录器\n- 增加对具有可配置模式的文件日志的支持\n- 创建彩色编码的控制台输出\n- 引入机器人和前缀日志记录功能\n\n增强功能：\n- 实现灵活的日志配置\n- 添加时间戳和级别格式\n- 支持日志文件轮换和过期\n- 创建类型安全的日志记录器接口\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRefactor the logging module to provide a comprehensive, configurable, and flexible logging system with advanced features\n\nNew Features:\n- Implement a robust logger with multiple log levels\n- Add support for file logging with configurable modes\n- Create color-coded console output\n- Introduce bot and prefix logging capabilities\n\nEnhancements:\n- Implement flexible log configuration\n- Add timestamp and level formatting\n- Support log file rotation and expiration\n- Create type-safe logger interfaces\n\n</details>",
+    "body": "好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n重构日志模块，以提供一个全面的、可配置的、灵活的日志系统，并具有高级功能\n\n新功能：\n- 实现一个具有多个日志级别的强大日志记录器\n- 增加对具有可配置模式的文件日志的支持\n- 创建彩色编码的控制台输出\n- 引入机器人和前缀日志记录功能\n\n增强功能：\n- 实现灵活的日志配置\n- 添加时间戳和级别格式\n- 支持日志文件轮换和过期\n- 创建类型安全的日志记录器接口\n\n<details>\n<summary>Original summary in English</summary>\n\n好的，这是将 pull request 总结翻译成中文的结果：\n\n## Sourcery 总结\n\n重构日志模块，以提供一个全面的、可配置的、灵活的日志系统，并具有高级功能\n\n新功能：\n- 实现一个具有多个日志级别的强大日志记录器\n- 增加对具有可配置模式的文件日志的支持\n- 创建颜色编码的控制台输出\n- 引入 bot 和前缀日志记录功能\n\n增强功能：\n- 实现灵活的日志配置\n- 添加时间戳和级别格式\n- 支持日志文件轮换和过期\n- 创建类型安全的日志记录器接口\n\n杂项：\n- 移除对 log4js 的依赖\n- 简化日志记录器配置\n- 改进日志记录的类型定义\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRefactor the logging module to provide a comprehensive, configurable, and flexible logging system with advanced features\n\nNew Features:\n- Implement a powerful logger with multiple log levels\n- Add support for file logging with configurable patterns\n- Create color-encoded console output\n- Introduce bot and prefix logging functionality\n\nEnhancements:\n- Implement flexible log configuration\n- Add timestamp and level formatting\n- Support log file rotation and expiration\n- Create type-safe logger interface\n\nChores:\n- Remove dependency on log4js\n- Simplify logger configuration\n- Improve type definitions for logging\n\n</details>\n\n</details>",
     "created_at": "2025-05-06T05:54:57Z",
-    "updated_at": "2025-05-06T06:00:44Z",
+    "updated_at": "2025-05-07T09:21:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e6131e1092db019581b0dd36a72a3d4942622332",
+    "merge_commit_sha": "fdcb00277d55524c771e86665fb7bd4d475e65a4",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -410,11 +410,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/393/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/393/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/172146580272eb6daf7ef5c8669f4736ef69eb72",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/7fd3dc3a2c66fb17a75a8d5e77c648ed4e6e7034",
     "head": {
       "label": "KarinJS:fix-log",
       "ref": "fix-log",
-      "sha": "172146580272eb6daf7ef5c8669f4736ef69eb72",
+      "sha": "7fd3dc3a2c66fb17a75a8d5e77c648ed4e6e7034",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -505,7 +505,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-05-06T17:15:53Z",
-        "pushed_at": "2025-05-06T17:16:09Z",
+        "pushed_at": "2025-05-07T09:14:25Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -640,7 +640,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-05-06T17:15:53Z",
-        "pushed_at": "2025-05-06T17:16:09Z",
+        "pushed_at": "2025-05-07T09:14:25Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -704,7 +704,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/393/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/172146580272eb6daf7ef5c8669f4736ef69eb72"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/7fd3dc3a2c66fb17a75a8d5e77c648ed4e6e7034"
       }
     },
     "author_association": "MEMBER",
