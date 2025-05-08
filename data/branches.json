@@ -40,6 +40,14 @@
     "protected": false
   },
   {
+    "name": "fix-group-msg",
+    "commit": {
+      "sha": "b9a123a7d33baf5d175b8c2c3fa559511ed97165",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/b9a123a7d33baf5d175b8c2c3fa559511ed97165"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
