@@ -1,5 +1,15 @@
 [
   {
+    "name": "web-v1.8.5",
+    "zipball_url": "https://api.github.com/repos/KarinJS/Karin/zipball/refs/tags/web-v1.8.5",
+    "tarball_url": "https://api.github.com/repos/KarinJS/Karin/tarball/refs/tags/web-v1.8.5",
+    "commit": {
+      "sha": "7bb137122f8f2b2b95dac25b927ce78264b44ca9",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7bb137122f8f2b2b95dac25b927ce78264b44ca9"
+    },
+    "node_id": "REF_kwDOLcebn7RyZWZzL3RhZ3Mvd2ViLXYxLjguNQ"
+  },
+  {
     "name": "web-v1.8.4",
     "zipball_url": "https://api.github.com/repos/KarinJS/Karin/zipball/refs/tags/web-v1.8.4",
     "tarball_url": "https://api.github.com/repos/KarinJS/Karin/tarball/refs/tags/web-v1.8.4",
@@ -288,15 +298,5 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/4632b85fe94993e5c68d12427bdf3b88fff14055"
     },
     "node_id": "REF_kwDOLcebn7RyZWZzL3RhZ3Mvd2ViLXYxLjQuMA"
-  },
-  {
-    "name": "web-v1.3.12",
-    "zipball_url": "https://api.github.com/repos/KarinJS/Karin/zipball/refs/tags/web-v1.3.12",
-    "tarball_url": "https://api.github.com/repos/KarinJS/Karin/tarball/refs/tags/web-v1.3.12",
-    "commit": {
-      "sha": "b88b7ceb234c1e23a4defe8fc931160bc2b04df0",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/b88b7ceb234c1e23a4defe8fc931160bc2b04df0"
-    },
-    "node_id": "REF_kwDOLcebn7VyZWZzL3RhZ3Mvd2ViLXYxLjMuMTI"
   }
 ]
