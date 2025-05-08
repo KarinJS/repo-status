@@ -1,5 +1,87 @@
 [
   {
+    "sha": "49d3b498d8a5ae6d0f9f71b9b794ddbc148c3629",
+    "node_id": "C_kwDOLcebn9oAKDQ5ZDNiNDk4ZDhhNWFlNmQwZjlmNzFiOWI3OTRkZGJjMTQ4YzM2Mjk",
+    "commit": {
+      "author": {
+        "name": "时瑾",
+        "email": "shijinn520@gmail.com",
+        "date": "2025-05-08T18:47:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-08T18:47:31Z"
+      },
+      "message": "fix: 修复群消息下会话条件判断错误问题 (#411)\n\n* fix: 修复群消息下会话条件判断错误问题\n\n* Update groups.ts",
+      "tree": {
+        "sha": "6eb6c762103eb5784a69d3267c7d67683b793528",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/6eb6c762103eb5784a69d3267c7d67683b793528"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/49d3b498d8a5ae6d0f9f71b9b794ddbc148c3629",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoHPxDCRC1aQ7uu5UhlAAAR+AQAIQNlVLf64lpFVVinsuS5JLg\nH4OYXc9OzaTr9hpTi1QGba76mye080p0tGHl0kDLxFZE0O6LWevln3TLyS4KZ3i6\nl5IXqSjN6gATXnjJ9JGO47D3dTXSdMISVPsN870z5Y2ixs91TM+Er9ygiQ6sQoqG\nG8G3DiMdz8FES+NH6vcyHkWpTT3rs0S99Ue1ViYb1aqfV4Vbzt5mtmW6lZAPa9pm\nQdRpMsTsdTmTIuhvCp29A7OiBpKNpCqRL+cjscjJsOcD9g0TgE9rTBEQtFOnOPl4\nu8KEWXqpm0OiD0YLkp4ct/QZhxPgaAT1Mkg8twFn8GQPbkJtSSEGFJ1CSxzfjfTy\nTF+7LVGi2P6CCCUSzKIJgFN74z+XtkzVnAtTO7v2xSAfJSXkWsW9GBs2xlaik/3Q\nahvF7p9Ep7o1pw4O+qEFbfvwaROQA9uGdNYDS+3v9jeqnWRt01iKJGa6YbN0FkRp\n98eqUIeil0NNBcrRYxVy30NcdCRAzNr11W9doFn5+FEbOawGXfH3DiX2zZ4SJWpB\njtJ23ylijWnNN+1YGSTwsOeVk3L4y7xBpucF+XCAFSiA6UCzGRMjd7+17O0ZpV4G\nAaMvgmylBp4o3Zb7fWyemJM2qMEciXWO2bki0MhV58sDT3TFkOJA0RAcnwHQD1N5\n6Rngr4dR7wnVZrEcqcpZ\n=pLkM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6eb6c762103eb5784a69d3267c7d67683b793528\nparent 7bb137122f8f2b2b95dac25b927ce78264b44ca9\nauthor 时瑾 <shijinn520@gmail.com> 1746730051 +0800\ncommitter GitHub <noreply@github.com> 1746730051 +0800\n\nfix: 修复群消息下会话条件判断错误问题 (#411)\n\n* fix: 修复群消息下会话条件判断错误问题\n\n* Update groups.ts",
+        "verified_at": "2025-05-08T18:47:52Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/49d3b498d8a5ae6d0f9f71b9b794ddbc148c3629",
+    "html_url": "https://github.com/KarinJS/Karin/commit/49d3b498d8a5ae6d0f9f71b9b794ddbc148c3629",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/49d3b498d8a5ae6d0f9f71b9b794ddbc148c3629/comments",
+    "author": {
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7bb137122f8f2b2b95dac25b927ce78264b44ca9",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/7bb137122f8f2b2b95dac25b927ce78264b44ca9",
+        "html_url": "https://github.com/KarinJS/Karin/commit/7bb137122f8f2b2b95dac25b927ce78264b44ca9"
+      }
+    ]
+  },
+  {
     "sha": "7bb137122f8f2b2b95dac25b927ce78264b44ca9",
     "node_id": "C_kwDOLcebn9oAKDdiYjEzNzEyMmY4ZjJiMmI5NWRhYzI1YjkyN2NlNzgyNjRiNDRjYTk",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "ee1b0b94dfa58fc5d3774d75f31168c180b0073a",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/ee1b0b94dfa58fc5d3774d75f31168c180b0073a",
         "html_url": "https://github.com/KarinJS/Karin/commit/ee1b0b94dfa58fc5d3774d75f31168c180b0073a"
-      }
-    ]
-  },
-  {
-    "sha": "ee1b0b94dfa58fc5d3774d75f31168c180b0073a",
-    "node_id": "C_kwDOLcebn9oAKGVlMWIwYjk0ZGZhNThmYzVkMzc3NGQ3NWYzMTE2OGMxODBiMDA3M2E",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-05-03T17:26:52Z"
-      },
-      "committer": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-05-03T17:26:52Z"
-      },
-      "message": "fix: 更新axios版本至1.1.6",
-      "tree": {
-        "sha": "b660380bec3d10b5ccd1bcd054145ee4e5caa603",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/b660380bec3d10b5ccd1bcd054145ee4e5caa603"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/ee1b0b94dfa58fc5d3774d75f31168c180b0073a",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaBZR3AAKCRACP3ChuPjB\nlv4eAP9bollN2VVuKjNps6XjoxbsszRukv1qia+vMKPiCqHDRwEA3QC+ft0hkdz0\nuhZ9QXvAlk6M11UBf/mLlqeRNO1v8wY=\n=/M00\n-----END PGP SIGNATURE-----",
-        "payload": "tree b660380bec3d10b5ccd1bcd054145ee4e5caa603\nparent 8d093c0f7cb2dfafdab79fd1ec8aa2a35f60b848\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1746293212 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1746293212 +0800\n\nfix: 更新axios版本至1.1.6\n",
-        "verified_at": "2025-05-03T17:27:09Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/ee1b0b94dfa58fc5d3774d75f31168c180b0073a",
-    "html_url": "https://github.com/KarinJS/Karin/commit/ee1b0b94dfa58fc5d3774d75f31168c180b0073a",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/ee1b0b94dfa58fc5d3774d75f31168c180b0073a/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "8d093c0f7cb2dfafdab79fd1ec8aa2a35f60b848",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/8d093c0f7cb2dfafdab79fd1ec8aa2a35f60b848",
-        "html_url": "https://github.com/KarinJS/Karin/commit/8d093c0f7cb2dfafdab79fd1ec8aa2a35f60b848"
       }
     ]
   }
