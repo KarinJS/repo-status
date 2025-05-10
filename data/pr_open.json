@@ -34,7 +34,7 @@
     },
     "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>web: 1.8.6</summary>\n\n## [1.8.6](https://github.com/KarinJS/Karin/compare/web-v1.8.5...web-v1.8.6) (2025-05-10)\n\n\n### 🐛 Bug Fixes\n\n* 手风琴Pro删除按钮误触 ([#422](https://github.com/KarinJS/Karin/issues/422)) ([7f91a57](https://github.com/KarinJS/Karin/commit/7f91a57e85f0a450946449a316072d19ed2b39af))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n准备并发布 web 包的 1.8.6 版本\n\nBug 修复：\n- 修复了手风琴 Pro 组件中意外触摸删除按钮的问题\n\n杂项：\n- 将 web 包版本提升至 1.8.6\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPrepare and release version 1.8.6 of the web package\n\nBug Fixes:\n- Fixed an issue with accidental touches on the delete button in the accordion Pro component\n\nChores:\n- Bumped web package version to 1.8.6\n\n</details>",
     "created_at": "2025-05-10T09:12:42Z",
-    "updated_at": "2025-05-10T09:12:53Z",
+    "updated_at": "2025-05-10T09:14:14Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "13f2371a84d023f8382a2ea448312801641752a6",
