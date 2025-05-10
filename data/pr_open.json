@@ -34,7 +34,7 @@
     },
     "body": "refactor(core): 重构fileByExt函数支持子文件夹查找\n\n好的，这是将 pull request 总结翻译成中文的结果：\n\n## Sourcery 总结\n\n为 Karin 项目添加 Docker 安装方法和 Docker 构建工作流程\n\n新特性：\n- 实现 Docker 安装脚本，方便部署\n- 创建 Docker 构建工作流程，支持多个容器镜像仓库\n\n增强功能：\n- 重构 `filesByExt` 函数，支持在子目录中递归搜索文件\n- 更新插件收集逻辑，使用一致的路径引用\n\nCI（持续集成）：\n- 建立多平台 Docker 镜像构建流程\n- 配置镜像发布到 DockerHub、GHCR 和阿里云容器镜像仓库\n\n部署：\n- 添加用于容器化应用程序的 Dockerfile\n- 创建 GitHub Actions 工作流程，用于构建和推送 Docker 镜像\n- 实现 Docker 安装 shell 脚本\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nAdd Docker installation method and Docker build workflow for the Karin project\n\nNew Features:\n- Implement Docker installation script for easy deployment\n- Create Docker build workflow for multiple container registries\n\nEnhancements:\n- Refactor filesByExt function to support recursive file searching in subdirectories\n- Update plugin collection logic to use consistent path references\n\nCI:\n- Set up multi-platform Docker image build process\n- Configure image publishing to DockerHub, GHCR, and Aliyun Container Registry\n\nDeployment:\n- Add Dockerfile for containerized application\n- Create GitHub Actions workflow for building and pushing Docker images\n- Implement Docker installation shell script\n\n</details>",
     "created_at": "2025-05-10T10:38:48Z",
-    "updated_at": "2025-05-10T10:41:22Z",
+    "updated_at": "2025-05-10T13:11:22Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "fdf4b738663f64673d23cce62f10be8c04d5bb67",
