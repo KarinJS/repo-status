@@ -120,7 +120,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-05-10T09:12:42Z",
-    "updated_at": "2025-05-10T10:59:10Z",
+    "updated_at": "2025-05-10T11:27:04Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -133,7 +133,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/423.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>web: 1.8.6</summary>\n\n## [1.8.6](https://github.com/KarinJS/Karin/compare/web-v1.8.5...web-v1.8.6) (2025-05-10)\n\n\n### 🐛 Bug Fixes\n\n* 手风琴Pro删除按钮误触 ([#422](https://github.com/KarinJS/Karin/issues/422)) ([7f91a57](https://github.com/KarinJS/Karin/commit/7f91a57e85f0a450946449a316072d19ed2b39af))\n\n\n### 💄 Styles\n\n* **switchs:** 使用动态类名替换硬编码的文本颜色 ([87a6fe4](https://github.com/KarinJS/Karin/commit/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a))\n* 优化颜色不统一 ([9cb793f](https://github.com/KarinJS/Karin/commit/9cb793f5b29d17f93f3068df8543145f80670efd))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>web: 1.8.6</summary>\n\n## [1.8.6](https://github.com/KarinJS/Karin/compare/web-v1.8.5...web-v1.8.6) (2025-05-10)\n\n\n### 🐛 Bug Fixes\n\n* 手风琴Pro删除按钮误触 ([#422](https://github.com/KarinJS/Karin/issues/422)) ([7f91a57](https://github.com/KarinJS/Karin/commit/7f91a57e85f0a450946449a316072d19ed2b39af))\n\n\n### 💄 Styles\n\n* **switchs:** 使用动态类名替换硬编码的文本颜色 ([87a6fe4](https://github.com/KarinJS/Karin/commit/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a))\n* 优化混乱的颜色。 ([d4383b1](https://github.com/KarinJS/Karin/commit/d4383b1893d434f1592a5a460f27f8d49e62bd61))\n* 优化颜色不统一 ([9cb793f](https://github.com/KarinJS/Karin/commit/9cb793f5b29d17f93f3068df8543145f80670efd))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/423/reactions",
