@@ -34,10 +34,10 @@
     },
     "body": "- 更新 beta-version.yml, manual-publish-core.yml 和 release.yml\r\n- 移除不必要的步骤和配置\r\n- 使用 pnpm 替代 npm\r\n- 添加构建和发布摘要步骤\r\n- 优化发布流程,使用 JS-DevTools/npm-publish 动作\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n重构并简化 GitHub Actions 工作流程，用于构建和发布软件包，从而提高自动化程度和可维护性。\n\n增强功能：\n- 将工作流程中的包管理器从 npm 切换到 pnpm。\n- 使用 JS-DevTools/npm-publish action 替换自定义发布脚本，以便发布到 npm。\n- 添加步骤以在工作流程输出中生成和显示发布摘要。\n- 从 CI 工作流程中删除冗余步骤和配置。\n- 优化发布工作流程中的工件处理和作业依赖关系。\n\nCI：\n- 重构 release、beta-version 和 manual-publish-core 工作流程，以提高清晰度和效率。\n- 更新 CI 工作流程中的权限和作业结构。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRefactor and streamline GitHub Actions workflows for building and publishing packages, improving automation and maintainability.\n\nEnhancements:\n- Switch package manager from npm to pnpm across workflows.\n- Replace custom publish scripts with JS-DevTools/npm-publish action for publishing to npm.\n- Add steps to generate and display publish summaries in workflow outputs.\n- Remove redundant steps and configurations from CI workflows.\n- Optimize artifact handling and job dependencies in release workflows.\n\nCI:\n- Refactor release, beta-version, and manual-publish-core workflows for improved clarity and efficiency.\n- Update permissions and job structures in CI workflows.\n\n</details>",
     "created_at": "2025-05-10T19:09:10Z",
-    "updated_at": "2025-05-10T19:27:53Z",
+    "updated_at": "2025-05-10T19:32:02Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "1d0fe2a0e225f43160c850250074112ed141210b",
+    "merge_commit_sha": "8f7c485387a02effe26f1264714c3cf5d641d3e7",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -49,11 +49,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/427/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/427/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/a03f124f1a97a0a00cda6648d45289918413b3ef",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/30a9e0d62add728c555e4d25ccc1117c79946cc7",
     "head": {
       "label": "shiwuliya:fix-ci",
       "ref": "fix-ci",
-      "sha": "a03f124f1a97a0a00cda6648d45289918413b3ef",
+      "sha": "30a9e0d62add728c555e4d25ccc1117c79946cc7",
       "user": {
         "login": "shiwuliya",
         "id": 71247360,
@@ -143,8 +143,8 @@
         "releases_url": "https://api.github.com/repos/shiwuliya/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/shiwuliya/Karin/deployments",
         "created_at": "2025-05-10T17:31:57Z",
-        "updated_at": "2025-05-10T18:45:48Z",
-        "pushed_at": "2025-05-10T19:27:52Z",
+        "updated_at": "2025-05-10T19:42:26Z",
+        "pushed_at": "2025-05-10T19:32:01Z",
         "git_url": "git://github.com/shiwuliya/Karin.git",
         "ssh_url": "git@github.com:shiwuliya/Karin.git",
         "clone_url": "https://github.com/shiwuliya/Karin.git",
@@ -154,7 +154,7 @@
         "stargazers_count": 0,
         "watchers_count": 0,
         "language": "TypeScript",
-        "has_issues": false,
+        "has_issues": true,
         "has_projects": true,
         "has_downloads": true,
         "has_wiki": true,
@@ -341,7 +341,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/427/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/a03f124f1a97a0a00cda6648d45289918413b3ef"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/30a9e0d62add728c555e4d25ccc1117c79946cc7"
       }
     },
     "author_association": "CONTRIBUTOR",
