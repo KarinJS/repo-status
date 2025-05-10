@@ -40,6 +40,14 @@
     "protected": false
   },
   {
+    "name": "fix-AccordionPro",
+    "commit": {
+      "sha": "6658166f3f69a8facd73956a2a626fed27fcfad3",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/6658166f3f69a8facd73956a2a626fed27fcfad3"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
