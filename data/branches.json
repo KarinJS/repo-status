@@ -40,14 +40,6 @@
     "protected": false
   },
   {
-    "name": "fix-AccordionPro",
-    "commit": {
-      "sha": "8f9d90a6009a7076f9e856325a18f6dc21c6682b",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/8f9d90a6009a7076f9e856325a18f6dc21c6682b"
-    },
-    "protected": false
-  },
-  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
@@ -66,8 +58,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "f8dba89023ad590cd507e619459fdf8b7d9f5cd2",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f8dba89023ad590cd507e619459fdf8b7d9f5cd2"
+      "sha": "7f91a57e85f0a450946449a316072d19ed2b39af",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7f91a57e85f0a450946449a316072d19ed2b39af"
     },
     "protected": true
   },
@@ -84,6 +76,14 @@
     "commit": {
       "sha": "dfde81c543705c1d9a89cb775e06fa52a5401867",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/dfde81c543705c1d9a89cb775e06fa52a5401867"
+    },
+    "protected": false
+  },
+  {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "30b0fcbeefbc172c2367125e7f620b7ac95153f5",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/30b0fcbeefbc172c2367125e7f620b7ac95153f5"
     },
     "protected": false
   },

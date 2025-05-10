@@ -1,5 +1,87 @@
 [
   {
+    "sha": "7f91a57e85f0a450946449a316072d19ed2b39af",
+    "node_id": "C_kwDOLcebn9oAKDdmOTFhNTdlODVmMGE0NTA5NDY0NDlhMzE2MDcyZDE5ZWQyYjM5YWY",
+    "commit": {
+      "author": {
+        "name": "炫炫",
+        "email": "112480306+ikenxuan@users.noreply.github.com",
+        "date": "2025-05-10T09:12:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-05-10T09:12:19Z"
+      },
+      "message": "fix: 手风琴Pro删除按钮误触 (#422)\n\n* fix: 修复移动端手风琴误触\nrefactor(plugin/render): 使用 `@heroui/button` 替换原生按钮\n\n* style(heroui): 更新错误卡片组件的样式以增强一致性和响应性\n\n将错误卡片的样式调整为使用统一的颜色变量和响应式布局，确保在不同设备上显示效果一致，并提升用户体验。\n\n* fix(ui): 修复输入框描述样式并优化开关和按钮组件\n\n- 在输入框组件中添加描述文本的样式，确保其在小屏幕上换行\n- 为开关组件添加key属性以优化渲染性能\n- 将按钮组件的variant从'flat'改为'solid'，提升视觉一致性\n\n* style(inputs): 添加无配置项时的提示信息\n\n当输入组中没有配置项时，显示提示信息引导用户添加配置，提升用户体验。\n\n* style: 优化代码格式和滚动条样式\n\n- 在全局样式中添加 `.no-scrollbar` 类，用于隐藏不同浏览器的滚动条\n- 修复代码中的格式问题，如逗号对齐和引号使用\n- 调整组件中的类名和布局，提升代码可读性",
+      "tree": {
+        "sha": "71678e5c2032c53639845e4b50f82c8ae9fe1f87",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/71678e5c2032c53639845e4b50f82c8ae9fe1f87"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/7f91a57e85f0a450946449a316072d19ed2b39af",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoHxhzCRC1aQ7uu5UhlAAA9t4QACXuJwTI4IXaFqMzxo1/bQW4\nTsDGYVq670A8arZE6EwDr24dspeYfOwWSq9+LD6gBJbjuwX7k/nfHGiBFPwAEW0q\nH3kbGiYGAbsj9OpyrSCZ5R9noSxPNdax484KguIqWqX8SprwCFdjw0J7NN2c6exg\n4IG23rfswHvHT8drX07VqeYpxxrNdY8FaEUVNoZURFJUEk7UslPv7dNImwZDCTxm\nm+EdIt85A475PkRGsbZmOF91donCbTlYKsEYQI2d2zTXyDfO0ffue8p3ZCAOJHg8\niqOxOOIyTGRRgXn3cH+4MaTyaahKQIauTFYvXensjC6tpCZ1pWafqqQCF23GLRAD\nzZtPnnZVjisR+Khzoy6kVrXBYssHdTgX8wjOnTWykJWsFWgSXXSTKxZYdbGBsWTL\n9nIQOPtbqWY1tvWn0IrV1RDdKsZI6HjSCzLX15erNSfQan1Q8AyOymNDoGd6UmIP\nXZLglkM77q7vNg+um0ZGTDUZJL1mlh63VhDrxmnsZu6RHs/7NtTjqSOslYIwbvVS\nl4bDLPiAyWZ1BuKoQ+gNOnEQqiU5RjSQRoPNdGiTPwascAeWQu1H5z04ky6H5HHg\njCx7Kr8Xu9Omugl7Crv0kLoNURcNV/KBYH5ZzSPkBm3EHoqGYhGq/W3sTkBj57BS\nKAoy5OmsKYnMCUBRSDTx\n=maOw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 71678e5c2032c53639845e4b50f82c8ae9fe1f87\nparent f8dba89023ad590cd507e619459fdf8b7d9f5cd2\nauthor 炫炫 <112480306+ikenxuan@users.noreply.github.com> 1746868339 +0800\ncommitter GitHub <noreply@github.com> 1746868339 +0800\n\nfix: 手风琴Pro删除按钮误触 (#422)\n\n* fix: 修复移动端手风琴误触\nrefactor(plugin/render): 使用 `@heroui/button` 替换原生按钮\n\n* style(heroui): 更新错误卡片组件的样式以增强一致性和响应性\n\n将错误卡片的样式调整为使用统一的颜色变量和响应式布局，确保在不同设备上显示效果一致，并提升用户体验。\n\n* fix(ui): 修复输入框描述样式并优化开关和按钮组件\n\n- 在输入框组件中添加描述文本的样式，确保其在小屏幕上换行\n- 为开关组件添加key属性以优化渲染性能\n- 将按钮组件的variant从'flat'改为'solid'，提升视觉一致性\n\n* style(inputs): 添加无配置项时的提示信息\n\n当输入组中没有配置项时，显示提示信息引导用户添加配置，提升用户体验。\n\n* style: 优化代码格式和滚动条样式\n\n- 在全局样式中添加 `.no-scrollbar` 类，用于隐藏不同浏览器的滚动条\n- 修复代码中的格式问题，如逗号对齐和引号使用\n- 调整组件中的类名和布局，提升代码可读性",
+        "verified_at": "2025-05-10T09:12:39Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/7f91a57e85f0a450946449a316072d19ed2b39af",
+    "html_url": "https://github.com/KarinJS/Karin/commit/7f91a57e85f0a450946449a316072d19ed2b39af",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/7f91a57e85f0a450946449a316072d19ed2b39af/comments",
+    "author": {
+      "login": "ikenxuan",
+      "id": 112480306,
+      "node_id": "U_kgDOBrRQMg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ikenxuan",
+      "html_url": "https://github.com/ikenxuan",
+      "followers_url": "https://api.github.com/users/ikenxuan/followers",
+      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
+      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
+      "repos_url": "https://api.github.com/users/ikenxuan/repos",
+      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f8dba89023ad590cd507e619459fdf8b7d9f5cd2",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/f8dba89023ad590cd507e619459fdf8b7d9f5cd2",
+        "html_url": "https://github.com/KarinJS/Karin/commit/f8dba89023ad590cd507e619459fdf8b7d9f5cd2"
+      }
+    ]
+  },
+  {
     "sha": "f8dba89023ad590cd507e619459fdf8b7d9f5cd2",
     "node_id": "C_kwDOLcebn9oAKGY4ZGJhODkwMjNhZDU5MGNkNTA3ZTYxOTQ1OWZkZjhiN2Q5ZjVjZDI",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "77f429202477f6dd2ff3df563b2b958d50e6ee32",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/77f429202477f6dd2ff3df563b2b958d50e6ee32",
         "html_url": "https://github.com/KarinJS/Karin/commit/77f429202477f6dd2ff3df563b2b958d50e6ee32"
-      }
-    ]
-  },
-  {
-    "sha": "77f429202477f6dd2ff3df563b2b958d50e6ee32",
-    "node_id": "C_kwDOLcebn9oAKDc3ZjQyOTIwMjQ3N2Y2ZGQyZmYzZGY1NjNiMmI5NThkNTBlNmVlMzI",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "shijinn520@gmail.com",
-        "date": "2025-05-05T04:19:19Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-05-05T04:19:19Z"
-      },
-      "message": "refactor: 重构`getHistoryMsg`接口 支持传入`seq` (#387)\n\n* refactor: 重构`getHistoryMsg`接口 支持传入`seq`\n\n* fix: nan",
-      "tree": {
-        "sha": "7bc10f5cd2b7aae2f91bd9883b44ee6af5568273",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/7bc10f5cd2b7aae2f91bd9883b44ee6af5568273"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/77f429202477f6dd2ff3df563b2b958d50e6ee32",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoGDxHCRC1aQ7uu5UhlAAAIuUQAGyCwqS+UAlUHWlKbx5rJfCm\njSBJENRiSu+H5JnAi6UB8wPM90ttqpcwOPjzzQEH9ke3Mra4yMEypFfiySQgpf08\njzwULMk5nsUTOa5YatOs+6aa1iSglXN4iNIW9eq+FcAubrndWpmQ3f+rgXoLWvJd\nAP1nKsCDj+JkTyEt8MwU4982z24YUni2BfcLRyChrMXqfkgjo4vxCmESmnklxs4m\nLkgU1O3n/BHilsQHjSTeQZtd0fRCKT3UxvJm8pOZj2rT9/gUXkU+gF+3LQdAhLyG\nWmYIdL+ORjczusx5URhkKOIJ5xc2JpbGaev5iwf8vZJgub8V3Hkk9J+VpLlIS+Cw\nF5N7xPba0WTI15+Hi1gNQMQAH189MeYAZHjAnhqwgOZnVoNzuX92yIPqzk5AkiU4\nW2co+CBor6/uFZE3CE8ZpWEF/jgN1wUHIcFtIZKR6Uqu57T3YqnpCX9fkc0vonvD\nLqcuq7YDCy45jY8r1xDc+l09TxA6KtO8coJAjatVgRtxGHa7XGUscS3F1ubZrniz\nmyQCHDpUyc83P374/mZv32SSu3AmSmur+gO1YpcglgF/uhk/k0kZ7oBjtlHvh43h\nJ5e6eXd2ISerXrYOVQrL1pchndJsVV5JgbTeiAg5yJFZdLZmNuLQYfw9uYQO1fv6\n7ADjZz3+lrDFJO/Qc3oA\n=Flhq\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 7bc10f5cd2b7aae2f91bd9883b44ee6af5568273\nparent 9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f\nauthor 时瑾 <shijinn520@gmail.com> 1746418759 +0800\ncommitter GitHub <noreply@github.com> 1746418759 +0800\n\nrefactor: 重构`getHistoryMsg`接口 支持传入`seq` (#387)\n\n* refactor: 重构`getHistoryMsg`接口 支持传入`seq`\n\n* fix: nan",
-        "verified_at": "2025-05-05T04:19:37Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/77f429202477f6dd2ff3df563b2b958d50e6ee32",
-    "html_url": "https://github.com/KarinJS/Karin/commit/77f429202477f6dd2ff3df563b2b958d50e6ee32",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/77f429202477f6dd2ff3df563b2b958d50e6ee32/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f",
-        "html_url": "https://github.com/KarinJS/Karin/commit/9d99d3e4e4ce857dbc4b04915c834969a5bc0d5f"
       }
     ]
   }
