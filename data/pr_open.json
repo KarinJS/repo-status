@@ -34,7 +34,7 @@
     },
     "body": "好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n重构了 GitHub Actions 工作流，用于发布软件包，简化了 URL 提取和评论发布逻辑。\n\nCI：\n- 简化了发布工作流中的 URL 提取机制\n- 精简了 PR 评论创建流程\n- 更新了评论删除逻辑以管理机器人评论\n\n杂项：\n- 将工作流名称从 'publish-minimal-repro' 重命名为 'beta-version'\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRefactor the GitHub Actions workflow for package publishing, simplifying the URL extraction and comment posting logic\n\nCI:\n- Simplified URL extraction mechanism in the publish workflow\n- Streamlined PR comment creation process\n- Updated comment deletion logic to manage bot comments\n\nChores:\n- Renamed workflow from 'publish-minimal-repro' to 'beta-version'\n\n</details>",
     "created_at": "2025-05-10T14:04:44Z",
-    "updated_at": "2025-05-10T14:28:32Z",
+    "updated_at": "2025-05-10T14:30:32Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "31305a4d7f6180e4cf71faf299df953d32088197",
