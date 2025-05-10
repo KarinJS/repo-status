@@ -1,5 +1,87 @@
 [
   {
+    "sha": "87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a",
+    "node_id": "C_kwDOLcebn9oAKDg3YTZmZTRhNGNkZWE3ZWNkNDlmMzU5NmUxZDUyZjY0OTFjOTg3NGE",
+    "commit": {
+      "author": {
+        "name": "炫炫",
+        "email": "112480306+ikenxuan@users.noreply.github.com",
+        "date": "2025-05-10T10:12:48Z"
+      },
+      "committer": {
+        "name": "炫炫",
+        "email": "112480306+ikenxuan@users.noreply.github.com",
+        "date": "2025-05-10T10:12:48Z"
+      },
+      "message": "style(switchs): 使用动态类名替换硬编码的文本颜色\n\n将硬编码的 `text-primary-500` 替换为动态类名 `text-${props.color || 'primary'}`，以支持自定义颜色并提高代码的灵活性。",
+      "tree": {
+        "sha": "8c7a2de3fc7c47e8b7cfe1c74f4891389732b697",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/8c7a2de3fc7c47e8b7cfe1c74f4891389732b697"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a",
+    "html_url": "https://github.com/KarinJS/Karin/commit/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/87a6fe4a4cdea7ecd49f3596e1d52f6491c9874a/comments",
+    "author": {
+      "login": "ikenxuan",
+      "id": 112480306,
+      "node_id": "U_kgDOBrRQMg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ikenxuan",
+      "html_url": "https://github.com/ikenxuan",
+      "followers_url": "https://api.github.com/users/ikenxuan/followers",
+      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
+      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
+      "repos_url": "https://api.github.com/users/ikenxuan/repos",
+      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ikenxuan",
+      "id": 112480306,
+      "node_id": "U_kgDOBrRQMg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ikenxuan",
+      "html_url": "https://github.com/ikenxuan",
+      "followers_url": "https://api.github.com/users/ikenxuan/followers",
+      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
+      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
+      "repos_url": "https://api.github.com/users/ikenxuan/repos",
+      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7f91a57e85f0a450946449a316072d19ed2b39af",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/7f91a57e85f0a450946449a316072d19ed2b39af",
+        "html_url": "https://github.com/KarinJS/Karin/commit/7f91a57e85f0a450946449a316072d19ed2b39af"
+      }
+    ]
+  },
+  {
     "sha": "7f91a57e85f0a450946449a316072d19ed2b39af",
     "node_id": "C_kwDOLcebn9oAKDdmOTFhNTdlODVmMGE0NTA5NDY0NDlhMzE2MDcyZDE5ZWQyYjM5YWY",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "f1d1556019099a5da8a3f3801640e76c17a65ded",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/f1d1556019099a5da8a3f3801640e76c17a65ded",
         "html_url": "https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded"
-      }
-    ]
-  },
-  {
-    "sha": "f1d1556019099a5da8a3f3801640e76c17a65ded",
-    "node_id": "C_kwDOLcebn9oAKGYxZDE1NTYwMTkwOTlhNWRhOGEzZjM4MDE2NDBlNzZjMTdhNjVkZWQ",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "shijinn520@gmail.com",
-        "date": "2025-05-05T04:19:48Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-05-05T04:19:48Z"
-      },
-      "message": "fix: close #372 (#388)\n\n* style: `安装新依赖` 添加对`pnpm 10`的版本支持\n\n* fix: close #372\n\n* fix: 更强的兼容性",
-      "tree": {
-        "sha": "b99a852fa2598b28518e11bb8796c6f70b111618",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/b99a852fa2598b28518e11bb8796c6f70b111618"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/f1d1556019099a5da8a3f3801640e76c17a65ded",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoGDxkCRC1aQ7uu5UhlAAAzNcQAF91Syqwcz8OFOU3lAFLBAew\nJeNZ6PeGXI2xZbAVOCWQcllaHQcF7wt5UWrAiThhQ2kIWJCJuX/SnZU7410GQ9HF\nOS2PJyhwgehUxWl9vCWnhVFkzy6RtvXlX8B4Hy+jZYcgBhvhfOUzuHadbHN5cOZL\nZK8KCHLXeKUd/aDXboWIanH+yNZ1NHeyTHMx3iQYIuE432C4804NW2YXDGjZ4DES\nF74F9pcCuvxY25rbcyxak2XWd5760miflIGh26KmXtIJSzXEqcj0NyaKTGKuA/J0\nqBGHX8mSIBmUQqWgNPvoLmWyZmX2EgYIsP816JSc0UsRBuPltRG7EXXFaAw4dQv/\nbkjtFXqNmzdaZk5n/ewrBsl0QuHXrnJH6z49QFCnZuJlJEtbkRHVuqWwUzHa0z3z\npFt7oKN5Yqv1RmiOW/5B3NF7uTB+uD1mWIL3Q/ZBzIyrwgUL93f0CXA1woKaKE2U\nLHY9E6rXwIei8WR7BM+ShQjdUH+/bZhj0p4aHTCgU6QdBabCksZpnKBXIeeS5Wqh\nt3gEVAFmIaLfoG4Pv0w7aNzE4TZhumZw8FYKPxCncG8AAwYM4ndlh7J5J7PGu0M1\nfIqfjX0BC3K8lKak7zS5RWokPN+iWM0NHjmKCBAAgVwlI7IzZB7TyCfsbsz6Hh6M\nYkkASo0hh08EKSAaYxYH\n=ryes\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree b99a852fa2598b28518e11bb8796c6f70b111618\nparent 77f429202477f6dd2ff3df563b2b958d50e6ee32\nauthor 时瑾 <shijinn520@gmail.com> 1746418788 +0800\ncommitter GitHub <noreply@github.com> 1746418788 +0800\n\nfix: close #372 (#388)\n\n* style: `安装新依赖` 添加对`pnpm 10`的版本支持\n\n* fix: close #372\n\n* fix: 更强的兼容性",
-        "verified_at": "2025-05-05T04:19:59Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/f1d1556019099a5da8a3f3801640e76c17a65ded",
-    "html_url": "https://github.com/KarinJS/Karin/commit/f1d1556019099a5da8a3f3801640e76c17a65ded",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/f1d1556019099a5da8a3f3801640e76c17a65ded/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "77f429202477f6dd2ff3df563b2b958d50e6ee32",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/77f429202477f6dd2ff3df563b2b958d50e6ee32",
-        "html_url": "https://github.com/KarinJS/Karin/commit/77f429202477f6dd2ff3df563b2b958d50e6ee32"
       }
     ]
   }
