@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-05-20T11:20:00Z",
-    "updated_at": "2025-05-20T11:20:34Z",
+    "updated_at": "2025-05-20T12:27:22Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -62,7 +62,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/441.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.9.4</summary>\n\n## [1.9.4](https://github.com/KarinJS/Karin/compare/core-v1.9.3...core-v1.9.4) (2025-05-20)\n\n\n### 🐛 Bug Fixes\n\n* close [#436](https://github.com/KarinJS/Karin/issues/436) ([9ff2938](https://github.com/KarinJS/Karin/commit/9ff2938a386193c42cef91160205d254865e77c3))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n发布 core 包 v1.9.4 版本，包含一个重要的 bug 修复和相应的元数据更新。\n\nBug 修复：\n- 修复 issue #436\n\n文档：\n- 为 core v1.9.4 添加 CHANGELOG 条目\n\n杂务：\n- 将 core 包版本提升至 1.9.4\n- 更新 release-please manifest\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPublish release v1.9.4 of the core package with a critical bug fix and accompanying metadata updates.\n\nBug Fixes:\n- Close issue #436\n\nDocumentation:\n- Add CHANGELOG entry for core v1.9.4\n\nChores:\n- Bump core package version to 1.9.4\n- Update release-please manifest\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.9.4</summary>\n\n## [1.9.4](https://github.com/KarinJS/Karin/compare/core-v1.9.3...core-v1.9.4) (2025-05-20)\n\n\n### 🐛 Bug Fixes\n\n* close [#436](https://github.com/KarinJS/Karin/issues/436) ([9ff2938](https://github.com/KarinJS/Karin/commit/9ff2938a386193c42cef91160205d254865e77c3))\n\n\n### ⚡️ Performance\n\n* 优化`raceRequest`函数 ([0455a3c](https://github.com/KarinJS/Karin/commit/0455a3c3e9cba1f19c7b6ed1862a16f072cd3599))\n* 优化全局配置 添加对应配置项 ([f6c81d3](https://github.com/KarinJS/Karin/commit/f6c81d38d20397f9391ec44703126bafc3c52197))\n</details>\n\n<details><summary>web: 1.8.7</summary>\n\n## [1.8.7](https://github.com/KarinJS/Karin/compare/web-v1.8.6...web-v1.8.7) (2025-05-20)\n\n\n### ⚡️ Performance\n\n* 优化全局配置 添加对应配置项 ([f6c81d3](https://github.com/KarinJS/Karin/commit/f6c81d38d20397f9391ec44703126bafc3c52197))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/441/reactions",
