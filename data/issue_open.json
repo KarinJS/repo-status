@@ -33,13 +33,13 @@
     },
     "labels": [
       {
-        "id": 6654977162,
-        "node_id": "LA_kwDOLcebn88AAAABjKrkig",
-        "url": "https://api.github.com/repos/KarinJS/Karin/labels/bug",
-        "name": "bug",
-        "color": "d73a4a",
+        "id": 6654977184,
+        "node_id": "LA_kwDOLcebn88AAAABjKrkoA",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/invalid",
+        "name": "invalid",
+        "color": "e4e669",
         "default": true,
-        "description": "Something isn't working"
+        "description": "This doesn't seem right"
       }
     ],
     "state": "open",
@@ -47,9 +47,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 7,
+    "comments": 8,
     "created_at": "2025-05-23T08:54:03Z",
-    "updated_at": "2025-05-23T09:11:12Z",
+    "updated_at": "2025-05-23T14:36:51Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
