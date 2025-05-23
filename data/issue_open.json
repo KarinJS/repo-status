@@ -63,7 +63,7 @@
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/446/reactions",
-      "total_count": 1,
+      "total_count": 2,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
@@ -71,7 +71,7 @@
       "confused": 0,
       "heart": 0,
       "rocket": 0,
-      "eyes": 1
+      "eyes": 2
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/446/timeline",
     "performed_via_github_app": null,
