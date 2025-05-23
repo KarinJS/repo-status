@@ -73,7 +73,7 @@
   "clone_url": "https://github.com/KarinJS/Karin.git",
   "svn_url": "https://github.com/KarinJS/Karin",
   "homepage": "https://docs.karin.fun/",
-  "size": 23034,
+  "size": 23060,
   "stargazers_count": 123,
   "watchers_count": 123,
   "language": "TypeScript",
@@ -87,7 +87,7 @@
   "mirror_url": null,
   "archived": false,
   "disabled": false,
-  "open_issues_count": 9,
+  "open_issues_count": 8,
   "license": {
     "key": "mit",
     "name": "MIT License",
@@ -103,7 +103,7 @@
   ],
   "visibility": "public",
   "forks": 13,
-  "open_issues": 9,
+  "open_issues": 8,
   "watchers": 123,
   "default_branch": "main",
   "permissions": {
