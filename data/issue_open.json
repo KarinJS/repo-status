@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-06-04T09:22:52Z",
-    "updated_at": "2025-06-04T09:32:26Z",
+    "updated_at": "2025-06-04T09:35:52Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -62,7 +62,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/452.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.9.9</summary>\n\n## [1.9.9](https://github.com/KarinJS/Karin/compare/core-v1.9.8...core-v1.9.9) (2025-06-04)\n\n\n### 💄 Styles\n\n* 优化进程显示标题 ([08c284d](https://github.com/KarinJS/Karin/commit/08c284d317172e09b3e60049cbcc84f18355ff90))\n\n\n### ♻️ Code Refactoring\n\n* 优化子进程管理逻辑 ([f6629f8](https://github.com/KarinJS/Karin/commit/f6629f886e1f3e578353a1aa200543a45b27e0a2))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.9.9</summary>\n\n## [1.9.9](https://github.com/KarinJS/Karin/compare/core-v1.9.8...core-v1.9.9) (2025-06-04)\n\n\n### ⚡️ Performance\n\n* 优化获取实时日志文件Api 限制大文件大小 ([a96de40](https://github.com/KarinJS/Karin/commit/a96de404497edbaaa40b10181341d3586234f73e))\n\n\n### 💄 Styles\n\n* 优化进程显示标题 ([08c284d](https://github.com/KarinJS/Karin/commit/08c284d317172e09b3e60049cbcc84f18355ff90))\n\n\n### ♻️ Code Refactoring\n\n* 优化子进程管理逻辑 ([f6629f8](https://github.com/KarinJS/Karin/commit/f6629f886e1f3e578353a1aa200543a45b27e0a2))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/452/reactions",
