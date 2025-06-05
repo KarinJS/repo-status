@@ -1,5 +1,87 @@
 [
   {
+    "sha": "0d13395d610b36f306cf56231f732a2ff39c5582",
+    "node_id": "C_kwDOLcebn9oAKDBkMTMzOTVkNjEwYjM2ZjMwNmNmNTYyMzFmNzMyYTJmZjM5YzU1ODI",
+    "commit": {
+      "author": {
+        "name": "wuliya",
+        "email": "3369906077@qq.com",
+        "date": "2025-06-05T15:06:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-05T15:06:19Z"
+      },
+      "message": "perf(core): 优化端口功能，添加结束指定PID或端口程序 (#459)\n\n- 新增 killApp 函数，用于结束指定PID号或端口号的程序\n- 支持 Windows 和 Unix 系统\n- 引入 exec、getPid 和 isWin 等工具函数",
+      "tree": {
+        "sha": "e3622a7624d86157fa2ba8116cefd225d2178a20",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/e3622a7624d86157fa2ba8116cefd225d2178a20"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/0d13395d610b36f306cf56231f732a2ff39c5582",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQbJrCRC1aQ7uu5UhlAAAAd0QAGuBqsEEshM6vABiccIohGAr\naUUCOskVUWwomw8khK7txcBOfbNqkuoxQqWxGcGRkAQpeFrbbpVcr49q264iQwqx\nQX5itRi6uGQc2BJGRqwnrmXNZj2Iwvq9FKsfGD24k8iX7eGMPOqyKgBa/TgLaubE\nS+QhMkfZ2AQXRKZ0Uv4hBcMPGJA51OGXKUML7DVtCaP2zsSQioc0qepevg2jDQWj\nciW8HGZyntQwiIfPzKE0nybzkV+okqpa8JjWWh9qCDW52cIWnMf36VtAZir4Lbs2\nJBdxyfHR0EIvYGkefIjYbiN8tTEedlABlv4c3TDR9ZM4bx1v3as8BL2Aly/MIm4F\nCChtwcT24jLMQw8Ti/bHdPSex4Cveb06EKPvFp4pWexMvEjsQhuoTbwo+YHtotS0\n3i5jcN4/C0z62/2Z+HVn4Ozslt6h8Ec1eLFYmBjpyBWLUcrgEps7PMVCKDP16GvS\nUKxk8+ZBSTeG3vNYP8ROvt7FTKLME4MznyIJ1+Qkdw62OiFvQnVtO7JEdrrU+8wc\n/VKVUZBXSZbGcWSyZbAxyfY3gJf5fDdJmpO/d3ncVP1FjPcEOOtLDOSbRcB034hO\nHGPgCEXwQyBclNoiFQSqfXxxbvF8+mhxVq+KPaNdEVYrPKpPSnYL3enAVEiQin8l\n5i6CTwjJ5sNZGdW/ZdbV\n=PBSV\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e3622a7624d86157fa2ba8116cefd225d2178a20\nparent dc4cda9889d52d4c2a4bd90992ce61c23ddf477d\nauthor wuliya <3369906077@qq.com> 1749135979 +0800\ncommitter GitHub <noreply@github.com> 1749135979 +0800\n\nperf(core): 优化端口功能，添加结束指定PID或端口程序 (#459)\n\n- 新增 killApp 函数，用于结束指定PID号或端口号的程序\n- 支持 Windows 和 Unix 系统\n- 引入 exec、getPid 和 isWin 等工具函数",
+        "verified_at": "2025-06-05T15:06:50Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/0d13395d610b36f306cf56231f732a2ff39c5582",
+    "html_url": "https://github.com/KarinJS/Karin/commit/0d13395d610b36f306cf56231f732a2ff39c5582",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/0d13395d610b36f306cf56231f732a2ff39c5582/comments",
+    "author": {
+      "login": "shiwuliya",
+      "id": 71247360,
+      "node_id": "MDQ6VXNlcjcxMjQ3MzYw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71247360?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shiwuliya",
+      "html_url": "https://github.com/shiwuliya",
+      "followers_url": "https://api.github.com/users/shiwuliya/followers",
+      "following_url": "https://api.github.com/users/shiwuliya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shiwuliya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shiwuliya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shiwuliya/subscriptions",
+      "organizations_url": "https://api.github.com/users/shiwuliya/orgs",
+      "repos_url": "https://api.github.com/users/shiwuliya/repos",
+      "events_url": "https://api.github.com/users/shiwuliya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shiwuliya/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dc4cda9889d52d4c2a4bd90992ce61c23ddf477d",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/dc4cda9889d52d4c2a4bd90992ce61c23ddf477d",
+        "html_url": "https://github.com/KarinJS/Karin/commit/dc4cda9889d52d4c2a4bd90992ce61c23ddf477d"
+      }
+    ]
+  },
+  {
     "sha": "dc4cda9889d52d4c2a4bd90992ce61c23ddf477d",
     "node_id": "C_kwDOLcebn9oAKGRjNGNkYTk4ODlkNTJkNGMyYTRiZDkwOTkyY2U2MWMyM2RkZjQ3N2Q",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "4f6172f79a52eb2440adaf0c5a8d0e788a14fb03",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/4f6172f79a52eb2440adaf0c5a8d0e788a14fb03",
         "html_url": "https://github.com/KarinJS/Karin/commit/4f6172f79a52eb2440adaf0c5a8d0e788a14fb03"
-      }
-    ]
-  },
-  {
-    "sha": "4f6172f79a52eb2440adaf0c5a8d0e788a14fb03",
-    "node_id": "C_kwDOLcebn9oAKDRmNjE3MmY3OWE1MmViMjQ0MGFkYWYwYzVhOGQwZTc4OGExNGZiMDM",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-05-21T10:03:48Z"
-      },
-      "committer": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-05-21T10:03:48Z"
-      },
-      "message": "fix(create): 修复模板缺少的文件",
-      "tree": {
-        "sha": "b676ff4411ad1c366ff17372c13c8b7bd8374d6b",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/b676ff4411ad1c366ff17372c13c8b7bd8374d6b"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/4f6172f79a52eb2440adaf0c5a8d0e788a14fb03",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaC2lBAAKCRACP3ChuPjB\nlox6AP9EIE4IopOpIZ84wepRdy+yTHsfb4FQMjr+hgrxK1orswD+Mcr5SibEMsPL\n/189UDWXdfvh8ggn8rtfbR5MfLIGtQ4=\n=+gzH\n-----END PGP SIGNATURE-----",
-        "payload": "tree b676ff4411ad1c366ff17372c13c8b7bd8374d6b\nparent 75e858a32fc92bab124cad6e184a3e5306baff98\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1747821828 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1747821828 +0800\n\nfix(create): 修复模板缺少的文件\n",
-        "verified_at": "2025-05-21T10:04:04Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/4f6172f79a52eb2440adaf0c5a8d0e788a14fb03",
-    "html_url": "https://github.com/KarinJS/Karin/commit/4f6172f79a52eb2440adaf0c5a8d0e788a14fb03",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/4f6172f79a52eb2440adaf0c5a8d0e788a14fb03/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "75e858a32fc92bab124cad6e184a3e5306baff98",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/75e858a32fc92bab124cad6e184a3e5306baff98",
-        "html_url": "https://github.com/KarinJS/Karin/commit/75e858a32fc92bab124cad6e184a3e5306baff98"
       }
     ]
   }
