@@ -34,7 +34,7 @@
     },
     "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.9.10</summary>\n\n## [1.9.10](https://github.com/KarinJS/Karin/compare/core-v1.9.9...core-v1.9.10) (2025-06-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#383](https://github.com/KarinJS/Karin/issues/383) ([7391d4e](https://github.com/KarinJS/Karin/commit/7391d4eb4bda70df17e6dc49b8eba4a6a8c89b48))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n发布核心版本 v1.9.10，包括版本升级、更新变更日志以及关闭相关 issue\n\nBug 修复：\n- 关闭 issue #383\n\n文档：\n- 为 v1.9.10 添加 CHANGELOG 条目\n\n杂务：\n- 将核心包版本提升至 1.9.10 并更新 release-please manifest\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPublish core v1.9.10 release by bumping version, updating changelog, and closing the relevant issue\n\nBug Fixes:\n- Close issue #383\n\nDocumentation:\n- Add CHANGELOG entry for v1.9.10\n\nChores:\n- Bump core package version to 1.9.10 and update release-please manifest\n\n</details>",
     "created_at": "2025-06-05T11:18:32Z",
-    "updated_at": "2025-06-05T11:18:48Z",
+    "updated_at": "2025-06-05T11:20:32Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "ac5a4ac1ffac15b71c78268a47b2d3fcd23a79d5",
