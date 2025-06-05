@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.9.10</summary>\n\n## [1.9.10](https://github.com/KarinJS/Karin/compare/core-v1.9.9...core-v1.9.10) (2025-06-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#383](https://github.com/KarinJS/Karin/issues/383) ([7391d4e](https://github.com/KarinJS/Karin/commit/7391d4eb4bda70df17e6dc49b8eba4a6a8c89b48))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n发布核心版本 v1.9.10，包括版本升级、更新变更日志以及关闭相关 issue\n\nBug 修复：\n- 关闭 issue #383\n\n文档：\n- 为 v1.9.10 添加 CHANGELOG 条目\n\n杂务：\n- 将核心包版本提升至 1.9.10 并更新 release-please manifest\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nPublish core v1.9.10 release by bumping version, updating changelog, and closing the relevant issue\n\nBug Fixes:\n- Close issue #383\n\nDocumentation:\n- Add CHANGELOG entry for v1.9.10\n\nChores:\n- Bump core package version to 1.9.10 and update release-please manifest\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.9.10</summary>\n\n## [1.9.10](https://github.com/KarinJS/Karin/compare/core-v1.9.9...core-v1.9.10) (2025-06-05)\n\n\n### 🐛 Bug Fixes\n\n* close [#383](https://github.com/KarinJS/Karin/issues/383) ([7391d4e](https://github.com/KarinJS/Karin/commit/7391d4eb4bda70df17e6dc49b8eba4a6a8c89b48))\n* close [#454](https://github.com/KarinJS/Karin/issues/454) ([663c119](https://github.com/KarinJS/Karin/commit/663c119ed9d0d476f661673ff1bb095e36d31488))\n* 迁移到`engines` ([afb41cb](https://github.com/KarinJS/Karin/commit/afb41cbc3d6a2e8e83182c0afdb029760a897462))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "created_at": "2025-06-05T11:18:32Z",
-    "updated_at": "2025-06-05T11:20:32Z",
+    "updated_at": "2025-06-05T11:50:23Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ac5a4ac1ffac15b71c78268a47b2d3fcd23a79d5",
+    "merge_commit_sha": "f3d49d07cdfad8ba5c12f8afb80df8cb27479055",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -59,11 +59,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/455/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/455/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/1e0357396f37f7b96003bc522c9cc820027ba429",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/f379f23cad7dbe62a786d834a3ee2f841ea7b372",
     "head": {
       "label": "KarinJS:release-please--branches--main",
       "ref": "release-please--branches--main",
-      "sha": "1e0357396f37f7b96003bc522c9cc820027ba429",
+      "sha": "f379f23cad7dbe62a786d834a3ee2f841ea7b372",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -153,8 +153,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-06-05T11:18:08Z",
-        "pushed_at": "2025-06-05T11:18:32Z",
+        "updated_at": "2025-06-05T11:50:02Z",
+        "pushed_at": "2025-06-05T11:50:22Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -174,7 +174,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 10,
+        "open_issues_count": 9,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -190,7 +190,7 @@
         ],
         "visibility": "public",
         "forks": 13,
-        "open_issues": 10,
+        "open_issues": 9,
         "watchers": 124,
         "default_branch": "main"
       }
@@ -198,7 +198,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "7391d4eb4bda70df17e6dc49b8eba4a6a8c89b48",
+      "sha": "663c119ed9d0d476f661673ff1bb095e36d31488",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -288,8 +288,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-06-05T11:18:08Z",
-        "pushed_at": "2025-06-05T11:18:32Z",
+        "updated_at": "2025-06-05T11:50:02Z",
+        "pushed_at": "2025-06-05T11:50:22Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -309,7 +309,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 10,
+        "open_issues_count": 9,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -325,7 +325,7 @@
         ],
         "visibility": "public",
         "forks": 13,
-        "open_issues": 10,
+        "open_issues": 9,
         "watchers": 124,
         "default_branch": "main"
       }
@@ -353,7 +353,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/455/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/1e0357396f37f7b96003bc522c9cc820027ba429"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/f379f23cad7dbe62a786d834a3ee2f841ea7b372"
       }
     },
     "author_association": "CONTRIBUTOR",
