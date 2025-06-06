@@ -40,6 +40,14 @@
     "protected": false
   },
   {
+    "name": "feat-components",
+    "commit": {
+      "sha": "231e3794ddbf3e45717ffc8a64019a741e913c78",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/231e3794ddbf3e45717ffc8a64019a741e913c78"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
