@@ -47,9 +47,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 4,
+    "comments": 5,
     "created_at": "2025-06-05T16:06:11Z",
-    "updated_at": "2025-06-06T01:23:17Z",
+    "updated_at": "2025-06-06T04:19:49Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -59,7 +59,7 @@
       "completed": 0,
       "percent_completed": 0
     },
-    "body": "### 描述问题\n\n正在重启，没有自己启动 需要再次运行npm run app\n\n### 复现步骤\n\n1. 第一步：web端dian第重启\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n提示：正在重启，没有自己启动 需要再次运行npm run app\n\n### 实际行为\n\n![Image](https://github.com/user-attachments/assets/10e57f79-86a5-4aaa-8354-ba3407e71cf3)\n\n### 操作系统\n\nwindows10\n\n### Node.js 版本\n\n12\n\n### 项目版本\n\n1.9.11\n\n### 附加信息\n\n_No response_",
+    "body": "### 描述问题\n\n正在重启，没有自己启动 需要再次运行npm run app\n\n### 复现步骤\n\n1. 第一步：web端dian第重启\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n提示：正在重启，没有自己启动 需要再次运行npm run app\n\n### 实际行为\n\n![Image](https://github.com/user-attachments/assets/10e57f79-86a5-4aaa-8354-ba3407e71cf3)\n\n### 操作系统\n\nwindows10\n\n### Node.js 版本\n\n22.14.0\n\n### 项目版本\n\n1.9.11\n\n### 附加信息\n\n_No response_",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/460/reactions",
