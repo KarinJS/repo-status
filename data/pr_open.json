@@ -34,7 +34,7 @@
     },
     "body": "本PR将把`OneBot`适配器进行分离 分离为单独的模块  \r\n依旧保留配置文件位置\r\n\r\n- [ ] 支持所有 `go-cqhttp` Api`(频道不支持)`\r\n- [ ] 支持所有 `go-cqhttp` 上报事件\r\n- [ ] 支持所有 `NapCat` Api\r\n- [ ] 支持所有 `NapCat` 上报事件\r\n- [ ] 支持所有 `Lagrange.OneBot` Api\r\n- [ ] 支持所有 `Lagrange.OneBot` 上报事件\r\n\r\n如果有时间，将一并支持`OneBot v12`\r\n\r\n- [ ] v12主要以支持 [ComWeChatBotClient](https://justundertaker.github.io/ComWeChatBotClient/) 为目标\r\n\r\n好的，这是翻译成中文的 pull request 总结：\r\n\r\n## Sourcery 总结\r\n\r\n将 OneBot 适配器分离成一个独立的 `plugin-adapter-onebot` 包，并包含初始配置和构建设置\r\n\r\n增强功能：\r\n- 将 OneBot 适配器提取到其自身的包模块中\r\n\r\n构建：\r\n- 为新的适配器添加包含项目元数据和脚本的 package.json\r\n- 为适配器包引入 TypeScript 配置 (tsconfig.json)\r\n- 添加 tsup 配置 (tsup.config.ts) 以定义构建输出和打包选项\r\n\r\n<details>\r\n<summary>Original summary in English</summary>\r\n\r\n## Summary by Sourcery\r\n\r\nSeparate the OneBot adapter into a standalone `plugin-adapter-onebot` package with initial configuration and build setup\r\n\r\nEnhancements:\r\n- Extract the OneBot adapter into its own package module\r\n\r\nBuild:\r\n- Add package.json with project metadata and scripts for the new adapter\r\n- Introduce TypeScript configuration (tsconfig.json) for the adapter package\r\n- Add tsup configuration (tsup.config.ts) to define build output and bundling options\r\n\r\n</details>",
     "created_at": "2025-06-08T14:40:15Z",
-    "updated_at": "2025-06-08T14:41:30Z",
+    "updated_at": "2025-06-08T14:43:09Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "3ca29d6d60fc94aa2d2791e2bc187bf457e5eefd",
