@@ -48,6 +48,14 @@
     "protected": false
   },
   {
+    "name": "fix-kill-port",
+    "commit": {
+      "sha": "fa4163e2a873514ce2d78b9306cf9b16be20b319",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/fa4163e2a873514ce2d78b9306cf9b16be20b319"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
