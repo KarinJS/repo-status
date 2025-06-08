@@ -66,8 +66,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "23153fdbd8a022af567c095d00f37602d50dc085",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/23153fdbd8a022af567c095d00f37602d50dc085"
+      "sha": "7d00167982ea4a6022a7caf50c3c9933ffde94b9",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7d00167982ea4a6022a7caf50c3c9933ffde94b9"
     },
     "protected": true
   },
@@ -88,18 +88,10 @@
     "protected": false
   },
   {
-    "name": "refactor-adapter-onebot",
+    "name": "refactor-onebot",
     "commit": {
-      "sha": "7764ae9426c5de03f427ea23204a31a3a8bd2ffb",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7764ae9426c5de03f427ea23204a31a3a8bd2ffb"
-    },
-    "protected": false
-  },
-  {
-    "name": "release-please--branches--main",
-    "commit": {
-      "sha": "658216792ee029b833b1318e5d6d73a4e4fd60af",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/658216792ee029b833b1318e5d6d73a4e4fd60af"
+      "sha": "096d55d6d86123f507c9cf8398de9fa0b7abb77d",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/096d55d6d86123f507c9cf8398de9fa0b7abb77d"
     },
     "protected": false
   },

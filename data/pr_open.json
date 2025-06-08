@@ -1,69 +1,59 @@
 [
   {
-    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/469",
-    "id": 2576723269,
-    "node_id": "PR_kwDOLcebn86Zla1F",
-    "html_url": "https://github.com/KarinJS/Karin/pull/469",
-    "diff_url": "https://github.com/KarinJS/Karin/pull/469.diff",
-    "patch_url": "https://github.com/KarinJS/Karin/pull/469.patch",
-    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/469",
-    "number": 469,
+    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/470",
+    "id": 2576729169,
+    "node_id": "PR_kwDOLcebn86ZlcRR",
+    "html_url": "https://github.com/KarinJS/Karin/pull/470",
+    "diff_url": "https://github.com/KarinJS/Karin/pull/470.diff",
+    "patch_url": "https://github.com/KarinJS/Karin/pull/470.patch",
+    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/470",
+    "number": 470,
     "state": "open",
     "locked": false,
-    "title": "chore: release main",
+    "title": "refactor: onebot adapter",
     "user": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "login": "sj817",
+      "id": 74231782,
+      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
+      "url": "https://api.github.com/users/sj817",
+      "html_url": "https://github.com/sj817",
+      "followers_url": "https://api.github.com/users/sj817/followers",
+      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+      "organizations_url": "https://api.github.com/users/sj817/orgs",
+      "repos_url": "https://api.github.com/users/sj817/repos",
+      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sj817/received_events",
+      "type": "User",
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.10.4</summary>\n\n## [1.10.4](https://github.com/KarinJS/Karin/compare/core-v1.10.3...core-v1.10.4) (2025-06-08)\n\n\n### 🐛 Bug Fixes\n\n* 提升`create-karin`的兼容性 ([#468](https://github.com/KarinJS/Karin/issues/468)) ([23153fd](https://github.com/KarinJS/Karin/commit/23153fdbd8a022af567c095d00f37602d50dc085))\n</details>\n\n<details><summary>create-karin: 1.2.1</summary>\n\n## [1.2.1](https://github.com/KarinJS/Karin/compare/create-karin-v1.2.0...create-karin-v1.2.1) (2025-06-08)\n\n\n### 🐛 Bug Fixes\n\n* 提升`create-karin`的兼容性 ([#468](https://github.com/KarinJS/Karin/issues/468)) ([23153fd](https://github.com/KarinJS/Karin/commit/23153fdbd8a022af567c095d00f37602d50dc085))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n发布 core v1.10.4 和 create-karin v1.2.1，增强 CLI 兼容性\n\nBug 修复：\n- 提升 create-karin CLI 兼容性\n\n构建：\n- 将 core 升级到 v1.10.4，将 create-karin 升级到 v1.2.1\n\n杂项：\n- 更新 CHANGELOGs 和 .release-please-manifest.json 以适应新版本\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRelease core v1.10.4 and create-karin v1.2.1 featuring improved CLI compatibility\n\nBug Fixes:\n- Improve create-karin CLI compatibility\n\nBuild:\n- Bump core to v1.10.4 and create-karin to v1.2.1\n\nChores:\n- Update CHANGELOGs and .release-please-manifest.json for the new versions\n\n</details>",
-    "created_at": "2025-06-08T14:30:14Z",
-    "updated_at": "2025-06-08T14:30:49Z",
+    "body": "本PR将把`OneBot`适配器进行分离 分离为单独的模块  \r\n依旧保留配置文件位置\r\n\r\n- [ ] 支持所有 `go-cqhttp` Api`(频道不支持)`\r\n- [ ] 支持所有 `go-cqhttp` 上报事件\r\n- [ ] 支持所有 `NapCat` Api\r\n- [ ] 支持所有 `NapCat` 上报事件\r\n- [ ] 支持所有 `Lagrange.OneBot` Api\r\n- [ ] 支持所有 `Lagrange.OneBot` 上报事件\r\n\r\n如果有时间，将一并支持`OneBot v12`\r\n\r\n- [ ] v12主要以支持 [ComWeChatBotClient](https://justundertaker.github.io/ComWeChatBotClient/) 为目标\r\n\r\n好的，这是翻译成中文的 pull request 总结：\r\n\r\n## Sourcery 总结\r\n\r\n将 OneBot 适配器分离成一个独立的 `plugin-adapter-onebot` 包，并包含初始配置和构建设置\r\n\r\n增强功能：\r\n- 将 OneBot 适配器提取到其自身的包模块中\r\n\r\n构建：\r\n- 为新的适配器添加包含项目元数据和脚本的 package.json\r\n- 为适配器包引入 TypeScript 配置 (tsconfig.json)\r\n- 添加 tsup 配置 (tsup.config.ts) 以定义构建输出和打包选项\r\n\r\n<details>\r\n<summary>Original summary in English</summary>\r\n\r\n## Summary by Sourcery\r\n\r\nSeparate the OneBot adapter into a standalone `plugin-adapter-onebot` package with initial configuration and build setup\r\n\r\nEnhancements:\r\n- Extract the OneBot adapter into its own package module\r\n\r\nBuild:\r\n- Add package.json with project metadata and scripts for the new adapter\r\n- Introduce TypeScript configuration (tsconfig.json) for the adapter package\r\n- Add tsup configuration (tsup.config.ts) to define build output and bundling options\r\n\r\n</details>",
+    "created_at": "2025-06-08T14:40:15Z",
+    "updated_at": "2025-06-08T14:41:30Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "5cfcb0c5e7b4faa62276806de9566cee9f14e193",
+    "merge_commit_sha": "3ca29d6d60fc94aa2d2791e2bc187bf457e5eefd",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [
-      {
-        "id": 7128527407,
-        "node_id": "LA_kwDOLcebn88AAAABqOSyLw",
-        "url": "https://api.github.com/repos/KarinJS/Karin/labels/autorelease:%20pending",
-        "name": "autorelease: pending",
-        "color": "ededed",
-        "default": false,
-        "description": null
-      }
-    ],
+    "labels": [],
     "milestone": null,
-    "draft": false,
-    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/469/commits",
-    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/469/comments",
+    "draft": true,
+    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/470/commits",
+    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/470/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/469/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/658216792ee029b833b1318e5d6d73a4e4fd60af",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/470/comments",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/096d55d6d86123f507c9cf8398de9fa0b7abb77d",
     "head": {
-      "label": "KarinJS:release-please--branches--main",
-      "ref": "release-please--branches--main",
-      "sha": "658216792ee029b833b1318e5d6d73a4e4fd60af",
+      "label": "KarinJS:refactor-onebot",
+      "ref": "refactor-onebot",
+      "sha": "096d55d6d86123f507c9cf8398de9fa0b7abb77d",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -153,8 +143,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-06-08T14:29:53Z",
-        "pushed_at": "2025-06-08T14:30:14Z",
+        "updated_at": "2025-06-08T14:38:51Z",
+        "pushed_at": "2025-06-08T14:40:04Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -198,7 +188,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "23153fdbd8a022af567c095d00f37602d50dc085",
+      "sha": "7d00167982ea4a6022a7caf50c3c9933ffde94b9",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -288,8 +278,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-06-08T14:29:53Z",
-        "pushed_at": "2025-06-08T14:30:14Z",
+        "updated_at": "2025-06-08T14:38:51Z",
+        "pushed_at": "2025-06-08T14:40:04Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -332,31 +322,31 @@
     },
     "_links": {
       "self": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/469"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/470"
       },
       "html": {
-        "href": "https://github.com/KarinJS/Karin/pull/469"
+        "href": "https://github.com/KarinJS/Karin/pull/470"
       },
       "issue": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/469"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/470"
       },
       "comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/469/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/470/comments"
       },
       "review_comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/469/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/470/comments"
       },
       "review_comment": {
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}"
       },
       "commits": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/469/commits"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/470/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/658216792ee029b833b1318e5d6d73a4e4fd60af"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/096d55d6d86123f507c9cf8398de9fa0b7abb77d"
       }
     },
-    "author_association": "CONTRIBUTOR",
+    "author_association": "MEMBER",
     "auto_merge": null,
     "active_lock_reason": null
   },
@@ -395,17 +385,17 @@
     },
     "body": "好的，这是翻译成中文的 pull request 摘要：\n\n## Sourcery 总结\n\n支持自定义动态插件组件，通过新增服务端 API、客户端加载页面、全局 React 暴露，以及一个基于 UMD 的示例演示插件。\n\n新特性：\n- 增加服务端 endpoint 以获取自定义插件组件的入口点\n- 全局暴露 React 和 ReactDOM 以支持基于 UMD 的插件组件\n- 引入一个 Web UI 路由和动态加载页面，以便在运行时获取和渲染插件组件\n- 增加示例 'plugin-demo' 包，演示 UMD 打包的动态加载\n\n增强：\n- 使用 customComponents hook 和 route type 扩展插件配置 API\n- 在 useTheme hook 中验证和规范化存储的主题值\n- 移除服务端引导程序中默认的 wildcard 重定向到 /web\n\n杂项：\n- 更新 pnpm lockfile 以包含 plugin-demo 依赖项，并升级 @types/node 版本\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nSupport custom dynamic plugin components by adding a new server API, client loader page, global React exposure, and an example UMD-based demo plugin.\n\nNew Features:\n- Add server endpoint to fetch custom plugin component entry points\n- Expose React and ReactDOM globally to support UMD-based plugin components\n- Introduce a web UI route and dynamic loader page to fetch and render plugin components at runtime\n- Add example 'plugin-demo' package demonstrating UMD-packaged dynamic loading\n\nEnhancements:\n- Extend plugin configuration API with a customComponents hook and route type\n- Validate and normalize stored theme values in useTheme hook\n- Remove default wildcard redirect to /web in server bootstrap\n\nChores:\n- Update pnpm lockfile to include plugin-demo dependencies and bump @types/node versions\n\n</details>",
     "created_at": "2025-06-06T15:50:55Z",
-    "updated_at": "2025-06-06T16:08:14Z",
+    "updated_at": "2025-06-08T14:40:51Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2988f9e47b0ca6230befc7fdabe794ab94c71747",
+    "merge_commit_sha": "1a83ed08f89fb99c8cb1782c162a7cc097790f20",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
-    "draft": false,
+    "draft": true,
     "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/464/commits",
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/464/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
@@ -504,8 +494,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-06-08T14:29:53Z",
-        "pushed_at": "2025-06-08T14:30:14Z",
+        "updated_at": "2025-06-08T14:38:51Z",
+        "pushed_at": "2025-06-08T14:40:04Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -639,8 +629,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-06-08T14:29:53Z",
-        "pushed_at": "2025-06-08T14:30:14Z",
+        "updated_at": "2025-06-08T14:38:51Z",
+        "pushed_at": "2025-06-08T14:40:04Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
