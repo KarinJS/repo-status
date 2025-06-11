@@ -37,9 +37,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-06-10T17:22:29Z",
-    "updated_at": "2025-06-11T06:03:05Z",
+    "updated_at": "2025-06-11T11:01:06Z",
     "closed_at": "2025-06-11T06:03:03Z",
     "author_association": "COLLABORATOR",
     "type": null,
@@ -52,7 +52,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/472.patch",
       "merged_at": "2025-06-11T06:03:03Z"
     },
-    "body": null,
+    "body": "好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n在仪表盘中引入一种新的玻璃拟物化主题，重构关键布局以获得更好的用户体验，并简化对话框流程。\n\n新功能：\n- 添加一个可点击的插件卡片，打开一个详细的玻璃风格模态框，其中包含版本、类型、作者和描述信息。\n\n增强功能：\n- 使用响应式玻璃效果卡片、独立的操作面板和粘性标题布局改造插件配置页面。\n- 将新的玻璃效果 Tailwind 插件实用程序应用于按钮、卡片、状态项和模态框，以实现一致的半透明样式。\n- 通过 useDialog hook 将侧边栏的注销模态框替换为简化的确认对话框，并将注销逻辑迁移到专用 helper 中。\n- 从仪表盘中删除旧的 OnlineStatus 组件以简化状态显示。\n\n构建：\n- 在 tailwind.config.js 中添加自定义玻璃效果实用程序，用于玻璃拟物化样式。\n\n杂项：\n- 在配置适配器和系统配置组件中应用尾随逗号和格式修复。\n- 升级 react-aria utils 并确保 pnpm lockfile 中的 react-dom 对等依赖项。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nIntroduce a new glass-morphism theme across the dashboard, refactor key layouts for better UX, and streamline dialog flows.\n\nNew Features:\n- Add a clickable plugin card that opens a detailed glass-style modal with version, type, author, and description information.\n\nEnhancements:\n- Revamp the plugin configuration page with responsive glass-effect cards, separate action panel, and a sticky header layout.\n- Apply a new  glass-effect Tailwind plugin utility to buttons, cards, status items, and modals for consistent translucent styling.\n- Replace the Sidebar’s sign-out modal with a streamlined confirmation dialog via useDialog hook and migrate sign-out logic into a dedicated helper.\n- Remove the legacy OnlineStatus component from the dashboard to simplify status display.\n\nBuild:\n- Add a custom glass-effect utility within tailwind.config.js for glass-morphism styling.\n\nChores:\n- Apply trailing comma and formatting fixes in config adapters and system config components.\n- Bump react-aria utils and ensure react-dom peer dependencies in pnpm lockfile.\n\n</details>",
     "closed_by": {
       "login": "ikenxuan",
       "id": 112480306,
