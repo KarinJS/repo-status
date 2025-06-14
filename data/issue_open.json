@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-06-14T10:44:28Z",
-    "updated_at": "2025-06-14T11:59:47Z",
+    "updated_at": "2025-06-14T12:50:58Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -62,7 +62,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/481.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.10.8</summary>\n\n## [1.10.8](https://github.com/KarinJS/Karin/compare/core-v1.10.7...core-v1.10.8) (2025-06-14)\n\n\n### 🐛 Bug Fixes\n\n* 回滚部分重启逻辑，更新重启交互引导 ([b5363eb](https://github.com/KarinJS/Karin/commit/b5363ebcd66a7e7812073125ac09b227fa437f71))\n</details>\n\n<details><summary>web: 1.9.3</summary>\n\n## [1.9.3](https://github.com/KarinJS/Karin/compare/web-v1.9.2...web-v1.9.3) (2025-06-14)\n\n\n### 🐛 Bug Fixes\n\n* 回滚部分重启逻辑，更新重启交互引导 ([b5363eb](https://github.com/KarinJS/Karin/commit/b5363ebcd66a7e7812073125ac09b227fa437f71))\n\n\n### 💄 Styles\n\n* **dashboard:** 更新版本提示样式为更醒目的动画徽章 ([1894cbf](https://github.com/KarinJS/Karin/commit/1894cbfce2395975109f2a8373c23f8983414712))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.10.8</summary>\n\n## [1.10.8](https://github.com/KarinJS/Karin/compare/core-v1.10.7...core-v1.10.8) (2025-06-14)\n\n\n### 🐛 Bug Fixes\n\n* 回滚部分重启逻辑，更新重启交互引导 ([b5363eb](https://github.com/KarinJS/Karin/commit/b5363ebcd66a7e7812073125ac09b227fa437f71))\n</details>\n\n<details><summary>web: 1.9.3</summary>\n\n## [1.9.3](https://github.com/KarinJS/Karin/compare/web-v1.9.2...web-v1.9.3) (2025-06-14)\n\n\n### 🐛 Bug Fixes\n\n* **仪表盘:** 当版本号过长时自动进行滚动以显示完整的版本号 ([d03a931](https://github.com/KarinJS/Karin/commit/d03a931f16b94d54a85b852a5dd4776140df829a))\n* 回滚部分重启逻辑，更新重启交互引导 ([b5363eb](https://github.com/KarinJS/Karin/commit/b5363ebcd66a7e7812073125ac09b227fa437f71))\n\n\n### 💄 Styles\n\n* **dashboard:** 更新版本提示样式为更醒目的动画徽章 ([1894cbf](https://github.com/KarinJS/Karin/commit/1894cbfce2395975109f2a8373c23f8983414712))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/481/reactions",
