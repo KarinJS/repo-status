@@ -66,8 +66,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "9b4795c2d5f553e922ae9af9347901adda3af30c",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/9b4795c2d5f553e922ae9af9347901adda3af30c"
+      "sha": "e7a064978eace9d75762301c2baac930a447c11f",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e7a064978eace9d75762301c2baac930a447c11f"
     },
     "protected": true
   },
@@ -96,18 +96,18 @@
     "protected": false
   },
   {
-    "name": "sj817-patch-1",
+    "name": "release-please--branches--main",
     "commit": {
-      "sha": "18be0239ef9f7b82aced3f631be1473cb67316ef",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/18be0239ef9f7b82aced3f631be1473cb67316ef"
+      "sha": "7032c36489603108e9787a17fe57176616c7a8ff",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7032c36489603108e9787a17fe57176616c7a8ff"
     },
     "protected": false
   },
   {
-    "name": "system_display_card",
+    "name": "sj817-patch-1",
     "commit": {
-      "sha": "25a58e84e85b4be3b0dcfcf6407c32e71f807248",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/25a58e84e85b4be3b0dcfcf6407c32e71f807248"
+      "sha": "18be0239ef9f7b82aced3f631be1473cb67316ef",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/18be0239ef9f7b82aced3f631be1473cb67316ef"
     },
     "protected": false
   },

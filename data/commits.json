@@ -1,5 +1,87 @@
 [
   {
+    "sha": "e7a064978eace9d75762301c2baac930a447c11f",
+    "node_id": "C_kwDOLcebn9oAKGU3YTA2NDk3OGVhY2U5ZDc1NzYyMzAxYzJiYWFjOTMwYTQ0N2MxMWY",
+    "commit": {
+      "author": {
+        "name": "炫炫",
+        "email": "112480306+ikenxuan@users.noreply.github.com",
+        "date": "2025-06-15T12:45:48Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-06-15T12:45:48Z"
+      },
+      "message": "perf(系统监控): 增强系统状态监控功能并优化UI展示、格式化主页状态的运行时间 (#482)\n\n* feat(系统监控): 增强系统状态监控功能并优化UI展示\n\n- 扩展系统状态接口定义，增加CPU、内存、系统和进程的详细信息\n- 重构状态监听器实现，完善系统状态数据采集逻辑\n- 重新设计系统状态展示卡片UI，优化信息组织和可视化效果\n- 添加详细内存使用情况、系统路径和网络接口等扩展信息\n- 实现可折叠的详细信息区域提升用户体验\n\n* 性能优化\n\n* 性能优化\n\n* gap-1\n\n* 细优\n\n* 细优",
+      "tree": {
+        "sha": "004252924ad48e762184e5a37c7bf1f45a262a35",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/004252924ad48e762184e5a37c7bf1f45a262a35"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/e7a064978eace9d75762301c2baac930a447c11f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTsB8CRC1aQ7uu5UhlAAAsnMQAKUsbeuVY1A1zVnh7DsQcFcu\n3Yb2x5W2jlwOpC1PFW7BJBTDQRUO6TZ6mhFumXdzKQ28oYtGuoidFtRclwetF54J\nuOlLTc8vmRxLpBu9nuDN05WA/7RAiQvnFY+6xXDMrzPSBISON/RCYpeifc4rBNyG\nnVTCgR4NJAUZosvh7m9Js9FQzllBnc4gJcUKe0fHt81RUGbvIrFOf4dqmwXmFz8y\n3YERiIrQPPKJLNA6wtmb/oiIMcKBciAUnNzaStpFciG3tlQUiojefcjXA4shMHAM\nuYjPewuNVUfhUdQC20jlJCQu3qvYYdSNJyR+ikWfXcCgBlrPkXMI/LAMfvNK5OHy\nBF3YvAx29zz9MvjaEcOwUCej8lJ3Eh+8gxk+4QwPcny5tCgZwkQvPMSR479jvBC+\n9obcpAZmsTDMvKc9WiQxVzSYSvGGjyt4ZiSkunKL676+Ja0IxfKjBKFx0lf0NmEh\ne2kIQbpxR+kYGylgcF/C9d4IilmhRiM/YMNA59d10oXXk2dR0FEvxcmYwDU+TBez\n2rsfwor0XkL6woOdQuwLvl/+aQ2MH7Wnmc5Cz5eHhTYLQXvu5kd9X1rEahUwCfY4\nBID6cTn+4FbrpcK3kwuwnCJqr9kAZcFcTvAc8wK4IG1QAkuBjhTSvHlj1XFUs4sP\nNbG3PjxyxQuVpOBozrs5\n=V1Qg\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 004252924ad48e762184e5a37c7bf1f45a262a35\nparent 9b4795c2d5f553e922ae9af9347901adda3af30c\nauthor 炫炫 <112480306+ikenxuan@users.noreply.github.com> 1749991548 +0800\ncommitter GitHub <noreply@github.com> 1749991548 +0800\n\nperf(系统监控): 增强系统状态监控功能并优化UI展示、格式化主页状态的运行时间 (#482)\n\n* feat(系统监控): 增强系统状态监控功能并优化UI展示\n\n- 扩展系统状态接口定义，增加CPU、内存、系统和进程的详细信息\n- 重构状态监听器实现，完善系统状态数据采集逻辑\n- 重新设计系统状态展示卡片UI，优化信息组织和可视化效果\n- 添加详细内存使用情况、系统路径和网络接口等扩展信息\n- 实现可折叠的详细信息区域提升用户体验\n\n* 性能优化\n\n* 性能优化\n\n* gap-1\n\n* 细优\n\n* 细优",
+        "verified_at": "2025-06-15T12:46:18Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/e7a064978eace9d75762301c2baac930a447c11f",
+    "html_url": "https://github.com/KarinJS/Karin/commit/e7a064978eace9d75762301c2baac930a447c11f",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/e7a064978eace9d75762301c2baac930a447c11f/comments",
+    "author": {
+      "login": "ikenxuan",
+      "id": 112480306,
+      "node_id": "U_kgDOBrRQMg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ikenxuan",
+      "html_url": "https://github.com/ikenxuan",
+      "followers_url": "https://api.github.com/users/ikenxuan/followers",
+      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
+      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
+      "repos_url": "https://api.github.com/users/ikenxuan/repos",
+      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9b4795c2d5f553e922ae9af9347901adda3af30c",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/9b4795c2d5f553e922ae9af9347901adda3af30c",
+        "html_url": "https://github.com/KarinJS/Karin/commit/9b4795c2d5f553e922ae9af9347901adda3af30c"
+      }
+    ]
+  },
+  {
     "sha": "9b4795c2d5f553e922ae9af9347901adda3af30c",
     "node_id": "C_kwDOLcebn9oAKDliNDc5NWMyZDVmNTUzZTkyMmFlOWFmOTM0NzkwMWFkZGEzYWYzMGM",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec",
         "html_url": "https://github.com/KarinJS/Karin/commit/aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec"
-      }
-    ]
-  },
-  {
-    "sha": "aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec",
-    "node_id": "C_kwDOLcebn9oAKGFhNzNjM2M2MWE5ZmNmOWE5ZWMyY2FhMTk2Y2MzZWM5ODZkYjE4ZWM",
-    "commit": {
-      "author": {
-        "name": "炫炫",
-        "email": "2066855608@qq.com",
-        "date": "2025-06-10T09:22:41Z"
-      },
-      "committer": {
-        "name": "炫炫",
-        "email": "2066855608@qq.com",
-        "date": "2025-06-10T09:22:41Z"
-      },
-      "message": "fix: 更新主题切换逻辑并优化页面标题显示\n\nrefactor(theme): 重构主题切换为系统/反色模式\nfeat(dashboard): 添加GSAP动画效果到标题组件\nstyle: 统一将\"KarinJS\"更名为\"Karin\"\nchore: 添加GSAP依赖并更新package.json\ndocs: 添加依赖管理页面标题映射",
-      "tree": {
-        "sha": "82a32f5f4f750e13b67efd06c914d2419f09557c",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/82a32f5f4f750e13b67efd06c914d2419f09557c"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec",
-    "html_url": "https://github.com/KarinJS/Karin/commit/aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/aa73c3c61a9fcf9a9ec2caa196cc3ec986db18ec/comments",
-    "author": {
-      "login": "ikenxuan",
-      "id": 112480306,
-      "node_id": "U_kgDOBrRQMg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/ikenxuan",
-      "html_url": "https://github.com/ikenxuan",
-      "followers_url": "https://api.github.com/users/ikenxuan/followers",
-      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
-      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
-      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
-      "repos_url": "https://api.github.com/users/ikenxuan/repos",
-      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "ikenxuan",
-      "id": 112480306,
-      "node_id": "U_kgDOBrRQMg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/112480306?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/ikenxuan",
-      "html_url": "https://github.com/ikenxuan",
-      "followers_url": "https://api.github.com/users/ikenxuan/followers",
-      "following_url": "https://api.github.com/users/ikenxuan/following{/other_user}",
-      "gists_url": "https://api.github.com/users/ikenxuan/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/ikenxuan/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/ikenxuan/subscriptions",
-      "organizations_url": "https://api.github.com/users/ikenxuan/orgs",
-      "repos_url": "https://api.github.com/users/ikenxuan/repos",
-      "events_url": "https://api.github.com/users/ikenxuan/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/ikenxuan/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "7d00167982ea4a6022a7caf50c3c9933ffde94b9",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/7d00167982ea4a6022a7caf50c3c9933ffde94b9",
-        "html_url": "https://github.com/KarinJS/Karin/commit/7d00167982ea4a6022a7caf50c3c9933ffde94b9"
       }
     ]
   }
