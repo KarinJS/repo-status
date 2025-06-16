@@ -66,8 +66,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "e7a064978eace9d75762301c2baac930a447c11f",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e7a064978eace9d75762301c2baac930a447c11f"
+      "sha": "d2838e7c99319e160db12a0019ae6c3a26bae592",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d2838e7c99319e160db12a0019ae6c3a26bae592"
     },
     "protected": true
   },
@@ -92,22 +92,6 @@
     "commit": {
       "sha": "096d55d6d86123f507c9cf8398de9fa0b7abb77d",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/096d55d6d86123f507c9cf8398de9fa0b7abb77d"
-    },
-    "protected": false
-  },
-  {
-    "name": "refactor-plugin-index",
-    "commit": {
-      "sha": "7d3e1737b073ce5caf3a3effd57ba5309ef396e7",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7d3e1737b073ce5caf3a3effd57ba5309ef396e7"
-    },
-    "protected": false
-  },
-  {
-    "name": "release-please--branches--main",
-    "commit": {
-      "sha": "7032c36489603108e9787a17fe57176616c7a8ff",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7032c36489603108e9787a17fe57176616c7a8ff"
     },
     "protected": false
   },
