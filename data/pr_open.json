@@ -1,16 +1,16 @@
 [
   {
-    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/470",
-    "id": 2576729169,
-    "node_id": "PR_kwDOLcebn86ZlcRR",
-    "html_url": "https://github.com/KarinJS/Karin/pull/470",
-    "diff_url": "https://github.com/KarinJS/Karin/pull/470.diff",
-    "patch_url": "https://github.com/KarinJS/Karin/pull/470.patch",
-    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/470",
-    "number": 470,
+    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/486",
+    "id": 2615507268,
+    "node_id": "PR_kwDOLcebn86b5XlE",
+    "html_url": "https://github.com/KarinJS/Karin/pull/486",
+    "diff_url": "https://github.com/KarinJS/Karin/pull/486.diff",
+    "patch_url": "https://github.com/KarinJS/Karin/pull/486.patch",
+    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/486",
+    "number": 486,
     "state": "open",
     "locked": false,
-    "title": "refactor: onebot adapter",
+    "title": "refactor: onebot",
     "user": {
       "login": "sj817",
       "id": 74231782,
@@ -32,28 +32,28 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "本PR将把`OneBot`适配器进行分离 分离为单独的模块  \r\n依旧保留配置文件位置\r\n\r\n- [ ] 支持所有 `go-cqhttp` Api`(频道不支持)`\r\n- [ ] 支持所有 `go-cqhttp` 上报事件\r\n- [ ] 支持所有 `NapCat` Api\r\n- [ ] 支持所有 `NapCat` 上报事件\r\n- [ ] 支持所有 `Lagrange.OneBot` Api\r\n- [ ] 支持所有 `Lagrange.OneBot` 上报事件\r\n\r\n如果有时间，将一并支持`OneBot v12`\r\n\r\n- [ ] v12主要以支持 [ComWeChatBotClient](https://justundertaker.github.io/ComWeChatBotClient/) 为目标\r\n\r\n好的，这是翻译成中文的 pull request 总结：\r\n\r\n## Sourcery 总结\r\n\r\n将 OneBot 适配器分离成一个独立的 `plugin-adapter-onebot` 包，并包含初始配置和构建设置\r\n\r\n增强功能：\r\n- 将 OneBot 适配器提取到其自身的包模块中\r\n\r\n构建：\r\n- 为新的适配器添加包含项目元数据和脚本的 package.json\r\n- 为适配器包引入 TypeScript 配置 (tsconfig.json)\r\n- 添加 tsup 配置 (tsup.config.ts) 以定义构建输出和打包选项\r\n\r\n<details>\r\n<summary>Original summary in English</summary>\r\n\r\n## Summary by Sourcery\r\n\r\nSeparate the OneBot adapter into a standalone `plugin-adapter-onebot` package with initial configuration and build setup\r\n\r\nEnhancements:\r\n- Extract the OneBot adapter into its own package module\r\n\r\nBuild:\r\n- Add package.json with project metadata and scripts for the new adapter\r\n- Introduce TypeScript configuration (tsconfig.json) for the adapter package\r\n- Add tsup configuration (tsup.config.ts) to define build output and bundling options\r\n\r\n</details>",
-    "created_at": "2025-06-08T14:40:15Z",
-    "updated_at": "2025-06-08T14:43:09Z",
+    "body": "好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n重构 OneBot 适配器，利用新的 `@karinjs/onebot` 核心库来处理 WebSocket 和 HTTP 连接，从而简化 API 调用、事件处理和分段转换。\n\n新特性：\n- 添加 `OneBotWsManager` 和 `OneBotHttpManager` 来管理 WebSocket 和 HTTP 客户端\n- 引入 `createOneBotWsServer`、`createOneBotClient`、`createOneBotHttp` 和 `disconnectAllOneBotServer` 辅助函数\n\n增强：\n- 迁移 `AdapterOneBot` 以将 API 调用和事件委托给 `OneBotWs`/`OneBotHttp` 实例\n- 使用 `EventKeys` 统一事件分发，并移除手动 `post_type` 分支\n- 使用 `OneBotSegmentType` 简化分段转换，并更新转换程序\n- 移除已弃用的 OneBot11 特有方法和自定义 HTTP 客户端实现\n\n构建：\n- 更新 `pnpm-lock.yaml` 以包含对 `@karinjs/onebot` 的工作区依赖\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRefactor the OneBot adapter to leverage the new `@karinjs/onebot` core library for both WebSocket and HTTP connections, simplifying API calls, event handling, and segment conversion.\n\nNew Features:\n- Add `OneBotWsManager` and `OneBotHttpManager` to manage WebSocket and HTTP clients\n- Introduce `createOneBotWsServer`, `createOneBotClient`, `createOneBotHttp`, and `disconnectAllOneBotServer` helpers\n\nEnhancements:\n- Migrate `AdapterOneBot` to delegate API calls and events to `OneBotWs`/`OneBotHttp` instances\n- Unify event dispatch using `EventKeys` and remove manual post_type branching\n- Streamline segment conversion with `OneBotSegmentType` and update conversion routines\n- Remove deprecated OneBot11-specific methods and custom HTTP client implementations\n\nBuild:\n- Update `pnpm-lock.yaml` to include workspace dependency on `@karinjs/onebot`\n\n</details>",
+    "created_at": "2025-06-24T16:01:25Z",
+    "updated_at": "2025-06-24T16:06:35Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8edc4392771a8ebb7a4f96e9e9c8fd26b483ef13",
+    "merge_commit_sha": "f58bc241185f148796ba45c4f225b9caf826ec2c",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
-    "draft": true,
-    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/470/commits",
-    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/470/comments",
+    "draft": false,
+    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/486/commits",
+    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/486/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/470/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/096d55d6d86123f507c9cf8398de9fa0b7abb77d",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/486/comments",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/5ac82c28aac94f266d186e935b99d93314321c29",
     "head": {
-      "label": "KarinJS:refactor-onebot",
-      "ref": "refactor-onebot",
-      "sha": "096d55d6d86123f507c9cf8398de9fa0b7abb77d",
+      "label": "KarinJS:refactor-onebot-adapter",
+      "ref": "refactor-onebot-adapter",
+      "sha": "5ac82c28aac94f266d186e935b99d93314321c29",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -144,7 +144,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-06-17T17:44:08Z",
-        "pushed_at": "2025-06-17T17:44:16Z",
+        "pushed_at": "2025-06-24T16:02:01Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -188,7 +188,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "7d00167982ea4a6022a7caf50c3c9933ffde94b9",
+      "sha": "36d3e03a1be71f842bc93e1da38ef70900b2049d",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -279,7 +279,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-06-17T17:44:08Z",
-        "pushed_at": "2025-06-17T17:44:16Z",
+        "pushed_at": "2025-06-24T16:02:01Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -322,28 +322,28 @@
     },
     "_links": {
       "self": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/470"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/486"
       },
       "html": {
-        "href": "https://github.com/KarinJS/Karin/pull/470"
+        "href": "https://github.com/KarinJS/Karin/pull/486"
       },
       "issue": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/470"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/486"
       },
       "comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/470/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/486/comments"
       },
       "review_comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/470/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/486/comments"
       },
       "review_comment": {
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}"
       },
       "commits": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/470/commits"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/486/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/096d55d6d86123f507c9cf8398de9fa0b7abb77d"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/5ac82c28aac94f266d186e935b99d93314321c29"
       }
     },
     "author_association": "MEMBER",
@@ -495,7 +495,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-06-17T17:44:08Z",
-        "pushed_at": "2025-06-17T17:44:16Z",
+        "pushed_at": "2025-06-24T16:02:01Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -630,7 +630,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-06-17T17:44:08Z",
-        "pushed_at": "2025-06-17T17:44:16Z",
+        "pushed_at": "2025-06-24T16:02:01Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
