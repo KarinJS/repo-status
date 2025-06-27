@@ -733,6 +733,15 @@
         "color": "a2eeef",
         "default": true,
         "description": "New feature or request"
+      },
+      {
+        "id": 7315306335,
+        "node_id": "LA_kwDOLcebn88AAAABtAa3Xw",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/no-issue-activity",
+        "name": "no-issue-activity",
+        "color": "ededed",
+        "default": false,
+        "description": null
       }
     ],
     "state": "open",
@@ -782,9 +791,9 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-04-27T12:57:55Z",
-    "updated_at": "2025-04-28T03:01:46Z",
+    "updated_at": "2025-06-27T05:40:43Z",
     "closed_at": null,
     "author_association": "NONE",
     "type": null,
@@ -855,6 +864,15 @@
         "description": "New feature or request"
       },
       {
+        "id": 7315306335,
+        "node_id": "LA_kwDOLcebn88AAAABtAa3Xw",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/no-issue-activity",
+        "name": "no-issue-activity",
+        "color": "ededed",
+        "default": false,
+        "description": null
+      },
+      {
         "id": 8328366415,
         "node_id": "LA_kwDOLcebn88AAAAB8GjJTw",
         "url": "https://api.github.com/repos/KarinJS/Karin/labels/web",
@@ -911,9 +929,9 @@
       }
     ],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2025-04-27T09:41:35Z",
-    "updated_at": "2025-04-28T03:01:51Z",
+    "updated_at": "2025-06-27T05:40:44Z",
     "closed_at": null,
     "author_association": "COLLABORATOR",
     "type": null,
