@@ -104,6 +104,14 @@
     "protected": false
   },
   {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "7c06ece610ffccc10ede885bdb0ec3b1bb8c0c2d",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7c06ece610ffccc10ede885bdb0ec3b1bb8c0c2d"
+    },
+    "protected": false
+  },
+  {
     "name": "sj817-patch-1",
     "commit": {
       "sha": "18be0239ef9f7b82aced3f631be1473cb67316ef",
