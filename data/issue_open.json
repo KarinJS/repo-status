@@ -49,7 +49,7 @@
     "milestone": null,
     "comments": 1,
     "created_at": "2025-06-30T12:28:57Z",
-    "updated_at": "2025-06-30T12:29:25Z",
+    "updated_at": "2025-06-30T15:09:09Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -62,7 +62,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/499.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.10.17</summary>\n\n## [1.10.17](https://github.com/KarinJS/Karin/compare/core-v1.10.16...core-v1.10.17) (2025-06-30)\n\n\n### 🐛 Bug Fixes\n\n* 补充频道事件缺少的字段 ([1fd85f4](https://github.com/KarinJS/Karin/commit/1fd85f4af45e535b53818f8cc28661c90cef1315))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n发布 core v1.10.17 版本，包含修复 channel event 缺少字段的 bug。\n\nBug 修复：\n- 向 channel events 添加缺失的字段\n\n杂务：\n- 提升 core 包版本至 1.10.17 并更新 CHANGELOG\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nRelease core v1.10.17 including a bug fix for missing channel event fields.\n\nBug Fixes:\n- Add missing fields to channel events\n\nChores:\n- Bump core package version to 1.10.17 and update CHANGELOG\n\n</details>",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.10.17</summary>\n\n## [1.10.17](https://github.com/KarinJS/Karin/compare/core-v1.10.16...core-v1.10.17) (2025-06-30)\n\n\n### 🐛 Bug Fixes\n\n* 补充频道事件缺少的字段 ([1fd85f4](https://github.com/KarinJS/Karin/commit/1fd85f4af45e535b53818f8cc28661c90cef1315))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/499/reactions",
