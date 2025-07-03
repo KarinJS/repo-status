@@ -16,6 +16,14 @@
     "protected": false
   },
   {
+    "name": "codex/解决-github-问题-#368",
+    "commit": {
+      "sha": "1aa1fe79d9e5f327e645b5cd9b2fc874267efdbd",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1aa1fe79d9e5f327e645b5cd9b2fc874267efdbd"
+    },
+    "protected": false
+  },
+  {
     "name": "dev",
     "commit": {
       "sha": "d060e4f30cda0c2c1792c65012bb315825676a79",
@@ -52,6 +60,14 @@
     "commit": {
       "sha": "829c5ad17b3aaec20d61ef9cefe087047b305d7c",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/829c5ad17b3aaec20d61ef9cefe087047b305d7c"
+    },
+    "protected": false
+  },
+  {
+    "name": "fix-500",
+    "commit": {
+      "sha": "da344c7efabe1db65011019997351924ffcee59c",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/da344c7efabe1db65011019997351924ffcee59c"
     },
     "protected": false
   },
