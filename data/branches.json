@@ -64,6 +64,14 @@
     "protected": false
   },
   {
+    "name": "fix-site",
+    "commit": {
+      "sha": "9592456ca5b2c556ac8ad7da2ea1b5e26d6b1262",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/9592456ca5b2c556ac8ad7da2ea1b5e26d6b1262"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
