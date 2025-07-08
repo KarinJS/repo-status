@@ -398,7 +398,7 @@
     "updated_at": "2025-06-30T06:42:59Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e031e158a5e64ae05d2c83d9e0fc6cef8ee0f899",
+    "merge_commit_sha": null,
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
