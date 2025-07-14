@@ -1,5 +1,87 @@
 [
   {
+    "sha": "225cc58afd09bef0880a9874c220db5be5077369",
+    "node_id": "C_kwDOLcebn9oAKDIyNWNjNThhZmQwOWJlZjA4ODBhOTg3NGMyMjBkYjViZTUwNzczNjk",
+    "commit": {
+      "author": {
+        "name": "澪度",
+        "email": "117048039+furlingdu@users.noreply.github.com",
+        "date": "2025-07-14T14:46:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-07-14T14:46:32Z"
+      },
+      "message": "Fix: 修复lagrange环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题 (#509)\n\n* Fix: 修复lagrange环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题\n\n只要使用的是 Lagrange.OneBot，并且 startMsgId 是 string 类型，它就会调用 lgl_getGroupMsgHistory\r\n\r\n这个逻辑没有判断 contact.scene 是 'group' 还是 'friend'，这就是问题来源\n\n* Fix: 修复onebot环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题\n\n同上",
+      "tree": {
+        "sha": "3c922b62e1e7cc1ddb24b1f71bb9a60a634f55d1",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/3c922b62e1e7cc1ddb24b1f71bb9a60a634f55d1"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/225cc58afd09bef0880a9874c220db5be5077369",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodRhICRC1aQ7uu5UhlAAATxYQACOOZrzi9y4SftPnRCpZg14L\naUioOKnHYqqdK6Hec92anwaxvwSvqWcVcWyMFgbHRvnfRdKiyEOVcvK8/t7VAacF\nNkIXb/H1zbofAwrGf9oxfOGyA0ToJhMmwZeU77tofjmdH6ljvaEvIZIchebcpzRV\nYtg/zSOnMCcloYgAjE9Iy4OwKRAdO38fV97y6BTUi243VzcX8UiqRdZAEo0KLzwD\nYzhUDW0cXbFN3XkhMCDBNFCLSpaveYTo98pRld26PNlebsti0vRvrsbfbEd6Vnx4\nGNJSYXdIlKZXatTEI+KTZ0BMj1ZqZETGwFSumRHABEJPZfNGJk8W4ykwAL9+x0K3\n8uLyuTLR/Nqyw8SOOFYv3mS6FUdoAFNaCxmXO3eetES/hJiOU9iUKbIlgv50aFp5\n/fyoStRNsFdsr9TsRVY1idKmTccG3zJaMvHOlu5oVQPk+B3Ec2LoBTdQlIZUpmdU\nEsh2Xw543W73aGc0gcLiI31FCfC60aXanHWNJq/2eEVZ0QIfuqgX0QMcgZVGb+qA\nzSNQSc+MO2IRCmrxfxJy5vtg8nv7HRDZFCL3zESsqzBFvcb0KFgv3Qq90yAWK6ie\ni1uAMXw+Oo+sjQmQ1bmQ9h6z/NarI+ESNt5CAEJsCZLwdI3ld9nCB9+OpVA+2QAu\nAqqLgTa+PaO25HQM4htd\n=UdHK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3c922b62e1e7cc1ddb24b1f71bb9a60a634f55d1\nparent 68c101cfcf53a9d5e598b329167ccb161353c0b4\nauthor 澪度 <117048039+furlingdu@users.noreply.github.com> 1752504392 +0800\ncommitter GitHub <noreply@github.com> 1752504392 +0800\n\nFix: 修复lagrange环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题 (#509)\n\n* Fix: 修复lagrange环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题\n\n只要使用的是 Lagrange.OneBot，并且 startMsgId 是 string 类型，它就会调用 lgl_getGroupMsgHistory\r\n\r\n这个逻辑没有判断 contact.scene 是 'group' 还是 'friend'，这就是问题来源\n\n* Fix: 修复onebot环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题\n\n同上",
+        "verified_at": "2025-07-14T14:46:33Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/225cc58afd09bef0880a9874c220db5be5077369",
+    "html_url": "https://github.com/KarinJS/Karin/commit/225cc58afd09bef0880a9874c220db5be5077369",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/225cc58afd09bef0880a9874c220db5be5077369/comments",
+    "author": {
+      "login": "furlingdu",
+      "id": 117048039,
+      "node_id": "U_kgDOBvoC5w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117048039?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/furlingdu",
+      "html_url": "https://github.com/furlingdu",
+      "followers_url": "https://api.github.com/users/furlingdu/followers",
+      "following_url": "https://api.github.com/users/furlingdu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/furlingdu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/furlingdu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/furlingdu/subscriptions",
+      "organizations_url": "https://api.github.com/users/furlingdu/orgs",
+      "repos_url": "https://api.github.com/users/furlingdu/repos",
+      "events_url": "https://api.github.com/users/furlingdu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/furlingdu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "68c101cfcf53a9d5e598b329167ccb161353c0b4",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/68c101cfcf53a9d5e598b329167ccb161353c0b4",
+        "html_url": "https://github.com/KarinJS/Karin/commit/68c101cfcf53a9d5e598b329167ccb161353c0b4"
+      }
+    ]
+  },
+  {
     "sha": "68c101cfcf53a9d5e598b329167ccb161353c0b4",
     "node_id": "C_kwDOLcebn9oAKDY4YzEwMWNmY2Y1M2E5ZDVlNTk4YjMyOTE2N2NjYjE2MTM1M2MwYjQ",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "d2838e7c99319e160db12a0019ae6c3a26bae592",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/d2838e7c99319e160db12a0019ae6c3a26bae592",
         "html_url": "https://github.com/KarinJS/Karin/commit/d2838e7c99319e160db12a0019ae6c3a26bae592"
-      }
-    ]
-  },
-  {
-    "sha": "d2838e7c99319e160db12a0019ae6c3a26bae592",
-    "node_id": "C_kwDOLcebn9oAKGQyODM4ZTdjOTkzMTllMTYwZGIxMmEwMDE5YWU2YzNhMjZiYWU1OTI",
-    "commit": {
-      "author": {
-        "name": "github-actions[bot]",
-        "email": "41898282+github-actions[bot]@users.noreply.github.com",
-        "date": "2025-06-16T17:34:39Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-06-16T17:34:39Z"
-      },
-      "message": "chore: release main (#483)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
-      "tree": {
-        "sha": "6c08dcace004fb65caa56dbf556188fbd0794288",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/6c08dcace004fb65caa56dbf556188fbd0794288"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/d2838e7c99319e160db12a0019ae6c3a26bae592",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUFWvCRC1aQ7uu5UhlAAAN/EQAFgoz/wc0yIYZvFJ7fFX14AZ\nDM/diVU7SKtbc23hLjpuOTJEacRRQRObQ/3tNnFkjCxrsSYmfz/XA/iX0DVApvjW\n0wHvwm+Pr350neRe0u3MFaNgY3fC3p515CNSlmtKinez44caU4ewVuNH0XB4bOkj\nhzEGFYRNRJJaU+3oizb2QNboj0cNmvZZSRycOy9wI4YmFkv32eOTeF5AgPk0hlGw\nsSXqeg9LqeqHTN09oLxrZurH07Q4sb37FtQ6vj3e1U3tVh9JYMncOfxPBKApYDe5\nt0RB3ltHDTekkw2N5LfPjPeV08AbFc3LcbKbtbE9qBNn4d4wD0sxOFZHa98keH1/\nva8HI4LqBgAtGO/srJbZqft17chM+X7FpcwSDQ2sfezt6y/vx/KtfnLuW/SBcTh3\nmdX3mZ/gySsJo2/1FT9lC3A8kLaeW0QYIVWWe6hPiqv8GR/ysvzpQYld29yU5Uiv\nwQm9JFtnMG4TtRRMRBtnstUZMcF/H1V8P0yv7fW4cQWY5wsQfRZSfo39agXKe/nR\n8/tcsX9QAth9aJag3ew4PLfyaTM7mZPnBQi5t7Njb4tE3XBH80jOq2DBc5gYmf9G\nhRKRWBZnHrcF4ZX7LoxasHq8WSRCrQeXoEmqJYy8A+HsOnebiFtbX+s3mFBbamCK\nJuOcvfFQukaknehVMAvU\n=sIZX\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 6c08dcace004fb65caa56dbf556188fbd0794288\nparent 6f17242f93a646512b96c6c9474f968f87cae206\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1750095279 +0800\ncommitter GitHub <noreply@github.com> 1750095279 +0800\n\nchore: release main (#483)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
-        "verified_at": "2025-06-16T17:37:33Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/d2838e7c99319e160db12a0019ae6c3a26bae592",
-    "html_url": "https://github.com/KarinJS/Karin/commit/d2838e7c99319e160db12a0019ae6c3a26bae592",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/d2838e7c99319e160db12a0019ae6c3a26bae592/comments",
-    "author": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "6f17242f93a646512b96c6c9474f968f87cae206",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/6f17242f93a646512b96c6c9474f968f87cae206",
-        "html_url": "https://github.com/KarinJS/Karin/commit/6f17242f93a646512b96c6c9474f968f87cae206"
       }
     ]
   }
