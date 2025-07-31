@@ -21,8 +21,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/5e13b7c2f42de33141ef0d611108f237d7d24a2e",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod040CRC1aQ7uu5UhlAAA968QAB4ICxav0gv2zANvp8UCO0YI\nLe0gc7w5UfnK9ft+pauOQYgEvhAO5kbXgdxCfgFD+kNnf2mGFtmAx2TZwCO7ZySJ\nLo21T03kDATR7CNvkeZJcnpU+6MOllnND1JGC7ARhRqk5vB8bHw4Jjy77eqGTIUR\nS7cAs2He8gVDolTydwLiFMWib+SQwWV0d6/HWH6es0uWL27NOapjcq6UtzG73N5+\nCs7mIgg7zm0x3imfcDf4SeBi3ehLtctowZhuN3w3Zykf8OjfURIZp7CHMkziSjcx\nHTiQP9JApRQULQRsDznHSqhXwC1l5woRVc+npQn7PVoFFOuYIegpwuPSqKg8Ll0y\nEDZGwFWbrRt62v1L14kL0Lk+QxN2+W7NBHx8f0tlgC4DHENhbxd+oMH1cZUZcRKz\nJp3HO3zrFuANtWmEPIXp9puV7f9oE6nftATH2+6z7jcx2F9TTeSaig49EJGEhouU\nWA39JtEpjsVyEDg6laaM9zmjXpOlZUs62xlX78mn+Ihi68pibxO28Yl6IO1PBZbP\n1Ob1/TtHQl/jyCVHlfCT7p+BKUYIwa62NSTXIY8Nd9wQODoHwwPEtWxyxKU8aPBi\njplmcO5yeac/LaVm606exqXdAz3KQYzJB23wzpM2rGD5ktBQ13EI1dqRECkNUfD3\nb6CW3toPPjr2hz6qmsn7\n=6ZEy\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 724e2183e2f13a57a82215e98446bddc02fdf444\nparent 20daaf1bd3713d3f4b7938f831897c7450c10bc8\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1752649268 +0800\ncommitter GitHub <noreply@github.com> 1752649268 +0800\n\nchore: release main (#511)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-07-16T07:01:08Z"
@@ -103,8 +103,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/20daaf1bd3713d3f4b7938f831897c7450c10bc8",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaHdM4QAKCRACP3ChuPjB\nltd7AP9mNHhNZdGDyqlLfYA/Q4FNCxEkIghiBWhHa17oRm/pFwEAsaS0nXHcQ2mD\nZnotOIeQxdmpOIiReL6E2JzdKg1NVA0=\n=dSAh\n-----END PGP SIGNATURE-----",
         "payload": "tree 92e4be4d2f3d56e9b5c09765e4b8d9473c7e73bf\nparent 7596a1297ffade7953891f3ad5ea9f8591f6d37e\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1752648913 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1752648913 +0800\n\nfix: 修复pr导致的编译错误\n",
         "verified_at": "2025-07-16T07:00:29Z"
@@ -185,8 +185,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/7596a1297ffade7953891f3ad5ea9f8591f6d37e",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodY7gCRC1aQ7uu5UhlAAAIE0QAHBgWWcGOPKkeRc0sqwf+Ksg\naZQlAjShnAgSVXOOlQOGG9vFuEWIPWsgjPjdL9IQcm8rmopm+5mJEfhZS7mSLXjo\nt7jbcIrUX0Hf7WkQ5mFucNxJhMjUnsQjbK59Swj+u9dZhedpetLAd+oiffNdHCSf\nPIqHSk1axttHEhDafSNYn5nVhuOQiYdxXIwFMePYhhuanjUMgXgiXQRgkydxR6qR\ntuhCWOCmtCXIMXODSCxl2mzAesC14Yv4lb1aZfJJptGA3+1GVKL30Y49SEuZoAMZ\n2ZEs50Wl4qN62Rb5jQJxDJYMrNwaqFBq8dAYYtOY7HwfG3vYAIOd3qS33Q1VxZun\nzgWl9TFjRcYIkaDP3tjyCdykIGiGN0hsvPuwtsrsb+APvD+4J00www+cD2kVNrQT\nJjzueY049hltU0wP6JTmkZOElXBHVTm/dH4EmGom5JlFJGLxk4V6qWUgpAW1himh\nrVq5KsrvKcCv5bBYrNYP4J2ZtxGXfjTVv4Bi20s0dtceVKZqjmr8G3gMqpdKPtbU\neu1GNK75iymNKaoeXCm18YOVqGqV550SBtv/d+lOmkE1KyHQcS9yhDjKCd2hsifH\nFmi6sdO9KO/e1ur3/coZ38WXuRUbYTTITVPuR/TZCSz74xW6faX3K8Xsd+PdAVvG\n28rhUtrBljcnGud7K+6Y\n=6TqF\n-----END PGP SIGNATURE-----\n",
         "payload": "tree e48047054f1e0d9c39474f95366134c13648775a\nparent 225cc58afd09bef0880a9874c220db5be5077369\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1752534752 +0800\ncommitter GitHub <noreply@github.com> 1752534752 +0800\n\nchore: release main (#510)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-07-14T23:12:33Z"
@@ -267,8 +267,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/225cc58afd09bef0880a9874c220db5be5077369",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodRhICRC1aQ7uu5UhlAAATxYQACOOZrzi9y4SftPnRCpZg14L\naUioOKnHYqqdK6Hec92anwaxvwSvqWcVcWyMFgbHRvnfRdKiyEOVcvK8/t7VAacF\nNkIXb/H1zbofAwrGf9oxfOGyA0ToJhMmwZeU77tofjmdH6ljvaEvIZIchebcpzRV\nYtg/zSOnMCcloYgAjE9Iy4OwKRAdO38fV97y6BTUi243VzcX8UiqRdZAEo0KLzwD\nYzhUDW0cXbFN3XkhMCDBNFCLSpaveYTo98pRld26PNlebsti0vRvrsbfbEd6Vnx4\nGNJSYXdIlKZXatTEI+KTZ0BMj1ZqZETGwFSumRHABEJPZfNGJk8W4ykwAL9+x0K3\n8uLyuTLR/Nqyw8SOOFYv3mS6FUdoAFNaCxmXO3eetES/hJiOU9iUKbIlgv50aFp5\n/fyoStRNsFdsr9TsRVY1idKmTccG3zJaMvHOlu5oVQPk+B3Ec2LoBTdQlIZUpmdU\nEsh2Xw543W73aGc0gcLiI31FCfC60aXanHWNJq/2eEVZ0QIfuqgX0QMcgZVGb+qA\nzSNQSc+MO2IRCmrxfxJy5vtg8nv7HRDZFCL3zESsqzBFvcb0KFgv3Qq90yAWK6ie\ni1uAMXw+Oo+sjQmQ1bmQ9h6z/NarI+ESNt5CAEJsCZLwdI3ld9nCB9+OpVA+2QAu\nAqqLgTa+PaO25HQM4htd\n=UdHK\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 3c922b62e1e7cc1ddb24b1f71bb9a60a634f55d1\nparent 68c101cfcf53a9d5e598b329167ccb161353c0b4\nauthor 澪度 <117048039+furlingdu@users.noreply.github.com> 1752504392 +0800\ncommitter GitHub <noreply@github.com> 1752504392 +0800\n\nFix: 修复lagrange环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题 (#509)\n\n* Fix: 修复lagrange环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题\n\n只要使用的是 Lagrange.OneBot，并且 startMsgId 是 string 类型，它就会调用 lgl_getGroupMsgHistory\r\n\r\n这个逻辑没有判断 contact.scene 是 'group' 还是 'friend'，这就是问题来源\n\n* Fix: 修复onebot环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题\n\n同上",
         "verified_at": "2025-07-14T14:46:33Z"
@@ -349,8 +349,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/68c101cfcf53a9d5e598b329167ccb161353c0b4",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa7oaCRC1aQ7uu5UhlAAAxlsQACHVUHKPMCSr35pdrBo+Z2FL\ndWiO8x10lChHOOcZEd2kpl5gN7wNBJnwEQgxi+yzNYKHgIfPN/OrrGHMeeB3q7CA\nV0gll4yPRcLJoamEYkefBCtzFbBViGZG3ofrDvoRTvyjK8guEKxfD0yZ/gKhXAUs\nUH7nDT67HskLingw1LKtb5g8y8aUaLnFsIwiWkoTGLHipnpux3tELrkN7nVLfa/4\nyFzAlg16DsYci2fJNxe5iuYETrxZJJIiQ+9oBR1/7WQYfRAFnxCYVMoIwiVuqbRS\nmAvBtyu1xTI9uN5ubuctzxJGqk2tvR1lxEfe++TWE1tgNLCQvwSt/Y6U+CWGh1en\ndBDoGOJbQZDsqpAqJBHELN99TfViF4PyPu0HJqsU8GtRSVUddq0JG0U+Vxaezmg9\nAslBijROtJGIg5g+HROhFjyi3cUgMFDBS+TFbnko9pGqClHMWKLE3tr5WzESEilc\n88TTXimF7YS+10r4JHGWUZaqODVIRcaqZUW0f/LKexUfSk4Qj/07C1vfsfnxUuY2\nRtqPHMOz9Zmz+vxvLePZu6kTuhgrabfXA9+OVuC7LkKcMHbRJYRgXNVFi40wcSU3\nTMaT4XBZliIYXsnf9NEq2tF3PFcj+4FbN2yLVNn0wqYIguchLBu4Gz1qu8hnUk/x\n1PySYMvYzegilMIjwSzo\n=nN/g\n-----END PGP SIGNATURE-----\n",
         "payload": "tree f1d25b12be975e83d683cffaa874fa2dc79f10e3\nparent b55de78c082c3c7ead8605c5baf573107b545be9\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751890458 +0800\ncommitter GitHub <noreply@github.com> 1751890458 +0800\n\nchore: release main (#505)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-07-07T12:14:19Z"
@@ -431,8 +431,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/b55de78c082c3c7ead8605c5baf573107b545be9",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa7niCRC1aQ7uu5UhlAAAndAQAIiE4vJLcIZkZzRiYuKe4EWd\nacrLS4Lv/TMww0/XxAE1KV5a0NlP0Yb++sJ6kG1PITwSpWY7O7w41O5Q/P4ddkCG\naOxfRbHW03oGKDt84lfCBj4QyGcX4+59AS+8zPJ0P5EiUY8v6UMBnTt4SiMltgm6\ncMT7iB8S8G6CexL+vrIsnOc+gvulQu2+gf3aIb/wJZwJPp92+a3HgwadQjnVxwo6\nONCiULwDsIFbaeuXtrbEnw7aO2laAZb4YpBJ/6IVmnx6980Xi1yoxAayaI5KSyaf\nDtaDpYJURiWGA7e5XJ7z0q4Y+7UWMye8hucVkAtelg7pViwO/wmmn32r5sltgoVD\n4cSv4ZVdiR51UEAsHO7Il2AubO4/xv/CXvVfezfnR2gvkuoOG8xx7sIiBfrqVIMR\n3GUgE57X/3vSy1GRjp6k/x61AQ8TH48V9va4HPkH5mw/t+TDgnz+2jWKXqRubqDx\nBC9AK/C4x8LHyLwgeBWfDEjuE+9v9FaN+NYJey6VRB8fikNA8xNS42vdICzMNjgW\nTO3CE4Q1ifkgLwdbz90ZOwtYPH0A3/MXbKf7OzxhPfp3roRX9uW+Q7mcbejQ1ATU\nwDNfOktxLylse+DC3MWLBb0bn7FaWcOuX6zertEIHRuhnPeIfKr837c6P+4bYyUS\ns3LP0n9YNIIvxplPf6/I\n=gPYa\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 545ca9efa51085717234105ea8913d066914c7b8\nparent 6359a1cb881b6fe466dbeece6e45aefae782461b\nauthor 时瑾 <shijinn520@gmail.com> 1751890402 +0800\ncommitter GitHub <noreply@github.com> 1751890402 +0800\n\nfix: site (#504)\n\n* fix: site\n\n* fix: 优化部分逻辑",
         "verified_at": "2025-07-07T12:13:22Z"
@@ -513,8 +513,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/6359a1cb881b6fe466dbeece6e45aefae782461b",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZphWCRC1aQ7uu5UhlAAAyPsQACuUsxyKui0MrDwZnCE+3hk3\ngGEB9PiYfJpc8pxETdth8EQ2orG0l4VK8gm5nG6xxMEIvCiHmxQtlDGHfOPzxehM\nec4ANaseON2iE24s0zC1BGU5Rw2MjD/88PmSq4Qb3a0qL3T5TassGlKmYySHZqdd\nAdcVvH3V/kLCLtfb+0RrmUQWvMtBRdvlXkXVIiC4PX3KS0GtnhGPC5DCjGI6Uc3A\n19cZAjttIHMxZPW3i11ff5XJKTkpXZ7rwBwHgPOHUMSdahJrQRMQFEBHzMTsBlV6\nz2zOVf6Lx/Sijeei+FFcGVmS4ImSRODcljuIi3GKLNRA+m5TIZExmSbgRFl+tEVm\noKgpn4hftgKUAE1zBNUNxhKjmn3Mneq6C/QvtazvajBgGHcSr4Jfzq9iKDRhjA5F\n7ZGBMpMpdqFlEx2VPyeu4G1GTbW/fVcHs7U6QVlnOgFhq/fNeDWqSOPGQ4JDr7fm\nDjhcHmro1/laUbzeATrQf+HIuVlgAJPxFZFQYj3EnlekyAWLjgh5UCI6b9/tLiEk\nahnzt6FwxUwG48mhafTJM247UQLG28qD//M2KpHPhhA1MQWSkD5YT+8lY9sPgUrI\nY816uvD0B/9XI7Biy6VOYcT+xTJ3hWAToQuIvwgFMyroO/Fx8DLlPyOUoNMbR1gR\nsEUqcKQWXeaMvnf1rsjv\n=JM4C\n-----END PGP SIGNATURE-----\n",
         "payload": "tree b717885033743f5dc1a2af1d158b9b6e985eab6b\nparent 798eca3e0bde5733c52bc4fc57b6e8a9ad5441f3\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751554134 +0800\ncommitter GitHub <noreply@github.com> 1751554134 +0800\n\nchore: release main (#499)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-07-03T14:48:55Z"
@@ -595,8 +595,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/798eca3e0bde5733c52bc4fc57b6e8a9ad5441f3",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZpdBCRC1aQ7uu5UhlAAAZfoQADsvpkSZqvfL4U497J0nOTas\n+y/Ec4ABH0MSRV7kvt5uG7oQ8xNra1spbsoEPmH9xgIhb0B/SVmkNfC78RgWwXYK\nApTBRk+yxFO/CZLtUunQqLUzwYlwfna5HoRdIcU2kvABWxaYV5F2Hg32EbgWKpnU\nHEJMGzhX5wr0la65Dxo9ST9ZSmJksvVZS5nSl8BPiXFfiaBlsPwZBujL9QyK2H6s\nxS6c5KX4swsIbQh6iv8aufW/ito8cLojIMx49F/L/oJhy4dU4Lpr0//03w3o+Tap\nGRaO+0EELnGMb9OqXXGN7RONqprEewvd/JNkRj2uIzdLU61xgA6LHPUTbJ14ghtF\n4RqsmKI5woVqBUltbENuq8XJwH6MY3bbTC9J9ucrtoBnnMYUWqA4Y3tY64bBnuBE\ncdKBGTDYaJj1z94EUS2a/A3gU+fZAQ2Lptk+O3aEBIJdNAR+qNaGofq5G/SMp0f0\neqM/jOSdcYxXNPgtwk0RFLdhf1zYZRsIw9egEdy4tjBug+8QNktbpDapkHLST8sA\nzTmeD2zc3By/xId0qOFq8GBaIcL+BYa32BGT0RlK2EMIqy7JMs95fSKg8uKTkPIy\nIxnE32TCopE/Tu5TVo6SOfFkYTJx84ahmiQW+o1xAN1OWCwW/lJZBDvBvfjzrRVZ\noaqZNaQhH5gcZ0yrQ3e7\n=zcct\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 9dc6bffa2e291a7b0096424ce5c630c441c34c10\nparent 2e55bc55dd3985528542b6686bf5584830b781be\nauthor 时瑾 <shijinn520@gmail.com> 1751553857 +0800\ncommitter GitHub <noreply@github.com> 1751553857 +0800\n\nfix: close #500 (#502)\n\n",
         "verified_at": "2025-07-03T14:44:18Z"
@@ -677,8 +677,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/2e55bc55dd3985528542b6686bf5584830b781be",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGKocQAKCRACP3ChuPjB\nlvUbAQCyfAq7t3Cd+QtlYMBmGjArTR/UIU2IGyg2jHN7zM7BwwEA07n3nX9aFwYk\n+8+MHetKiGUfvjJl+i7EWGetrLt57wk=\n=oWKE\n-----END PGP SIGNATURE-----",
         "payload": "tree a4c846db30672fa177b5fc8a9efe043565b86f83\nparent 1fd85f4af45e535b53818f8cc28661c90cef1315\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751296113 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751296113 +0800\n\nci: aliyun docker\n",
         "verified_at": "2025-06-30T15:08:40Z"
@@ -759,8 +759,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/1fd85f4af45e535b53818f8cc28661c90cef1315",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGKC5QAKCRACP3ChuPjB\nllmdAQD+2WEzdEay1AuVe5funtIqMN+L9Je6WXdCKeeu4CtpEwEAutsHMoQnEQFC\njTfEVhY3fA1dnqirFbuk4BVp8+d3tgc=\n=H5zR\n-----END PGP SIGNATURE-----",
         "payload": "tree 1f4d6ebb20ec56ac122baec1c1c595146bce0054\nparent f8662be548d3bd7f9fa87dba179293b4f16cf44e\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751286501 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751286501 +0800\n\nfix: 补充频道事件缺少的字段\n",
         "verified_at": "2025-06-30T12:28:26Z"
@@ -841,8 +841,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/f8662be548d3bd7f9fa87dba179293b4f16cf44e",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYnGGCRC1aQ7uu5UhlAAAG7EQAFSRvMWUEZsduAjuDrDCthGH\nJFZa2PHpQQrHJJ4z936vfcvzTwolXWv37ptTlZMlGiUfBGTQtJE98UKxjdtcuWH6\ntO6KIyEiwbjCCdpQlCoxd6/CaMFH4iXfudMdXzDw11czQj2T3ut8VqcCOrykGhsI\ndZR2RZU8fDFHjGL+QGfYAyhvD9indIi3aHpZhjMtowEpLWyDVGlYAAcpRbqdHPmV\nFrAuRrxPBmKlgsOON3CRUzjaK6CUUagAx0wo1p75OtuHwtB1Dvbcc/GMmUkMbmsP\nlY/rQ4liVBooI9hjRSyxnfmYRNmeObJINQvBF89BO+zFoi3K+TArX9rfl+CNFbMh\nViHVB9/PhipEamYV9TZAsvo85xFUiBaAyQkc3csyJ27HbgvWvOlF00NixouOVz7k\nk+arU5uQXXdSIegvEn89bWpgVUuuMjSEAEPytGwa2BiTaXvqU0U0WBUyGqMJp+0a\n190xKi/AcxAkbf/Z+8Qg6RxlnDCdu1D4fnB5w1O+ClyidweR2cdRqRRmQl44E+4x\nEuiXf+7SaBcXpcIRPpN7+GTPEMUtOymWi2uMeR40HyhopzA3/SE+SmOIklgeXdlI\nnu/j1cjMNIVty0982T+6HrY8XTqdVwwE/Fb1zbqNVb1cqFjYhoFKsZ19DsJSZzFx\nrdPnz0TZCivn1slHFKK2\n=SiLn\n-----END PGP SIGNATURE-----\n",
         "payload": "tree ae0a5c36bbbdea0c0cfde2632273331be666d803\nparent 5bbe6b1f9018eb29f808a62af9995e04a41ff3e2\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751282054 +0800\ncommitter GitHub <noreply@github.com> 1751282054 +0800\n\nchore: release main (#498)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-06-30T11:14:16Z"
@@ -923,8 +923,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/5bbe6b1f9018eb29f808a62af9995e04a41ff3e2",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGJwmAAKCRACP3ChuPjB\nloWvAP94GHJ9uSzkuE+z+RCx1xm+JFRfJg1PyiGzHXMNP27LPgEA0JIIE2VHKGY5\nWVzWoL6svWKDbTWGzXmofgYGksfM1Qg=\n=LFJe\n-----END PGP SIGNATURE-----",
         "payload": "tree ec52e25113afaae5fdf0e05885134d85c0ef6ed3\nparent eff1274f9b85dd9e495655b9434e5ee2a5694442\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751281816 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751281816 +0800\n\nfix: napcat name\n",
         "verified_at": "2025-06-30T11:10:24Z"
@@ -1005,8 +1005,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/eff1274f9b85dd9e495655b9434e5ee2a5694442",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGJqFwAKCRACP3ChuPjB\nlmu7AQC/fjcNWvLqGsqi9ulUvQmnTiDnPqbfbUjrOm56nw5uywD/Zjsiu96bgOCb\ncRkv/uKnN5+TL7ih0dIFXeOr0hoP2AA=\n=AMGk\n-----END PGP SIGNATURE-----",
         "payload": "tree a1f25dc6d6e184f835be9311ede13c29b9c948ef\nparent baf7666cbc019674d0189b418cf448d1feafb5d6\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751280151 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751280151 +0800\n\nfix: hasPermission\n",
         "verified_at": "2025-06-30T10:42:35Z"
@@ -1087,8 +1087,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/baf7666cbc019674d0189b418cf448d1feafb5d6",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGJbyQAKCRACP3ChuPjB\nlj3SAP9kTw6kfv08RSxrPinorlEkIrro+f6/oKIRepMuUu7lvQEAzQmGFBjOVUqE\n7NJA5lg+I0cwig1EAaz9qWg6idX6dw8=\n=dCk0\n-----END PGP SIGNATURE-----",
         "payload": "tree ee9d4aca062afaefddaa574f27836f1f49bb2c89\nparent 8ae394f3e288b66760502ea334fdef7ec4272a7a\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751276489 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751276489 +0800\n\nfix: webui\n",
         "verified_at": "2025-06-30T09:41:34Z"
@@ -1169,8 +1169,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/8ae394f3e288b66760502ea334fdef7ec4272a7a",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIqHAAKCRACP3ChuPjB\nlvcBAP4+AMGrcW3edmAy6EO61UfCmGOm3QK4BA8OzDS3Aqbu5gD/UEegWmrFBFke\nZ1RDCmvQKf/hp1VLHOvd/E+rYKGg/gY=\n=6Gqg\n-----END PGP SIGNATURE-----",
         "payload": "tree 3f09b98a6ffe89fefc2062e897a2ca95c52c2585\nparent cd17b940897bd95d509285e8c2a4cc64ac4b663b\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751263772 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751263772 +0800\n\nfix: 检查更新ci\n",
         "verified_at": "2025-06-30T06:09:36Z"
@@ -1251,8 +1251,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/cd17b940897bd95d509285e8c2a4cc64ac4b663b",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIo8QAKCRACP3ChuPjB\nllIjAQDXko10rW5j2BKe78mXB8WgQsovxEBA6aMrJG6OFIrvywEA+3el9g5dWeDu\nfMzOVZo6189Of2hl/9bB8dP/3dMR9QE=\n=AcZ2\n-----END PGP SIGNATURE-----",
         "payload": "tree 95a8bc4b9daeb9c543dcddb0698adee4a9bcd9a7\nparent 76530aaeca84585b7fc3a3c503dcde1dcad9cb18\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751263473 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751263473 +0800\n\nci: docker\n",
         "verified_at": "2025-06-30T06:04:42Z"
@@ -1333,8 +1333,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/76530aaeca84585b7fc3a3c503dcde1dcad9cb18",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYiivCRC1aQ7uu5UhlAAAc7oQAH81e57ot7B2O6f5/N9pcwi3\nFqHF1QqA8QoKbtXmVR/f+tuI0WiXb/tQAElNxMOJ9X9UoiU3VF2OkLp6hP9RUDUT\nKoCQLInpKBJO1zSXqp2pOGvSDujIHZ/ikth9AO7A+b9k/dstPH2aX9NwhwfaIN43\nk6NiM+Cdp30L2Wg14SQJaDaptBX+vUTYdBT12pwqCujMQjUxPzxSd4HOpMDsfcUK\n44Q0gvYTg/QFnVZU8eL3eT6T49fGBTuZmTKavAWEXKJhkf4hKm0LDXnUeu0EtGt+\n9Xl22HIfniu/PbEmu9xTABKIaDcXzOaIM/I3M7uAVS1G+THgaviNWSHzIJkv5w4k\nlGxpQaDBKX+3JtZ7SxyfOPRRhMobbHR2cURXpkubMs+8gdDEoosFnH/UB5Agtg5M\nLoK0oJ5sSAAH/XbDygmm94pv9WG84wMAxr8ap+gvqTsJRJozw4UDW2v8VT1rKhNI\nABGTKu0xq3vhEehCHWpHO6PbNbwCrGrj78mqN4csvAUjAtkWuyQO6QZQfWWdvgVB\n+Ehn9S7FztzbWrzJasSRE/g5CjJMuGSxWuXIzP+9W3a5qMdAxy6FN0gMW//MRZmX\n+i/sRUOgTSKyUzPABxsHXYXJcn6zXPrE26rlMA5ZB6cFoRN4+5YrJ5V0iHb8SKGl\ncN+K2hgzVeDknYjbtjTj\n=RcGm\n-----END PGP SIGNATURE-----\n",
         "payload": "tree c9bbed20f415322447e782e0bbf63e3b07f0f386\nparent 21cd2074ba7da1650c2ccad6d62f117a8907321f\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751263407 +0800\ncommitter GitHub <noreply@github.com> 1751263407 +0800\n\nchore: release main (#496)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-06-30T06:03:28Z"
@@ -1415,8 +1415,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/21cd2074ba7da1650c2ccad6d62f117a8907321f",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIoRwAKCRACP3ChuPjB\nlpqkAP9ybU65nq5Z5RUpApXzKCiltRU+OE2rs1ELYwJjsuqhjgD/RXp/CUsODbLK\nbKdRGmByyxKV6mwNf1+B5g6D54uvwgg=\n=sxXk\n-----END PGP SIGNATURE-----",
         "payload": "tree 4ed4282c5e79b474e606758357ad0d1caa9b411d\nparent 9efe1d4378cf5df00ab6c621ead976447f906eba\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751263303 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751263303 +0800\n\nfix: `raw`原始文本\n",
         "verified_at": "2025-06-30T06:01:47Z"
@@ -1497,8 +1497,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/9efe1d4378cf5df00ab6c621ead976447f906eba",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGInNgAKCRACP3ChuPjB\nltyoAPoC1Z0rEmnwHU2VL+T3kk1jyHCCoDl+KrYw0s23Qep5GwEAofo8R43brl3D\nmjwCvgTGtqPeT0N0ci5fFjgZ2KRS2QE=\n=XwbS\n-----END PGP SIGNATURE-----",
         "payload": "tree e6e3e428780361bfe731da99eedc518cf3d8881f\nparent a985f0a214ecc8fb7edefe4a00f9afe24e443e4a\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751263030 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751263030 +0800\n\nfix: 更新`hooks.sendMsg.message`描述\n",
         "verified_at": "2025-06-30T05:57:14Z"
@@ -1579,8 +1579,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/a985f0a214ecc8fb7edefe4a00f9afe24e443e4a",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIlHwAKCRACP3ChuPjB\nllLfAQDoFET9KPpbfqsVB24zFeVIfEMrK3Rm5vqI7yvmhQSBNQEA4uN/YvOiCrxX\ntVLDRIuaW6B9iPM+bt8y5VXdsvT8qQ4=\n=Nasp\n-----END PGP SIGNATURE-----",
         "payload": "tree 6cdba421f01c0f0f31aecc92e76860ccf9df049d\nparent 2b08c900c9b199439e418d4f1ec76e3303704408\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751262495 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751262495 +0800\n\nfix: close #474\n",
         "verified_at": "2025-06-30T05:48:19Z"
@@ -1661,8 +1661,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/2b08c900c9b199439e418d4f1ec76e3303704408",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIkUgAKCRACP3ChuPjB\nlm30APsHlbbaEijVeT3S8Sup08Ea3+b7I6nWNoRN/rYfYdbVpAEArbLC5CiWgU9h\nlCAvZVDd7kYGQF7Hq9H5pPbeWFaEcg4=\n=f6vj\n-----END PGP SIGNATURE-----",
         "payload": "tree d8c01a8a4e506a092c8ebc3b3b5aed0d69e1c126\nparent f459e145480dcb8ebeddf694ca947998350183e9\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751262290 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751262290 +0800\n\nfix: webui卸载插件\n",
         "verified_at": "2025-06-30T05:44:54Z"
@@ -1743,8 +1743,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/f459e145480dcb8ebeddf694ca947998350183e9",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIjXAAKCRACP3ChuPjB\nlo8RAQD0MCuuZtV+9wrVa9TkBzoM25Cquqdhy8piycq+ydxi/wEAyey30vxK1MJ3\nUH2GILOo9IqPnGYqOsJmP6cEEtjIMw0=\n=dpcE\n-----END PGP SIGNATURE-----",
         "payload": "tree 6d6248f798dbc1f71cd61d8fe0c09c516248b5a8\nparent a77595a374bd75490409b03bef6b631a6f0c4440\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751262044 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751262044 +0800\n\nfix: 孤儿进程\n",
         "verified_at": "2025-06-30T05:40:47Z"
@@ -1825,8 +1825,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/a77595a374bd75490409b03bef6b631a6f0c4440",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYh2ECRC1aQ7uu5UhlAAAOG8QAACMi8EQA+tr18crnSqg5Tww\ntGgIEN5i4de9GJ1AcmSvtMlP5FKwiz8/omSUJSHkvpaFYP4wAjsImqSkANs1gX9O\ng3LMotmIJqY2IHThSAuis/fmL1TnGZpZL8z6TmZEVtGB/Qa8c/QTBwCkzokJffUV\njC3qXZ1y/fy7D7fqDHORmv8KsnLiyI5kRRY75CO9BoGGIPXU72iz+0oKeFue65dj\nF5F5QvnNFBGrSBtQ18yaPbQZ/fFX7mWptdMOiTOdscauGrk2kRfjIRNpW8TqIc3B\n/XhB2e02IfjQpITWOVEgp8S3+2WHJwiVnDA6RyUiT98W5Lf1/VLk6UWfMThNrYtv\nSI0KjmMO/d0klKyXp8v6OeFDx58k/71DLTdjHLMjRqZbvSE0wMjfLp30YP5S5Uvo\nJwFr44lz2xxol45FT52gDIrhXY+kYGORP0L3S9Wsofl19BVxYwYyQ65uJbSTyPin\nIpR/v5qRtW3r1Acoe1fz5u48rGg8wkCkIarbe7PO3mauE4RRrWyQL2CK1F+JlT1K\nv1wxzTHzO5AB8M8ngL8JdrfHIWZSO2nXNsGOqknnbaYPFZyG/WdBwwZmxYFIuRYc\ngquu5FYRpqRpoCCIPDuwt+X3DGx1npjIQOEfHx1UPud+m/7A6p6QQdBtWd1Mzzs7\nL0k+sCOFQTBQ3m7BSMm5\n=lZln\n-----END PGP SIGNATURE-----\n",
         "payload": "tree bb75adc766e407589bd0f589b49fb2972cd00a1c\nparent 7bf0152fc1d807ea46a1f0998da78403c0883acf\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751260548 +0800\ncommitter GitHub <noreply@github.com> 1751260548 +0800\n\nchore: release main (#495)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-06-30T05:15:49Z"
@@ -1907,8 +1907,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/7bf0152fc1d807ea46a1f0998da78403c0883acf",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIdHwAKCRACP3ChuPjB\nlh3YAP9pFgcbMrdxS+43AYTBzB8vfS+c0OG7bAaWYz0pwxiETwD/UpT9WIN4EGu9\n+85wFzfj55DPw2KKS+UuABOQI6XE8Ao=\n=Cnfj\n-----END PGP SIGNATURE-----",
         "payload": "tree d2870d039f27fb8e83f302c3e30d165a7921c3c4\nparent 95087c99e72b60db802e4e5337579c94e791fdea\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751260447 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751260447 +0800\n\nfix: onebot 声明周期事件错误\n",
         "verified_at": "2025-06-30T05:14:12Z"
@@ -1989,8 +1989,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/95087c99e72b60db802e4e5337579c94e791fdea",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYgpXCRC1aQ7uu5UhlAAATToQACOagamideAP/koU522MugfB\nhEHG8xwdHHRfz0I8AfyRGfQKpOBDhBODcy9u8vIoRPY0d6A1nJ6+v328DMvzhXt6\n9D4XdxTCqS1f+zQDchRjDja666rm7fzQuExphKBI52eOG9SVBRCnvOCzuVI8UqBF\n2BlNWjpT+CXqb5WdjhWkU+G/6egqm4BCtIFKHGNMcxsnY6FhN3RgLCDZx6rkie3t\nDBNc7Kfq9WhfCb6Uh6+aM1k0D9rfW7SLkvCJrUcICY5aNEDnTTCBPHjo3FC96PPy\nPVCSgQbMIjQLteEXzRPwrVm5OX2xx/xgSYKaaFfB/jrvesc2RBbT6ZaQrr7aOKkz\nN082m7/5ZMZfPFMaTOEZhnEyQQOBYKasxDvFXpHU8mFbJz7o1xqJV13u9VGQ9X96\nj824WDT9TaH1VeY8CiSodzaD4tLilTUXa8gsks/mP3NVldWo5vBUsXEWGGEpq4P0\n/nZ975tMUdvaPM9WsOj0x6WqJ/vbCgS5dql2/FVSr9J8LS3/HJPgSqQm2dtTLQsG\nQb7AQ+ICVYPAUOalH5AS7VZM9nFSlgKjKrhI5OIW/T4bJxe1FiLbn4h0FbarjZjX\nYTcY3pKHtmNaz56ilqsmRNGG2XK+KajEWxgMrLuw561jkOjmvMQWdkptviamuwcC\nuCeTvuOPpdJ5kUuMZeru\n=bqqZ\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 07745cc4f4ebad8ecbd3b610e9d5fadb09810722\nparent 05feb59aad90ebff0f31e4f0440f7a9dddf241fc\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751255639 +0800\ncommitter GitHub <noreply@github.com> 1751255639 +0800\n\nchore: release main (#494)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-06-30T03:53:59Z"
@@ -2071,8 +2071,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/05feb59aad90ebff0f31e4f0440f7a9dddf241fc",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIKJgAKCRACP3ChuPjB\nls2OAPwPIKqyc5qcgfq7SCFHvFxOsMXY+MToiE+9IqbB8vXgpgEA3NX0NyxYBV1p\n5he/RkFfAWP3WJK8nqm7EVaBintdoQc=\n=nFFY\n-----END PGP SIGNATURE-----",
         "payload": "tree 5c7c66619a38e3611d900c937de9612e99f4781a\nparent bf280492827eb9c1f4208b9179f40998a9094012\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751255590 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751255590 +0800\n\nbuild: fix types error\n",
         "verified_at": "2025-06-30T03:53:17Z"
@@ -2153,8 +2153,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/bf280492827eb9c1f4208b9179f40998a9094012",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGIJhAAKCRACP3ChuPjB\nluSJAP9UipCCUq/4+7qkPQPOB6l/e2y0lsYfdKb6ggNgef4nQgEA6BHtwoy2AfBZ\nMs4poAYLPP1ytC1/kgZw7XCmO2U4bwU=\n=1yQb\n-----END PGP SIGNATURE-----",
         "payload": "tree 40fde5d565c440987dc9b03ded3a01e6fe60fc8c\nparent 02b0ab18f43fbd5aa991dfeabfad06ea6891097e\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751255411 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751255411 +0800\n\nfix: close #429\n",
         "verified_at": "2025-06-30T03:50:36Z"
@@ -2235,8 +2235,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/02b0ab18f43fbd5aa991dfeabfad06ea6891097e",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYBYtCRC1aQ7uu5UhlAAAir0QAF1a7wmZ/fqNphl0KJSDY+bj\neLkM+4i7bS7jbQn4If+CTnVBEX+b4qD+Db6UtjYvx5A3pNVcdt36sxUtyO0euycR\nofDDRKAxiACyC39SyED5fr5L/YpzZVWSks2obBM2YmA6V9oHoFwV8xMo+q7GJGT4\nhlkPmOrU4AP8f0OHYoi0b1hLmJMU5oy8zMoRWlUP2tL7a1NhgpRYXv6Xw9KVNcO3\nwrIIvdOSZa4dVPr0yl0K/GpQ42dFOlHpFDVD9rs0oQW8VsNLmB9Zt6kC4DWSzZk0\nyOYXd7aYnB29kSyEddZeyN6zuJeKR30NUeIS4JZWavclazrjxqEK1WkMxrxWoWyP\nDn8gGQFDchT69dk+SFXmGQqxzt8WmFsyE2+VGDioMeEB3/vlu3Y+jCr6qNMz5Ify\nERR1WpXqsDYW99YuUCVd9ZWf2Kf/m4uzetG/X1Hb0v97TL7n9qy4UA//9u+1gjFT\nxUt0MxcdVCE7lbDSTMwA2CBR85dsO8Hj+im+rfb3tcCmCUZB6WaYrzf3xJlLfIDI\nQ+/7957MhLVHAhNVEPtm9YxreKbTZVvymHFrNIxIrhkN6mlfNdg9hI0zbmAVsSLS\nmYANTqlYKKY66FevXq4UyvT3mI24woOiWMQaNo2IxNtASeGBu26iHpyWtb5l1mCh\nU4nT/mrrGaeIwI8eFTDk\n=3AE7\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 982b3b128f418d96b1886ac220a4a8b5b3790871\nparent 11119b27b49d1b82b81d7d3938e9478ee8ad1798\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751127597 +0800\ncommitter GitHub <noreply@github.com> 1751127597 +0800\n\nchore: release main (#491)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-06-28T16:19:58Z"
@@ -2317,8 +2317,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/11119b27b49d1b82b81d7d3938e9478ee8ad1798",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaGAV8gAKCRACP3ChuPjB\nlrLsAPwJi2EPaHHF0Rli3BsPw02enzqVg2kPx8Sa3SnBxLCAIgEAkeZSb1cwynNp\nncQeG9bu8mfoT1GstyKO1/A+zuKObgM=\n=aMGw\n-----END PGP SIGNATURE-----",
         "payload": "tree 385b0f448e402af7162dd253090721fe6edadb5e\nparent da8b8730b93b06097d6599d62e7e400258952edb\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1751127538 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1751127538 +0800\n\nfix: close #453\n",
         "verified_at": "2025-06-28T16:19:02Z"
@@ -2399,8 +2399,8 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/da8b8730b93b06097d6599d62e7e400258952edb",
       "comment_count": 0,
       "verification": {
-        "verified": false,
-        "reason": "gpgverify_error",
+        "verified": true,
+        "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYA38CRC1aQ7uu5UhlAAAWqsQAGfvEoulB8jv7vrc2Rgvyp/m\nbXp65XBLLYRPCrRKkvek8xjSEqGdCG26aO9E+NP9o6/w28oHfWLATOH5YFcnUxMH\n/nlDeVwWtlTXhc6XHylE60T+VJsZx9Khp3wewmOGZWE0yfRK8GVnr/ne/c5BBuuo\nwW2sdYKOqtHzLdlvxhlqM9SAjrP8hAJ+9F3Jf6cUOK1bzKm+bglRnpkFkOCMDxC6\nKUx/cjqw+WNdAh7kQ4qKcnduWLJAHxHuD1ycGsFw++llegC1J0QEVUlpfPF7EW8U\nSh20LibyYyv7XFGFncm4S6+/CdnH26PO/5ANtJMmzIj6x2DalN7k+l/4Vu1Mb4+L\nCzvBnK/c9HmLUbo8QPxOkt0p7mguUgvO7hjHOM3pErvu9T7YQ/TLGSxnA+RAm/8Y\n/7Woie2Tg8wgNs4vJ1+/zbUbYRtMVEt/07DqjDRpo3sMtd6csQn0zcqLdIszRPxd\n5Jaj6fFlhYDxnoAiavAh2/DjyZXy9UjDdDObGcCJm3NKWXKR/IvD+ONyegodpjCl\ntAAxKxogn51WemNGhZqjPf0zktvTy6kWl2HICLk25nWDfFHAj30i01F5N5bhDEA7\nj1X34yGdOJUf9dKBKRsIZDRGAgmghCDxCy14nAi3dyvI0fLW1SMNbbpp/HBrznIC\ncQUSmRbOgd5Kes9hjp3E\n=m6Ss\n-----END PGP SIGNATURE-----\n",
         "payload": "tree 09df67c250e5f09d5978451bf7d74e8ee1bfa397\nparent d6aa6163f655dc270cf6927a660701a2bb9e7c3c\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1751125500 +0800\ncommitter GitHub <noreply@github.com> 1751125500 +0800\n\nchore: release main (#490)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
         "verified_at": "2025-06-28T15:45:01Z"
