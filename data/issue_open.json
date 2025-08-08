@@ -938,15 +938,25 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 7759014950,
+        "node_id": "LA_kwDOLcebn88AAAABznksJg",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/no-pr-activity",
+        "name": "no-pr-activity",
+        "color": "ededed",
+        "default": false,
+        "description": null
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2025-06-06T15:50:55Z",
-    "updated_at": "2025-06-08T14:40:51Z",
+    "updated_at": "2025-08-08T05:47:09Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
