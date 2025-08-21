@@ -635,6 +635,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n使用webui访问http://127.0.0.1:7777/web/plugins/manage?type=git，点击插件的右击操作按钮，在弹出的插件配置，点击后界面无任何响应\n\n### 复现步骤\n\n1. 第一步 点击插件管理\n2. 第二步 点击已安装\n3. 第三步 点击插件对应操作按钮\n4. 第三步 点击插件配置\n\n\n### 预期行为\n\n应该返回插件配置界面\n\n### 实际行为\n\n无任何页面跳转以及页面响应\n\n### 操作系统\n\nwindows11\n\n### Node.js 版本\n\n24.1.0\n\n### 项目版本\n\n1.10.16\n\n### 附加信息\n\n![Image](https://github.com/user-attachments/assets/a640c42d-86c1-4d0e-9301-204690c8e6d9)\n\n![Image](https://github.com/user-attachments/assets/af4c36a1-6d52-486f-b972-1824b5334cf3)",
     "closed_by": {
       "login": "sj817",
@@ -1238,6 +1244,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -1335,6 +1347,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n1\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n1\n\n### 实际行为\n\n1\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -1636,6 +1654,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n在执行segment.image('url', {fid: '111', md5: '222'})的时候只会返回{\n  \"type\": \"image\",\n  \"file\": \"url\",\n  \"md5\": \"222\"\n}，fid丢失\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n1\n\n### 实际行为\n\n1\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1.10.10\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -1734,6 +1758,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n在第一天首次启动karin会正常生成日志文件，但是，第二天如果没执行过重启，则不会生成第二天的日志文件，只有在重启后才会触发生成当天日志文件的操作，并且第二天后会自动删除前一天的日志文件\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n1\n\n### 实际行为\n\n1\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -1821,6 +1851,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": " TypeError: Cannot read properties of undefined (reading 'startsWith')\n    at fileToBase64 (file:///D:/Desktop/karin-project/karin-project/node_modules/.pnpm/node-karin@1.10.10/node_modules/node-karin/dist/index.mjs:3745:26)\n    at KarinConvertAdapter (file:///D:/Desktop/karin-project/karin-project/node_modules/.pnpm/node-karin@1.10.10/node_modules/node-karin/dist/index.mjs:3767:58)\n    at AdapterServerOneBot11.KarinConvertAdapter (file:///D:/Desktop/karin-project/karin-project/node_modules/.pnpm/node-karin@1.10.10/node_modules/node-karin/dist/index.mjs:8255:16)\n    at AdapterServerOneBot11.sendMsg (file:///D:/Desktop/karin-project/karin-project/node_modules/.pnpm/node-karin@1.10.10/node_modules/node-karin/dist/index.mjs:8290:29)\n    at bot.sendMsg (file:///D:/Desktop/karin-project/karin-project/node_modules/.pnpm/node-karin@1.10.10/node_modules/node-karin/dist/index.mjs:16732:46)\n    at async Other.sendMsg2 [as sendMsg] (file:///D:/Desktop/karin-project/karin-project/node_modules/.pnpm/node-karin@1.10.10/node_modules/node-karin/dist/index.mjs:16791:18)\n    at async sendGroupMsg (file:///D:/Desktop/karin-project/karin-project/plugins/karin-plugin-GamePush/lib/api.js:29:14)\n\n",
     "closed_by": {
@@ -2789,6 +2825,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n前台启动无法通过父进程通知子进程重启\n\n\n\n### 复现步骤\n\n## 请求接口\nurl: `api/v1/restart`\nbody: `{\"isPm2\":false,\"reloadDeps\":false}`\n\n### 预期行为\n\n子进程重启\n\n### 实际行为\n\n```\n[Karin][14:38:13.192][MARK] 收到重启请求，正在重启...\n[Karin][14:38:13.194][INFO] [ProcessManager] 收到消息 | 类型: restart | 重载依赖: 否\n[Karin][14:38:13.194][INFO] [ProcessManager] 准备重启子进程 | 当前PID: 22940 | 重载依赖: 否 | 重启次数: 1\n[Karin][14:38:13.194][INFO] [ProcessManager] 发送终止信号 | PID: 22940 | 信号: SIGTERM\n[Karin][14:38:13.195][INFO] [ProcessManager] 等待进程终止 | PID: 22940 | 超时: 200ms\n[Karin][14:38:13.218][INFO] [ProcessManager] 端口 7777 已释放，可以使用\n[Karin][14:38:13.218][INFO] [ProcessManager] 确保进程终止 | PID: 22940 | 发送强制终止信号\n[Karin][14:38:13.296][INFO] [ProcessManager] 启动子进程 | PID: 29268 | 入口: app.mjs | 参数: 无\n[Karin][14:38:13.297][INFO] [ProcessManager] 重启完成 | 旧PID: 22940 | 新PID: 29268 | 耗时: 103ms\n[Karin][14:38:13.298][INFO] [ProcessManager] 子进程退出 | 信号: SIGTERM | 运行时间: 0.1s\n[Karin][14:38:13.298][INFO] [ProcessManager] 正在关闭子进程 | PID: 29268 | 运行时间: 0.1s\n[Karin][14:38:13.298][INFO] [ProcessManager] 发送终止信号 | PID: 29268 | 信号: SIGTERM\n[Karin][14:38:13.299][INFO] [ProcessManager] 等待进程终止 | PID: 29268 | 超时: 200ms\n[Karin][14:38:13.300][INFO] [ProcessManager] 父进程退出 | 总运行时间: 1.6m | 重启次数: 1\n[Karin][14:38:13.301][INFO] [ProcessManager] 父进程退出 | 总运行时间: 1.6m | 重启次数: 1\n```\n\n### 操作系统\n\nwin11\n\n### Node.js 版本\n\n21.7.3\n\n### 项目版本\n\n1.10.4\n\n### 附加信息\n\n处于生产环境。运行时处于 `node` 时问题同上。只有使用 `npx karin pm2` 进行后台启动的时候请求以上接口才会重启成功\n\n![Image](https://github.com/user-attachments/assets/cb4014b9-61e8-4019-8305-805b69d6c1c0)\n\n问：\n1. 使用pm2进行进程管理的时候是否能触发在后台父进程通知子进程重启，而不是通过pm2管理父进程实现子进程重启。",
     "closed_by": {
       "login": "sj817",
@@ -2887,6 +2929,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n.\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n.\n\n### 实际行为\n\n.\n\n### 操作系统\n\n.\n\n### Node.js 版本\n\n.\n\n### 项目版本\n\n.\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "yusheng929",
@@ -2984,6 +3032,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n重启不在只重启子进程，而可选择重启父进程\n\n### 动机\n\n.\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -3124,6 +3178,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n@karinjs/node-pty 安装失败后仍被标记为安装成功，根目录package.json中未发现 `@karinjs/node-pty` 依赖，但WebUI中显示@karinjs/node-pty 状态是 `已安装` ，并且无法卸载。\n\n![Image](https://github.com/user-attachments/assets/b86e74aa-5119-46bc-94c0-c25ba79634ab)\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n如上\n\n### 实际行为\n\n如上\n\n### 操作系统\n\nany\n\n### Node.js 版本\n\n21.7.3\n\n### 项目版本\n\n1.10.4\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -3820,6 +3880,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n使用segment.raw构建第三方onebot前端的扩展消息类型时 无法正确构建消息\n\n日志返回的消息内容为： [Karin][17:05:33.776][MARK] [Bot:xxx] [karin-plugin-xxx][command][group:xxx-xxx()] test\n225|karin  | [Karin][17:05:33.777][INFO] [Bot:xxx] Send Group xxx: [未知:{\"type\":\"raw\",\"data\":{\"data\":{\"markdown\":{\"custom_template_id\":\"xxx\",\"params\":[{\"key\":\"header\",\"values\":[\"114514\"]},{\"key\":\"title\",\"values\":[\"666\"]},{\"key\":\"message\",\"values\":[\"test...]\n\n可以看出 上方出现了一个未知 同时没有正确发送消息\n传递的参数为：\n\n![Image](https://github.com/user-attachments/assets/8859a2bd-e2d5-415e-a3c6-6b6dfacf3984)\n\n### 复现步骤\n\n调用segment.raw\n\n### 预期行为\n\n返回成功构建之后的消息 随后发送\n\n### 实际行为\n\n返回了未知内容\n\n### 操作系统\n\nUbuntu 22\n\n### Node.js 版本\n\n22\n\n### 项目版本\n\n1.10\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -4547,6 +4613,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n正在重启，没有自己启动 需要再次运行npm run app\n\n### 复现步骤\n\n1. 第一步：web端dian第重启\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n提示：正在重启，没有自己启动 需要再次运行npm run app\n\n### 实际行为\n\n![Image](https://github.com/user-attachments/assets/10e57f79-86a5-4aaa-8354-ba3407e71cf3)\n\n### 操作系统\n\nwindows10\n\n### Node.js 版本\n\n22.14.0\n\n### 项目版本\n\n1.9.11\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -5130,6 +5202,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n在加载apps前可以执行一些初始化操作\n\n### 动机\n\n部分场景下需要提前初始化数据\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -5227,6 +5305,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n如题\n\n### 动机\n\n丰富Bot功能\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -5518,6 +5602,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": null,
     "closed_by": {
       "login": "sj817",
@@ -5605,6 +5695,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "RT 即便在env中将重启后调用pm2开启或关闭均会导致重启删除掉pm2守护进程\n\n有什么办法关闭吗？",
     "closed_by": {
@@ -5703,6 +5799,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n在log文件内容太多时\n打开http://127.0.0.1:7777/web/log\n时，会因为加载日志而占用大量内存，甚至导致内存占用太多崩掉服务器\n\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n1\n\n### 实际行为\n\n1\n\n### 操作系统\n\ndebian 11\n\n### Node.js 版本\n\n20.18.0\n\n### 项目版本\n\n1.9.5\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -5902,6 +6004,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n![Image](https://github.com/user-attachments/assets/a3ac3a5c-db96-4f00-b981-50e3061d3f65)\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n发送视频成功\n\n### 实际行为\n\nwarn: Lagrange.OneBot.Core.Operation.OperationService[0]\n      Unexpected error encountered while handling message.\n      System.IO.IOException: 文件名、目录名或卷标语法不正确。 : 'E:\\onebot\\1660394708\\file:\\D:\\karin-project\\@karinjs\\temp\\karin-plugin-kkk\\kkkdownload\\video\\tmp_1747924690168.mp4'.\n         at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\n         at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\n         at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\n         at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\n         at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)\n         at Lagrange.Core.Message.Entity.FileEntity..ctor(String path)\n         at Lagrange.OneBot.Core.Operation.File.UploadGroupFileOperation.HandleOperation(BotContext context, JsonNode payload)\n         at Lagrange.OneBot.Core.Operation.OperationService.HandleOperation(MsgRecvEventArgs e)\n\n### 操作系统\n\nwindows10\n\n### Node.js 版本\n\n22\n\n### 项目版本\n\n0\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -6649,6 +6757,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n如题\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n1\n\n### 实际行为\n\n1\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1.9.2\n\n### 附加信息\n\n![Image](https://github.com/user-attachments/assets/cb963765-f290-44d5-b8a8-901668860a9d)",
     "closed_by": {
       "login": "sj817",
@@ -6788,6 +6902,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\nbot开机了大概一天就突然出事了，翻日志发现最早出现是0点，我是大概三点多才注意到的，中间一段时间因为可以正常使用所以没看过日志\n\n### 复现步骤\n\n不知如何复现\n\n### 预期行为\n\n1\n\n### 实际行为\n\n三个多小时全是这个。重启后恢复正常\n![Image](https://github.com/user-attachments/assets/5beed4d1-8ca2-4bbf-b6fe-0a3c35fd21ed)\n\n### 操作系统\n\nubu24\n\n### Node.js 版本\n\n22.15\n\n### 项目版本\n\n1.9.2\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -7020,6 +7140,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n任一群组均继承此属性\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -7117,6 +7243,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\nuse bot.sendMsg(Contact, Array<SendElement>)\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n![Image](https://github.com/user-attachments/assets/a062bb5c-8abf-424b-a6e2-524ee84de3cd)\n\n### 实际行为\n\n![Image](https://github.com/user-attachments/assets/73d5fc89-3bf6-4183-82c7-e55a8659613c)\n\n### 操作系统\n\nCiallo～(∠・ω< )⌒☆\n\n### Node.js 版本\n\nCiallo～(∠・ω< )⌒☆\n\n### 项目版本\n\n1.9.2\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -7498,6 +7630,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n1\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...2\n\n\n### 预期行为\n\n3\n\n### 实际行为\n\n4\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -7970,6 +8108,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n从1.7.14开始的几乎每个版本都用好好的，昨天本体升级到1.8.13后不能用了。从webui删除重新添加也没有用，新增其他群配置依然不行。打开配置文件也是有正常写入的\n\n![Image](https://github.com/user-attachments/assets/1a8b68bb-bfa7-4ebc-9abe-1c376246acbe)\n\n### 复现步骤\n\n1\n\n### 预期行为\n\n1\n\n### 实际行为\n\n1\n\n### 操作系统\n\nubu24\n\n### Node.js 版本\n\n22.15\n\n### 项目版本\n\n.\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -8543,6 +8687,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n![Image](https://github.com/user-attachments/assets/97dc8c6a-8e68-4e4e-a3ba-eb6556c22313)\n框起来的图标支持自定义本地文件\n\n### 动机\n\ngoogle icon的好难看\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "github-actions[bot]",
@@ -8649,6 +8799,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n![Image](https://github.com/user-attachments/assets/6c4ade82-9e95-4211-8815-3e7d3f7be46d)\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\nCiallo～(∠・ω< )⌒☆\n\n### 实际行为\n\n货不对板\n\n### 操作系统\n\nCiallo～(∠・ω< )⌒☆\n\n### Node.js 版本\n\nCiallo～(∠・ω< )⌒☆\n\n### 项目版本\n\nCiallo～(∠・ω< )⌒☆\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -9707,6 +9863,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n1. 在手风琴pro组件中由上到下 **顺序删除** 手风琴子项时，已删除的手风琴子项并不会在前端移除，反而移除的是处于末尾的手风琴子项。\n2. 虽然前端显示有问题，配置参数处理却没问题。\n3. 由下往上删除时所有逻辑都正常\n\n### 复现步骤\n\n视频：\n\nhttps://github.com/user-attachments/assets/34bf3cc0-7fdb-4bc3-a0a6-d652c3f41acd\n\n\n### 预期行为\n\n指哪打哪\n\n### 实际行为\n\n指东向西\n\n### 操作系统\n\nUbuntu24\n\n### Node.js 版本\n\n21\n\n### 项目版本\n\n1.8.8\n\n### 附加信息\n\n代码位置：https://github.com/ikenxuan/karin-plugin-kkk/blob/5fe2270ae3917435a35c335ae2a0140ba0cdff7e/src/web.config.ts#L696",
     "closed_by": {
       "login": "sj817",
@@ -9822,6 +9984,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n如题：使用webui更新版本后自动重启无法应用更新，重启后主页信息面板仍然显示Karin版本为更新前的版本。\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n重启后成功应用新版本\n\n### 实际行为\n\n无法应用更新\n\n### 操作系统\n\nUbuntu24\n\n### Node.js 版本\n\n21lts\n\n### 项目版本\n\n1.8.8\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -11105,6 +11273,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n无法实时跟踪日志，只有最新的\n\n### 复现步骤\n\n后台启动karin并ctrl c暂离\n随后执行pnpm log \n\n### 预期行为\n\n有之前的日志\n\n### 实际行为\n\n前面日志丢失，只能到文件夹里找。\n![Image](https://github.com/user-attachments/assets/b0ad96a3-aeeb-495e-a919-990d13045191)\n![Image](https://github.com/user-attachments/assets/311298c2-0337-468a-982b-7c1c00ab899d)\n\n### 操作系统\n\nubu24\n\n### Node.js 版本\n\n22.15\n\n### 项目版本\n\n1.8.6\n\n### 附加信息\n\npnpm9\npm2 6",
     "closed_by": {
       "login": "sj817",
@@ -11293,6 +11467,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\nnpx ki xxx\nkarin xxx\nnpx karin xxx均正常\n\nki xxx找不到\n\n### 复现步骤\n\nnpm add @karinjs/cli@1.0.2 -g\n输入ki\n\n### 预期行为\n\n出现help\n\n### 实际行为\n\n找不到\n\n### 操作系统\n\nubu24\n\n### Node.js 版本\n\n22.15\n\n### 项目版本\n\n1.8.5\n\n### 附加信息\n\n![Image](https://github.com/user-attachments/assets/be837cc1-561d-445c-aa7c-4dbc4aea6a80)\n![Image](https://github.com/user-attachments/assets/512da732-c4a4-4670-839d-3f4dd62d5a52)",
     "closed_by": {
@@ -11938,6 +12118,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n1\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n2\n\n### 实际行为\n\n3\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -12036,6 +12222,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n1\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n2\n\n### 实际行为\n\n3\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n2\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -12133,6 +12325,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n1\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n2\n\n### 实际行为\n\n3\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -12433,6 +12631,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n![Image](https://github.com/user-attachments/assets/d60b94f8-9885-40f3-89eb-c9be11d1e11a)\n\n系统应该正确识别并发送MP4格式的视频文件。\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\nCiallo～(∠・ω< )⌒★\n\n### 实际行为\n\nCiallo～(∠・ω< )⌒★\n\n### 操作系统\n\nCiallo～(∠・ω< )⌒★\n\n### Node.js 版本\n\nCiallo～(∠・ω< )⌒★\n\n### 项目版本\n\n1.8.4\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -13238,6 +13442,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -13368,6 +13578,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "1. 不可以在`package.json`中添加`pnpm`字段，否则会与 `pnpm v9.x` 造成冲突，导致 `pnpm v9.x` 无法使用\n2. 需要考虑新增1个指令 来快捷写入、删除运行执行的二进制脚本\n3. docs添加引导，如果遇见了二进制脚本不处于白名单下怎么操作。",
     "closed_by": {
       "login": "sj817",
@@ -13465,6 +13681,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n使用`pnpm app`运行 会导致报错：\n```\nPS D:\\DEV\\SDGB_Forward\\Bot> pnpm app\n ERROR  The \"path\" argument must be of type string. Received an instance of Array\nFor help, run: pnpm help run\nPS D:\\DEV\\SDGB_Forward\\Bot> \n```\n\n使用`npx karin app`则不会有这个问题\n\n### 复现步骤\n\n同上\n\n### 预期行为\n\npnpm app命令运行之后运行karin\n\n### 实际行为\n\n无法运行\n\n### 操作系统\n\nwin11\n\n### Node.js 版本\n\n22\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -13615,6 +13837,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n假设plugins目录下有一份插件 负责匹配/help命令 且正确导出了函数\n\n![Image](https://github.com/user-attachments/assets/47f46411-1ebe-4176-b9f7-0a53804941a9)\n\n在首次启动的时候 不会匹配对应消息 即便logger已经输出了该模块已经被导入\n\n必须需要hmr重载一次（手动按一次保存触发重载）才可以匹配命令\n\n### 复现步骤\n\n同上\n\n### 预期行为\n\n框架加载完毕之后直接匹配命令\n\n### 实际行为\n\n必须需要重载一次才会匹配\n\n### 操作系统\n\nwin11\n\n### Node.js 版本\n\n22\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -13712,6 +13940,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n已经完成功能编写，坐等迁移(...不想写啊\n\n![Image](https://github.com/user-attachments/assets/d81c02f4-8c48-44a5-b13b-a91a98ee08b0)\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -13811,6 +14045,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -13908,6 +14148,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n3\n\n### 替代方案\n\n4\n\n### 附加信息\n\n5",
     "closed_by": {
@@ -14007,6 +14253,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n3\n\n### 替代方案\n\n4\n\n### 附加信息\n\n5",
     "closed_by": {
       "login": "sj817",
@@ -14104,6 +14356,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n3\n\n### 替代方案\n\n4\n\n### 附加信息\n\n5",
     "closed_by": {
@@ -14203,6 +14461,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n减少前端请求量\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -14300,6 +14564,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n前端快捷配置插件黑白名单插件、用户、群。\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -14459,6 +14729,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n根据群友所说，还会出现获取不到最新日志的情况。\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n1\n\n### 实际行为\n\n1\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -14574,6 +14850,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n增加可获取属性的组件例如：\n* 获取适配器列表\n* 获取对应适配器的群聊列表\n* 获取对应适配器的好友列表\n* ......\n\n### 动机\n\n通过可视化配置简化用户手动配置成本\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -14897,6 +15179,12 @@
       "completed": 1,
       "percent_completed": 100
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "- [x] 将依赖包迁移为`@karinjs`里面 主要目的是缩减体积\n- [x] 从1.7 -> 无缝升级到1.8\n- [x] `.pnpmfile.cjs`\n- [x] `pm2`重构 解决端口占用问题\n- [x] 插件开发模板\n- [x] 前端重构插件管理、新增依赖管理\n- [x] `web.config`重构 解决无类型问题\n- [x] 升级依赖\n- [x] 插件市场重构\n- [x] 插件配置引入缓存\n- [x] `node-pty`升级版本\n- [x] `sqlite3`稳定性提升\n",
     "closed_by": {
       "login": "sj817",
@@ -15186,6 +15474,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -15578,6 +15872,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -15785,6 +16085,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n数据源：\n```ts\nconst data = [\n  {\n    title: '数据项1',\n    input: '数据项1',\n    switch: true,\n  },\n  {\n    input: '数据项2',\n    switch: false,\n  },\n]\n```\n组件编写：\n```ts\n  components: () => [\n    components.accordionPro.create(\n      'accordion-pro-key',\n      data,\n      {\n        children: components.accordion.createItem('item-key', {\n          title: '子项标题',\n          subtitle: '子项副标题',\n          children: [\n            components.input.string('input', {\n              type: 'text',\n            }), // 这里需要与data的key一致\n            components.switch.create('switch'),\n          ],\n        }),\n      }),\n  ],\n```\n然而前端无法渲染对应的数据，只成功渲染了定义子组件本身的相关内容（如title）,传给子组件的默认值无法成功渲染。\n\n### 复现步骤\n\n如上\n\n### 预期行为\n\n成功渲染对应数据\n\n### 实际行为\n\n如图：\n\n![Image](https://github.com/user-attachments/assets/2285184c-5ab1-490b-b024-a105c90e0f97)\n\n此处的字符串输入框应该显示`数据项1`，但结果为空\n\n### 操作系统\n\nwin11\n\n### Node.js 版本\n\nany\n\n### 项目版本\n\n1.7.9\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -16035,6 +16341,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\npm2日志**文件体积**随时间推移越来越大\n\n### 复现步骤\n\n暂无\n\n\n### 预期行为\n\n分割或者自动销毁指定天数的日志\n\n### 实际行为\n\npm2_out.log文件越来越大\n\n### 操作系统\n\nany\n\n### Node.js 版本\n\nany\n\n### 项目版本\n\n1.7.8\n\n### 附加信息\n\n![Image](https://github.com/user-attachments/assets/4fd8c93b-aae0-4560-ac22-af3fac09a7e4)",
     "closed_by": {
@@ -16598,6 +16910,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\nweb的任务列表支持可视化更新插件\n\n### 动机\n\n命令行操作太麻烦\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -16738,6 +17056,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n`author`字段不需要数组。\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -16877,6 +17201,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n1\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n2\n\n### 实际行为\n\n3\n\n### 操作系统\n\n4\n\n### Node.js 版本\n\n2\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -17036,6 +17366,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "github-actions[bot]",
@@ -17175,6 +17511,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n- 新增 `index.js`\n- 新增 bat等多平台一键启动脚本\n\n### 动机\n\n提升pm2的兼容性\n暴露出口\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -17316,6 +17658,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -17455,6 +17803,12 @@
       "total": 1,
       "completed": 1,
       "percent_completed": 100
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "- [x] 选中依赖、更新、卸载\n- [x] 设置页面\n   - [x] 切换版本\n   - [x] 自定义版本\n   - [x] 升级\n   - [x] 卸载\n- [x] 对接后端\n   - [x] 获取可用版本 这里用浏览器请求\n   - [x] 升级、更新、卸载\n   - [x] 任务队列\n- [ ] 全局依赖管理\n- [x] npm config管理\n- [x] 排序\n- [x] 生产、开发、对等依赖",
     "closed_by": {
@@ -17596,6 +17950,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -17736,6 +18096,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -17875,6 +18241,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n1\n\n### 动机\n\n2\n\n### 实现方法\n\n3\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -18025,6 +18397,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n1\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n2\n\n### 实际行为\n\n3\n\n### 操作系统\n\n1\n\n### Node.js 版本\n\n1\n\n### 项目版本\n\n1\n\n### 附加信息\n\n_No response_",
     "closed_by": {
       "login": "sj817",
@@ -18174,6 +18552,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n![Image](https://github.com/user-attachments/assets/230e2683-abe1-4ebd-891a-9def260e9463)\n来自[文档](https://docs.karin.fun/install/framework)\n![Image](https://github.com/user-attachments/assets/5c0f93d5-dc0c-443b-a0ec-09f949d31fed)\n\n### 复现步骤\n\n根据文档一步步安装项目\n\n### 预期行为\n\n生效\n\n### 实际行为\n\n无效\n\n### 操作系统\n\nUbuntu22\n\n### Node.js 版本\n\nv23.9.0\n\n### 项目版本\n\n1.0.0\n\n### 附加信息\n\npnpm 9.15.7",
     "closed_by": {
       "login": "sj817",
@@ -18313,6 +18697,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述问题\n\n报错信息如下\n```\n获取网络统计信息失败: TypeError: Cannot read properties of undefined (reading 'networkStats')\n    at getNetworkStats (file:///D:/alist/jack/githome/karin-project/node_modules/.pnpm/node-karin@1.7.7/node_modules/node-karin/dist/index.js:30597:36)\n    at calculateNetworkSpeed (file:///D:/alist/jack/githome/karin-project/node_modules/.pnpm/node-karin@1.7.7/node_modules/node-karin/dist/index.js:30612:30)\n    at networkStatusRouter (file:///D:/alist/jack/githome/karin-project/node_modules/.pnpm/node-karin@1.7.7/node_modules/node-karin/dist/index.js:30661:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n```\n\n### 复现步骤\n\n1. 第一步\n- 安装插件 \n2. 第二步\n- 回到首页\n3. 后端报错\n\n### 预期行为\n\n成功显示网络监控组件\n\n### 实际行为\n\n未显示网络监控组件，后端报错\n\n### 操作系统\n\nwin11\n\n### Node.js 版本\n\n22\n\n### 项目版本\n\n1.7.7\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -18463,6 +18853,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n插件配置页面手风琴Pro组件中的手风琴子项删除按钮无效；\n点击删除按钮变成了展开手风琴子项。\n\n**该情况只在小屏幕才会触发**\n\n### 复现步骤\n\n如上\n\n### 预期行为\n\n删除对应的手风琴子项\n\n### 实际行为\n\n展开了手风琴子项\n\n### 操作系统\n\nany\n\n### Node.js 版本\n\nany\n\n### 项目版本\n\n1.7.6\n\n### 附加信息\n\nhttps://github.com/user-attachments/assets/52ab7549-51a6-4eef-9964-0d52798ad09a",
     "closed_by": {
       "login": "sj817",
@@ -18603,6 +18999,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "### 描述问题\n\n启动后Karin会检测后台是否存在karin进程，存在则发送exit关闭命令，但是再关闭后，还是会提示端口占用\n\n### 复现步骤\n\n1. 略\n\n### 预期行为\n\n再关闭进程后，应当不会再占用端口，并且当前karin可以正常使用这个端口\n\n### 实际行为\n\nkarin报错端口占用\n\n### 操作系统\n\ndebian 11.2\n\n### Node.js 版本\n\n20.18.0\n\n### 项目版本\n\n1.7.6\n\n### 附加信息\n\n![Image](https://github.com/user-attachments/assets/d8217b49-67a1-4c49-8eac-6cf809cc7cd5)",
     "closed_by": {
       "login": "sj817",
@@ -18742,6 +19144,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "### 描述功能\n\n- [x] 静态资源白名单\n- [x] 兼容旧版本的`@karinjs/puppeteer`\n- [x] 新的`puppeteer-server`\n  - [x] `http`\n  - [x] `ws服务端`\n  - [x] `ws客户端`\n\n### 动机\n\n1\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": {
@@ -19042,6 +19450,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "如题",
     "closed_by": {
@@ -19384,6 +19798,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "推断可能是连接过程中出现密码错误等问题，需要更多信息。",
     "closed_by": {
@@ -21889,6 +22309,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin`\n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\n简要描述遇到的问题。\n\n## 复现步骤\n\n详细描述如何复现该问题：\n\n1. 第一步\n2. 第二步\n3. ...\n\n## 预期行为\n\n预期应该发生什么？\n\n## 实际行为\n\n实际发生了什么？\n\n## 环境信息\n\n- 操作系统：\n- Node.js 版本：\n- 项目版本：\n\n## 附加信息\n\n任何额外的上下文或截图。\n",
     "closed_by": {
       "login": "sj817",
@@ -22028,6 +22454,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin`\n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\n简要描述遇到的问题。\n\n## 复现步骤\n\n详细描述如何复现该问题：\n\n1. 第一步\n2. 第二步\n3. ...\n\n## 预期行为\n\n预期应该发生什么？\n\n## 实际行为\n\n实际发生了什么？\n\n## 环境信息\n\n- 操作系统：\n- Node.js 版本：\n- 项目版本：\n\n## 附加信息\n\n任何额外的上下文或截图。\n",
     "closed_by": {
@@ -23755,6 +24187,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin`\n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\n在使用前端页面时，发现必填项的验证逻辑存在严重问题。具体表现为：\n\n1. **必填项未填写时可保存**：即使必填项为空，仍能正常保存表单内容，这与必填项的设计初衷不符。\n2. **一键清除后未触发高亮警告**：当使用输入框右侧一键清除按钮清空输入框内容时，必填项输入框未高亮红色警告，导致无法及时发现必填项为空的状态。\n\n## 复现步骤\n\n详细描述如何复现该问题：\n\n1. 打开插件配置页面，进入包含必填项的表单区域。\n2. 在必填项输入框中输入内容，然后保存。\n3. 使用输入框右侧的一键清除按钮清除所有输入框内容。\n4. 观察必填项输入框，发现输入框未高亮红色警告（手动退格删除内容则能触发高亮红色警告）。\n5. 尝试再次保存表单，发现即使必填项为空，表单仍能成功保存。\n\n## 预期行为\n\n1. **一键清除后触发警告**：当一键清除按钮清空必填项输入框内容后，输入框应立即高亮红色警告，提示用户该字段为必填项且当前为空。\n2. **必填项为空时无法保存**：在保存表单时，如果必填项为空，应阻止保存操作，并提示用户填写必填项。\n\n## 实际行为\n\n1. 一键清除按钮清空必填项输入框内容后，输入框未高亮红色警告。\n2. 即使必填项为空，用户仍能成功保存表单。\n\n## 环境信息\n\n- 操作系统：Windows\n- Node.js 版本：21.7.3\n- 项目版本：1.3.9\n\n## 附加信息\n\nhttps://github.com/user-attachments/assets/70ddc3c4-12ea-40d6-b25b-dbccb3915430\n\n",
     "closed_by": {
       "login": "sj817",
@@ -24348,6 +24786,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin`\n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\n如题\n\n## 复现步骤\n\n详细描述如何复现该问题：\n\n进行渲染图片操作\n\n## 预期行为\n\n渲染，返回图片\n\n## 实际行为\n\n```\nKarin][22:36:31.861][ERRO] Error: [karin-plugin-example][motd]\n    at groupsCmd (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/[node-karin@1.3.7](mailto:node-karin@1.3.7)/node_modules/node-karin/dist/index.js:7435:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async groupsDeal (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/[node-karin@1.3.7](mailto:node-karin@1.3.7)/node_modules/node-karin/dist/index.js:7393:24) {\n  [cause]: Error: [3936555804][sendApi] 请求错误:\n    action: send_msg\n    params: {\"echo\":\"7\",\"action\":\"send_msg\",\"params\":{\"message_type\":\"group\",\"group_id\":745369378,\"message\":[{\"type\":\"reply\",\"data\":{\"id\":\"932587035\"}},{\"type\":\"image\",\"data\":{\"file\":\"这里是base64格式图片\"}}]}}\n    error: {\n    \"status\": \"failed\",\n    \"retcode\": 1200,\n    \"data\": null,\n    \"message\": \"文件下载失败识别URL失败\n```\n附上puppeteer端日志\n```\n[Karin-puppeteer][22:36:30.364][INFO] [WebSocket][server][收到消息][ip: 127.0.0.1]: {\"echo\":4,\"action\":\"render\",\"data\":{\"file\":\"file://C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin-tyriskic\\\\data\\\\karin-plugins-alijs\\\\McMotd\\\\temp.html\",\"encoding\":\"base64\",\"pageGotoParams\":{\"waitUntil\":\"networkidle2\"}}}\n[Karin-puppeteer][22:36:31.571][MARK] [图片生成][str.html][3次] 48.74KB 1207ms\n```\n## 环境信息\n\n- 操作系统：winserver2022\n- Node.js 版本：v20\n- 项目版本：v1.3.7\n\n## 附加信息\n\n任何额外的上下文或截图。\n",
     "closed_by": {
       "login": "Aliorpse",
@@ -24690,6 +25134,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin`\n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\nkarin正向连接拉格兰无法获取自身的uin。\n\n## 复现步骤\n\n详细描述如何复现该问题：\n\n1. 第一步\n2. 第二步\n3. ...\n\n## 预期行为\n\n预期应该发生什么？\n\n## 实际行为\n\n实际发生了什么？\n\n## 环境信息\n\n- 操作系统：win 11\n- Node.js 版本：v20.18.2\n- 项目版本：1.3.3\n\n## 附加信息\n\n![Image](https://github.com/user-attachments/assets/45b6613d-696d-4605-8f38-9b2804cf9abf)\n\n![Image](https://github.com/user-attachments/assets/a78067b0-ba45-4215-8cd8-014f20d26b5c)\n\n",
     "closed_by": {
       "login": "sj817",
@@ -24878,6 +25328,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin`\n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\nonebot 反向连接ws无法发送本地图片\n\n## 复现步骤\n\n详细描述如何复现该问题：\n\n1. ws反向连接karin\n2. 在karin用e.reply(segment.image('resources/main.png'))\n\n## 预期行为\n\n应可以正常发送图片\n\n## 实际行为\n\nOneBot端发送图片报错\n图片1失败, reason: ENOENT: no such file or directory, stat 'resources/main.png'\nKarin却提示发送图片成功\n\n## 环境信息\n\n- 操作系统：debian12\n- Node.js 版本： v20.17.0\n- 项目版本：v1.3.5\n\n## 附加信息\n\n![Image_32285785143202.jpg](https://github.com/user-attachments/assets/ce76a3ce-b5fe-47df-8219-d0e5dab75d42)\n\n\n",
     "closed_by": {
@@ -25514,6 +25970,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin`\n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\n如题\n\n## 复现步骤\n\n我的插件相关代码:\n```js\n    const img = await render.renderHtml(`${baseDataUrl}/temp.html`)\n```\n\n## 预期行为\n\n进行渲染\n\n## 实际行为\n\n```js\n[Karin][18:37:23.574][ERRO] Error: [karin-plugin-example][motd]\n    at groupsCmd (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.2.1/node_modules/node-karin/dist/index.js:7348:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async groupsDeal (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.2.1/node_modules/node-karin/dist/index.js:7306:24) {\n  [cause]: Error: [sendApi] 请求错误:\n    action: render\n    params: {\"echo\":1,\"action\":\"render\",\"data\":{\"file\":\"file://./data/karin-plugins-alijs/McMotd/temp.html\",\"encoding\":\"base64\",\"pageGotoParams\":{\"waitUntil\":\"networkidle2\"}}}\n    error: [object Object]}\n      at WebSocket.<anonymous> (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.2.1/node_modules/node-karin/dist/index.js:10106:20)\n      at Object.onceWrapper (node:events:634:26)\n      at WebSocket.emit (node:events:519:28)\n      at WebSocket.<anonymous> (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.2.1/node_modules/node-karin/dist/index.js:10039:25)\n      at WebSocket.emit (node:events:519:28)\n      at Receiver.receiverOnMessage (C:\\Users\\Administrator\\Desktop\\karin-tyriskic\\node_modules\\.pnpm\\ws@8.18.0\\node_modules\\ws\\lib\\websocket.js:1220:20)\n      at Receiver.emit (node:events:519:28)\n      at Receiver.dataMessage (C:\\Users\\Administrator\\Desktop\\karin-tyriskic\\node_modules\\.pnpm\\ws@8.18.0\\node_modules\\ws\\lib\\receiver.js:596:14)\n      at Receiver.getData (C:\\Users\\Administrator\\Desktop\\karin-tyriskic\\node_modules\\.pnpm\\ws@8.18.0\\node_modules\\ws\\lib\\receiver.js:496:10)\n      at Receiver.startLoop (C:\\Users\\Administrator\\Desktop\\karin-tyriskic\\node_modules\\.pnpm\\ws@8.18.0\\node_modules\\ws\\lib\\receiver.js:167:16)\n}\n```\n\n## 环境信息\n\n- 操作系统：winserver2022\n- Node.js 版本：v20\n- 项目版本：1.2.1\n\n## 附加信息\n\n任何额外的上下文或截图。\n",
     "closed_by": {
       "login": "sj817",
@@ -26106,6 +26568,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\n\n- 确保您使用的是最新版本的`Karin` \n- 确保您的问题尚未在 Issues 列表中提出.\n- 确保您的问题不是由于您的代码错误导致的.\n\n## 描述问题\n\n简要描述遇到的问题。\n\n## 复现步骤\n\n详细描述如何复现该问题：\n\n1. 第一步：npx karin ts\n2. error: unknown command 'ts'\n\n\n## 预期行为\n\n成功使用ts开发模式启动\n\n## 实际行为\n\n未能成功启动反而报错\nerror: unknown command 'ts'\n\n## 环境信息\n\n- 操作系统：win11\n- Node.js 版本：18\n- 项目版本：1.2.1\n\n## 附加信息\n\n任何额外的上下文或截图。\n",
     "closed_by": {
@@ -27417,6 +27885,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\nkarin本身占用7777端口，但是启动完成后又提升端口占用\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\nnpx k dev 启动后端口占用\r\n\r\n## 预期行为\r\n\r\n正常启动\r\n\r\n## 实际行为\r\n\r\n本身占用端口提示端口占用\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Win11\r\n- Node.js 版本：v20.18.0\r\n- 项目版本：1.0.10\r\n\r\n## 附加信息\r\n\r\n![image](https://github.com/user-attachments/assets/a1edcdbf-8d55-4662-a840-cb9ff47b53e1)\r\n![image](https://github.com/user-attachments/assets/0d59f294-1c00-4ed1-832a-e34394da8ce0)\r\n\r\n",
     "closed_by": {
       "login": "sj817",
@@ -27514,6 +27988,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n执行npx karin up 时无法更新本体\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n在终端执行npx karin up\r\n\r\n## 预期行为\r\n\r\n更新包含本体在内的所有内容\r\n\r\n## 实际行为\r\n\r\n只更新了插件，并未更新本体\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Win 11\r\n- Node.js 版本：v 20.18.0 \r\n- 项目版本：1.0.2\r\n\r\n## 附加信息\r\n![image](https://github.com/user-attachments/assets/49c3fae4-d34f-41af-8c96-049b1ddc617f)\r\n\r\n![image](https://github.com/user-attachments/assets/2590310c-b003-4690-817c-657b81d6b36f)\r\n\r\n\r\n",
     "closed_by": {
@@ -27713,6 +28193,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\nws路由判断问题\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\nonebotv11在ws连接karin的过程中必须在末尾加个/\r\nws://127.0.0.1:7777/onebot/v11/ws/\r\n否则连不上\r\n\r\n## 预期行为\r\n\r\n预期ws://127.0.0.1:7777/onebot/v11/ws可正常连接\r\n\r\n## 实际行为\r\n\r\n实际[server][webSocket] 连接断开 未找到绑定的路由: /onebot/v11/ws\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Win 11\r\n- Node.js 版本：v20.18.0\r\n- 项目版本：1.0.2\r\n\r\n## 附加信息\r\n\r\n\r\n![屏幕截图 2025-01-16 122321](https://github.com/user-attachments/assets/2c4b9652-5641-4e4b-b6c3-fdf79904c072)\r\n",
     "closed_by": {
@@ -29167,6 +29653,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 使用全局安装的cli执行`karin rs`\r\n2. 无任何提示，通过`karin log`查看日志仍在运行\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n如图\r\n![image](https://github.com/user-attachments/assets/9e6119f3-018e-4c87-b4f2-94d0d5cd6829)\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Ubuntu24\r\n- Node.js 版本：21.7.3\r\n- 项目版本：1.0.0\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -29407,6 +29899,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "这里应该打印一下api返回信息。\r\n\r\n```bash\r\nPS D:\\Github\\karin-plugin-ling> pnpm ts\r\n\r\n> karin-plugin-ling@1.7.0 ts D:\\Github\\karin-plugin-ling\r\n> karin ts\r\n\r\n[Karin][17:25:44.265][ERRO] [node-karin\\dist\\index.js:3867] 检测到后台进程 正在关闭...\r\n[Karin][17:25:50.498][ERRO] [node-karin\\dist\\index.js:3878] 后台进程关闭失败，请检查是否有进程正在占用端口 7777 \r\n[Karin][17:25:50.505][MARK] [node-karin\\dist\\index.js:5362] Karin 启动中...\r\n[Karin][17:25:50.506][MARK] [node-karin\\dist\\index.js:5363] 当前版本: 1.0.0\r\n[Karin][17:25:50.506][MARK] [node-karin\\dist\\index.js:5364] https://github.com/KarinJS/Karin\r\n[Karin][17:25:50.515][INFO] [node-karin\\dist\\index.js:4106] -----------\r\n[Karin][17:25:50.515][INFO] [node-karin\\dist\\index.js:4107] 加载插件中...\r\n[Karin][17:25:50.517][FATA] [node-karin\\dist\\index.js:4817] [server] 端口 7777 已被占用，无法启动 http WebSocket 服务\r\n[Karin][17:25:50.518][ERRO] [node:net:1908] Error: listen EADDRINUSE: address already in use 0.0.0.0:7777\r\n    at Server.setupListenHandle [as _listen2] (node:net:1908:16)\r\n    at listenInCluster (node:net:1965:12)\r\n    at doListen (node:net:2139:7)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {\r\n  code: 'EADDRINUSE',\r\n  errno: -4091,\r\n  syscall: 'listen',\r\n  address: '0.0.0.0',\r\n  port: 7777\r\n} uncaughtException\r\n[Karin][17:25:50.526][INFO] [node-karin\\dist\\index.js:3752] [redis] Redis 连接成功\r\n[Karin][17:25:50.531][MARK] [node-karin\\dist\\index.js:3887] 运行结束 运行时间：7秒 退出码：1\r\n```",
     "closed_by": {
@@ -30154,6 +30652,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "https://github.com/KarinJS/Karin/commit/29f2d9f70401349bed34afe0dd673d01f4a6ba98",
     "closed_by": {
       "login": "sj817",
@@ -30644,6 +31148,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\nGroupUserCD可以被任意消息触发，即使框架没有回复该消息。这将导致实际场景中，同一用户在任意无关消息后$GroupUserCD秒内无法触发指令\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 启用GroupUserCD并设置为5秒\r\n2. 用户在群聊中发送“你好”，这没有触发任何回复\r\n3. 相同用户在之后5秒内发送\"#你吃了吗\"，假设这是某个插件的正则，将触发回复“没呢”\r\n4. 由于前述冷却，该消息被忽略\r\n\r\n## 预期行为\r\n\r\n只对有触发回复的消息触发冷却\r\n\r\n## 实际行为\r\n\r\n对收到的每一条消息触发冷却\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Ubuntu 24.04 LTS\r\n- Node.js 版本：v20.18.1\r\n- 项目版本：0.12.24\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -31137,6 +31647,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n如题\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 发送#更新\r\n\r\n## 预期行为\r\n\r\nkarin更新到最新版本\r\n\r\n## 实际行为\r\n\r\n报错\r\n\r\n## 环境信息\r\n\r\n- 操作系统：winserver2022\r\n- Node.js 版本：v20\r\n- 项目版本：v..17\r\n\r\n## 附加信息\r\n\r\n```js\r\n[Karin][22:48:41.283][INFO] [exec][开始执行]\r\ncmd: pnpm install -P\r\ncwd: C:\\Users\\Administrator\\Desktop\\karin\r\n\r\n--------\r\n[Karin][22:48:42.252][INFO] [exec][执行成功]\r\ncmd: pnpm install -P\r\ncwd: C:\\Users\\Administrator\\Desktop\\karin\r\nstdout: Scope: all 3 workspace projects\r\nLockfile is up to date, resolution step is skipped\r\nAlready up to date\r\n\r\ndevDependencies: skipped\r\n\r\nDone in 897ms\r\n\r\nstderr:\r\n--------\r\n[Karin][22:48:42.253][INFO] [exec][开始执行]\r\ncmd: npx node-karin init\r\ncwd: C:\\Users\\Administrator\\Desktop\\karin\r\n\r\n--------\r\n[Karin][22:48:43.852][INFO] [exec][执行失败]\r\ncmd: npx node-karin init\r\ncwd: C:\\Users\\Administrator\\Desktop\\karin\r\nError: Command failed: npx node-karin init\r\nnpm error could not determine executable to run\r\nnpm error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2024-11-22T14_48_42_473Z-debug-0.log\r\n--------\r\n```\r\n\r\n相关npm缓存日志:\r\n```\r\n0 verbose cli C:\\Program Files\\nodejs\\node.exe C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js\r\n1 info using npm@10.8.3\r\n2 info using node@v20.15.1\r\n3 silly config load:file:C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\npmrc\r\n4 silly config load:file:C:\\Users\\Administrator\\Desktop\\karin\\.npmrc\r\n5 silly config load:file:C:\\Users\\Administrator\\.npmrc\r\n6 silly config load:file:C:\\Users\\Administrator\\AppData\\Roaming\\npm\\etc\\npmrc\r\n7 verbose title npm exec node-karin init\r\n8 verbose argv \"exec\" \"--\" \"node-karin\" \"init\"\r\n9 verbose logfile logs-max:10 dir:C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2024-11-22T14_48_42_473Z-\r\n10 verbose logfile C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2024-11-22T14_48_42_473Z-debug-0.log\r\n11 silly logfile start cleaning logs, removing 1 files\r\n12 silly logfile done cleaning log files\r\n13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368\r\n14 verbose stack Error: could not determine executable to run\r\n14 verbose stack     at getBinFromManifest (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\libnpmexec\\lib\\get-bin-from-manifest.js:17:23)\r\n14 verbose stack     at exec (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\libnpmexec\\lib\\index.js:202:15)\r\n14 verbose stack     at async Npm.exec (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\lib\\npm.js:207:9)\r\n14 verbose stack     at async module.exports (C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\npm\\lib\\cli\\entry.js:74:5)\r\n15 verbose pkgid node-karin@0.12.17\r\n16 error could not determine executable to run\r\n17 verbose cwd C:\\Users\\Administrator\\Desktop\\karin\r\n18 verbose os Windows_NT 10.0.20348\r\n19 verbose node v20.15.1\r\n20 verbose npm  v10.8.3\r\n21 verbose exit 1\r\n22 verbose code 1\r\n23 error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2024-11-22T14_48_42_473Z-debug-0.log\r\n```\r\n",
     "closed_by": {
       "login": "Aliorpse",
@@ -31234,6 +31750,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -31333,6 +31855,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n如题\r\n\r\n## 动机\r\n\r\n麻烦\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -31430,6 +31958,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n如题\r\n\r\n## 复现步骤\r\n\r\n临时会话发送消息\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：winserver2022\r\n- Node.js 版本 v20\r\n- 项目版本：0.12.17\r\n\r\n## 附加信息\r\n\r\n```js\r\n[Karin][22:30:39.604][INFO] [Bot:3948157806] 私聊：[3521766148(临时会话)] ok\r\n[Karin][22:30:39.605][ERRO] TypeError: Cannot read properties of undefined (reading 'GroupUserCD')\r\n    at Handler.CD (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.17/node_modules/node-karin/lib/event/handler/review.js:305:71)\r\n    at MessageHandler.getCd (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.17/node_modules/node-karin/lib/event/handler/base.js:21:20)\r\n    at MessageHandler.start (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.17/node_modules/node-karin/lib/event/handler/message.js:21:23)\r\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\r\n```\r\n",
     "closed_by": {
@@ -31903,6 +32437,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n在example目录中的js如果使用class导出，并且有其他的export供其他js调用，会造成该js的class不被加载\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1.在example目录中创建js\r\n2.export class CommandRunner extends plugin {\r\n...\r\n}\r\nexport async function Cmd () {\r\n...\r\n}\r\n\r\n## 预期行为\r\n\r\n按PluginRule中的条件响应正则\r\n\r\n## 实际行为\r\n\r\n只加载js，不响应正则\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Ubuntu 24.04 LTS\r\n- Node.js 版本：20.18.0\r\n- 项目版本：0.12.20\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -32244,6 +32784,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "- [x] 重构所有api名称 保持小驼峰的命名风格\r\n- [x] 配置文件 新增guild.yaml private.yaml direct.yaml\r\n- [x] 模块分类\r\n- [x] 消息事件 细分为频道、私信、私聊、群聊\r\n- [x] 模块加载方式修改为主动加载\r\n- [x] 将包修改为可作为纯npm加载\r\n- [ ] 重构ts热开发模板\r\n- [ ] 构建一个`@karinjs/karin-cli`\r\n- [x] 重构`env`环境加载\r\n- [x] `package.json`添加配置项 可配置对应的文件夹是否生成 data、config、temp、resources\r\n- [x] 将所有 data、config、temp、resources 重构已插件名称为根路径包裹起来 适配ts热开发\r\n- [x] 移除`class`的上下文方法 统一使用`karin.ctx`\r\n- [x] 移除`class`的定时任务方法 统一使用`karin.task`\r\n- [x] `onebot11`正向、`http`、`鉴权`\r\n- [x] 中间件适配\r\n- [x] 渲染器适配\r\n- [ ] 文档重构\r\n- [ ] `adapter-icqq` `adapter-qqbot` 重构\r\n- [x] `db`",
     "closed_by": {
@@ -32646,6 +33192,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n`npx karin pm2` 报错\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n使用上述指令\r\n\r\n## 预期行为\r\n\r\n完成后台启动\r\n\r\n## 实际行为\r\n\r\n报错\r\n\r\n## 环境信息\r\n\r\n- 操作系统：winserver 2022\r\n- Node.js 版本：20.15.1\r\n- 项目版本：latest\r\n\r\n## 附加信息\r\n\r\n报错:\r\n```\r\nThe command line is too long.\r\n\r\n    at genericNodeError (node:internal/errors:984:15)\r\n    at wrappedFn (node:internal/errors:538:14)\r\n    at ChildProcess.exithandler (node:child_process:422:12)\r\n    at ChildProcess.emit (node:events:519:28)\r\n    at maybeClose (node:internal/child_process:1105:16)\r\n    at Socket.<anonymous> (node:internal/child_process:457:11)\r\n    at Socket.emit (node:events:519:28)\r\n    at Pipe.<anonymous> (node:net:338:12) {\r\n  code: 1,\r\n  killed: false,\r\n  signal: null,\r\n```\r\n执行`npx karin pm2`后karin调用的指令:\r\n```\r\npm2 start ./config/config/pm2.yaml --env {\"ACLOCAL_PATH\":\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\share\\\\aclocal;C:\\\\Program Files\\\\Git\\\\usr\\\\share\\\\aclocal\",\"ALLUSERSPROFILE\":\"C:\\\\ProgramData\",\"APPDATA\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\",\"CLIENTNAME\":\"ALIORPSE\",\"COLOR\":\"0\",\"COMMONPROGRAMFILES\":\"C:\\\\Program Files\\\\Common Files\",\"CommonProgramFiles(x86)\":\"C:\\\\Program Files (x86)\\\\Common Files\",\"CommonProgramW6432\":\"C:\\\\Program Files\\\\Common Files\",\"COMPUTERNAME\":\"WIN-N26TSCOF47Q\",\"COMSPEC\":\"C:\\\\WINDOWS\\\\system32\\\\cmd.exe\",\"CONFIG_SITE\":\"C:/Program Files/Git/etc/config.site\",\"DISPLAY\":\"needs-to-be-defined\",\"DriverData\":\"C:\\\\Windows\\\\System32\\\\Drivers\\\\DriverData\",\"EDITOR\":\"C:\\\\WINDOWS\\\\notepad.exe\",\"EXEPATH\":\"C:\\\\Program Files\\\\Git\",\"FPS_BROWSER_APP_PROFILE_STRING\":\"Internet Explorer\",\"FPS_BROWSER_USER_PROFILE_STRING\":\"Default\",\"HOME\":\"C:\\\\Users\\\\Administrator\",\"HOMEDRIVE\":\"C:\",\"HOMEPATH\":\"\\\\Users\\\\Administrator\",\"HOSTNAME\":\"WIN-N26TSCOF47Q\",\"INFOPATH\":\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\local\\\\info;C:\\\\Program Files\\\\Git\\\\mingw64\\\\share\\\\info;C:\\\\Program Files\\\\Git\\\\usr\\\\local\\\\info;C:\\\\Program Files\\\\Git\\\\usr\\\\share\\\\info;C:\\\\Program Files\\\\Git\\\\usr\\\\info;C:\\\\Program Files\\\\Git\\\\share\\\\info\",\"INIT_CWD\":\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\",\"karin_app_lang\":\"js\",\"karin_app_mode\":\"prod\",\"karin_app_pkg\":\"pnpm\",\"karin_app_runner\":\"pm2\",\"karin_app_start_count\":\"0\",\"karin_app_version\":\"0.12.14\",\"karin_app_watch\":\"no\",\"LC_CTYPE\":\"zh_CN.UTF-8\",\"LITELOADERQQNT_PROFILE\":\"C:\\\\Users\\\\Administrator\\\\Documents\\\\LiteloaderQQNT\",\"LOCALAPPDATA\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\",\"LOGONSERVER\":\"\\\\\\\\WIN-N26TSCOF47Q\",\"MANPATH\":\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\local\\\\man;C:\\\\Program Files\\\\Git\\\\mingw64\\\\share\\\\man;C:\\\\Program Files\\\\Git\\\\usr\\\\local\\\\man;C:\\\\Program Files\\\\Git\\\\usr\\\\share\\\\man;C:\\\\Program Files\\\\Git\\\\usr\\\\man;C:\\\\Program Files\\\\Git\\\\share\\\\man\",\"MINGW_CHOST\":\"x86_64-w64-mingw32\",\"MINGW_PACKAGE_PREFIX\":\"mingw-w64-x86_64\",\"MINGW_PREFIX\":\"C:/Program Files/Git/mingw64\",\"MSYS\":\"disable_pcon\",\"MSYSTEM\":\"MINGW64\",\"MSYSTEM_CARCH\":\"x86_64\",\"MSYSTEM_CHOST\":\"x86_64-w64-mingw32\",\"MSYSTEM_PREFIX\":\"C:/Program Files/Git/mingw64\",\"NODE\":\"C:\\\\Program Files\\\\nodejs\\\\node.exe\",\"NODE_PATH\":\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\node_modules\\\\.pnpm\\\\node-karin@0.12.14\\\\node_modules\\\\node-karin\\\\lib\\\\cli\\\\node_modules;C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\node_modules\\\\.pnpm\\\\node-karin@0.12.14\\\\node_modules\\\\node-karin\\\\lib\\\\node_modules;C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\node_modules\\\\.pnpm\\\\node-karin@0.12.14\\\\node_modules\\\\node-karin\\\\node_modules;C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\node_modules\\\\.pnpm\\\\node-karin@0.12.14\\\\node_modules;C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\node_modules\\\\.pnpm\\\\node_modules\",\"npm_command\":\"exec\",\"npm_config_better_sqlite3_binary_host_mirror\":\"https://registry.npmmirror.com/-/binary/better-sqlite3\",\"npm_config_cache\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\npm-cache\",\"npm_config_canvas_binary_host_mirror\":\"https://registry.npmmirror.com/-/binary/canvas\",\"npm_config_globalconfig\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\\\\etc\\\\npmrc\",\"npm_config_global_prefix\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\",\"npm_config_init_module\":\"C:\\\\Users\\\\Administrator\\\\.npm-init.js\",\"npm_config_local_prefix\":\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\",\"npm_config_node_gyp\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\npm\\\\node_modules\\\\node-gyp\\\\bin\\\\node-gyp.js\",\"npm_config_node_sqlite3_binary_host_mirror\":\"https://registry.npmmirror.com/-/binary/sqlite3\",\"npm_config_noproxy\":\"\",\"npm_config_npm_version\":\"10.8.3\",\"npm_config_prefix\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\",\"npm_config_puppeteer_download_base_url\":\"https://registry.npmmirror.com/binaries/chrome-for-testing\",\"npm_config_puppeteer_download_host\":\"https://registry.npmmirror.com/mirrors\",\"npm_config_registry\":\"https://registry.npmmirror.com\",\"npm_config_sass_binary_site\":\"https://registry.npmmirror.com/-/binary/node-sass\",\"npm_config_sharp_binary_host\":\"https://registry.npmmirror.com/-/binary/sharp\",\"npm_config_sharp_libvips_binary_host\":\"https://registry.npmmirror.com/-/binary/sharp-libvips\",\"npm_config_userconfig\":\"C:\\\\Users\\\\Administrator\\\\.npmrc\",\"npm_config_user_agent\":\"npm/10.8.3 node/v20.15.1 win32 x64 workspaces/false\",\"npm_execpath\":\"C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\npm\\\\bin\\\\npm-cli.js\",\"npm_lifecycle_event\":\"npx\",\"npm_lifecycle_script\":\"karin\",\"npm_node_execpath\":\"C:\\\\Program Files\\\\nodejs\\\\node.exe\",\"npm_package_json\":\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\package.json\",\"npm_package_name\":\"karin\",\"npm_package_version\":\"1.0.0\",\"NUMBER_OF_PROCESSORS\":\"4\",\"ORIGINAL_PATH\":\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin;C:\\\\Program Files\\\\Git\\\\usr\\\\bin;C:\\\\Users\\\\Administrator\\\\bin;C:\\\\Program Files\\\\Zulu\\\\zulu-21\\\\bin;C:\\\\WINDOWS\\\\system32;C:\\\\WINDOWS;C:\\\\WINDOWS\\\\System32\\\\Wbem;C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0;C:\\\\WINDOWS\\\\System32\\\\OpenSSH;C:\\\\Program Files\\\\nodejs;C:\\\\Program Files\\\\Redis;C:\\\\Program Files\\\\Git\\\\cmd;C:\\\\Program Files\\\\Bandizip;C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Windows Performance Toolkit;C:\\\\ffmpeg;C:\\\\Program Files\\\\dotnet;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Scripts;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Launcher;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps;C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\bin;C:\\\\users\\\\administrator\\\\appdata\\\\roaming\\\\python\\\\python312\\\\scripts;C:\\\\users\\\\administrator\\\\.local\\\\bin\",\"ORIGINAL_TEMP\":\"C:/Users/ADMINI~1/AppData/Local/Temp/2\",\"ORIGINAL_TMP\":\"C:/Users/ADMINI~1/AppData/Local/Temp/2\",\"OS\":\"Windows_NT\",\"PATH\":\"C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\node_modules\\\\.bin;C:\\\\Users\\\\Administrator\\\\Desktop\\\\karin\\\\node_modules\\\\.bin;C:\\\\Users\\\\Administrator\\\\Desktop\\\\node_modules\\\\.bin;C:\\\\Users\\\\Administrator\\\\node_modules\\\\.bin;C:\\\\Users\\\\node_modules\\\\.bin;C:\\\\node_modules\\\\.bin;C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\npm\\\\node_modules\\\\@npmcli\\\\run-script\\\\lib\\\\node-gyp-bin;C:\\\\Users\\\\Administrator\\\\bin;C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin;C:\\\\Program Files\\\\Git\\\\usr\\\\local\\\\bin;C:\\\\Program Files\\\\Git\\\\usr\\\\bin;C:\\\\Program Files\\\\Git\\\\usr\\\\bin;C:\\\\Program Files\\\\Git\\\\mingw64\\\\bin;C:\\\\Program Files\\\\Git\\\\usr\\\\bin;C:\\\\Users\\\\Administrator\\\\bin;C:\\\\Program Files\\\\Zulu\\\\zulu-21\\\\bin;C:\\\\WINDOWS\\\\system32;C:\\\\WINDOWS;C:\\\\WINDOWS\\\\System32\\\\Wbem;C:\\\\WINDOWS\\\\System32\\\\WindowsPowerShell\\\\v1.0;C:\\\\WINDOWS\\\\System32\\\\OpenSSH;C:\\\\Program Files\\\\nodejs;C:\\\\Program Files\\\\Redis;C:\\\\Program Files\\\\Git\\\\cmd;C:\\\\Program Files\\\\Bandizip;C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Windows Performance Toolkit;C:\\\\ffmpeg;C:\\\\Program Files\\\\dotnet;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\Scripts;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Launcher;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps;C:\\\\Users\\\\Administrator\\\\AppData\\\\Roaming\\\\npm;C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Programs\\\\Microsoft VS Code\\\\bin;C:\\\\users\\\\administrator\\\\appdata\\\\roaming\\\\python\\\\python312\\\\scripts;C:\\\\users\\\\administrator\\\\.local\\\\bin;C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\vendor_perl;C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\core_perl\",\"PATHEXT\":\".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC\",\"PKG_CONFIG_PATH\":\"C:\\\\Program Files\\\\Git\\\\mingw64\\\\lib\\\\pkgconfig;C:\\\\Program Files\\\\Git\\\\mingw64\\\\share\\\\pkgconfig\",\"PKG_CONFIG_SYSTEM_INCLUDE_PATH\":\"C:/Program Files/Git/mingw64/include\",\"PKG_CONFIG_SYSTEM_LIBRARY_PATH\":\"C:/Program Files/Git/mingw64/lib\",\"PLINK_PROTOCOL\":\"ssh\",\"PROCESSOR_ARCHITECTURE\":\"AMD64\",\"PROCESSOR_IDENTIFIER\":\"Intel64 Family 6 Model 190 Stepping 0, GenuineIntel\",\"PROCESSOR_LEVEL\":\"6\",\"PROCESSOR_REVISION\":\"be00\",\"ProgramData\":\"C:\\\\ProgramData\",\"PROGRAMFILES\":\"C:\\\\Program Files\",\"ProgramFiles(x86)\":\"C:\\\\Program Files (x86)\",\"ProgramW6432\":\"C:\\\\Program Files\",\"PROMPT\":\"$P$G\",\"PSModulePath\":\"C:\\\\Program Files\\\\WindowsPowerShell\\\\Modules;C:\\\\WINDOWS\\\\system32\\\\WindowsPowerShell\\\\v1.0\\\\Modules\",\"PUBLIC\":\"C:\\\\Users\\\\Public\",\"PWD\":\"C:/Users/Administrator/Desktop/karin\",\"SESSIONNAME\":\"RDP-Tcp#0\",\"SHELL\":\"C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\bash.exe\",\"SHLVL\":\"2\",\"SSH_ASKPASS\":\"C:/Program Files/Git/mingw64/bin/git-askpass.exe\",\"SYSTEMDRIVE\":\"C:\",\"SYSTEMROOT\":\"C:\\\\WINDOWS\",\"TEMP\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\2\",\"TERM\":\"xterm\",\"TERM_PROGRAM\":\"mintty\",\"TERM_PROGRAM_VERSION\":\"3.7.1\",\"TMP\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\2\",\"TMPDIR\":\"C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\2\",\"USERDOMAIN\":\"WIN-N26TSCOF47Q\",\"USERDOMAIN_ROAMINGPROFILE\":\"WIN-N26TSCOF47Q\",\"USERNAME\":\"Administrator\",\"USERPROFILE\":\"C:\\\\Users\\\\Administrator\",\"WINDIR\":\"C:\\\\WINDOWS\",\"ZES_ENABLE_SYSMAN\":\"1\",\"_\":\"C:/Program Files/nodejs/node.exe\"}\r\n```\r\n\r\n",
     "closed_by": {
       "login": "sj817",
@@ -32743,6 +33295,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n加机器人好友然后报错\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n加机器人好友\r\n\r\n## 预期行为\r\n\r\n通过好友\r\n\r\n## 实际行为\r\n\r\n报错\r\n\r\n## 环境信息\r\n\r\n- 操作系统：winserver 2022\r\n- Node.js 版本：v20.15.1\r\n- 项目版本：latest\r\n\r\n## 附加信息\r\n\r\n```\r\n[Karin][18:15:19.939][INFO] [Bot:3982775852] [好友添加]：{\"time\":1727604919,\"self_id\":3982775852,\"post_type\":\"notice\",\"notice_type\":\"friend_add\",\"user_id\":这是用户id}\r\n[Karin][18:15:19.941][ERRO] TypeError: Cannot read properties of undefined (reading 'scene')\r\n    at NoticeHandler.init (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/event/handler/notice.js:40:28)\r\n    at new NoticeHandler (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/event/handler/notice.js:13:14)\r\n    at Karin.<anonymous> (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/core/listener/listener.js:29:43)\r\n    at Karin.emit (node:events:519:28)\r\n    at Karin.emit (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/core/listener/listener.js:37:22)\r\n    at OB11Event.noticeEvent (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/adapter/onebot/11/event.js:388:18)\r\n    at OB11Event.event (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/adapter/onebot/11/event.js:22:22)\r\n    at AdapterOneBot11.init (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/adapter/onebot/11/index.js:94:33)\r\n    at WebSocket.<anonymous> (file:///C:/Users/Administrator/Desktop/karin/node_modules/.pnpm/node-karin@0.12.14/node_modules/node-karin/lib/adapter/onebot/11/index.js:70:25)\r\n    at WebSocket.emit (node:events:519:28)\r\n```\r\n",
     "closed_by": {
@@ -32850,6 +33408,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -33352,6 +33916,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n为karin内部一些事件开放一个监听器函数\r\n比如说开始处理指令，结束处理指令，开关机等\r\n\r\n## 动机\r\n\r\n因为我不会自己监听（\r\n想开发一个消息处理插件，当一个群聊内有多个机器人时一次指令只会使一个机器人回复\r\n“有消息触发指令的时候将该消息填入队列，如果接收到其他消息与队列中的消息重合则不做处理，指令执行完成后清除消息”\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -34330,6 +34900,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": null,
     "closed_by": {
       "login": "sj817",
@@ -34529,6 +35105,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "```json\r\n{\"group_id\":967068507,\"message_id\":-233513567,\"operator_id\":1812868335,\"sub_type\":\"add\",\"code\":\"264\",\"count\":1,\"notice_type\":\"reaction\",\"time\":1725208081,\"self_id\":2924117073,\"post_type\":\"notice\"}\r\n```",
     "closed_by": {
       "login": "sj817",
@@ -34669,6 +35251,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "## 重复代码过多\r\n\r\n> ps: 大部分都是多了个`logger`\r\n\r\n- [x] #166\r\n- [x] 获取git列表\r\n- [x] 更新npm插件\r\n- [x] 更新git插件\r\n- [ ] 安装插件\r\n- [x] 生成配置文件方法抽离",
     "closed_by": {
       "login": "sj817",
@@ -34766,6 +35354,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -35067,6 +35661,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -35164,6 +35764,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -35263,6 +35869,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -35360,6 +35972,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "如果在循环完所有`plugin`之后还是没有找到匹配的`plugin`，则进入对应事件的中间件",
     "closed_by": {
@@ -35560,6 +36178,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![image](https://github.com/user-attachments/assets/6e4c212a-0197-4fd1-8e01-eb205d3690f6)\r\n需要subtype区分\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "yongheng1014",
@@ -35657,6 +36281,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -35756,6 +36386,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -35853,6 +36489,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "更新到非git插件会报错导致全部更新退出？",
     "closed_by": {
@@ -36255,6 +36897,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "给加载新增超时。",
     "closed_by": {
       "login": "sj817",
@@ -36353,6 +37001,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "`file`参数适配:\r\n  -  ~[ ]  `file://`不走模板渲染~\r\n  -  [x]  `http`\r\n  -  ~[ ] `utf-8`格式的`html`~\r\n  -  [x] 模板`html`\r\n  \r\n",
     "closed_by": {
       "login": "sj817",
@@ -36450,6 +37104,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![51d8cbafa0ca710cd8727f6bc6a10b85](https://github.com/user-attachments/assets/0fbb9f41-de92-4468-bd45-d28102aeddb1)\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -36741,6 +37401,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": null,
     "closed_by": {
       "login": "sj817",
@@ -36871,6 +37537,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "晚安😴",
     "closed_by": {
       "login": "sj817",
@@ -37000,6 +37672,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": null,
     "closed_by": {
@@ -37887,6 +38565,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![779bad375159cae900f94d5bb366b441](https://github.com/user-attachments/assets/d20d07c0-3ed6-4cc6-87bd-b52099febbf2)\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -37984,6 +38668,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n![365bcc6bf6b4a77004c80a1ec92af476](https://github.com/user-attachments/assets/a2529ed2-af9b-4a3e-8f8d-d546830b5152)\r\n![b4ab012aea221ea4b5234dc30a9a971b](https://github.com/user-attachments/assets/a12cdf47-5511-4d0e-a3fb-2e71becb497b)\r\n\r\n## 复现步骤\r\n\r\n\r\n## 预期行为\r\n\r\n关闭日志打印\r\n\r\n## 实际行为\r\n\r\n实际仍打印日志\r\n\r\n## 环境信息\r\n\r\n- 操作系统：win11pro\r\n- Node.js 版本：20.1.15\r\n- 项目版本：node-karin11.5\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -38578,6 +39268,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -38675,6 +39371,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -38774,6 +39476,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -38872,6 +39580,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -38969,6 +39683,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n原: `message`\r\n现: `adapter.message`\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -39553,6 +40273,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -39650,6 +40376,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n1. 收到消息后\r\n2. 回复消息前\r\n3. 发送主动消息前\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -39950,6 +40682,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -40452,6 +41190,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -41560,6 +42304,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -43376,6 +44126,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n无法使用pnpm run start启动karin\r\n\r\n## 复现步骤\r\n\r\n![image](https://github.com/KarinJS/Karin/assets/99504275/a25a4215-1f84-41dc-b4e5-e01c26b4faa3)\r\n\r\n## 预期行为\r\n\r\n预期应该pm2启动成功\r\n\r\n## 实际行为\r\n\r\n![image](https://github.com/KarinJS/Karin/assets/99504275/848d5706-5c7f-4456-bb82-9ea926037337)\r\n\r\n\r\n## 环境信息\r\n\r\n- 操作系统：Ubuntu 22.04\r\n- Node.js 版本：v20.15.1\r\n- 项目版本：latest\r\n\r\n## 附加信息\r\n\r\n![image](https://github.com/KarinJS/Karin/assets/99504275/d8b92915-79c0-43fa-a2df-e8c13024de08)\r\n\r\n",
     "closed_by": {
       "login": "sj817",
@@ -43675,6 +44431,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -44279,6 +45041,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -44376,6 +45144,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -44686,6 +45460,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -44783,6 +45563,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -45405,6 +46191,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -45604,6 +46396,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -45702,6 +46500,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -45799,6 +46603,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -45907,6 +46717,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -46004,6 +46820,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是最新版本的`Karin`\r\n- 确保您的问题尚未在 Issues 列表中提出.\r\n- 确保您的问题不是由于您的代码错误导致的.\r\n\r\n## 描述问题\r\n\r\n简要描述遇到的问题。\r\n\r\n## 复现步骤\r\n\r\n详细描述如何复现该问题：\r\n\r\n1. 第一步\r\n2. 第二步\r\n3. ...\r\n\r\n## 预期行为\r\n\r\n预期应该发生什么？\r\n\r\n## 实际行为\r\n\r\n实际发生了什么？\r\n\r\n## 环境信息\r\n\r\n- 操作系统：\r\n- Node.js 版本：\r\n- 项目版本：\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -46103,6 +46925,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
       "login": "sj817",
@@ -46200,6 +47028,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "警告: 在进一步操作之前，请检查下列选项。如果您忽视此模板或者没有提供关键信息，您的 Issue 将直接被关闭\r\n\r\n- 确保您使用的是 最新版本的`Karin`\r\n- 确保您的功能请求尚未在 Issues 列表中提出.\r\n- 确保您的功能请求是与 `Karin` 相关的，且可以实现.\r\n\r\n## 描述功能\r\n\r\n请清晰地描述您想要的功能，并提供相关的信息。\r\n\r\n## 动机\r\n\r\n为什么需要这个功能？它将如何改进项目？\r\n\r\n## 实现方法\r\n\r\n请提供您认为可以实现此功能的方法，如果您不知道如何实现，可以留空。  \r\n当然，如果您有兴趣，也可以自己实现并向我们提交 Pull Request。\r\n\r\n## 功能描述\r\n\r\n简要描述你希望增加的功能。\r\n\r\n## 替代方案\r\n\r\n是否有其他可行的替代方案？\r\n\r\n## 附加信息\r\n\r\n任何额外的上下文或截图。\r\n",
     "closed_by": {
@@ -49481,6 +50315,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "这是一个偶发性BUG 出现的原因有很多\r\n具体表现为 框架会漏消息（日志不显示 插件不匹配）但同样运行着的NoneBOT可以收到消息\r\n和 消息匹配错误 \r\n具体表现为 有A/B两个插件 A的命令为 运行状态 B的命令为 更新数据\r\n当用户发送 运行状态 的时候 框架会错误匹配到 更新数据\r\n![E780F651C033D39C0954E83C4ABB0F8E](https://github.com/KarinJS/Karin/assets/117048039/fd633849-69c3-48eb-8e15-6f8f5afacb69)\r\n上述插件 消息匹配到了隔壁的 更新数据 且日志也显示为匹配到[更新数据]\r\n\r\n且上述两个插件正则匹配无任何冲突 正常调用无任何问题 仅会在BOT消息过多时出现\r\n测试环境为 Karin 0.0.2 LLOneBOT 3.26.6 QQ9.9.11",
     "closed_by": {
       "login": "sj817",
@@ -49578,6 +50418,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "![image](https://github.com/KarinJS/Karin/assets/117048039/8968b872-2a9f-4869-8cac-5f7c9bffe3d6)\r\n当BOT出现群消息过多时 回复消息时会报错”发送超时“（但消息似乎正常发送了）\r\n测试环境为 Karin 0.0.2 LLOneBOT 3.26.6 QQ9.9.11",
     "closed_by": {
@@ -49718,6 +50564,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "当插件中 将 permission 值设置为 group_admin 时调用插件 无论是否为群管理员/群主/成员 插件均只会回复“暂无权限，只有群管理员才能操作”\r\n测试环境为 Karin 0.0.2 LLOneBOT 3.26.6 QQ9.9.11",
     "closed_by": {
@@ -49958,6 +50810,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "使用Karin写了一份大致的BOT雏形 且投入生产环境使用\r\n但由于文档缺失（如API）导致开发进度缓慢 望开发文档补全",
     "closed_by": {
@@ -50521,6 +51379,12 @@
       "completed": 0,
       "percent_completed": 0
     },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
+    },
     "body": "![image](https://github.com/KarinJS/Karin/assets/94736026/e9f23ac1-1085-4844-bc0c-cb81f29a9548)\r\n",
     "closed_by": {
       "login": "github-actions[bot]",
@@ -50972,6 +51836,12 @@
       "total": 0,
       "completed": 0,
       "percent_completed": 0
+    },
+    "issue_dependencies_summary": {
+      "blocked_by": 0,
+      "total_blocked_by": 0,
+      "blocking": 0,
+      "total_blocking": 0
     },
     "body": "话说Lain插件为啥删库了？",
     "closed_by": {
