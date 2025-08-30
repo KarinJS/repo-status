@@ -1116,7 +1116,7 @@
     },
     "body": "#371\n\n好的，这是翻译成中文的 pull request 总结：\n\n## Sourcery 总结\n\n实现全栈 SQLite 管理，通过暴露新的服务器处理程序并添加一个专门的前端页面，用于交互式数据库浏览和操作。\n\n新功能：\n- 添加后端 SQLite 数据库操作：表模式检索、数据获取和 SQL 执行端点\n- 添加前端 SQLite 管理器页面，具有用于连接到数据库、浏览表、执行 CRUD 操作和运行自定义 SQL 查询的 UI\n\n增强功能：\n- 注册新的 API 路由和客户端请求方法以进行 SQLite 操作\n- 将 SQLite 管理链接和路由集成到 Web 应用程序导航中\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nImplement full-stack SQLite management by exposing new server handlers and adding a dedicated frontend page for interactive database browsing and manipulation\n\nNew Features:\n- Add backend SQLite database operations: table schema retrieval, data fetching, and SQL execution endpoints\n- Add frontend SQLite manager page with UI for connecting to a database, browsing tables, performing CRUD operations, and running custom SQL queries\n\nEnhancements:\n- Register new API routes and client request methods for SQLite operations\n- Integrate a SQLite management link and route into the web app navigation\n\n</details>",
     "created_at": "2025-06-30T06:40:55Z",
-    "updated_at": "2025-06-30T06:42:59Z",
+    "updated_at": "2025-08-30T05:32:21Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": null,
@@ -1124,7 +1124,17 @@
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+      {
+        "id": 7759014950,
+        "node_id": "LA_kwDOLcebn88AAAABznksJg",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/no-pr-activity",
+        "name": "no-pr-activity",
+        "color": "ededed",
+        "default": false,
+        "description": null
+      }
+    ],
     "milestone": null,
     "draft": true,
     "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/497/commits",
