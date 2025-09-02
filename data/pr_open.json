@@ -755,15 +755,24 @@
     },
     "body": "## Summary\n- implement Select component types and creator in core package\n- expose Select in component exports\n- add Select rendering for plugin configuration\n- handle Select default values and result conversions\n\n## Testing\n- `pnpm test` *(fails: vitest not found)*\n\n------\nhttps://chatgpt.com/codex/tasks/task_b_6866878c4bc0832bb33bbaaca564d188\n\n好的，这是将拉取请求摘要翻译成中文的结果：\n\n## Sourcery 总结\n\n通过定义核心类型和 API，暴露组件，并在 web 包中集成渲染和配置处理，从而端到端地添加对下拉列表（select）组件的支持。\n\n新功能：\n- 在 core 包中定义 `SelectOption` 和 `SelectProps` 类型，并提供 `select.create/default` API\n- 在核心组件导出中公开并注册 select 组件\n- 在 web 包中使用 React Hook Form 和 HeroUI 实现 `createSelect` 辅助函数，用于渲染下拉列表\n- 扩展插件配置以处理 'select' `componentType`，包括初始值、默认处理和结果转换\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nAdd support for dropdown (select) components end-to-end by defining core types and APIs, exposing the component, and integrating rendering and configuration handling in the web package.\n\nNew Features:\n- Define SelectOption and SelectProps types and provide select.create/default APIs in the core package\n- Expose and register the select component in the core components export\n- Implement createSelect helper in the web package with React Hook Form and HeroUI for rendering dropdowns\n- Extend plugin configuration to handle 'select' componentType, including initial values, default handling, and result conversions\n\n</details>",
     "created_at": "2025-07-03T13:56:19Z",
-    "updated_at": "2025-07-03T14:35:10Z",
+    "updated_at": "2025-09-02T05:36:27Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2eaf976e15d07cbda6c364fda771377968d5356c",
+    "merge_commit_sha": "7a8300c77f688fe53932d6830e50d5b4750d774d",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
     "labels": [
+      {
+        "id": 7759014950,
+        "node_id": "LA_kwDOLcebn88AAAABznksJg",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/no-pr-activity",
+        "name": "no-pr-activity",
+        "color": "ededed",
+        "default": false,
+        "description": null
+      },
       {
         "id": 8883647275,
         "node_id": "LA_kwDOLcebn88AAAACEYGzKw",
