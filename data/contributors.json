@@ -308,6 +308,28 @@
     "contributions": 1
   },
   {
+    "login": "shangxueink",
+    "id": 138397030,
+    "node_id": "U_kgDOCD_FZg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/138397030?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/shangxueink",
+    "html_url": "https://github.com/shangxueink",
+    "followers_url": "https://api.github.com/users/shangxueink/followers",
+    "following_url": "https://api.github.com/users/shangxueink/following{/other_user}",
+    "gists_url": "https://api.github.com/users/shangxueink/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/shangxueink/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/shangxueink/subscriptions",
+    "organizations_url": "https://api.github.com/users/shangxueink/orgs",
+    "repos_url": "https://api.github.com/users/shangxueink/repos",
+    "events_url": "https://api.github.com/users/shangxueink/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/shangxueink/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "contributions": 1
+  },
+  {
     "login": "yusheng929",
     "id": 149318528,
     "node_id": "U_kgDOCOZrgA",
