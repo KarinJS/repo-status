@@ -24,6 +24,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/vite-6.3.6",
+    "commit": {
+      "sha": "77153e8ce32f4b4ad5633da22d04676f88053d2c",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/77153e8ce32f4b4ad5633da22d04676f88053d2c"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/vite-plugin-static-copy-2.3.2",
     "commit": {
       "sha": "2a17393763c6e9ca303bcdb86085c583ec17e169",
