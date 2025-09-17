@@ -24,6 +24,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
+    "commit": {
+      "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/fbb395c6a459b56cccc2f820131033c6ec84549b"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/vite-plugin-static-copy-2.3.2",
     "commit": {
       "sha": "d8024e35f9862c62324b14f348e303de34e7676e",
@@ -90,8 +98,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "1e6279ba9d275aa3e669a8a80d30b112af651806",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1e6279ba9d275aa3e669a8a80d30b112af651806"
+      "sha": "3256d6869f6a65f32ac4af9cba0437c635c609e9",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3256d6869f6a65f32ac4af9cba0437c635c609e9"
     },
     "protected": true
   },
