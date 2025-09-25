@@ -98,8 +98,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "3256d6869f6a65f32ac4af9cba0437c635c609e9",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3256d6869f6a65f32ac4af9cba0437c635c609e9"
+      "sha": "91c0e2f0cf479bda075cfd3196185d952607974c",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/91c0e2f0cf479bda075cfd3196185d952607974c"
     },
     "protected": true
   },
@@ -148,14 +148,6 @@
     "commit": {
       "sha": "9e1c61529b7c109bd77e82b5aeb3fe52a69a7e87",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/9e1c61529b7c109bd77e82b5aeb3fe52a69a7e87"
-    },
-    "protected": false
-  },
-  {
-    "name": "yusheng-docs",
-    "commit": {
-      "sha": "063a1ee8de57aa8980513a2bc5565c18d86d02af",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/063a1ee8de57aa8980513a2bc5565c18d86d02af"
     },
     "protected": false
   }
