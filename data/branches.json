@@ -150,5 +150,13 @@
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/9e1c61529b7c109bd77e82b5aeb3fe52a69a7e87"
     },
     "protected": false
+  },
+  {
+    "name": "yusheng-docs",
+    "commit": {
+      "sha": "063a1ee8de57aa8980513a2bc5565c18d86d02af",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/063a1ee8de57aa8980513a2bc5565c18d86d02af"
+    },
+    "protected": false
   }
 ]
