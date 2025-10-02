@@ -24,26 +24,10 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-d7ee752c-a695-4404-99ff-dd139640c8b0",
-    "commit": {
-      "sha": "dc395eea7b194afff564e1e5c6e101f8e7df9500",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/dc395eea7b194afff564e1e5c6e101f8e7df9500"
-    },
-    "protected": false
-  },
-  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/fbb395c6a459b56cccc2f820131033c6ec84549b"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/vite-plugin-static-copy-2.3.2",
-    "commit": {
-      "sha": "d8024e35f9862c62324b14f348e303de34e7676e",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d8024e35f9862c62324b14f348e303de34e7676e"
     },
     "protected": false
   },
@@ -106,8 +90,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "f23c0c766f8c74c7a2feab570797cde3bb27a1b5",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f23c0c766f8c74c7a2feab570797cde3bb27a1b5"
+      "sha": "a434d077b312a87fc9c8df056be5785d74fe8311",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/a434d077b312a87fc9c8df056be5785d74fe8311"
     },
     "protected": true
   },
@@ -140,6 +124,14 @@
     "commit": {
       "sha": "b7e5fbb0d0804da0715cc62254a5cb02eb8dd548",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/b7e5fbb0d0804da0715cc62254a5cb02eb8dd548"
+    },
+    "protected": false
+  },
+  {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "e79004ef1aa1a66d28671e51f9dbd237c6ef5e0c",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e79004ef1aa1a66d28671e51f9dbd237c6ef5e0c"
     },
     "protected": false
   },
