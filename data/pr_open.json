@@ -1,16 +1,16 @@
 [
   {
-    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/543",
-    "id": 2894072812,
-    "node_id": "PR_kwDOLcebn86sgAvs",
-    "html_url": "https://github.com/KarinJS/Karin/pull/543",
-    "diff_url": "https://github.com/KarinJS/Karin/pull/543.diff",
-    "patch_url": "https://github.com/KarinJS/Karin/pull/543.patch",
-    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/543",
-    "number": 543,
+    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/546",
+    "id": 2894149461,
+    "node_id": "PR_kwDOLcebn86sgTdV",
+    "html_url": "https://github.com/KarinJS/Karin/pull/546",
+    "diff_url": "https://github.com/KarinJS/Karin/pull/546.diff",
+    "patch_url": "https://github.com/KarinJS/Karin/pull/546.patch",
+    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/546",
+    "number": 546,
     "state": "open",
     "locked": false,
-    "title": "[WIP] redis.setEx",
+    "title": "[WIP] fix: pr",
     "user": {
       "login": "Copilot",
       "id": 198982749,
@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "- [ ] Add setEx method (set key with expiration in seconds)\n- [ ] Add setNx method (set key only if it doesn't exist)\n- [ ] Add pSetEx method (set key with expiration in milliseconds)\n- [ ] Add getEx method (get key and optionally set/update expiration)\n- [ ] Add getDel method (get and delete key atomically)\n- [ ] Add incrBy method (increment by specific value)\n- [ ] Add decrBy method (decrement by specific value)\n- [ ] Add incrByFloat method (increment by float value)\n- [ ] Test the implementation\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>redis.setEx</issue_title>\n> <issue_description>TypeError: redis.setEx is not a function</issue_description>\n> \n> <agent_instructions>修复一下模拟的redis客户端缺少的redis.setEx方法，如果有其他常用的方法缺失，请一并补充。</agent_instructions>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\nFixes KarinJS/Karin#542\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",
-    "created_at": "2025-10-07T13:49:14Z",
-    "updated_at": "2025-10-07T13:51:45Z",
+    "body": "Thanks for assigning this issue to me. I'm starting to work on it and will keep this PR's description up to date as I form a plan and make progress.\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n\n----\n\n*This section details on the original issue you should resolve*\n\n<issue_title>fix: pr</issue_title>\n<issue_description>Pull Request Overview\n补充并完善 mock Redis 客户端缺失的常用命令，实现与真实 Redis API 更高的兼容性，并修复过期管理方法错误仅限 HyperLogLog 的问题。\n\n新增字符串、过期控制、键管理、数值操作等 18 个常用方法\n修复 pExpire/pTTL/pExpireAt 仅适用于 HyperLogLog 的错误实现\n增强键重命名与过期处理、随机键、数据库统计等辅助能力\nTip: Customize your code reviews with copilot-instructions.md. [Create the file](https://github.com/KarinJS/Karin/new/main/.github?filename=copilot-instructions.md) or [learn how to get started](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot).\n\n[packages/core/src/core/db/redis/mock/index.ts](https://github.com/KarinJS/Karin/pull/543/files/ecef2b32b546dc22614d75c1a4e2fa4bcda1507d#diff-fe5ee73d325e1176d91ca78f523251942b8fd4913ad8b4923fc3caa9805af14e)\n评论行 +326 到 +331\n  async setNX (key: string, value: string | Buffer): Promise<boolean> {\n    if (this.store[key] && !this.checkExpire(key)) {\n      return false\n    }\n    await this.set(key, value, { NX: true })\n    return true\nhttps://github.com/apps/copilot-pull-request-reviewer AI\n1分钟前\nThe return type deviates from Redis semantics; SETNX returns an integer reply (1 if a key was set, 0 otherwise) rather than a boolean. To maintain API compatibility, change the return type to Promise and return 1/0.\n\nSuggested change\n  async setNX (key: string, value: string | Buffer): Promise<boolean> {\n    if (this.store[key] && !this.checkExpire(key)) {\n      return false\n    }\n    await this.set(key, value, { NX: true })\n    return true\n  async setNX (key: string, value: string | Buffer): Promise<number> {\n    if (this.store[key] && !this.checkExpire(key)) {\n      return 0\n    }\n    await this.set(key, value, { NX: true })\n    return 1\n[Copilot](https://docs.github.com/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-review) 使用 AI。请检查错误。\n\n@sj817\t回复...\n[packages/core/src/core/db/redis/mock/index.ts](https://github.com/KarinJS/Karin/pull/543/files/ecef2b32b546dc22614d75c1a4e2fa4bcda1507d#diff-fe5ee73d325e1176d91ca78f523251942b8fd4913ad8b4923fc3caa9805af14e)\n评论行 +511 到 +553\n  async rename (key: string, newKey: string): Promise<string> {\n    if (!this.store[key]) throw new Error('no such key')\n\n    // 获取原键的数据\n    const { type, expire } = this.store[key]\n    const value = this.getValueStringByKey(key)\n\n    // 删除旧键\n    this.#del(key)\n\n    // 创建新键\n    this.store[newKey] = { type, expire }\n\n    // 根据类型设置值\n    switch (type) {\n      case Key.STR:\n        this.#str[newKey] = value\n        break\n      case Key.NUM:\n        this.#num[newKey] = Number(value)\n        break\n      case Key.HASH:\n        this.#hash[newKey] = JSON.parse(value)\n        break\n      case Key.LIST:\n        this.#list[newKey] = JSON.parse(value)\n        break\n      case Key.SET:\n        this.#set[newKey] = new Set(JSON.parse(value))\n        break\n      case Key.ZSET:\n        this.#zset[newKey] = JSON.parse(value)\n        break\n      case Key.PF:\n        this.#pf[newKey] = new Set(JSON.parse(value))\n        break\n      case Key.BIT:\n        this.#bit[newKey] = Buffer.from(value, 'base64')\n        break\n    }\n\n    this.#sqlite.set(newKey, value, type, expire)\n    return 'OK'\nhttps://github.com/apps/copilot-pull-request-reviewer AI\n1分钟前\nWhen newKey already exists, Redis RENAME overwrites the destination, but this implementation does not remove existing type-specific data for newKey before assignment, potentially leaving orphaned data (e.g., stale this.#hash[newKey]). Add a pre-step to delete newKey (if different from key) via this.#del(newKey) to avoid inconsistent internal state, and optionally guard key === newKey to mimic Redis error semantics.\n\n[Copilot](https://docs.github.com/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-review) 使用 AI。请检查错误。\n\n@sj817\t回复...\n[packages/core/src/core/db/redis/mock/index.ts](https://github.com/KarinJS/Karin/pull/543/files/ecef2b32b546dc22614d75c1a4e2fa4bcda1507d#diff-fe5ee73d325e1176d91ca78f523251942b8fd4913ad8b4923fc3caa9805af14e)\n评论行 +561 到 +567\n  async renameNX (key: string, newKey: string): Promise<number> {\n    if (!this.store[key]) return 0\n    if (this.store[newKey] && !this.checkExpire(newKey)) return 0\n\n    await this.rename(key, newKey)\n    return 1\n  }\nhttps://github.com/apps/copilot-pull-request-reviewer AI\n1分钟前\nrenameNX should fail (return 0) if key === newKey per Redis semantics (identical source/destination not allowed), but current logic delegates to rename and returns 1. Add an early check if (key === newKey) return 0 (or throw) for fidelity.\n\n[Copilot](https://docs.github.com/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-review) 使用 AI。请检查错误。\n\n@sj817\t回复...\n[packages/core/src/core/db/redis/mock/index.ts](https://github.com/KarinJS/Karin/pull/543/files/ecef2b32b546dc22614d75c1a4e2fa4bcda1507d#diff-fe5ee73d325e1176d91ca78f523251942b8fd4913ad8b4923f...\n\n</details>\nFixes KarinJS/Karin#545\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n✨ Let Copilot coding agent [set things up for you](https://github.com/KarinJS/Karin/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.\n",
+    "created_at": "2025-10-07T14:10:20Z",
+    "updated_at": "2025-10-07T14:10:20Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "115e8dbc769c0444c35eb1c58a99d211c5b30f16",
+    "merge_commit_sha": "6eac16e510a6f76af161fea1a71f35344c221974",
     "assignee": null,
     "assignees": [
       {
@@ -88,15 +88,15 @@
     "labels": [],
     "milestone": null,
     "draft": true,
-    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/543/commits",
-    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/543/comments",
+    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/546/commits",
+    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/546/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/543/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/c37e1a23350bbc8da954e4342a0f648068d85a64",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/546/comments",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/1cfa2226cd8760ed29ba4333b075d18de526020c",
     "head": {
-      "label": "KarinJS:copilot/fix-99aee347-5b76-4482-8c2a-744f99f7bbfc",
-      "ref": "copilot/fix-99aee347-5b76-4482-8c2a-744f99f7bbfc",
-      "sha": "c37e1a23350bbc8da954e4342a0f648068d85a64",
+      "label": "KarinJS:copilot/fix-c6c24f35-d592-4247-a7c8-3460691b6d7e",
+      "ref": "copilot/fix-c6c24f35-d592-4247-a7c8-3460691b6d7e",
+      "sha": "1cfa2226cd8760ed29ba4333b075d18de526020c",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -186,8 +186,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-04T14:19:12Z",
-        "pushed_at": "2025-10-07T13:49:13Z",
+        "updated_at": "2025-10-07T14:06:50Z",
+        "pushed_at": "2025-10-07T14:10:20Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -231,7 +231,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "29f421a787e9554b2fdc4e5550f2b015d96ee31f",
+      "sha": "3c221a12c4897ef3bdb5c3bbcfc21302db0490c1",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -321,8 +321,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-04T14:19:12Z",
-        "pushed_at": "2025-10-07T13:49:13Z",
+        "updated_at": "2025-10-07T14:06:50Z",
+        "pushed_at": "2025-10-07T14:10:20Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -365,28 +365,28 @@
     },
     "_links": {
       "self": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/543"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/546"
       },
       "html": {
-        "href": "https://github.com/KarinJS/Karin/pull/543"
+        "href": "https://github.com/KarinJS/Karin/pull/546"
       },
       "issue": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/543"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/546"
       },
       "comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/543/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/546/comments"
       },
       "review_comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/543/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/546/comments"
       },
       "review_comment": {
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}"
       },
       "commits": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/543/commits"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/546/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/c37e1a23350bbc8da954e4342a0f648068d85a64"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/1cfa2226cd8760ed29ba4333b075d18de526020c"
       }
     },
     "author_association": "CONTRIBUTOR",
@@ -431,7 +431,7 @@
     "updated_at": "2025-09-17T10:18:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "a1f268ec8a546b9e12a3e4184fa035876ec90200",
+    "merge_commit_sha": "d3e3f79a1358d18242a7d1646fa053dc027e9424",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -556,8 +556,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-04T14:19:12Z",
-        "pushed_at": "2025-10-07T13:49:13Z",
+        "updated_at": "2025-10-07T14:06:50Z",
+        "pushed_at": "2025-10-07T14:10:20Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -691,8 +691,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-04T14:19:12Z",
-        "pushed_at": "2025-10-07T13:49:13Z",
+        "updated_at": "2025-10-07T14:06:50Z",
+        "pushed_at": "2025-10-07T14:10:20Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -907,8 +907,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-04T14:19:12Z",
-        "pushed_at": "2025-10-07T13:49:13Z",
+        "updated_at": "2025-10-07T14:06:50Z",
+        "pushed_at": "2025-10-07T14:10:20Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1042,8 +1042,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-04T14:19:12Z",
-        "pushed_at": "2025-10-07T13:49:13Z",
+        "updated_at": "2025-10-07T14:06:50Z",
+        "pushed_at": "2025-10-07T14:10:20Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
