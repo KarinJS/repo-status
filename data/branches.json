@@ -24,14 +24,6 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-input-adapter-duplicate-output",
-    "commit": {
-      "sha": "b57d2b43f58e5810caad179939ff9acb0d45edac",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/b57d2b43f58e5810caad179939ff9acb0d45edac"
-    },
-    "protected": false
-  },
-  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
@@ -98,8 +90,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "3c7fc9781d6443406748bb547cf2135c0a599c81",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3c7fc9781d6443406748bb547cf2135c0a599c81"
+      "sha": "a373a711899682aa84ed417d1564ab6321d69396",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/a373a711899682aa84ed417d1564ab6321d69396"
     },
     "protected": true
   },
@@ -132,6 +124,14 @@
     "commit": {
       "sha": "b7e5fbb0d0804da0715cc62254a5cb02eb8dd548",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/b7e5fbb0d0804da0715cc62254a5cb02eb8dd548"
+    },
+    "protected": false
+  },
+  {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "5f4522f45ba01dc7e5b9d17386fae120df17e378",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/5f4522f45ba01dc7e5b9d17386fae120df17e378"
     },
     "protected": false
   },
