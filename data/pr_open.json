@@ -1,124 +1,69 @@
 [
   {
-    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/552",
-    "id": 2896180170,
-    "node_id": "PR_kwDOLcebn86soDPK",
-    "html_url": "https://github.com/KarinJS/Karin/pull/552",
-    "diff_url": "https://github.com/KarinJS/Karin/pull/552.diff",
-    "patch_url": "https://github.com/KarinJS/Karin/pull/552.patch",
-    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/552",
-    "number": 552,
+    "url": "https://api.github.com/repos/KarinJS/Karin/pulls/553",
+    "id": 2896729373,
+    "node_id": "PR_kwDOLcebn86sqJUd",
+    "html_url": "https://github.com/KarinJS/Karin/pull/553",
+    "diff_url": "https://github.com/KarinJS/Karin/pull/553.diff",
+    "patch_url": "https://github.com/KarinJS/Karin/pull/553.patch",
+    "issue_url": "https://api.github.com/repos/KarinJS/Karin/issues/553",
+    "number": 553,
     "state": "open",
     "locked": false,
-    "title": "Fix: Display description text for checkbox component options",
+    "title": "chore: release main",
     "user": {
-      "login": "Copilot",
-      "id": 198982749,
-      "node_id": "BOT_kgDOC9w8XQ",
-      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/Copilot",
-      "html_url": "https://github.com/apps/copilot-swe-agent",
-      "followers_url": "https://api.github.com/users/Copilot/followers",
-      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
-      "organizations_url": "https://api.github.com/users/Copilot/orgs",
-      "repos_url": "https://api.github.com/users/Copilot/repos",
-      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
       "type": "Bot",
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "## 修复 Checkbox 组件描述显示问题 / Fix Checkbox Description Display\n\n### 问题描述 / Problem Description\ncheckbox 复选框组件的配置中有 `description` 接口，但页面上并没有显示，不像 radio 单选框那样显示描述在选项下方。\n\nThe checkbox component has a `description` property in its configuration, but it doesn't display on the page, unlike the radio component which shows descriptions below each option.\n\n### 根本原因 / Root Cause\nHeroUI Checkbox 组件 v2.3.15 不像 Radio 组件那样原生支持 `description` 属性：\n- `useRadio` hook 返回值包含 `description` 和 `getDescriptionProps`\n- `useCheckbox` hook 返回值不包含这些属性\n\nHeroUI Checkbox v2.3.15 doesn't natively support the `description` prop like Radio does:\n- `useRadio` hook returns `description` and `getDescriptionProps`\n- `useCheckbox` hook does not include these properties\n\n### 解决方案 / Solution\n在 `packages/web/src/components/heroui/checkboxs.tsx` 中手动渲染描述文本：\n\nModified `packages/web/src/components/heroui/checkboxs.tsx` to manually render descriptions:\n\n1. **提取 description 属性** / Extract description from props\n2. **使用 flex-col 布局包裹 checkbox** / Wrap checkbox in flex-col container  \n3. **条件渲染描述文本** / Conditionally render description text\n   - 样式 / Styling: `text-xs text-default-400 ml-7 mt-0.5`\n   - 左边距对齐标签 / Left margin aligns with label\n   - 与其他组件样式一致 / Consistent with other components\n\n### 视觉效果对比 / Visual Comparison\n\n![Checkbox 描述显示对比](https://github.com/user-attachments/assets/d98322b2-25e5-40e8-8f74-d1796683cd71)\n\n**修复前 / Before**: checkbox 选项没有显示描述文本  \n**修复后 / After**: checkbox 选项下方正确显示描述文本（如 \"仅解析视频时有效\"）\n\n### 修改内容 / Changes Made\n- [x] 分析问题并找到根本原因 / Analyzed issue and identified root cause\n- [x] 实现最小化修改方案 / Implemented minimal fix\n- [x] 保持与现有代码风格一致 / Maintained code consistency\n- [x] 创建视觉测试验证修复 / Created visual test to verify fix\n- [x] 更新 core package.json 时间戳以支持发包 / Updated core package.json timestamp for publishing\n\n**文件 / Files**: \n- `packages/web/src/components/heroui/checkboxs.tsx` (+22, -14 lines)\n- `packages/core/package.json` (timestamp update)\n\n### 兼容性 / Compatibility\n✅ 不破坏现有功能 / No breaking changes  \n✅ TypeScript 类型已支持（继承自 ComponentProps）/ TypeScript types already supported  \n✅ 向后兼容（description 为可选属性）/ Backward compatible (description is optional)\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Bug: web.config 网页配置组件 checkbox 复选框组件的配置中有 description 接口但页面上并没有显示</issue_title>\n> <issue_description>### 描述问题\n> \n> ```ts\n>                   components.checkbox.create('sendContent:checkbox:1', {\n>                     label: '视频信息',\n>                     value: 'info',\n>                     description: '仅解析视频时有效'\n>                   }),\n> \n> ```\n> checkbox 的 description 并不能像 radio 单选框那样显示描述在选项下方。\n> \n> \n> ### 复现步骤\n> \n> 无\n> \n> \n> ### 预期行为\n> \n> 像 radio 单选框那样显示描述在选项下方。\n> <img width=\"669\" height=\"104\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/32306463-e90b-4791-bc8e-9977337aa672\" />\n> 要么就删掉这个 description 接口\n> \n> ### 实际行为\n> \n> <img width=\"377\" height=\"101\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f01b173d-e300-4104-9324-4e9d91dcac25\" />\n> \n> ### 操作系统\n> \n> any\n> \n> ### Node.js 版本\n> \n> any\n> \n> ### 项目版本\n> \n> any\n> \n> ### 附加信息\n> \n> 组件库文档：https://www.heroui.com/docs/components/checkbox\n> \n> 复选框组完整配置：\n> ```ts\n>               components.checkbox.group('sendContent', {\n>                 label: '解析时发送的内容',\n>                 description: '若什么都不选，可能不会返回任何解析结果',\n>                 orientation: 'horizontal',\n>                 defaultValue: all.douyin.sendContent,\n>                 isDisabled: !all.douyin.switch,\n>                 checkbox: [\n>                   components.checkbox.create('sendContent:checkbox:1', {\n>                     label: '视频信息',\n>                     value: 'info',\n>                     description: '仅解析视频时有效'\n>                   }),\n>                   components.checkbox.create('sendContent:checkbox:2', {\n>                     label: '评论列表',\n>                     value: 'comment'\n>                   }),\n>                   components.checkbox.create('sendContent:checkbox:3', {\n>                     label: '视频文件',\n>                     value: 'video'\n>                   })\n>                 ]\n>               }),\n> ```</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\nFixes KarinJS/Karin#551\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n✨ Let Copilot coding agent [set things up for you](https://github.com/KarinJS/Karin/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.\n",
-    "created_at": "2025-10-08T06:12:47Z",
-    "updated_at": "2025-10-08T06:39:06Z",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.11.5</summary>\n\n## [1.11.5](https://github.com/KarinJS/Karin/compare/core-v1.11.4...core-v1.11.5) (2025-10-08)\n\n\n### 🐛 Bug Fixes\n\n* Display description text for checkbox component options ([#552](https://github.com/KarinJS/Karin/issues/552)) ([85eb323](https://github.com/KarinJS/Karin/commit/85eb323526dfc6188e3eaedafa1e61c6424eae39))\n</details>\n\n<details><summary>web: 1.9.10</summary>\n\n## [1.9.10](https://github.com/KarinJS/Karin/compare/web-v1.9.9...web-v1.9.10) (2025-10-08)\n\n\n### 🐛 Bug Fixes\n\n* Display description text for checkbox component options ([#552](https://github.com/KarinJS/Karin/issues/552)) ([85eb323](https://github.com/KarinJS/Karin/commit/85eb323526dfc6188e3eaedafa1e61c6424eae39))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "created_at": "2025-10-08T09:22:11Z",
+    "updated_at": "2025-10-08T09:22:12Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "58327496b37f2aa8d27a4283ba382df959f2a9aa",
+    "merge_commit_sha": "f2ba660d1c6c5d4172e674ceac5bc4ff62ee6f3d",
     "assignee": null,
-    "assignees": [
-      {
-        "login": "sj817",
-        "id": 74231782,
-        "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-        "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/sj817",
-        "html_url": "https://github.com/sj817",
-        "followers_url": "https://api.github.com/users/sj817/followers",
-        "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-        "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-        "organizations_url": "https://api.github.com/users/sj817/orgs",
-        "repos_url": "https://api.github.com/users/sj817/repos",
-        "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/sj817/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      {
-        "login": "Copilot",
-        "id": 198982749,
-        "node_id": "BOT_kgDOC9w8XQ",
-        "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/Copilot",
-        "html_url": "https://github.com/apps/copilot-swe-agent",
-        "followers_url": "https://api.github.com/users/Copilot/followers",
-        "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
-        "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
-        "organizations_url": "https://api.github.com/users/Copilot/orgs",
-        "repos_url": "https://api.github.com/users/Copilot/repos",
-        "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/Copilot/received_events",
-        "type": "Bot",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
-    "requested_reviewers": [
-      {
-        "login": "sj817",
-        "id": 74231782,
-        "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-        "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/sj817",
-        "html_url": "https://github.com/sj817",
-        "followers_url": "https://api.github.com/users/sj817/followers",
-        "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-        "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-        "organizations_url": "https://api.github.com/users/sj817/orgs",
-        "repos_url": "https://api.github.com/users/sj817/repos",
-        "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/sj817/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      }
-    ],
+    "assignees": [],
+    "requested_reviewers": [],
     "requested_teams": [],
-    "labels": [],
+    "labels": [
+      {
+        "id": 7128527407,
+        "node_id": "LA_kwDOLcebn88AAAABqOSyLw",
+        "url": "https://api.github.com/repos/KarinJS/Karin/labels/autorelease:%20pending",
+        "name": "autorelease: pending",
+        "color": "ededed",
+        "default": false,
+        "description": null
+      }
+    ],
     "milestone": null,
     "draft": false,
-    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/552/commits",
-    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/552/comments",
+    "commits_url": "https://api.github.com/repos/KarinJS/Karin/pulls/553/commits",
+    "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/553/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/552/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/789a479ce63b5276eb5a3c9547c18347652100b4",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/553/comments",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/97cc3ff33bbd0779a6cdbcb8bb5cb7422ef3dc9b",
     "head": {
-      "label": "KarinJS:copilot/fix-checkbox-description-display",
-      "ref": "copilot/fix-checkbox-description-display",
-      "sha": "789a479ce63b5276eb5a3c9547c18347652100b4",
+      "label": "KarinJS:release-please--branches--main",
+      "ref": "release-please--branches--main",
+      "sha": "97cc3ff33bbd0779a6cdbcb8bb5cb7422ef3dc9b",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -208,8 +153,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-08T05:38:31Z",
-        "pushed_at": "2025-10-08T06:35:59Z",
+        "updated_at": "2025-10-08T09:21:35Z",
+        "pushed_at": "2025-10-08T09:22:10Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -229,7 +174,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 18,
+        "open_issues_count": 17,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -245,7 +190,7 @@
         ],
         "visibility": "public",
         "forks": 17,
-        "open_issues": 18,
+        "open_issues": 17,
         "watchers": 146,
         "default_branch": "main"
       }
@@ -253,7 +198,7 @@
     "base": {
       "label": "KarinJS:main",
       "ref": "main",
-      "sha": "0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b",
+      "sha": "85eb323526dfc6188e3eaedafa1e61c6424eae39",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -343,8 +288,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-08T05:38:31Z",
-        "pushed_at": "2025-10-08T06:35:59Z",
+        "updated_at": "2025-10-08T09:21:35Z",
+        "pushed_at": "2025-10-08T09:22:10Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -364,7 +309,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 18,
+        "open_issues_count": 17,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -380,35 +325,35 @@
         ],
         "visibility": "public",
         "forks": 17,
-        "open_issues": 18,
+        "open_issues": 17,
         "watchers": 146,
         "default_branch": "main"
       }
     },
     "_links": {
       "self": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/552"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/553"
       },
       "html": {
-        "href": "https://github.com/KarinJS/Karin/pull/552"
+        "href": "https://github.com/KarinJS/Karin/pull/553"
       },
       "issue": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/552"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/553"
       },
       "comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/issues/552/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/issues/553/comments"
       },
       "review_comments": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/552/comments"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/553/comments"
       },
       "review_comment": {
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}"
       },
       "commits": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/552/commits"
+        "href": "https://api.github.com/repos/KarinJS/Karin/pulls/553/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/789a479ce63b5276eb5a3c9547c18347652100b4"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/97cc3ff33bbd0779a6cdbcb8bb5cb7422ef3dc9b"
       }
     },
     "author_association": "CONTRIBUTOR",
@@ -453,7 +398,7 @@
     "updated_at": "2025-09-17T10:18:04Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8150315f4e6e58d7a243225968e78f6362afb950",
+    "merge_commit_sha": "7eda462c302717b9e1ea551753ad5fc3a26b12a1",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -578,8 +523,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-08T05:38:31Z",
-        "pushed_at": "2025-10-08T06:35:59Z",
+        "updated_at": "2025-10-08T09:21:35Z",
+        "pushed_at": "2025-10-08T09:22:10Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -599,7 +544,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 18,
+        "open_issues_count": 17,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -615,7 +560,7 @@
         ],
         "visibility": "public",
         "forks": 17,
-        "open_issues": 18,
+        "open_issues": 17,
         "watchers": 146,
         "default_branch": "main"
       }
@@ -713,8 +658,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-08T05:38:31Z",
-        "pushed_at": "2025-10-08T06:35:59Z",
+        "updated_at": "2025-10-08T09:21:35Z",
+        "pushed_at": "2025-10-08T09:22:10Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -734,7 +679,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 18,
+        "open_issues_count": 17,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -750,7 +695,7 @@
         ],
         "visibility": "public",
         "forks": 17,
-        "open_issues": 18,
+        "open_issues": 17,
         "watchers": 146,
         "default_branch": "main"
       }
@@ -929,8 +874,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-08T05:38:31Z",
-        "pushed_at": "2025-10-08T06:35:59Z",
+        "updated_at": "2025-10-08T09:21:35Z",
+        "pushed_at": "2025-10-08T09:22:10Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -950,7 +895,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 18,
+        "open_issues_count": 17,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -966,7 +911,7 @@
         ],
         "visibility": "public",
         "forks": 17,
-        "open_issues": 18,
+        "open_issues": 17,
         "watchers": 146,
         "default_branch": "main"
       }
@@ -1064,8 +1009,8 @@
         "releases_url": "https://api.github.com/repos/KarinJS/Karin/releases{/id}",
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
-        "updated_at": "2025-10-08T05:38:31Z",
-        "pushed_at": "2025-10-08T06:35:59Z",
+        "updated_at": "2025-10-08T09:21:35Z",
+        "pushed_at": "2025-10-08T09:22:10Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1085,7 +1030,7 @@
         "mirror_url": null,
         "archived": false,
         "disabled": false,
-        "open_issues_count": 18,
+        "open_issues_count": 17,
         "license": {
           "key": "mit",
           "name": "MIT License",
@@ -1101,7 +1046,7 @@
         ],
         "visibility": "public",
         "forks": 17,
-        "open_issues": 18,
+        "open_issues": 17,
         "watchers": 146,
         "default_branch": "main"
       }

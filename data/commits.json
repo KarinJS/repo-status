@@ -1,5 +1,87 @@
 [
   {
+    "sha": "85eb323526dfc6188e3eaedafa1e61c6424eae39",
+    "node_id": "C_kwDOLcebn9oAKDg1ZWIzMjM1MjZkZmM2MTg4ZTNlYWVkYWZhMWU2MWM2NDI0ZWFlMzk",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-10-08T09:21:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-08T09:21:31Z"
+      },
+      "message": "Fix: Display description text for checkbox component options (#552)\n\n* Initial plan\n\n* Add description display support to checkbox component\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* Update core package.json timestamp for publishing\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>",
+      "tree": {
+        "sha": "fcaa194806327b6cb1689de5d1ccfaee380846c9",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/fcaa194806327b6cb1689de5d1ccfaee380846c9"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/85eb323526dfc6188e3eaedafa1e61c6424eae39",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo5i0bCRC1aQ7uu5UhlAAA+JIQAKUvjvqx4YFTB6S1RZDRPVX7\nNBw7RvYboz4RBvXLy/9J9Es5XwGS2qsFZvQu6+wfLQtqDHA7mM3tYGV3RYyCGcez\nXZEY3NzjW3PWX4ECrcskkoxQZLcx2Nx76ZsEfQ7hDX8dxKeJtg/3NQyz7xcNg+FT\nSkQloqHz8UIdFVNzEEofWxzv0WmXOYtSjIVk9wgthY85qOTf85HoL20oTyu+m5Rm\n7IuS4pyUltvCvKNe5B0KCrZ0g+yBhcS0+Qkp1EFVHjT8g96UcSZAImRQ21iXPe/H\niHROYqzByVLzNbpJOWSe2P4dlEd7MIZDHC2j1roAyGPwyF0kDeINyuIZIVb5NLPx\nEqmKc1D2agQRokYF/HzM7RkIKWSoqM+Fmr+1dmCZe++XVtdbXT2ORpUn/rpXC5Uo\n55AOe1DwiAToCblAXN963hA3lRNFBwfcL868u3UF4ZtOmtDkS/brTZQD5sr5azlv\nbjk1OjpuMMrUWc/9izxPUdx/q+U9q0dK52CSYfEy4Bqup4UueyelN4tftYIGLOxn\n0hqJbUyMJYdRzJ6vpbnKyy7AoaTMQwYA17gorVc3LIW5dksNS998eeWDpVK2HHj+\nNdIXo/9HvwZjXwl+DvaqvLFqYk9L4ivckJSCwq7HHr297tF7hgyjL8buQxuMeHKf\nlKmQbYNGjVsnItl7/qF7\n=RQaK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fcaa194806327b6cb1689de5d1ccfaee380846c9\nparent 0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1759915291 +0800\ncommitter GitHub <noreply@github.com> 1759915291 +0800\n\nFix: Display description text for checkbox component options (#552)\n\n* Initial plan\n\n* Add description display support to checkbox component\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* Update core package.json timestamp for publishing\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>",
+        "verified_at": "2025-10-08T09:21:31Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/85eb323526dfc6188e3eaedafa1e61c6424eae39",
+    "html_url": "https://github.com/KarinJS/Karin/commit/85eb323526dfc6188e3eaedafa1e61c6424eae39",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/85eb323526dfc6188e3eaedafa1e61c6424eae39/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b",
+        "html_url": "https://github.com/KarinJS/Karin/commit/0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b"
+      }
+    ]
+  },
+  {
     "sha": "0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b",
     "node_id": "C_kwDOLcebn9oAKDBiZGMwZWRlNmU3ZDRlODA3MjJkZmFiMWQ2ZWNiYWZkMGM5YzhkOGI",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "5e13b7c2f42de33141ef0d611108f237d7d24a2e",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/5e13b7c2f42de33141ef0d611108f237d7d24a2e",
         "html_url": "https://github.com/KarinJS/Karin/commit/5e13b7c2f42de33141ef0d611108f237d7d24a2e"
-      }
-    ]
-  },
-  {
-    "sha": "5e13b7c2f42de33141ef0d611108f237d7d24a2e",
-    "node_id": "C_kwDOLcebn9oAKDVlMTNiN2MyZjQyZGUzMzE0MWVmMGQ2MTExMDhmMjM3ZDdkMjRhMmU",
-    "commit": {
-      "author": {
-        "name": "github-actions[bot]",
-        "email": "41898282+github-actions[bot]@users.noreply.github.com",
-        "date": "2025-07-16T07:01:08Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-07-16T07:01:08Z"
-      },
-      "message": "chore: release main (#511)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
-      "tree": {
-        "sha": "724e2183e2f13a57a82215e98446bddc02fdf444",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/724e2183e2f13a57a82215e98446bddc02fdf444"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/5e13b7c2f42de33141ef0d611108f237d7d24a2e",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod040CRC1aQ7uu5UhlAAA968QAB4ICxav0gv2zANvp8UCO0YI\nLe0gc7w5UfnK9ft+pauOQYgEvhAO5kbXgdxCfgFD+kNnf2mGFtmAx2TZwCO7ZySJ\nLo21T03kDATR7CNvkeZJcnpU+6MOllnND1JGC7ARhRqk5vB8bHw4Jjy77eqGTIUR\nS7cAs2He8gVDolTydwLiFMWib+SQwWV0d6/HWH6es0uWL27NOapjcq6UtzG73N5+\nCs7mIgg7zm0x3imfcDf4SeBi3ehLtctowZhuN3w3Zykf8OjfURIZp7CHMkziSjcx\nHTiQP9JApRQULQRsDznHSqhXwC1l5woRVc+npQn7PVoFFOuYIegpwuPSqKg8Ll0y\nEDZGwFWbrRt62v1L14kL0Lk+QxN2+W7NBHx8f0tlgC4DHENhbxd+oMH1cZUZcRKz\nJp3HO3zrFuANtWmEPIXp9puV7f9oE6nftATH2+6z7jcx2F9TTeSaig49EJGEhouU\nWA39JtEpjsVyEDg6laaM9zmjXpOlZUs62xlX78mn+Ihi68pibxO28Yl6IO1PBZbP\n1Ob1/TtHQl/jyCVHlfCT7p+BKUYIwa62NSTXIY8Nd9wQODoHwwPEtWxyxKU8aPBi\njplmcO5yeac/LaVm606exqXdAz3KQYzJB23wzpM2rGD5ktBQ13EI1dqRECkNUfD3\nb6CW3toPPjr2hz6qmsn7\n=6ZEy\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 724e2183e2f13a57a82215e98446bddc02fdf444\nparent 20daaf1bd3713d3f4b7938f831897c7450c10bc8\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1752649268 +0800\ncommitter GitHub <noreply@github.com> 1752649268 +0800\n\nchore: release main (#511)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
-        "verified_at": "2025-07-16T07:01:08Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/5e13b7c2f42de33141ef0d611108f237d7d24a2e",
-    "html_url": "https://github.com/KarinJS/Karin/commit/5e13b7c2f42de33141ef0d611108f237d7d24a2e",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/5e13b7c2f42de33141ef0d611108f237d7d24a2e/comments",
-    "author": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "20daaf1bd3713d3f4b7938f831897c7450c10bc8",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/20daaf1bd3713d3f4b7938f831897c7450c10bc8",
-        "html_url": "https://github.com/KarinJS/Karin/commit/20daaf1bd3713d3f4b7938f831897c7450c10bc8"
       }
     ]
   }

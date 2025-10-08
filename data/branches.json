@@ -24,14 +24,6 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-checkbox-description-display",
-    "commit": {
-      "sha": "789a479ce63b5276eb5a3c9547c18347652100b4",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/789a479ce63b5276eb5a3c9547c18347652100b4"
-    },
-    "protected": false
-  },
-  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
@@ -98,8 +90,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/0bdc0ede6e7d4e80722dfab1d6ecbafd0c9c8d8b"
+      "sha": "85eb323526dfc6188e3eaedafa1e61c6424eae39",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/85eb323526dfc6188e3eaedafa1e61c6424eae39"
     },
     "protected": true
   },
@@ -132,6 +124,14 @@
     "commit": {
       "sha": "b7e5fbb0d0804da0715cc62254a5cb02eb8dd548",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/b7e5fbb0d0804da0715cc62254a5cb02eb8dd548"
+    },
+    "protected": false
+  },
+  {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "97cc3ff33bbd0779a6cdbcb8bb5cb7422ef3dc9b",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/97cc3ff33bbd0779a6cdbcb8bb5cb7422ef3dc9b"
     },
     "protected": false
   },
