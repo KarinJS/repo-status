@@ -82,7 +82,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2025-10-08T04:32:05Z",
-    "updated_at": "2025-10-08T04:32:05Z",
+    "updated_at": "2025-10-08T04:36:46Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -95,7 +95,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/549.patch",
       "merged_at": null
     },
-    "body": "Thanks for assigning this issue to me. I'm starting to work on it and will keep this PR's description up to date as I form a plan and make progress.\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>fix: input适配器输出重复连接</issue_title>\n> <issue_description>packages/core/src/adapter/input/index.ts\n> \n> 在遇到image文件时，index自增不生效，一直输出同一个url路径。\n> http://127.0.0.1:7777/api/v1/console/2.png</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\nFixes KarinJS/Karin#548\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💬 Share your feedback on Copilot coding agent for the chance to win a $200 gift card! Click [here](https://survey3.medallia.com/?EAHeSx-AP01bZqG0Ld9QLQ) to start the survey.",
+    "body": "- [x] Analyzed the issue with input adapter outputting duplicate URLs\n- [ ] Implement fix to use separate counter for file URLs\n- [ ] Test the changes\n- [ ] Verify the fix resolves the issue\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>fix: input适配器输出重复连接</issue_title>\n> <issue_description>packages/core/src/adapter/input/index.ts\n> \n> 在遇到image文件时，index自增不生效，一直输出同一个url路径。\n> http://127.0.0.1:7777/api/v1/console/2.png</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\nFixes KarinJS/Karin#548\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💬 Share your feedback on Copilot coding agent for the chance to win a $200 gift card! Click [here](https://survey3.medallia.com/?EAHeSx-AP01bZqG0Ld9QLQ) to start the survey.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/549/reactions",
