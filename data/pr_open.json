@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "## Problem\n\nThe OneBot adapter was not handling non-standard private message events where `sub_type === 'normal'`. When such events were received, they would fall through to the unknown event handler and be logged as warnings instead of being processed.\n\nThis affected compatibility with certain OneBot implementations that send private messages with `sub_type: 'normal'` instead of the standard `'friend'` or `'other'` values.\n\n## Solution\n\nModified the message event handler in `packages/core/src/adapter/onebot/create/message.ts` to treat `sub_type === 'normal'` in private messages as friend messages, ensuring these non-standard events are properly processed.\n\n**Change:**\n```typescript\n// Before:\nif (event.sub_type === 'friend' || event.sub_type === 'other') {\n\n// After:  \nif (event.sub_type === 'friend' || event.sub_type === 'other' || event.sub_type === 'normal') {\n```\n\nWhen a private message with `sub_type === 'normal'` is received:\n- **Before**: Event would be logged as `收到未知的私聊事件` (received unknown private chat event)\n- **After**: Event is now redirected and processed as a friend message via `createFriendMessage()`\n\n## Impact\n\nThis is a minimal, surgical change that only affects the specific edge case of private messages with `sub_type === 'normal'`. All existing behavior for standard events remains unchanged.\n\nFixes the issue where non-standard OneBot implementations would have their private messages rejected, improving overall adapter compatibility.\n\n> [!WARNING]\n>\n> <details>\n> <summary>Firewall rules blocked me from connecting to one or more addresses (expand for details)</summary>\n>\n> #### I tried to connect to the following addresses, but was blocked by firewall rules:\n>\n> - `registry.npmmirror.com`\n>   - Triggering command: `node /home/REDACTED/.npm/_npx/4876f32048baf8ac/node_modules/.bin/prebuild-install -r napi --pkg_version=5.1.7 --pkg_name=sqlite3` (dns block)\n>   - Triggering command: `node /home/REDACTED/.npm/_npx/c65dbefa27d408e0/node_modules/.bin/prebuild-install -r node --pkg_version=0.12.0 --pkg_name=node-pty-prebuilt-multiarch` (dns block)\n>\n> If you need me to access, download, or install something from one of these locations, you can either:\n>\n> - Configure [Actions setup steps](https://gh.io/copilot/actions-setup-steps) to set up my environment, which run before the firewall is enabled\n> - Add the appropriate URLs or hosts to the custom allowlist in this repository's [Copilot coding agent settings](https://github.com/KarinJS/Karin/settings/copilot/coding_agent) (admins only)\n>\n> </details>\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>fix: 提升onebot适配器兼容性</issue_title>\n> <issue_description>在post_type ===message， message_type === private、情况下，如果出现sub_type === normal，将这个sub_type 重置为friend，兼容非标事件，将其强制重定向为好友事件进行处理。</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\nFixes KarinJS/Karin#554\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💬 Share your feedback on Copilot coding agent for the chance to win a $200 gift card! Click [here](https://survey3.medallia.com/?EAHeSx-AP01bZqG0Ld9QLQ) to start the survey.",
+    "body": "- [x] Understand the issue: handle `sub_type === 'normal'` in private messages by treating it as friend message\n- [x] Modify the code in `packages/core/src/adapter/onebot/create/message.ts` to handle the non-standard `sub_type === 'normal'` case\n- [x] Fix TypeScript compilation error by adding `Normal = 'normal'` to `MessageSubType` enum\n- [x] Update `MessagePrivateEvent` interface to include `MessageSubType.Normal` in the union type\n- [x] Verify the fix works correctly\n\n## Summary\n\n**Fixed TypeScript compilation error** reported in the comments:\n```\nerror TS2367: This comparison appears to be unintentional because the types 'MessageSubType.Group' and '\"normal\"' have no overlap.\n```\n\nModified `packages/onebot/src/event/message.ts` to add proper type support for the non-standard `sub_type === 'normal'` case:\n\n1. Added `Normal = 'normal'` to the `MessageSubType` enum with a comment indicating it's non-standard\n2. Updated `MessagePrivateEvent` interface to include `MessageSubType.Normal` in the allowed `sub_type` union\n\nThis allows the runtime check in `packages/core/src/adapter/onebot/create/message.ts` to pass TypeScript's type checking while maintaining type safety.\n\nWhen a private message with `sub_type === 'normal'` is received:\n- **Before**: Event would be logged as `收到未知的私聊事件` (received unknown private chat event)\n- **After**: Event is now redirected and processed as a friend message via `createFriendMessage()`\n\n## Impact\n\nThis is a minimal change that fixes both the runtime behavior and the TypeScript compilation issue, improving overall adapter compatibility with non-standard OneBot implementations.\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>fix: 提升onebot适配器兼容性</issue_title>\n> <issue_description>在post_type ===message， message_type === private、情况下，如果出现sub_type === normal，将这个sub_type 重置为friend，兼容非标事件，将其强制重定向为好友事件进行处理。</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\nFixes KarinJS/Karin#554\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💬 Share your feedback on Copilot coding agent for the chance to win a $200 gift card! Click [here](https://survey3.medallia.com/?EAHeSx-AP01bZqG0Ld9QLQ) to start the survey.",
     "created_at": "2025-10-09T07:11:39Z",
-    "updated_at": "2025-10-09T07:23:06Z",
+    "updated_at": "2025-10-09T07:31:15Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "ae5e3f5f3dc48f49a6ce782df8c61b5fb8ee67a6",
+    "merge_commit_sha": "c88f6d7a5c4ea3e35ab4c8b9171cf169dc2fe9da",
     "assignee": null,
     "assignees": [
       {
@@ -114,11 +114,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/555/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/555/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/d9a7b3d90aceecb9b30d1f46be03ff9dda928fa3",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/4384850a9304080f485e0114a920704e8b59eb1f",
     "head": {
       "label": "KarinJS:copilot/fix-onebot-adapter-compatibility",
       "ref": "copilot/fix-onebot-adapter-compatibility",
-      "sha": "d9a7b3d90aceecb9b30d1f46be03ff9dda928fa3",
+      "sha": "4384850a9304080f485e0114a920704e8b59eb1f",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -209,7 +209,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-10-08T09:26:27Z",
-        "pushed_at": "2025-10-09T07:18:18Z",
+        "pushed_at": "2025-10-09T07:29:43Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -344,7 +344,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-10-08T09:26:27Z",
-        "pushed_at": "2025-10-09T07:18:18Z",
+        "pushed_at": "2025-10-09T07:29:43Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -408,7 +408,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/555/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/d9a7b3d90aceecb9b30d1f46be03ff9dda928fa3"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/4384850a9304080f485e0114a920704e8b59eb1f"
       }
     },
     "author_association": "CONTRIBUTOR",
@@ -579,7 +579,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-10-08T09:26:27Z",
-        "pushed_at": "2025-10-09T07:18:18Z",
+        "pushed_at": "2025-10-09T07:29:43Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -714,7 +714,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-10-08T09:26:27Z",
-        "pushed_at": "2025-10-09T07:18:18Z",
+        "pushed_at": "2025-10-09T07:29:43Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -930,7 +930,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-10-08T09:26:27Z",
-        "pushed_at": "2025-10-09T07:18:18Z",
+        "pushed_at": "2025-10-09T07:29:43Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1065,7 +1065,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2025-10-08T09:26:27Z",
-        "pushed_at": "2025-10-09T07:18:18Z",
+        "pushed_at": "2025-10-09T07:29:43Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
