@@ -24,6 +24,14 @@
     "protected": false
   },
   {
+    "name": "copilot/fix-onebot-adapter-compatibility",
+    "commit": {
+      "sha": "d9a7b3d90aceecb9b30d1f46be03ff9dda928fa3",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d9a7b3d90aceecb9b30d1f46be03ff9dda928fa3"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
