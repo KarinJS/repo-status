@@ -24,14 +24,6 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-onebot-adapter-compatibility",
-    "commit": {
-      "sha": "4384850a9304080f485e0114a920704e8b59eb1f",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4384850a9304080f485e0114a920704e8b59eb1f"
-    },
-    "protected": false
-  },
-  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
@@ -98,8 +90,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "45ffc90cb013a3590bf887caa2a36841202a4d88",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/45ffc90cb013a3590bf887caa2a36841202a4d88"
+      "sha": "bc46fa5526d34dc608787c07a318334cc8b5e5a1",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/bc46fa5526d34dc608787c07a318334cc8b5e5a1"
     },
     "protected": true
   },
@@ -132,6 +124,14 @@
     "commit": {
       "sha": "b7e5fbb0d0804da0715cc62254a5cb02eb8dd548",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/b7e5fbb0d0804da0715cc62254a5cb02eb8dd548"
+    },
+    "protected": false
+  },
+  {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "b1a526bfe836661d82d29ec77a19b23ba35c3710",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/b1a526bfe836661d82d29ec77a19b23ba35c3710"
     },
     "protected": false
   },
