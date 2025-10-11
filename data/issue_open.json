@@ -289,7 +289,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2025-10-09T07:55:53Z",
-    "updated_at": "2025-10-09T07:55:54Z",
+    "updated_at": "2025-10-11T22:34:35Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -302,7 +302,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/556.patch",
       "merged_at": null
     },
-    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.11.6</summary>\n\n## [1.11.6](https://github.com/KarinJS/Karin/compare/core-v1.11.5...core-v1.11.6) (2025-10-09)\n\n\n### 🐛 Bug Fixes\n\n* improve OneBot adapter compatibility for sub_type=normal in private messages ([#555](https://github.com/KarinJS/Karin/issues/555)) ([bc46fa5](https://github.com/KarinJS/Karin/commit/bc46fa5526d34dc608787c07a318334cc8b5e5a1))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
+    "body": ":robot: I have created a release *beep* *boop*\n---\n\n\n<details><summary>core: 1.11.6</summary>\n\n## [1.11.6](https://github.com/KarinJS/Karin/compare/core-v1.11.5...core-v1.11.6) (2025-10-11)\n\n\n### 🐛 Bug Fixes\n\n* improve OneBot adapter compatibility for sub_type=normal in private messages ([#555](https://github.com/KarinJS/Karin/issues/555)) ([bc46fa5](https://github.com/KarinJS/Karin/commit/bc46fa5526d34dc608787c07a318334cc8b5e5a1))\n\n\n### 📝 Documentation\n\n* 添加构建文档脚本 ([#559](https://github.com/KarinJS/Karin/issues/559)) ([8cca251](https://github.com/KarinJS/Karin/commit/8cca2516bb2711775431376bca7a44945f652be2))\n</details>\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/556/reactions",
