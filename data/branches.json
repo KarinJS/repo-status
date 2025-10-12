@@ -32,6 +32,14 @@
     "protected": false
   },
   {
+    "name": "copilot/fix-set-ggroup-highlights",
+    "commit": {
+      "sha": "18f48fe8c8e064cb69c802232b21740f4ccefa5a",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/18f48fe8c8e064cb69c802232b21740f4ccefa5a"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
