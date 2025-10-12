@@ -9,7 +9,7 @@
     "id": 3507180403,
     "node_id": "PR_kwDOLcebn86tT-S1",
     "number": 562,
-    "title": "[WIP] Fix naming issue in setGgroupHighlights method",
+    "title": "fix: 修复setGgroupHighlights的命名为setGroupHighlights",
     "user": {
       "login": "Copilot",
       "id": 198982749,
@@ -80,9 +80,9 @@
       }
     ],
     "milestone": null,
-    "comments": 0,
+    "comments": 2,
     "created_at": "2025-10-12T13:17:25Z",
-    "updated_at": "2025-10-12T13:30:22Z",
+    "updated_at": "2025-10-12T13:51:36Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -95,7 +95,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/562.patch",
       "merged_at": null
     },
-    "body": "- [x] Understand the issue and locate the typo\n- [x] Fix the typo in packages/core/src/adapter/onebot/core/core.ts (line 992)\n- [ ] Verify the fix builds successfully with pnpm run build:core\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>fix: 修复setGgroupHighlights的命名</issue_title>\n> <issue_description>将错误的接口命名setGgroupHighlights修复为setGroupHighlights，多了个小写g</issue_description>\n> \n> <agent_instructions>需要使用pnpm 9进行安装依赖，修复完成之后，需要使用pnpm run build:core进行验证是否存在编译错误</agent_instructions>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\nFixes KarinJS/Karin#561\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",
+    "body": "## 问题描述\n\n在 `AdapterOneBot` 类中，方法名 `setGgroupHighlights` 存在拼写错误，多了一个小写的 'g'，导致方法名不符合命名规范，且与基类 `AdapterBase` 和接口定义 `AdapterType` 不一致。\n\n## 修复内容\n\n将 `packages/core/src/adapter/onebot/core/core.ts` 文件第 992 行的方法名从 `setGgroupHighlights` 修正为 `setGroupHighlights`。\n\n**修改前：**\n```typescript\nasync setGgroupHighlights (_: string, messageId: string, create: boolean) {\n```\n\n**修改后：**\n```typescript\nasync setGroupHighlights (_: string, messageId: string, create: boolean) {\n```\n\n## 验证\n\n- ✅ 方法签名现在与基类 `AdapterBase` 中的定义一致\n- ✅ 方法签名现在与接口 `AdapterType` 中的定义一致  \n- ✅ 使用 `pnpm run build:core` 成功构建，无编译错误\n- ✅ 构建产物中确认方法名已正确修复\n\n此修复确保了代码的一致性和正确性，使群精华消息的设置/取消功能的接口命名符合规范。\n\n> [!WARNING]\n>\n> <details>\n> <summary>Firewall rules blocked me from connecting to one or more addresses (expand for details)</summary>\n>\n> #### I tried to connect to the following addresses, but was blocked by firewall rules:\n>\n> - `registry.npmmirror.com`\n>   - Triggering command: `node /home/REDACTED/.npm/_npx/4876f32048baf8ac/node_modules/.bin/prebuild-install -r napi --pkg_version=5.1.7 --pkg_name=sqlite3` (dns block)\n>   - Triggering command: `node /home/REDACTED/.npm/_npx/c65dbefa27d408e0/node_modules/.bin/prebuild-install -r node --pkg_version=0.12.0 --pkg_name=node-pty-prebuilt-multiarch` (dns block)\n>\n> If you need me to access, download, or install something from one of these locations, you can either:\n>\n> - Configure [Actions setup steps](https://gh.io/copilot/actions-setup-steps) to set up my environment, which run before the firewall is enabled\n> - Add the appropriate URLs or hosts to the custom allowlist in this repository's [Copilot coding agent settings](https://github.com/KarinJS/Karin/settings/copilot/coding_agent) (admins only)\n>\n> </details>\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>fix: 修复setGgroupHighlights的命名</issue_title>\n> <issue_description>将错误的接口命名setGgroupHighlights修复为setGroupHighlights，多了个小写g</issue_description>\n> \n> <agent_instructions>需要使用pnpm 9进行安装依赖，修复完成之后，需要使用pnpm run build:core进行验证是否存在编译错误</agent_instructions>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\nFixes KarinJS/Karin#561\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/562/reactions",
