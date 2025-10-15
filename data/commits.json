@@ -1,5 +1,87 @@
 [
   {
+    "sha": "9040420233fb063d69b5e599025999c9ca0dec00",
+    "node_id": "C_kwDOLcebn9oAKDkwNDA0MjAyMzNmYjA2M2Q2OWI1ZTU5OTAyNTk5OWM5Y2EwZGVjMDA",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-10-15T03:34:51Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-15T03:34:51Z"
+      },
+      "message": "feat: add select dropdown component to web.config system (#558)\n\n* Initial plan\n\n* Add select dropdown component to web.config\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* fix: add SelectProps to ComponentConfig union and fix SelectItem props spreading\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* fix: add SelectProps to Children union and simplify SelectItem rendering\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* feat(select): 扩展 Select 组件属性和功能\n\n* add promise\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\nCo-authored-by: 炫炫 <2066855608@qq.com>",
+      "tree": {
+        "sha": "0d9ad0c55a3c847b48989334f9b37c3ff3e5c302",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/0d9ad0c55a3c847b48989334f9b37c3ff3e5c302"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/9040420233fb063d69b5e599025999c9ca0dec00",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo7xZbCRC1aQ7uu5UhlAAAEbQQACQEIQ0rcD7y9+/sECaEZu6J\nI2h3OWmasEz3KW6ZVUxXNduoiJezmWIR/pNty8VO2Alc66J5rKgCU5fvev8qQFWw\nFYH5OuqQK8A14XT1xLTZz1x+w8dwF6NXWTMHRQNe4TslKPTC/j0L4xCwmeYjwDx0\ne7j2WsjqrVhRxIyomjwm30KF9zcfzd76FxWTOp85heAb5+mPBnzvjuwNwIuYOfoP\nh7zoGq9kPR2RF4NVDAEaVi7wZBAixA50FZ7GbW1M30LgzrqKCfUnqfSBhoF5CmJP\n+3kTwLeC30z3I7sFvGlOGc+NCvlhxGNgE05TBouYwext14Hqa7gZ7KQ4dmV64fbZ\nnhZb4uxr9cpOZuMHZz9p/0ea6DYyl/Kbd9QL7FmdqMXEEDvBr1Ph36NvmalWmtIT\nLr+tqUKDKhUyCL+oyvFkAZJGi44MRQojDTjGIjwcQqedNwEwrHdFhTXaRO735ked\n3hAX1deydC3yEvYL3eA173XEXWIE864TyDwIwOISoTi5o3bB2Gp+LEwtii3tl6tI\nX67IQKtWsus1yplfRalETjlOvpFQlj35Est0pkO9YqoAZiT41D7HeUGxWFl3wR38\nc8744mrnGQQzVZ21Fkdp04aZVqShBc3unRBlwBMJHpq7HQSFjL33IhwEGmG8Anm/\nWLqc8Ss0G5vV7e6rCNry\n=Ngsc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0d9ad0c55a3c847b48989334f9b37c3ff3e5c302\nparent 3482ecf121370e1444c2f35b7485bc7dfec7ca0a\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1760499291 +0800\ncommitter GitHub <noreply@github.com> 1760499291 +0800\n\nfeat: add select dropdown component to web.config system (#558)\n\n* Initial plan\n\n* Add select dropdown component to web.config\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* fix: add SelectProps to ComponentConfig union and fix SelectItem props spreading\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* fix: add SelectProps to Children union and simplify SelectItem rendering\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* feat(select): 扩展 Select 组件属性和功能\n\n* add promise\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\nCo-authored-by: 炫炫 <2066855608@qq.com>",
+        "verified_at": "2025-10-15T03:34:52Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/9040420233fb063d69b5e599025999c9ca0dec00",
+    "html_url": "https://github.com/KarinJS/Karin/commit/9040420233fb063d69b5e599025999c9ca0dec00",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/9040420233fb063d69b5e599025999c9ca0dec00/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3482ecf121370e1444c2f35b7485bc7dfec7ca0a",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/3482ecf121370e1444c2f35b7485bc7dfec7ca0a",
+        "html_url": "https://github.com/KarinJS/Karin/commit/3482ecf121370e1444c2f35b7485bc7dfec7ca0a"
+      }
+    ]
+  },
+  {
     "sha": "3482ecf121370e1444c2f35b7485bc7dfec7ca0a",
     "node_id": "C_kwDOLcebn9oAKDM0ODJlY2YxMjEzNzBlMTQ0NGMyZjM1Yjc0ODViYzdkZmVjN2NhMGE",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "1b94ff368415f333036dc0bfbbe55983cf2e6f1b",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/1b94ff368415f333036dc0bfbbe55983cf2e6f1b",
         "html_url": "https://github.com/KarinJS/Karin/commit/1b94ff368415f333036dc0bfbbe55983cf2e6f1b"
-      }
-    ]
-  },
-  {
-    "sha": "1b94ff368415f333036dc0bfbbe55983cf2e6f1b",
-    "node_id": "C_kwDOLcebn9oAKDFiOTRmZjM2ODQxNWYzMzMwMzZkYzBiZmJiZTU1OTgzY2YyZTZmMWI",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-09-06T16:56:00Z"
-      },
-      "committer": {
-        "name": "时瑾",
-        "email": "74231782+sj817@users.noreply.github.com",
-        "date": "2025-09-06T16:56:00Z"
-      },
-      "message": "fix: 精简isEcho方法的判断条件",
-      "tree": {
-        "sha": "4783e9a8452d1d5a84210b920797dff2ecfceb9c",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/4783e9a8452d1d5a84210b920797dff2ecfceb9c"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/1b94ff368415f333036dc0bfbbe55983cf2e6f1b",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQTNGspAvN07h/NM1v0CP3ChuPjBlgUCaLxnoAAKCRACP3ChuPjB\nliJHAP9T53ErGtcVkOR2XY8u7GqDkFxYT2YUQQKMwbmZwlQ3kQD/dzQc5UpdaHud\ndleVVR6CRgfuKaRtT8LGm+brR6bYYgc=\n=BErq\n-----END PGP SIGNATURE-----",
-        "payload": "tree 4783e9a8452d1d5a84210b920797dff2ecfceb9c\nparent b6ffd5835771051becefa6a74a7686c9a89314d1\nauthor 时瑾 <74231782+sj817@users.noreply.github.com> 1757177760 +0800\ncommitter 时瑾 <74231782+sj817@users.noreply.github.com> 1757177760 +0800\n\nfix: 精简isEcho方法的判断条件\n",
-        "verified_at": "2025-09-06T16:56:07Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/1b94ff368415f333036dc0bfbbe55983cf2e6f1b",
-    "html_url": "https://github.com/KarinJS/Karin/commit/1b94ff368415f333036dc0bfbbe55983cf2e6f1b",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/1b94ff368415f333036dc0bfbbe55983cf2e6f1b/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "b6ffd5835771051becefa6a74a7686c9a89314d1",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/b6ffd5835771051becefa6a74a7686c9a89314d1",
-        "html_url": "https://github.com/KarinJS/Karin/commit/b6ffd5835771051becefa6a74a7686c9a89314d1"
       }
     ]
   }
