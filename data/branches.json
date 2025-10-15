@@ -24,6 +24,14 @@
     "protected": false
   },
   {
+    "name": "copilot/fix-initial-launch-error",
+    "commit": {
+      "sha": "3af794beb61d0b1906d9d05e87503a42a68c9eaa",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3af794beb61d0b1906d9d05e87503a42a68c9eaa"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
