@@ -32,6 +32,14 @@
     "protected": false
   },
   {
+    "name": "copilot/fix-logs-method-semver-split",
+    "commit": {
+      "sha": "a8597d0ca321d5d902084cd2fa033e41f0d267dd",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/a8597d0ca321d5d902084cd2fa033e41f0d267dd"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
