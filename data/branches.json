@@ -32,6 +32,14 @@
     "protected": false
   },
   {
+    "name": "copilot/fix-plugin-engine-compatibility",
+    "commit": {
+      "sha": "4aae87a445d9792781d4a5e30d4da09c8f994043",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4aae87a445d9792781d4a5e30d4da09c8f994043"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
