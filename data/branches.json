@@ -48,6 +48,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/vite-6.4.1",
+    "commit": {
+      "sha": "4727614194b5dc1f30276485b5de6ba8a0d397b4",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4727614194b5dc1f30276485b5de6ba8a0d397b4"
+    },
+    "protected": false
+  },
+  {
     "name": "dev",
     "commit": {
       "sha": "d060e4f30cda0c2c1792c65012bb315825676a79",
