@@ -1,5 +1,87 @@
 [
   {
+    "sha": "33e3279a30908a4aad10cc9d1cba5cd16d17c382",
+    "node_id": "C_kwDOLcebn9oAKDMzZTMyNzlhMzA5MDhhNGFhZDEwY2M5ZDFjYmE1Y2QxNmQxN2MzODI",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2025-10-31T10:50:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2025-10-31T10:50:11Z"
+      },
+      "message": "Fix: Prevent loading plugins with incompatible engine versions and add ignoreEngines option (#571)\n\n* Initial plan\n\n* Fix: Add version check in pkgLoads to prevent loading incompatible plugins\n\nAdds engine version compatibility check in pkgLoads function before loading\nthe main entry file. This ensures that plugins with incompatible karin\nversions are not loaded, even when called through hot-reload or install APIs.\n\nThe check validates pkg.karin.engines.karin or pkg.engines.karin against\nthe current KARIN_VERSION and returns early if the version doesn't match,\npreventing the main file execution and plugin registration.\n\nFixes issue where pkgHotReload bypassed version checks during plugin installation.\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* feat: Add ignoreEngines option to force load plugins with version mismatch\n\nAdded karin.ignoreEngines boolean field in package.json that allows plugins\nto be force loaded even when engine version doesn't match. When enabled:\n- Plugin continues to load despite version incompatibility\n- Outputs warning log (instead of error) with details about version mismatch\n- Only applies to karin.engines field, not package.engines\n\nThis allows plugin developers to explicitly opt-in to loading on incompatible\nversions while still being warned about the incompatibility.\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* 玩不懂\n\n* fix: Only force load plugins when ignoreEngines is true\n\nFixed issue where plugins with version mismatch were not being loaded even\nwhen ignoreEngines was set to true. Now when ignoreEngines=true is explicitly\nset, isCompatible is set to true to allow the main entry file to load.\n\nLogic flow:\n- No version requirement or version matches: loads normally\n- Version mismatch + no ignoreEngines: blocked completely\n- Version mismatch + ignoreEngines=true: force loads with warning\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* fix: 修正插件版本兼容判断与 ignoreEngines 下的加载行为\n\n- 移除对 peerDependencies/dependencies/devDependencies 中 'node-karin' 的查找，仅使用 karin/engines 字段\n- 简化版本范围处理（去掉 workspace:/link: 替换，改为 trim）\n- 不再在发现不兼容但设置 ignoreEngines 时强制把 isCompatible 设为 true；改为引入 shouldLoad 标志：\n  - 若不兼容且未设置 ignoreEngines，则终止加载（提前返回）\n  - 若不兼容但设置 ignoreEngines，则保持 isCompatible = false，但仍允许加载插件并执行入口\n- 调整入口文件执行条件：非 app 类型插件始终尝试执行入口（支持 ignoreEngines 强制加载场景）\n\n* fix\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\nCo-authored-by: 炫炫 <2066855608@qq.com>",
+      "tree": {
+        "sha": "452476aad30ad99de29eb51e7528af960eab9391",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/452476aad30ad99de29eb51e7528af960eab9391"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/33e3279a30908a4aad10cc9d1cba5cd16d17c382",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpBJRjCRC1aQ7uu5UhlAAAswUQAIu9LO24KtjG3ZMa+nC5OXvQ\nuzDgMvuRuukDJvNw5LI601bQMCiZJW6gHLbF1SqnltBxp+vMjWekZGmvgVYgpatH\noYS7lndVk5KqzDjyEteJfvuap9+rTQ6L/+FM8VYYE663ZKYAqcH/5lbOfcBsBnRL\nLORtBE0VVK4CYxLSm24V4AIicxW2pCBs2cEi1v/aZ+wObDarYymH39Kcul2IBGJY\nochbX16nvQKMn6U0uRtQo/raAlNgoX6CtGUwTLv0C9zfKVECGarxTvj3DYbrxopD\nfYCAobFxhuuaGnl02qYiN/92ILHHpBGN2/wBoX1qfle46aDvtqXL28q645obQQ6W\nqP3cow1CerY24ZqLjJULycv7I7+0tto2IcvuaNIAdqnuSp6srLj7mUsMnFcoP+47\nIBKjeUBUvP6E8nlhnNfaF1Ve5vgbBqFBsTbKCWwn8AZY4YGtpDrsXCQFH1MPOukE\nIgSTH9pBaImQbJv8DN4LV0WkdpyeS7BYAb5SkQJuQcVdTn5SgBhuwNTehrMqFe5d\n05Z9ef827MezMojD0I+IcA1dvRQD2HIbvkzAO4o1oC8VDABukTuhi1yHmHC0hGtE\n9x4pbTUGwSbe91L3+uDq4i5UqDfhSanExGLg/uYeOf3uUfVpiGyhRA3z8Cmx460U\nEakR76zBsH4y4Ttl03s8\n=/0Bo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 452476aad30ad99de29eb51e7528af960eab9391\nparent 69b895aa5982ec76e3345927b8962146cc6b8bda\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1761907811 +0800\ncommitter GitHub <noreply@github.com> 1761907811 +0800\n\nFix: Prevent loading plugins with incompatible engine versions and add ignoreEngines option (#571)\n\n* Initial plan\n\n* Fix: Add version check in pkgLoads to prevent loading incompatible plugins\n\nAdds engine version compatibility check in pkgLoads function before loading\nthe main entry file. This ensures that plugins with incompatible karin\nversions are not loaded, even when called through hot-reload or install APIs.\n\nThe check validates pkg.karin.engines.karin or pkg.engines.karin against\nthe current KARIN_VERSION and returns early if the version doesn't match,\npreventing the main file execution and plugin registration.\n\nFixes issue where pkgHotReload bypassed version checks during plugin installation.\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* feat: Add ignoreEngines option to force load plugins with version mismatch\n\nAdded karin.ignoreEngines boolean field in package.json that allows plugins\nto be force loaded even when engine version doesn't match. When enabled:\n- Plugin continues to load despite version incompatibility\n- Outputs warning log (instead of error) with details about version mismatch\n- Only applies to karin.engines field, not package.engines\n\nThis allows plugin developers to explicitly opt-in to loading on incompatible\nversions while still being warned about the incompatibility.\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* 玩不懂\n\n* fix: Only force load plugins when ignoreEngines is true\n\nFixed issue where plugins with version mismatch were not being loaded even\nwhen ignoreEngines was set to true. Now when ignoreEngines=true is explicitly\nset, isCompatible is set to true to allow the main entry file to load.\n\nLogic flow:\n- No version requirement or version matches: loads normally\n- Version mismatch + no ignoreEngines: blocked completely\n- Version mismatch + ignoreEngines=true: force loads with warning\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\n\n* fix: 修正插件版本兼容判断与 ignoreEngines 下的加载行为\n\n- 移除对 peerDependencies/dependencies/devDependencies 中 'node-karin' 的查找，仅使用 karin/engines 字段\n- 简化版本范围处理（去掉 workspace:/link: 替换，改为 trim）\n- 不再在发现不兼容但设置 ignoreEngines 时强制把 isCompatible 设为 true；改为引入 shouldLoad 标志：\n  - 若不兼容且未设置 ignoreEngines，则终止加载（提前返回）\n  - 若不兼容但设置 ignoreEngines，则保持 isCompatible = false，但仍允许加载插件并执行入口\n- 调整入口文件执行条件：非 app 类型插件始终尝试执行入口（支持 ignoreEngines 强制加载场景）\n\n* fix\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\nCo-authored-by: 炫炫 <2066855608@qq.com>",
+        "verified_at": "2025-10-31T10:50:12Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/33e3279a30908a4aad10cc9d1cba5cd16d17c382",
+    "html_url": "https://github.com/KarinJS/Karin/commit/33e3279a30908a4aad10cc9d1cba5cd16d17c382",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/33e3279a30908a4aad10cc9d1cba5cd16d17c382/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "69b895aa5982ec76e3345927b8962146cc6b8bda",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/69b895aa5982ec76e3345927b8962146cc6b8bda",
+        "html_url": "https://github.com/KarinJS/Karin/commit/69b895aa5982ec76e3345927b8962146cc6b8bda"
+      }
+    ]
+  },
+  {
     "sha": "69b895aa5982ec76e3345927b8962146cc6b8bda",
     "node_id": "C_kwDOLcebn9oAKDY5Yjg5NWFhNTk4MmVjNzZlMzM0NTkyN2I4OTYyMTQ2Y2M2YjhiZGE",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "1e6279ba9d275aa3e669a8a80d30b112af651806",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/1e6279ba9d275aa3e669a8a80d30b112af651806",
         "html_url": "https://github.com/KarinJS/Karin/commit/1e6279ba9d275aa3e669a8a80d30b112af651806"
-      }
-    ]
-  },
-  {
-    "sha": "1e6279ba9d275aa3e669a8a80d30b112af651806",
-    "node_id": "C_kwDOLcebn9oAKDFlNjI3OWJhOWQyNzVhYTNlNjY5YThhODBkMzBiMTEyYWY2NTE4MDY",
-    "commit": {
-      "author": {
-        "name": "dependabot[bot]",
-        "email": "49699333+dependabot[bot]@users.noreply.github.com",
-        "date": "2025-09-10T03:02:46Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-09-10T03:02:46Z"
-      },
-      "message": "build(deps-dev): bump vite from 6.3.5 to 6.3.6 (#529)\n\nBumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 6.3.5 to 6.3.6.\n- [Release notes](https://github.com/vitejs/vite/releases)\n- [Changelog](https://github.com/vitejs/vite/blob/v6.3.6/packages/vite/CHANGELOG.md)\n- [Commits](https://github.com/vitejs/vite/commits/v6.3.6/packages/vite)\n\n---\nupdated-dependencies:\n- dependency-name: vite\n  dependency-version: 6.3.6\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-      "tree": {
-        "sha": "e99cd6f35d5be51d23dab92d4d4d6d9aa924694c",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/e99cd6f35d5be51d23dab92d4d4d6d9aa924694c"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/1e6279ba9d275aa3e669a8a80d30b112af651806",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJowOpWCRC1aQ7uu5UhlAAAqFAQAGitO046SFdXlfgmlt0ibLUk\nuuVH31IgLDPJp9YB4Wvtct1nPG2crV6XxfbjwXLL8eqvUqfZk6vqIqOBJKr+EYkW\nVUK130FFB+i7IlgGRmDplephLrlZ8trvulEiPu5H493/9CwcjkOjVcf+Np1b5Q2F\nvGc6m95DrWVb1G6h8fzx88NnFwq1WjHm3ojNpH19eIp0TMEaEgv9LP/eIix4bLYT\nvIZkyHDRO3GnLKWliI0DgtX7yUUunEpyk0qLvZKKXRg4v9LHw+GqIvQLjVAUAtvH\nIu6kBi5KyGfHSrVyCeCXX01Nq/iqUeG1qjbAnPIxKAyUzTr5e/W8qrqu858yCW0x\nCSu6Oh45SVTQ2gQriRccCEJJVc/zCgUNIvyaHYK9REwTpeTMBafPXTJjZqtSk9J7\nu4FXePo11n9r0tJSTHkLa6tpP++D3a0y8W2b9q9J4Y2Er5ns++USNKVPzLx8ommv\na9YgUmtZCw1RQtxjen6VazLe9t3gknO4Uh8AQtaCJTPpv/GEZg5S0ubY6Hk3fUcP\nTXEqaLe2Hn+369rKehDmaxgLOaj3YTgLWfYz+8N2d40RgzgYrXLUBAJOQ8/henCw\nG0KLOlY07TXkv2AV/jU4tCX2Jkjyr4ZspDj1KwhoL4eW4C3ubEnv/7rbo2sOiCB9\n4eZr4JyNBSp7ygTjDxRb\n=b92f\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree e99cd6f35d5be51d23dab92d4d4d6d9aa924694c\nparent 103d5b03086618f35bdd72fe33d0545eef8f43f6\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1757473366 +0800\ncommitter GitHub <noreply@github.com> 1757473366 +0800\n\nbuild(deps-dev): bump vite from 6.3.5 to 6.3.6 (#529)\n\nBumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 6.3.5 to 6.3.6.\n- [Release notes](https://github.com/vitejs/vite/releases)\n- [Changelog](https://github.com/vitejs/vite/blob/v6.3.6/packages/vite/CHANGELOG.md)\n- [Commits](https://github.com/vitejs/vite/commits/v6.3.6/packages/vite)\n\n---\nupdated-dependencies:\n- dependency-name: vite\n  dependency-version: 6.3.6\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-        "verified_at": "2025-09-10T03:02:46Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/1e6279ba9d275aa3e669a8a80d30b112af651806",
-    "html_url": "https://github.com/KarinJS/Karin/commit/1e6279ba9d275aa3e669a8a80d30b112af651806",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/1e6279ba9d275aa3e669a8a80d30b112af651806/comments",
-    "author": {
-      "login": "dependabot[bot]",
-      "id": 49699333,
-      "node_id": "MDM6Qm90NDk2OTkzMzM=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
-      "html_url": "https://github.com/apps/dependabot",
-      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "103d5b03086618f35bdd72fe33d0545eef8f43f6",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/103d5b03086618f35bdd72fe33d0545eef8f43f6",
-        "html_url": "https://github.com/KarinJS/Karin/commit/103d5b03086618f35bdd72fe33d0545eef8f43f6"
       }
     ]
   }
