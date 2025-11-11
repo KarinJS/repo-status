@@ -32,6 +32,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/axios-1.12.0",
+    "commit": {
+      "sha": "2e044b09eb96399748d95571217c1d4fca32d1c6",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/2e044b09eb96399748d95571217c1d4fca32d1c6"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
     "commit": {
       "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
@@ -88,14 +96,6 @@
     "protected": false
   },
   {
-    "name": "fix-ffmpeg",
-    "commit": {
-      "sha": "5fcf7bcd1bc777fdee9aa0d8772c7d5da89b6664",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/5fcf7bcd1bc777fdee9aa0d8772c7d5da89b6664"
-    },
-    "protected": false
-  },
-  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
@@ -114,8 +114,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "33e3279a30908a4aad10cc9d1cba5cd16d17c382",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/33e3279a30908a4aad10cc9d1cba5cd16d17c382"
+      "sha": "972c9013b13fac197a2e1eb19a7341a3a48b380c",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/972c9013b13fac197a2e1eb19a7341a3a48b380c"
     },
     "protected": true
   },
@@ -154,8 +154,8 @@
   {
     "name": "release-please--branches--main",
     "commit": {
-      "sha": "ab9443f82b5a498f81c995e29885cb53666e9daa",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/ab9443f82b5a498f81c995e29885cb53666e9daa"
+      "sha": "8fde6073bd67c87783faff40a151e2705bbd319a",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/8fde6073bd67c87783faff40a151e2705bbd319a"
     },
     "protected": false
   },
