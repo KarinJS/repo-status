@@ -96,6 +96,14 @@
     "protected": false
   },
   {
+    "name": "fix-ffmpeg",
+    "commit": {
+      "sha": "5fcf7bcd1bc777fdee9aa0d8772c7d5da89b6664",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/5fcf7bcd1bc777fdee9aa0d8772c7d5da89b6664"
+    },
+    "protected": false
+  },
+  {
     "name": "gh-pages",
     "commit": {
       "sha": "239392486543a674188b9f7f3637f6b2844e8257",
