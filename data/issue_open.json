@@ -39,7 +39,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2025-11-19T18:58:41Z",
-    "updated_at": "2025-11-20T18:50:10Z",
+    "updated_at": "2025-11-21T11:23:49Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -52,7 +52,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/577.patch",
       "merged_at": null
     },
-    "body": "## Sourcery 总结\n\n增强：\n- 将 `log4js` 依赖项替换为 `package.json` 中的 `@karinjs/log4js@1.5.0`\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nEnhancements:\n- Swap log4js dependency for @karinjs/log4js@1.5.0 in package.json\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **Chores**\n  * Pinned the logging dependency to a specific packaged version.\n  * Removed an unused development dependency for media processing.\n  * Applied a default log format (timestamp and level) to make logs more consistent and readable.\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "body": "## Sourcery 总结\n\n增强：\n- 将 `log4js` 依赖项替换为 `package.json` 中的 `@karinjs/log4js@1.5.0`\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nEnhancements:\n- Swap log4js dependency for @karinjs/log4js@1.5.0 in package.json\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **Chores**\n  * Pinned the logging dependency to a specific packaged version for more predictable installs.\n  * Removed an unused development dependency for media processing.\n  * Applied a default log format (timestamp and level) to make logs more consistent and readable.\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/577/reactions",
