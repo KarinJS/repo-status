@@ -34,8 +34,8 @@
   {
     "name": "dependabot/npm_and_yarn/axios-1.12.0",
     "commit": {
-      "sha": "2e044b09eb96399748d95571217c1d4fca32d1c6",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/2e044b09eb96399748d95571217c1d4fca32d1c6"
+      "sha": "f463e2fa473558c72de837897dc27087c1eee3da",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f463e2fa473558c72de837897dc27087c1eee3da"
     },
     "protected": false
   },
@@ -96,14 +96,6 @@
     "protected": false
   },
   {
-    "name": "feat-log4js",
-    "commit": {
-      "sha": "4dd9b47c00130364a53a38d503ac56f60882424e",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4dd9b47c00130364a53a38d503ac56f60882424e"
-    },
-    "protected": false
-  },
-  {
     "name": "fix-ffmpeg",
     "commit": {
       "sha": "5fcf7bcd1bc777fdee9aa0d8772c7d5da89b6664",
@@ -130,8 +122,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "972c9013b13fac197a2e1eb19a7341a3a48b380c",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/972c9013b13fac197a2e1eb19a7341a3a48b380c"
+      "sha": "1ac356e59ceff0f8327f5937f4a62e837dabb8eb",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1ac356e59ceff0f8327f5937f4a62e837dabb8eb"
     },
     "protected": true
   },
@@ -164,14 +156,6 @@
     "commit": {
       "sha": "daaebf9657d0316ac2c9712d84b6144087138160",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/daaebf9657d0316ac2c9712d84b6144087138160"
-    },
-    "protected": false
-  },
-  {
-    "name": "release-please--branches--main",
-    "commit": {
-      "sha": "8fde6073bd67c87783faff40a151e2705bbd319a",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/8fde6073bd67c87783faff40a151e2705bbd319a"
     },
     "protected": false
   },
