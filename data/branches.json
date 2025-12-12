@@ -72,14 +72,6 @@
     "protected": false
   },
   {
-    "name": "export-log4js",
-    "commit": {
-      "sha": "1417c1c37586fea2bf2ac1eb1d60ed5bb32c4d8b",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1417c1c37586fea2bf2ac1eb1d60ed5bb32c4d8b"
-    },
-    "protected": false
-  },
-  {
     "name": "feat-328",
     "commit": {
       "sha": "b04e7cd7ef4010b5ec6b35e2b51d8ef06c365b03",
@@ -130,8 +122,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "d2068171903284b6a6e9d16435ec65a93eda3aeb",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d2068171903284b6a6e9d16435ec65a93eda3aeb"
+      "sha": "63b0ff599fc64d638944aa21dbd87755af1c29df",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/63b0ff599fc64d638944aa21dbd87755af1c29df"
     },
     "protected": true
   },
