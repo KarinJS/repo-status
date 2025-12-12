@@ -19,7 +19,7 @@
     "type": "User",
     "user_view_type": "public",
     "site_admin": false,
-    "contributions": 566
+    "contributions": 567
   },
   {
     "login": "github-actions[bot]",
@@ -41,7 +41,7 @@
     "type": "Bot",
     "user_view_type": "public",
     "site_admin": false,
-    "contributions": 146
+    "contributions": 147
   },
   {
     "login": "ikenxuan",
@@ -220,28 +220,6 @@
     "contributions": 5
   },
   {
-    "login": "lava081",
-    "id": 69086800,
-    "node_id": "MDQ6VXNlcjY5MDg2ODAw",
-    "avatar_url": "https://avatars.githubusercontent.com/u/69086800?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/lava081",
-    "html_url": "https://github.com/lava081",
-    "followers_url": "https://api.github.com/users/lava081/followers",
-    "following_url": "https://api.github.com/users/lava081/following{/other_user}",
-    "gists_url": "https://api.github.com/users/lava081/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/lava081/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/lava081/subscriptions",
-    "organizations_url": "https://api.github.com/users/lava081/orgs",
-    "repos_url": "https://api.github.com/users/lava081/repos",
-    "events_url": "https://api.github.com/users/lava081/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/lava081/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false,
-    "contributions": 2
-  },
-  {
     "login": "yusheng929",
     "id": 149318528,
     "node_id": "U_kgDOCOZrgA",
@@ -258,6 +236,28 @@
     "repos_url": "https://api.github.com/users/yusheng929/repos",
     "events_url": "https://api.github.com/users/yusheng929/events{/privacy}",
     "received_events_url": "https://api.github.com/users/yusheng929/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "contributions": 3
+  },
+  {
+    "login": "lava081",
+    "id": 69086800,
+    "node_id": "MDQ6VXNlcjY5MDg2ODAw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/69086800?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lava081",
+    "html_url": "https://github.com/lava081",
+    "followers_url": "https://api.github.com/users/lava081/followers",
+    "following_url": "https://api.github.com/users/lava081/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lava081/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lava081/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lava081/subscriptions",
+    "organizations_url": "https://api.github.com/users/lava081/orgs",
+    "repos_url": "https://api.github.com/users/lava081/repos",
+    "events_url": "https://api.github.com/users/lava081/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lava081/received_events",
     "type": "User",
     "user_view_type": "public",
     "site_admin": false,
