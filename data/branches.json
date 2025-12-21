@@ -32,6 +32,14 @@
     "protected": false
   },
   {
+    "name": "copilot/fix-web-config-retrieval",
+    "commit": {
+      "sha": "a2490468b9897ddb5a955df4e25b3c8a2408ccb3",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/a2490468b9897ddb5a955df4e25b3c8a2408ccb3"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/axios-1.12.0",
     "commit": {
       "sha": "f463e2fa473558c72de837897dc27087c1eee3da",
