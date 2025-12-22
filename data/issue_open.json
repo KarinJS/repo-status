@@ -39,7 +39,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2025-12-22T06:16:05Z",
-    "updated_at": "2025-12-22T06:20:14Z",
+    "updated_at": "2025-12-22T07:52:11Z",
     "closed_at": null,
     "author_association": "CONTRIBUTOR",
     "type": null,
@@ -52,7 +52,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/601.patch",
       "merged_at": null
     },
-    "body": "## Summary by Sourcery\n\n规范 OneBot 的 HTTP 和 WebSocket API 调用，在请求、错误报告和触发的事件中统一使用格式化后的动作名称。\n\nBug Fixes:\n- 确保 WebSocket API 的请求、超时以及响应事件使用格式化后的动作名称，而不是原始动作字符串。\n- 确保 HTTP API 端点、错误处理和 `SEND_API` 事件使用格式化后的动作名称来替代原始动作名称。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nNormalize OneBot HTTP and WebSocket API calls to use the formatted action name consistently in requests, error reporting, and emitted events.\n\nBug Fixes:\n- Ensure WebSocket API requests, timeouts, and response events use the formatted action name instead of the raw action string.\n- Ensure HTTP API endpoints, error handling, and SEND_API events use the formatted action name in place of the raw action.\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n## Release Notes\n\n* **Bug Fixes**\n  * Standardized action string formatting across API communication. Actions are now consistently formatted throughout request processing, error handling, event notifications, and timeout management to ensure reliable and uniform behavior.\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "body": "## Summary by Sourcery\n\n规范 OneBot 的 HTTP 和 WebSocket API 调用，在请求、错误报告和触发的事件中统一使用格式化后的动作名称。\n\nBug Fixes:\n- 确保 WebSocket API 的请求、超时以及响应事件使用格式化后的动作名称，而不是原始动作字符串。\n- 确保 HTTP API 端点、错误处理和 `SEND_API` 事件使用格式化后的动作名称来替代原始动作名称。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nNormalize OneBot HTTP and WebSocket API calls to use the formatted action name consistently in requests, error reporting, and emitted events.\n\nBug Fixes:\n- Ensure WebSocket API requests, timeouts, and response events use the formatted action name instead of the raw action string.\n- Ensure HTTP API endpoints, error handling, and SEND_API events use the formatted action name in place of the raw action.\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **Bug Fixes**\n  * Standardized action string formatting across API and WebSocket communication. Request payloads, emitted events, timeout handling, and error messages now use the normalized action, improving consistency and clarity in logs and error reporting.\n\n<sub>✏️ Tip: You can customize this high-level summary in your review settings.</sub>\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/601/reactions",
