@@ -73,7 +73,7 @@
   "clone_url": "https://github.com/KarinJS/Karin.git",
   "svn_url": "https://github.com/KarinJS/Karin",
   "homepage": "https://karin.deno.dev",
-  "size": 28767,
+  "size": 28793,
   "stargazers_count": 159,
   "watchers_count": 159,
   "language": "TypeScript",
@@ -83,7 +83,7 @@
   "has_wiki": true,
   "has_pages": false,
   "has_discussions": true,
-  "forks_count": 17,
+  "forks_count": 18,
   "mirror_url": null,
   "archived": false,
   "disabled": false,
@@ -102,7 +102,7 @@
     "karin"
   ],
   "visibility": "public",
-  "forks": 17,
+  "forks": 18,
   "open_issues": 23,
   "watchers": 159,
   "default_branch": "main",
@@ -136,6 +136,6 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "network_count": 17,
+  "network_count": 18,
   "subscribers_count": 2
 }
