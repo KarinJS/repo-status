@@ -130,8 +130,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "3605147ac826c2a69267799d285750eabe5b2044",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3605147ac826c2a69267799d285750eabe5b2044"
+      "sha": "6a0f14512e72fdc2218f45c96c3c04334cdb090a",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/6a0f14512e72fdc2218f45c96c3c04334cdb090a"
     },
     "protected": true
   },
@@ -180,14 +180,6 @@
     "commit": {
       "sha": "9e1c61529b7c109bd77e82b5aeb3fe52a69a7e87",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/9e1c61529b7c109bd77e82b5aeb3fe52a69a7e87"
-    },
-    "protected": false
-  },
-  {
-    "name": "ys-dev",
-    "commit": {
-      "sha": "dd37ed6f01f54cb7308a7aaef727f889ccc61826",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/dd37ed6f01f54cb7308a7aaef727f889ccc61826"
     },
     "protected": false
   }
