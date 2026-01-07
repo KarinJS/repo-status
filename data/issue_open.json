@@ -1440,90 +1440,6 @@
     "state_reason": null
   },
   {
-    "url": "https://api.github.com/repos/KarinJS/Karin/issues/520",
-    "repository_url": "https://api.github.com/repos/KarinJS/Karin",
-    "labels_url": "https://api.github.com/repos/KarinJS/Karin/issues/520/labels{/name}",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/520/comments",
-    "events_url": "https://api.github.com/repos/KarinJS/Karin/issues/520/events",
-    "html_url": "https://github.com/KarinJS/Karin/issues/520",
-    "id": 3362795313,
-    "node_id": "I_kwDOLcebn87IcC8x",
-    "number": 520,
-    "title": "Bug: 渲染模块在连接到后端几小时以后无法正常使用",
-    "user": {
-      "login": "Aliorpse",
-      "id": 98144240,
-      "node_id": "U_kgDOBdmP8A",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98144240?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/Aliorpse",
-      "html_url": "https://github.com/Aliorpse",
-      "followers_url": "https://api.github.com/users/Aliorpse/followers",
-      "following_url": "https://api.github.com/users/Aliorpse/following{/other_user}",
-      "gists_url": "https://api.github.com/users/Aliorpse/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/Aliorpse/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/Aliorpse/subscriptions",
-      "organizations_url": "https://api.github.com/users/Aliorpse/orgs",
-      "repos_url": "https://api.github.com/users/Aliorpse/repos",
-      "events_url": "https://api.github.com/users/Aliorpse/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/Aliorpse/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 6654977162,
-        "node_id": "LA_kwDOLcebn88AAAABjKrkig",
-        "url": "https://api.github.com/repos/KarinJS/Karin/labels/bug",
-        "name": "bug",
-        "color": "d73a4a",
-        "default": true,
-        "description": "Something isn't working"
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignee": null,
-    "assignees": [],
-    "milestone": null,
-    "comments": 2,
-    "created_at": "2025-08-28T10:39:03Z",
-    "updated_at": "2025-08-28T10:42:37Z",
-    "closed_at": null,
-    "author_association": "NONE",
-    "type": null,
-    "active_lock_reason": null,
-    "sub_issues_summary": {
-      "total": 0,
-      "completed": 0,
-      "percent_completed": 0
-    },
-    "issue_dependencies_summary": {
-      "blocked_by": 0,
-      "total_blocked_by": 0,
-      "blocking": 0,
-      "total_blocking": 0
-    },
-    "body": "### 描述问题\n\n```\n[Karin][18:27:26.264][INFO] [@karinjs/plugin-puppeteer][temp-1756375975127.html] 截图完成 耗时: 871137 ms\n[Karin][18:27:26.265][ERRO] Error: [karin-plugin-example][command]\n    at groupsCmd (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.10.20/node_modules/node-karin/dist/index.mjs:14197:33)\n    at async groupsDeal (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.10.20/node_modules/node-karin/dist/index.mjs:14142:24) {\n  [cause]: Error: Target.createTarget timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed.\n      at Object.render (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+plugin-puppeteer@1.0.17/node_modules/@karinjs/plugin-puppeteer/dist/index.js:1:521)\n      at async callRender (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.10.20/node_modules/node-karin/dist/index.mjs:19506:22)\n      at async renderData (file:///C:/Users/Administrator/Desktop/karin-tyriskic/plugins/karin-plugin-example/MCMotd.js?t=1755962080894:186:12)\n      at async Promise.all (index 0)\n      at async fetchServerStatus (file:///C:/Users/Administrator/Desktop/karin-tyriskic/plugins/karin-plugin-example/MCMotd.js?t=1755962080894:99:10)\n      at async Object.fnc (file:///C:/Users/Administrator/Desktop/karin-tyriskic/plugins/karin-plugin-example/MCMotd.js?t=1755962080894:72:33)\n      at async groupsCmd (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.10.20/node_modules/node-karin/dist/index.mjs:14174:26)\n      at async groupsDeal (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/node-karin@1.10.20/node_modules/node-karin/dist/index.mjs:14142:24) {\n    [cause]: ProtocolError: Target.createTarget timed out. Increase the 'protocolTimeout' setting in launch/connect calls for a higher timeout if needed.\n        at <instance_members_initializer> (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:10832:12)\n        at new Callback (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:10836:14)\n        at CallbackRegistry.create (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:10764:22)\n        at Connection._rawSend (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:11058:22)\n        at Connection.send (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:11049:17)\n        at CdpBrowser._createPageInContext (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:17646:49)\n        at CdpBrowserContext.newPage (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:16953:34)\n        at async CdpBrowser.newPage (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:17643:12)\n        at async newPage (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:61242:16)\n        at async withPage (file:///C:/Users/Administrator/Desktop/karin-tyriskic/node_modules/.pnpm/@karinjs+puppeteer@2.2.3/node_modules/@karinjs/puppeteer/dist/index.mjs:61517:16)\n  }\n}\n```\n\n### 复现步骤\n\n1. 第一步\n2. 第二步\n3. ...\n\n\n### 预期行为\n\n/\n\n### 实际行为\n\n/\n\n### 操作系统\n\nwin11\n\n### Node.js 版本\n\n22.17\n\n### 项目版本\n\nlatest\n\n### 附加信息\n\n刚连接到的时候是可以正常用的...",
-    "closed_by": null,
-    "reactions": {
-      "url": "https://api.github.com/repos/KarinJS/Karin/issues/520/reactions",
-      "total_count": 0,
-      "+1": 0,
-      "-1": 0,
-      "laugh": 0,
-      "hooray": 0,
-      "confused": 0,
-      "heart": 0,
-      "rocket": 0,
-      "eyes": 0
-    },
-    "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/520/timeline",
-    "performed_via_github_app": null,
-    "state_reason": null
-  },
-  {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/517",
     "repository_url": "https://api.github.com/repos/KarinJS/Karin",
     "labels_url": "https://api.github.com/repos/KarinJS/Karin/issues/517/labels{/name}",
@@ -1699,7 +1615,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2025-07-31T13:32:42Z",
-    "updated_at": "2025-11-13T16:32:40Z",
+    "updated_at": "2026-01-07T10:23:20Z",
     "closed_at": null,
     "author_association": "MEMBER",
     "type": null,
@@ -1715,7 +1631,7 @@
       "blocking": 0,
       "total_blocking": 0
     },
-    "body": "### 描述功能\n\n将整个项目重构为多个子包\n\n- `@karinjs/adapter`\n- `@karinjs/config`\n- `@karinjs/core`\n- `@karinjs/db`\n- `@karinjs/envs`\n- `@karinjs/events`\n- `@karinjs/hooks`\n- `@karinjs/glob`\n- `@karinjs/logger`\n- `@karinjs/onebot`\n- `@karinjs/paths`\n- `@karinjs/plugin`\n- `@karinjs/server`\n- `@karinjs/utils`\n- `@karinjs/render` \n\n### TODO\n\n- [x] 通过启用 `node` 内部接口，实现真正的`hmr(热重载)`\n- [x] 通过解析调用栈上下文，将构建插件相关的函数实现为无需导出\n- [ ] 引入新增自定义组件，允许开发者自定义 `webui` 的自定义逻辑\n- [x] 引入新的打包构建工具，提升编译速度 `rolldown` `rolldown-vite`\n- [ ] 将 `pnpm10` 彻底带入生态\n- [x] 将 `log4js` 重写为 `ts + esm` 作为内部模块以减少 `cjs` 引起的相关问题\n- [ ] 去掉 `jsonwebtoken` 模块，使用内部实现\n- [x] 将插件包类型统一为 `npm` `git` `apps(之前为app)` 新增 `root(之前为内置类型，现暴露)`\n- [x] 将 `class plugin` 进行重构，添加更好的泛型支持\n- [x] `hmr` 抽离为单独api，支持运行时加载、卸载 `插件包`，`单个apps目录`，`单个app文件`。`(此部分因在生产环境，无法调用node内部接口删除缓存)`\n- [ ] ~~支持适配器注册自定义事件(类型无法实现)~~\n- [x] 重构事件发射器函数，添加更好的泛型支持，`emit` 支持仅发射到内部或内部和外部同时发射\n- [x] 对于 `apps` 类型的插件包，例如 `karin-plugin-example`，将默认生成一个默认的 `package.json`，以达到 `参数归一化` 的目的\n- [x] 所有插件相关的快速构建函数，将不再需要进行 `export`\n- [ ] 将开发环境带入 `node v22+`\n- [x] 将每个适配器拆分为单独的子包 `@karinjs/plugin-adapter-console`  `@karinjs/plugin-adapter-onebot`\n- [ ] 为单个app文件提供更新功能\n- [x] 新增 `karin.config.mjs` 将 `web.config.js` 合并过来，进行兼容性处理\n- [ ] 将前端的系统组件重构，进行兼容嵌套组件 `(此计划不一定实现，对于复杂组件更推荐使用自定义页面进行操作)`\n- [ ] 引入 `react`，支持 react 组件渲染，此包仅`167kb`\n- [ ] 将登陆组件进行封装，供外部进行调用登陆，更好的支持插件的自定义页面\n- [x] #514 \n- [ ] #512 \n- [x] #506 \n- [x] #516 \n- [x] #517 \n- [ ] #520 \n- [x] #519 \n- [x] 添加setGroupAvatar接口设置群聊头像\n\n### 动机\n\n从项目初期开始，经历了类似于 `js -> ts`、`git -> npm` 、`webui` 的加入、`插件配置文件组件化` 等等，导致现在代码越来越复杂，并且相关逻辑管理混乱，模块之间复杂的引用导致项目的维护困难。\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
+    "body": "### 描述功能\n\n将整个项目重构为多个子包\n\n- `@karinjs/adapter`\n- `@karinjs/config`\n- `@karinjs/core`\n- `@karinjs/db`\n- `@karinjs/envs`\n- `@karinjs/events`\n- `@karinjs/hooks`\n- `@karinjs/glob`\n- `@karinjs/logger`\n- `@karinjs/onebot`\n- `@karinjs/paths`\n- `@karinjs/plugin`\n- `@karinjs/server`\n- `@karinjs/utils`\n- `@karinjs/render` \n\n### TODO\n\n- [x] 通过启用 `node` 内部接口，实现真正的`hmr(热重载)`\n- [x] 通过解析调用栈上下文，将构建插件相关的函数实现为无需导出\n- [ ] 引入新增自定义组件，允许开发者自定义 `webui` 的自定义逻辑\n- [x] 引入新的打包构建工具，提升编译速度 `rolldown` `rolldown-vite`\n- [ ] 将 `pnpm10` 彻底带入生态\n- [x] 将 `log4js` 重写为 `ts + esm` 作为内部模块以减少 `cjs` 引起的相关问题\n- [ ] 去掉 `jsonwebtoken` 模块，使用内部实现\n- [x] 将插件包类型统一为 `npm` `git` `apps(之前为app)` 新增 `root(之前为内置类型，现暴露)`\n- [x] 将 `class plugin` 进行重构，添加更好的泛型支持\n- [x] `hmr` 抽离为单独api，支持运行时加载、卸载 `插件包`，`单个apps目录`，`单个app文件`。`(此部分因在生产环境，无法调用node内部接口删除缓存)`\n- [ ] ~~支持适配器注册自定义事件(类型无法实现)~~\n- [x] 重构事件发射器函数，添加更好的泛型支持，`emit` 支持仅发射到内部或内部和外部同时发射\n- [x] 对于 `apps` 类型的插件包，例如 `karin-plugin-example`，将默认生成一个默认的 `package.json`，以达到 `参数归一化` 的目的\n- [x] 所有插件相关的快速构建函数，将不再需要进行 `export`\n- [ ] 将开发环境带入 `node v22+`\n- [x] 将每个适配器拆分为单独的子包 `@karinjs/plugin-adapter-console`  `@karinjs/plugin-adapter-onebot`\n- [ ] 为单个app文件提供更新功能\n- [x] 新增 `karin.config.mjs` 将 `web.config.js` 合并过来，进行兼容性处理\n- [ ] 将前端的系统组件重构，进行兼容嵌套组件 `(此计划不一定实现，对于复杂组件更推荐使用自定义页面进行操作)`\n- [ ] 引入 `react`，支持 react 组件渲染，此包仅`167kb`\n- [ ] 将登陆组件进行封装，供外部进行调用登陆，更好的支持插件的自定义页面\n- [x] #514 \n- [ ] #512 \n- [x] #506 \n- [x] #516 \n- [x] #517 \n- [x] #520 \n- [x] #519 \n- [x] 添加setGroupAvatar接口设置群聊头像\n\n### 动机\n\n从项目初期开始，经历了类似于 `js -> ts`、`git -> npm` 、`webui` 的加入、`插件配置文件组件化` 等等，导致现在代码越来越复杂，并且相关逻辑管理混乱，模块之间复杂的引用导致项目的维护困难。\n\n### 实现方法\n\n_No response_\n\n### 替代方案\n\n_No response_\n\n### 附加信息\n\n_No response_",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/515/reactions",
