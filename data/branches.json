@@ -32,18 +32,18 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-web-config-retrieval",
-    "commit": {
-      "sha": "e9e3229692744cd3a6519f9be763c683bb332643",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e9e3229692744cd3a6519f9be763c683bb332643"
-    },
-    "protected": false
-  },
-  {
     "name": "dependabot/npm_and_yarn/axios-1.12.0",
     "commit": {
       "sha": "f463e2fa473558c72de837897dc27087c1eee3da",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/f463e2fa473558c72de837897dc27087c1eee3da"
+    },
+    "protected": false
+  },
+  {
+    "name": "dependabot/npm_and_yarn/eslint-9.26.0",
+    "commit": {
+      "sha": "36a1414645dbb51071af992a847114b4621abba0",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/36a1414645dbb51071af992a847114b4621abba0"
     },
     "protected": false
   },
@@ -130,8 +130,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "fc7b3cfeb58c3cf9f8fd44c4160be1ec6194aae9",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/fc7b3cfeb58c3cf9f8fd44c4160be1ec6194aae9"
+      "sha": "067890dc7cff1fea1fbf2e7d9c9ce5f45215567e",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/067890dc7cff1fea1fbf2e7d9c9ce5f45215567e"
     },
     "protected": true
   },
@@ -164,14 +164,6 @@
     "commit": {
       "sha": "2497b8199488079936977e2a3601c5f82b912fe6",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/2497b8199488079936977e2a3601c5f82b912fe6"
-    },
-    "protected": false
-  },
-  {
-    "name": "release-please--branches--main",
-    "commit": {
-      "sha": "f6bec4eb89cbfe05b362617295ef06085cd57f7b",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f6bec4eb89cbfe05b362617295ef06085cd57f7b"
     },
     "protected": false
   },
