@@ -407,7 +407,7 @@
     "updated_at": "2026-01-12T07:01:01Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "456b32409ef9424f944104dc1cfdd40c66a79f19",
+    "merge_commit_sha": "d4955ea5954d6c07624c3995d77734bba4cd6ba2",
     "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
@@ -1498,7 +1498,7 @@
     "updated_at": "2025-10-15T06:36:49Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "2f8026e286658b762305b11476c18f63e2c84e21",
+    "merge_commit_sha": "9a406f91e99a916baa572f1d3020c786a9d0154e",
     "assignee": null,
     "assignees": [
       {
