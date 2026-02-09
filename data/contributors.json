@@ -41,7 +41,7 @@
     "type": "Bot",
     "user_view_type": "public",
     "site_admin": false,
-    "contributions": 157
+    "contributions": 158
   },
   {
     "login": "ikenxuan",
@@ -176,6 +176,28 @@
     "contributions": 7
   },
   {
+    "login": "yusheng929",
+    "id": 149318528,
+    "node_id": "U_kgDOCOZrgA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/149318528?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yusheng929",
+    "html_url": "https://github.com/yusheng929",
+    "followers_url": "https://api.github.com/users/yusheng929/followers",
+    "following_url": "https://api.github.com/users/yusheng929/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yusheng929/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yusheng929/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yusheng929/subscriptions",
+    "organizations_url": "https://api.github.com/users/yusheng929/orgs",
+    "repos_url": "https://api.github.com/users/yusheng929/repos",
+    "events_url": "https://api.github.com/users/yusheng929/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yusheng929/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "contributions": 6
+  },
+  {
     "login": "dependabot[bot]",
     "id": 49699333,
     "node_id": "MDM6Qm90NDk2OTkzMzM=",
@@ -196,28 +218,6 @@
     "user_view_type": "public",
     "site_admin": false,
     "contributions": 6
-  },
-  {
-    "login": "yusheng929",
-    "id": 149318528,
-    "node_id": "U_kgDOCOZrgA",
-    "avatar_url": "https://avatars.githubusercontent.com/u/149318528?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/yusheng929",
-    "html_url": "https://github.com/yusheng929",
-    "followers_url": "https://api.github.com/users/yusheng929/followers",
-    "following_url": "https://api.github.com/users/yusheng929/following{/other_user}",
-    "gists_url": "https://api.github.com/users/yusheng929/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/yusheng929/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/yusheng929/subscriptions",
-    "organizations_url": "https://api.github.com/users/yusheng929/orgs",
-    "repos_url": "https://api.github.com/users/yusheng929/repos",
-    "events_url": "https://api.github.com/users/yusheng929/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/yusheng929/received_events",
-    "type": "User",
-    "user_view_type": "public",
-    "site_admin": false,
-    "contributions": 5
   },
   {
     "login": "Simplxss",
