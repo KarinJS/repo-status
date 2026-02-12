@@ -81,7 +81,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/612/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/611",
@@ -165,7 +166,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/611/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/610",
@@ -339,7 +341,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/579/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/575",
@@ -707,7 +710,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/541/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/540",
@@ -781,7 +785,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/540/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/531",
@@ -856,7 +861,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/531/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/530",
@@ -1072,7 +1078,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/527/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/523",
@@ -1198,7 +1205,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/523/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/517",
@@ -1282,7 +1290,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/517/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/515",
@@ -1408,7 +1417,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/515/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/513",
@@ -1572,7 +1582,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/512/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/508",
@@ -1665,7 +1676,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/508/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/507",
@@ -1758,7 +1770,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/507/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/371",
@@ -1884,6 +1897,7 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/371/timeline",
     "performed_via_github_app": null,
-    "state_reason": null
+    "state_reason": null,
+    "pinned_comment": null
   }
 ]
