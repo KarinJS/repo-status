@@ -38,7 +38,6 @@
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "583fe5f6286698c4233a8d7713d06de72347c14b",
-    "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -371,6 +370,7 @@
     },
     "author_association": "CONTRIBUTOR",
     "auto_merge": null,
+    "assignee": null,
     "active_lock_reason": null
   },
   {
@@ -412,7 +412,6 @@
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "bd87dd27ae2b1d1a043c03fe672fd2955621d35c",
-    "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -745,6 +744,7 @@
     },
     "author_association": "CONTRIBUTOR",
     "auto_merge": null,
+    "assignee": null,
     "active_lock_reason": null
   },
   {
@@ -786,7 +786,6 @@
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": null,
-    "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -1119,6 +1118,7 @@
     },
     "author_association": "CONTRIBUTOR",
     "auto_merge": null,
+    "assignee": null,
     "active_lock_reason": null
   },
   {
@@ -1160,7 +1160,6 @@
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "3a868312db24c0a473ba0b47d0015443f5b753af",
-    "assignee": null,
     "assignees": [
       {
         "login": "sj817",
@@ -1539,6 +1538,7 @@
     },
     "author_association": "CONTRIBUTOR",
     "auto_merge": null,
+    "assignee": null,
     "active_lock_reason": null
   },
   {
@@ -1580,7 +1580,6 @@
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "ce69bd43f1ccc1ad1236deca1ac55d2cf4a502da",
-    "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -1913,6 +1912,7 @@
     },
     "author_association": "CONTRIBUTOR",
     "auto_merge": null,
+    "assignee": null,
     "active_lock_reason": null
   },
   {
@@ -1954,7 +1954,6 @@
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": null,
-    "assignee": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
@@ -2268,6 +2267,7 @@
     },
     "author_association": "MEMBER",
     "auto_merge": null,
+    "assignee": null,
     "active_lock_reason": null
   }
 ]
