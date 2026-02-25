@@ -293,7 +293,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/615/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/614",
@@ -1155,7 +1156,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/603/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/602",
@@ -1722,7 +1724,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/599/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/598",
@@ -3827,7 +3830,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/576/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/574",
@@ -4299,7 +4303,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/570/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/569",
@@ -4872,7 +4877,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/565/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/563",
@@ -5243,7 +5249,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/561/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/560",
@@ -5705,7 +5712,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/557/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/556",
@@ -6076,7 +6084,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/554/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/553",
@@ -6457,7 +6466,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/551/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/550",
@@ -6828,7 +6838,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/548/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/547",
@@ -7199,7 +7210,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/545/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/544",
@@ -7570,7 +7582,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/542/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/539",
@@ -9017,7 +9030,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/524/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/522",
@@ -9121,7 +9135,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/522/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/521",
@@ -9316,7 +9331,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/520/timeline",
     "performed_via_github_app": null,
-    "state_reason": "not_planned"
+    "state_reason": "not_planned",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/519",
@@ -9420,7 +9436,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/519/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/518",
@@ -9676,7 +9693,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/516/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/514",
@@ -9822,7 +9840,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/514/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/511",
@@ -10261,7 +10280,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/506/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/505",
@@ -10608,7 +10628,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/503/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/502",
@@ -10913,7 +10934,8 @@
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/500/timeline",
     "performed_via_github_app": null,
-    "state_reason": "completed"
+    "state_reason": "completed",
+    "pinned_comment": null
   },
   {
     "url": "https://api.github.com/repos/KarinJS/Karin/issues/499",
