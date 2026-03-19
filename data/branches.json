@@ -1,5 +1,13 @@
 [
   {
+    "name": "2.0-webui-dev",
+    "commit": {
+      "sha": "6939fb8f6e0c0a2d867656a7ee1fac108f5741f6",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/6939fb8f6e0c0a2d867656a7ee1fac108f5741f6"
+    },
+    "protected": false
+  },
+  {
     "name": "187-feat-refactor",
     "commit": {
       "sha": "da842f4787ca38661e5b9d6f63673a5f206a892c",
@@ -28,46 +36,6 @@
     "commit": {
       "sha": "3af794beb61d0b1906d9d05e87503a42a68c9eaa",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/3af794beb61d0b1906d9d05e87503a42a68c9eaa"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/axios-1.12.0",
-    "commit": {
-      "sha": "f463e2fa473558c72de837897dc27087c1eee3da",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f463e2fa473558c72de837897dc27087c1eee3da"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/eslint-9.26.0",
-    "commit": {
-      "sha": "36a1414645dbb51071af992a847114b4621abba0",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/36a1414645dbb51071af992a847114b4621abba0"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/packages/web/axios-1.12.0",
-    "commit": {
-      "sha": "fbb395c6a459b56cccc2f820131033c6ec84549b",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/fbb395c6a459b56cccc2f820131033c6ec84549b"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/vite-6.4.1",
-    "commit": {
-      "sha": "4727614194b5dc1f30276485b5de6ba8a0d397b4",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4727614194b5dc1f30276485b5de6ba8a0d397b4"
-    },
-    "protected": false
-  },
-  {
-    "name": "dev",
-    "commit": {
-      "sha": "d060e4f30cda0c2c1792c65012bb315825676a79",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d060e4f30cda0c2c1792c65012bb315825676a79"
     },
     "protected": false
   },
@@ -130,8 +98,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "157cc6a13ac7c67b18448e6c92ea5eb33f732846",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/157cc6a13ac7c67b18448e6c92ea5eb33f732846"
+      "sha": "4556539f3ebc8e43c67ea86fd680d2fa943f0e07",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4556539f3ebc8e43c67ea86fd680d2fa943f0e07"
     },
     "protected": true
   },
@@ -162,8 +130,8 @@
   {
     "name": "refactor-plugins",
     "commit": {
-      "sha": "90f2302a1e89257261dd25de5dd2f36bb7238cda",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/90f2302a1e89257261dd25de5dd2f36bb7238cda"
+      "sha": "f817269c26c220f102bfd0903ee1d22ba150d85b",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f817269c26c220f102bfd0903ee1d22ba150d85b"
     },
     "protected": false
   },
