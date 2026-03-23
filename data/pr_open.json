@@ -1270,7 +1270,7 @@
     "number": 623,
     "state": "open",
     "locked": false,
-    "title": "[WIP] Add support for adapter offline event notification",
+    "title": "feat: handle bot_offline notice event in OneBot adapter",
     "user": {
       "login": "Copilot",
       "id": 198982749,
@@ -1292,9 +1292,9 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "- [x] Add `BotOffline = 'bot_offline'` to OneBot `NoticeType` enum and `BotOfflineNoticeEvent` interface in `packages/onebot/src/event/notice.ts`\n- [x] Add `BotOfflineType` content interface in `packages/core/src/types/event/content.ts`\n- [x] Add `'botOffline'` to `NoticeEventSub` union and `BotOfflineOptions` type in `packages/core/src/types/event/options.ts`\n- [x] Add `BotOfflineNotice` event class in `packages/core/src/event/notice.ts`\n- [x] Add `createBotOfflineNotice` factory function in `packages/core/src/event/create/index.ts`\n- [x] Handle `NoticeType.BotOffline` in `packages/core/src/adapter/onebot/create/notice.ts`\n- [x] Add `'botOffline'` tips case in `packages/core/src/event/handler/other/other.ts`\n- [x] Register `BotOfflineNotice` in `FriendNoticeEventMap` and `Notice` union in `packages/core/src/types/event/event.ts`\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Feat: 适配协议端下线事件</issue_title>\n> <issue_description>### 描述功能\n> \n> ```\n> [Karin][05:59:13.712][WARN] [AdapterOneBot] 收到未知事件: {\"tag\":\"你的帐号当前登录已失效，请重新登录。\",\"message\":\"下线通知\",\"notice_type\":\"bot_offline\",\"time\":1757109553,\"self_id\":3936555804,\"post_type\":\"notice\"}\n> ```\n> \n> ### 动机\n> \n> /\n> \n> ### 实现方法\n> \n> _No response_\n> \n> ### 替代方案\n> \n> _No response_\n> \n> ### 附加信息\n> \n> _No response_</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#523\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",
+    "body": "The OneBot adapter was logging `[AdapterOneBot] 收到未知事件` whenever it received a `bot_offline` notice (e.g., account forcibly logged out). This adds full first-class support for the event across the type system, event pipeline, and adapter.\n\n## Changes\n\n**`packages/onebot`**\n- `NoticeType.BotOffline = 'bot_offline'` enum entry + `BotOfflineNoticeEvent` interface added to `OneBotNoticeEvent` union\n\n**`packages/core` — types**\n- `BotOfflineType` content interface (`tag`, `message`)\n- `'botOffline'` added to `NoticeEventSub` union; `BotOfflineOptions` type added (uses `Contact<'friend'>` / `Sender<'friend'>` — no group context exists for this event)\n- `BotOfflineNotice` added to `FriendNoticeEventMap` as `'notice.botOffline'` and to the `Notice` union\n\n**`packages/core` — event pipeline**\n- `BotOfflineNotice` class extending `NoticeBase`\n- `createBotOfflineNotice` factory routing through `friendNoticeHandler`\n- `initTips` case: `Bot下线: <tag>`\n\n**`packages/core` — adapter handler**\n- `NoticeType.BotOffline` branch in `createNotice` using `bot.selfId` as contact/sender\n\nPlugins can now subscribe to `'notice.botOffline'` events:\n\n```ts\nkarin.notice('notice.botOffline', async (ctx) => {\n  logger.warn(`Bot ${ctx.selfId} went offline: ${ctx.content.tag}`)\n})\n```\n\n> [!WARNING]\n>\n> <details>\n> <summary>Firewall rules blocked me from connecting to one or more addresses (expand for details)</summary>\n>\n> #### I tried to connect to the following addresses, but was blocked by firewall rules:\n>\n> - `registry.npmmirror.com`\n>   - Triggering command: `/home/REDACTED/work/_temp/ghcca-node/node/bin/node node /home/REDACTED/.npm/_npx/4876f32048baf8ac/node_modules/.bin/prebuild-install -r node --pkg_version=0.13.1 --pkg_name=node-pty-prebuilt-multiarch ame git` (dns block)\n>\n> If you need me to access, download, or install something from one of these locations, you can either:\n>\n> - Configure [Actions setup steps](https://gh.io/copilot/actions-setup-steps) to set up my environment, which run before the firewall is enabled\n> - Add the appropriate URLs or hosts to the custom allowlist in this repository's [Copilot coding agent settings](https://github.com/KarinJS/Karin/settings/copilot/coding_agent) (admins only)\n>\n> </details>\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Feat: 适配协议端下线事件</issue_title>\n> <issue_description>### 描述功能\n> \n> ```\n> [Karin][05:59:13.712][WARN] [AdapterOneBot] 收到未知事件: {\"tag\":\"你的帐号当前登录已失效，请重新登录。\",\"message\":\"下线通知\",\"notice_type\":\"bot_offline\",\"time\":1757109553,\"self_id\":3936555804,\"post_type\":\"notice\"}\n> ```\n> \n> ### 动机\n> \n> /\n> \n> ### 实现方法\n> \n> _No response_\n> \n> ### 替代方案\n> \n> _No response_\n> \n> ### 附加信息\n> \n> _No response_</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#523\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",
     "created_at": "2026-03-23T23:19:34Z",
-    "updated_at": "2026-03-23T23:46:19Z",
+    "updated_at": "2026-03-23T23:46:54Z",
     "closed_at": null,
     "merged_at": null,
     "merge_commit_sha": "059351fa374b1828e95a68fecf0110d627653a57",
@@ -1342,7 +1342,29 @@
         "site_admin": false
       }
     ],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+      {
+        "login": "sj817",
+        "id": 74231782,
+        "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sj817",
+        "html_url": "https://github.com/sj817",
+        "followers_url": "https://api.github.com/users/sj817/followers",
+        "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+        "organizations_url": "https://api.github.com/users/sj817/orgs",
+        "repos_url": "https://api.github.com/users/sj817/repos",
+        "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sj817/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
