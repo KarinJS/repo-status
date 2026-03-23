@@ -34,8 +34,8 @@
   {
     "name": "copilot/feat-adapter-offline-notification",
     "commit": {
-      "sha": "d384ac002173d80560eb706f16795ee2d600e469",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d384ac002173d80560eb706f16795ee2d600e469"
+      "sha": "5903f678761c2f65fabc9feb5d1e7a6088e2d9ec",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/5903f678761c2f65fabc9feb5d1e7a6088e2d9ec"
     },
     "protected": false
   },
@@ -58,16 +58,16 @@
   {
     "name": "copilot/fix-initial-launch-error-again",
     "commit": {
-      "sha": "ad161030000731266e74d5a9adef1eb9c37a2429",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/ad161030000731266e74d5a9adef1eb9c37a2429"
+      "sha": "d4395e389bffb7712eafc65c9b28130308f84bf2",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d4395e389bffb7712eafc65c9b28130308f84bf2"
     },
     "protected": false
   },
   {
     "name": "copilot/update-input-interface",
     "commit": {
-      "sha": "e3c17d3a891f79f306f627b00c2b9fcf850d7536",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e3c17d3a891f79f306f627b00c2b9fcf850d7536"
+      "sha": "d1126b4a8170deb53940130566c47b84d6a2c282",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d1126b4a8170deb53940130566c47b84d6a2c282"
     },
     "protected": false
   },

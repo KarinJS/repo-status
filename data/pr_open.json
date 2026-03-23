@@ -10,7 +10,7 @@
     "number": 626,
     "state": "open",
     "locked": false,
-    "title": "[WIP] Update input box interface as outlined in feature request",
+    "title": "feat: add `outside-top` labelPlacement support for Input (HeroUI v2.8.0)",
     "user": {
       "login": "Copilot",
       "id": 198982749,
@@ -32,12 +32,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "Thanks for assigning this issue to me. I'm starting to work on it and will keep this PR's description up to date as I form a plan and make progress.\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Feat: 输入框接口更新</issue_title>\n> <issue_description>### 描述功能\n> \n> see https://www.heroui.com/blog/v2.8.0#input\n> \n> ### 动机\n> \n> https://www.heroui.com/blog/v2.8.0#input\n> \n> ### 实现方法\n> \n> _No response_\n> \n> ### 替代方案\n> \n> _No response_\n> \n> ### 附加信息\n> \n> _No response_</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#512\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💬 Send tasks to Copilot coding agent from [Slack](https://gh.io/cca-slack-docs) and [Teams](https://gh.io/cca-teams-docs) to turn conversations into code. Copilot posts an update in your thread when it's finished.",
+    "body": "HeroUI v2.8.0 introduced a new `outside-top` value for `labelPlacement` on Input — unlike `outside` (which requires a placeholder to render the label outside), `outside-top` always positions the label above the input unconditionally.\n\n## TypeScript interface changes\n- `packages/core/src/types/components/input.ts` — `labelPlacement` extended to `'inside' | 'outside' | 'outside-left' | 'outside-top'`\n- `packages/web/src/types/components/input.ts` — same\n\n```ts\ninput.create('email', {\n  labelPlacement: 'outside-top', // new: label always above, no placeholder required\n  label: 'Email',\n})\n```\n\n## Dependency bumps (`packages/web/package.json`)\n| Package | Before | After |\n|---|---|---|\n| `@heroui/input` | `2.4.9` | `^2.4.23` |\n| `@heroui/theme` | `2.4.9` | `^2.4.17` |\n| `@heroui/system` | `^2.4.12` | `^2.4.18` |\n\n`@heroui/input@2.4.23` is the first release implementing `outside-top` behavior. `@heroui/theme@2.4.17` is the last version compatible with Tailwind CSS v3 (v2.4.18+ requires v4); it includes the necessary `outside-top` CSS variants. Lock file updated accordingly.\n\n> [!WARNING]\n>\n> <details>\n> <summary>Firewall rules blocked me from connecting to one or more addresses (expand for details)</summary>\n>\n> #### I tried to connect to the following addresses, but was blocked by firewall rules:\n>\n> - `registry.npmmirror.com`\n>   - Triggering command: `/home/REDACTED/work/_temp/ghcca-node/node/bin/node node /home/REDACTED/.npm/_npx/4876f32048baf8ac/node_modules/.bin/prebuild-install -r node --pkg_version=0.13.1 --pkg_name=node-pty-prebuilt-multiarch pull.rebase nfig/composer/vendor/bin/bash` (dns block)\n> - `www.heroui.com`\n>   - Triggering command: `/home/REDACTED/work/_temp/ghcca-node/node/bin/node /home/REDACTED/work/_temp/ghcca-node/node/bin/node --enable-source-maps /home/REDACTED/work/_temp/copilot-developer-action-main/dist/index.js` (dns block)\n>\n> If you need me to access, download, or install something from one of these locations, you can either:\n>\n> - Configure [Actions setup steps](https://gh.io/copilot/actions-setup-steps) to set up my environment, which run before the firewall is enabled\n> - Add the appropriate URLs or hosts to the custom allowlist in this repository's [Copilot coding agent settings](https://github.com/KarinJS/Karin/settings/copilot/coding_agent) (admins only)\n>\n> </details>\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Feat: 输入框接口更新</issue_title>\n> <issue_description>### 描述功能\n> \n> see https://www.heroui.com/blog/v2.8.0#input\n> \n> ### 动机\n> \n> https://www.heroui.com/blog/v2.8.0#input\n> \n> ### 实现方法\n> \n> _No response_\n> \n> ### 替代方案\n> \n> _No response_\n> \n> ### 附加信息\n> \n> _No response_</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#512\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💬 Send tasks to Copilot coding agent from [Slack](https://gh.io/cca-slack-docs) and [Teams](https://gh.io/cca-teams-docs) to turn conversations into code. Copilot posts an update in your thread when it's finished.",
     "created_at": "2026-03-23T23:20:55Z",
-    "updated_at": "2026-03-23T23:20:55Z",
+    "updated_at": "2026-03-23T23:45:07Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "8026beca8d7e5ab1b3251b1445f684a7275fc69f",
+    "merge_commit_sha": "4b64ca5902ac8a32510440fecb3f210488897fe9",
     "assignees": [
       {
         "login": "sj817",
@@ -82,7 +82,29 @@
         "site_admin": false
       }
     ],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+      {
+        "login": "sj817",
+        "id": 74231782,
+        "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sj817",
+        "html_url": "https://github.com/sj817",
+        "followers_url": "https://api.github.com/users/sj817/followers",
+        "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+        "organizations_url": "https://api.github.com/users/sj817/orgs",
+        "repos_url": "https://api.github.com/users/sj817/repos",
+        "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sj817/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -91,11 +113,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/626/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/626/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/e3c17d3a891f79f306f627b00c2b9fcf850d7536",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/d1126b4a8170deb53940130566c47b84d6a2c282",
     "head": {
       "label": "KarinJS:copilot/update-input-interface",
       "ref": "copilot/update-input-interface",
-      "sha": "e3c17d3a891f79f306f627b00c2b9fcf850d7536",
+      "sha": "d1126b4a8170deb53940130566c47b84d6a2c282",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -186,7 +208,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -323,7 +345,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -389,7 +411,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/626/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/e3c17d3a891f79f306f627b00c2b9fcf850d7536"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/d1126b4a8170deb53940130566c47b84d6a2c282"
       }
     },
     "author_association": "CONTRIBUTOR",
@@ -408,7 +430,7 @@
     "number": 625,
     "state": "open",
     "locked": false,
-    "title": "[WIP] Fix TypeError on first launch after npx karin init",
+    "title": "fix: TypeError: data.find is not a function on first startup after npx karin init",
     "user": {
       "login": "Copilot",
       "id": 198982749,
@@ -430,12 +452,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "Thanks for assigning this issue to me. I'm starting to work on it and will keep this PR's description up to date as I form a plan and make progress.\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Bug: 使用npx karin init 初始化后首次启动会报错TypeError: data.find is not a function</issue_title>\n> <issue_description>### 描述问题\n> \n> karin在首次启动的时候会报错TypeError: data.find is not a function\n> \n> ### 复现步骤\n> \n> .\n> \n> ### 预期行为\n> \n> .\n> \n> ### 实际行为\n> \n> .\n> \n> ### 操作系统\n> \n> 1\n> \n> ### Node.js 版本\n> \n> 20.18.2\n> \n> ### 项目版本\n> \n> 1.10.22\n> \n> ### 附加信息\n> \n> 删除终端重新打开后恢复正常</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#527\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n✨ Let Copilot coding agent [set things up for you](https://github.com/KarinJS/Karin/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.\n",
+    "body": "On first startup (or any re-init), `privates.json` and `groups.json` were silently corrupted — array configs became numeric-keyed objects — causing `.find()` to throw at runtime.\n\n## Root causes\n\n- **`createConfigFile` (cli-Internal/src/init.ts)**: When merging existing config files, the spread operator was applied unconditionally:\n  ```js\n  // Before — arrays become { \"0\": {...}, \"1\": {...} }\n  const mergedData = { ...JSON.parse(defData), ...JSON.parse(targetData) }\n  ```\n  For array-typed configs (`privates.json`, `groups.json`), this destroys the array structure. Fix: skip the spread merge for array configs, preserving the user's file as-is. If the target is already corrupted (not an array), reset it to the default.\n\n- **`initPrivates` / `initGroups` (core)**: `staticCache` was correctly guarded by the `isOld()` migration path, but `dynamicCache` was always reassigned via a raw `format(data)` call on the original (potentially non-array) data — bypassing migration entirely:\n  ```js\n  // Before\n  staticCache = isOld(data) ? migrate(file, data) : format(data)\n  dynamicCache = format(data)  // throws if data is not an array\n\n  // After\n  staticCache = isOld(data) ? migrate(file, data) : format(data)\n  dynamicCache = staticCache\n  ```\n  The file-watcher callback already did this correctly; the init path did not.\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Bug: 使用npx karin init 初始化后首次启动会报错TypeError: data.find is not a function</issue_title>\n> <issue_description>### 描述问题\n> \n> karin在首次启动的时候会报错TypeError: data.find is not a function\n> \n> ### 复现步骤\n> \n> .\n> \n> ### 预期行为\n> \n> .\n> \n> ### 实际行为\n> \n> .\n> \n> ### 操作系统\n> \n> 1\n> \n> ### Node.js 版本\n> \n> 20.18.2\n> \n> ### 项目版本\n> \n> 1.10.22\n> \n> ### 附加信息\n> \n> 删除终端重新打开后恢复正常</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#527\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n✨ Let Copilot coding agent [set things up for you](https://github.com/KarinJS/Karin/issues/new?title=✨+Set+up+Copilot+instructions&body=Configure%20instructions%20for%20this%20repository%20as%20documented%20in%20%5BBest%20practices%20for%20Copilot%20coding%20agent%20in%20your%20repository%5D%28https://gh.io/copilot-coding-agent-tips%29%2E%0A%0A%3COnboard%20this%20repo%3E&assignees=copilot) — coding agent works faster and does higher quality work when set up for your repo.\n",
     "created_at": "2026-03-23T23:20:27Z",
-    "updated_at": "2026-03-23T23:20:27Z",
+    "updated_at": "2026-03-23T23:38:52Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "b52dc843b2d095533227197251b33e90c7518bd5",
+    "merge_commit_sha": "a1a6f4ef12caefc184223a1755ddb2e13c609d4c",
     "assignees": [
       {
         "login": "sj817",
@@ -480,7 +502,29 @@
         "site_admin": false
       }
     ],
-    "requested_reviewers": [],
+    "requested_reviewers": [
+      {
+        "login": "sj817",
+        "id": 74231782,
+        "node_id": "MDQ6VXNlcjc0MjMxNzgy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sj817",
+        "html_url": "https://github.com/sj817",
+        "followers_url": "https://api.github.com/users/sj817/followers",
+        "following_url": "https://api.github.com/users/sj817/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
+        "organizations_url": "https://api.github.com/users/sj817/orgs",
+        "repos_url": "https://api.github.com/users/sj817/repos",
+        "events_url": "https://api.github.com/users/sj817/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sj817/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      }
+    ],
     "requested_teams": [],
     "labels": [],
     "milestone": null,
@@ -489,11 +533,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/625/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/625/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/ad161030000731266e74d5a9adef1eb9c37a2429",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/d4395e389bffb7712eafc65c9b28130308f84bf2",
     "head": {
       "label": "KarinJS:copilot/fix-initial-launch-error-again",
       "ref": "copilot/fix-initial-launch-error-again",
-      "sha": "ad161030000731266e74d5a9adef1eb9c37a2429",
+      "sha": "d4395e389bffb7712eafc65c9b28130308f84bf2",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -584,7 +628,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -721,7 +765,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -787,7 +831,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/625/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/ad161030000731266e74d5a9adef1eb9c37a2429"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/d4395e389bffb7712eafc65c9b28130308f84bf2"
       }
     },
     "author_association": "CONTRIBUTOR",
@@ -1004,7 +1048,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1141,7 +1185,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1248,12 +1292,12 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "body": "Thanks for assigning this issue to me. I'm starting to work on it and will keep this PR's description up to date as I form a plan and make progress.\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Feat: 适配协议端下线事件</issue_title>\n> <issue_description>### 描述功能\n> \n> ```\n> [Karin][05:59:13.712][WARN] [AdapterOneBot] 收到未知事件: {\"tag\":\"你的帐号当前登录已失效，请重新登录。\",\"message\":\"下线通知\",\"notice_type\":\"bot_offline\",\"time\":1757109553,\"self_id\":3936555804,\"post_type\":\"notice\"}\n> ```\n> \n> ### 动机\n> \n> /\n> \n> ### 实现方法\n> \n> _No response_\n> \n> ### 替代方案\n> \n> _No response_\n> \n> ### 附加信息\n> \n> _No response_</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#523\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",
+    "body": "- [x] Add `BotOffline = 'bot_offline'` to OneBot `NoticeType` enum and `BotOfflineNoticeEvent` interface in `packages/onebot/src/event/notice.ts`\n- [x] Add `BotOfflineType` content interface in `packages/core/src/types/event/content.ts`\n- [x] Add `'botOffline'` to `NoticeEventSub` union and `BotOfflineOptions` type in `packages/core/src/types/event/options.ts`\n- [x] Add `BotOfflineNotice` event class in `packages/core/src/event/notice.ts`\n- [x] Add `createBotOfflineNotice` factory function in `packages/core/src/event/create/index.ts`\n- [x] Handle `NoticeType.BotOffline` in `packages/core/src/adapter/onebot/create/notice.ts`\n- [x] Add `'botOffline'` tips case in `packages/core/src/event/handler/other/other.ts`\n- [x] Register `BotOfflineNotice` in `FriendNoticeEventMap` and `Notice` union in `packages/core/src/types/event/event.ts`\n\n<!-- START COPILOT ORIGINAL PROMPT -->\n\n\n\n<details>\n\n<summary>Original prompt</summary>\n\n> \n> ----\n> \n> *This section details on the original issue you should resolve*\n> \n> <issue_title>Feat: 适配协议端下线事件</issue_title>\n> <issue_description>### 描述功能\n> \n> ```\n> [Karin][05:59:13.712][WARN] [AdapterOneBot] 收到未知事件: {\"tag\":\"你的帐号当前登录已失效，请重新登录。\",\"message\":\"下线通知\",\"notice_type\":\"bot_offline\",\"time\":1757109553,\"self_id\":3936555804,\"post_type\":\"notice\"}\n> ```\n> \n> ### 动机\n> \n> /\n> \n> ### 实现方法\n> \n> _No response_\n> \n> ### 替代方案\n> \n> _No response_\n> \n> ### 附加信息\n> \n> _No response_</issue_description>\n> \n> ## Comments on the Issue (you are @copilot in this section)\n> \n> <comments>\n> </comments>\n> \n\n\n</details>\n\n\n\n<!-- START COPILOT CODING AGENT SUFFIX -->\n\n- Fixes KarinJS/Karin#523\n\n<!-- START COPILOT CODING AGENT TIPS -->\n---\n\n💡 You can make Copilot smarter by setting up custom instructions, customizing its development environment and configuring Model Context Protocol (MCP) servers. Learn more [Copilot coding agent tips](https://gh.io/copilot-coding-agent-tips) in the docs.",
     "created_at": "2026-03-23T23:19:34Z",
-    "updated_at": "2026-03-23T23:19:34Z",
+    "updated_at": "2026-03-23T23:46:19Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "e78d559e04916a72c06b740819abdf091833279f",
+    "merge_commit_sha": "059351fa374b1828e95a68fecf0110d627653a57",
     "assignees": [
       {
         "login": "sj817",
@@ -1307,11 +1351,11 @@
     "review_comments_url": "https://api.github.com/repos/KarinJS/Karin/pulls/623/comments",
     "review_comment_url": "https://api.github.com/repos/KarinJS/Karin/pulls/comments{/number}",
     "comments_url": "https://api.github.com/repos/KarinJS/Karin/issues/623/comments",
-    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/d384ac002173d80560eb706f16795ee2d600e469",
+    "statuses_url": "https://api.github.com/repos/KarinJS/Karin/statuses/5903f678761c2f65fabc9feb5d1e7a6088e2d9ec",
     "head": {
       "label": "KarinJS:copilot/feat-adapter-offline-notification",
       "ref": "copilot/feat-adapter-offline-notification",
-      "sha": "d384ac002173d80560eb706f16795ee2d600e469",
+      "sha": "5903f678761c2f65fabc9feb5d1e7a6088e2d9ec",
       "user": {
         "login": "KarinJS",
         "id": 162426977,
@@ -1402,7 +1446,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1539,7 +1583,7 @@
         "deployments_url": "https://api.github.com/repos/KarinJS/Karin/deployments",
         "created_at": "2024-03-06T11:44:00Z",
         "updated_at": "2026-03-19T07:52:53Z",
-        "pushed_at": "2026-03-23T23:33:27Z",
+        "pushed_at": "2026-03-23T23:46:18Z",
         "git_url": "git://github.com/KarinJS/Karin.git",
         "ssh_url": "git@github.com:KarinJS/Karin.git",
         "clone_url": "https://github.com/KarinJS/Karin.git",
@@ -1605,7 +1649,7 @@
         "href": "https://api.github.com/repos/KarinJS/Karin/pulls/623/commits"
       },
       "statuses": {
-        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/d384ac002173d80560eb706f16795ee2d600e469"
+        "href": "https://api.github.com/repos/KarinJS/Karin/statuses/5903f678761c2f65fabc9feb5d1e7a6088e2d9ec"
       }
     },
     "author_association": "CONTRIBUTOR",
