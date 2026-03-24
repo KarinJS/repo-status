@@ -32,14 +32,6 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-ffmpeg-initialization-order",
-    "commit": {
-      "sha": "9abdd209e6b3a6e503e698ff55f5676f9570a86d",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/9abdd209e6b3a6e503e698ff55f5676f9570a86d"
-    },
-    "protected": false
-  },
-  {
     "name": "copilot/fix-initial-launch-error",
     "commit": {
       "sha": "3af794beb61d0b1906d9d05e87503a42a68c9eaa",
@@ -106,8 +98,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "be4b1b6a2f3cd1208abea82a19742fb428148cfc",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/be4b1b6a2f3cd1208abea82a19742fb428148cfc"
+      "sha": "5510219de2dc199d1dfe71dd024524b9cf45ff87",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/5510219de2dc199d1dfe71dd024524b9cf45ff87"
     },
     "protected": true
   },
