@@ -56,14 +56,6 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-initial-launch-error-again",
-    "commit": {
-      "sha": "d4395e389bffb7712eafc65c9b28130308f84bf2",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d4395e389bffb7712eafc65c9b28130308f84bf2"
-    },
-    "protected": false
-  },
-  {
     "name": "copilot/update-input-interface",
     "commit": {
       "sha": "d1126b4a8170deb53940130566c47b84d6a2c282",
@@ -130,8 +122,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "4556539f3ebc8e43c67ea86fd680d2fa943f0e07",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4556539f3ebc8e43c67ea86fd680d2fa943f0e07"
+      "sha": "96e85d8a47e7f90fc8e97dc58e50d7de2f11f518",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/96e85d8a47e7f90fc8e97dc58e50d7de2f11f518"
     },
     "protected": true
   },
@@ -164,6 +156,14 @@
     "commit": {
       "sha": "f817269c26c220f102bfd0903ee1d22ba150d85b",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/f817269c26c220f102bfd0903ee1d22ba150d85b"
+    },
+    "protected": false
+  },
+  {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "1e739cb41f4aec72b68d26e88ec34b64569c9aee",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1e739cb41f4aec72b68d26e88ec34b64569c9aee"
     },
     "protected": false
   },

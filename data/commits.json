@@ -1,5 +1,87 @@
 [
   {
+    "sha": "96e85d8a47e7f90fc8e97dc58e50d7de2f11f518",
+    "node_id": "C_kwDOLcebn9oAKDk2ZTg1ZDhhNDdlN2Y5MGZjOGU5N2RjNThlNTBkN2RlMmYxMWY1MTg",
+    "commit": {
+      "author": {
+        "name": "Copilot",
+        "email": "198982749+Copilot@users.noreply.github.com",
+        "date": "2026-03-24T04:54:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-03-24T04:54:02Z"
+      },
+      "message": "fix: TypeError: data.find is not a function on first startup after npx karin init (#625)\n\n* Initial plan\n\n* fix: TypeError data.find is not a function on first startup after npx karin init\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\nAgent-Logs-Url: https://github.com/KarinJS/Karin/sessions/4913649d-86fe-407f-bf29-c24ff2730354\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>",
+      "tree": {
+        "sha": "cab267545b3532f95c2bcf9eb1786589ebda63b8",
+        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/cab267545b3532f95c2bcf9eb1786589ebda63b8"
+      },
+      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/96e85d8a47e7f90fc8e97dc58e50d7de2f11f518",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpwhjqCRC1aQ7uu5UhlAAA0IoQAKUBN33yeKLh4ySl2USXiXGU\nE6STUb9DHoD1TxkPRjAwVwbuXw66AJAobIQ/9ZdhGkYGHId0XKMMpM0gUrTPJ8Zi\nNmtvAtIK6YT+w6xmhQT3cyvl9k3isOCb1W4UNj7TD7TMjQvVXatIklXcPx8TVoAN\nRbMFH9rBbr+LuTkf2XIcozU7Kgh1KkB87cOQkbNt+NhQpfdt8racljK/cxCx7tzv\nJvWqnx4GfrEUDXCS3QbI0+K8XQz/qEqlL5ea59JLNxCW0hSeaw0SLks8V+Ro6sAt\nCWXu/eMOrRZidLvFoAL+bePFRjRAN43sa3Mc+Sq1txZl9+F2gtzz11C4dP6+YYyu\nzOnotjc07ueJAzaL+WzU8x0U4XNr7LlsTRN+CVxE9gTVhTAUxRH21vzGNCuUJQpG\nk6PG8CoWo/N1qwpfng2/1rLqxd+uYUx/awREzVQwzAduJgUwfwq+0m7N9Nw4DLXq\n/g6vMd3g+CRioAoVS33qIsJ6aJ1UYNHcJ/U0qcXEct+sEKK4E1UxImaSOei7bPZZ\n+9xU2VrIFS/DuyNmp3Z0CVu6FtfDh9HTYuhqB3mgDSYEie4QGZMp2EWrugYKKGox\n7SlkhnGRikPX+AA2P1OGWKeyWpcTx9IbBrIB/ZE3ezcmL3kAljMqlhMncKTSTsJX\nyW3DAu+aK5afbMX+6kDJ\n=bfgO\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cab267545b3532f95c2bcf9eb1786589ebda63b8\nparent 4556539f3ebc8e43c67ea86fd680d2fa943f0e07\nauthor Copilot <198982749+Copilot@users.noreply.github.com> 1774328042 +0800\ncommitter GitHub <noreply@github.com> 1774328042 +0800\n\nfix: TypeError: data.find is not a function on first startup after npx karin init (#625)\n\n* Initial plan\n\n* fix: TypeError data.find is not a function on first startup after npx karin init\n\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>\nAgent-Logs-Url: https://github.com/KarinJS/Karin/sessions/4913649d-86fe-407f-bf29-c24ff2730354\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: sj817 <74231782+sj817@users.noreply.github.com>",
+        "verified_at": "2026-03-24T04:54:03Z"
+      }
+    },
+    "url": "https://api.github.com/repos/KarinJS/Karin/commits/96e85d8a47e7f90fc8e97dc58e50d7de2f11f518",
+    "html_url": "https://github.com/KarinJS/Karin/commit/96e85d8a47e7f90fc8e97dc58e50d7de2f11f518",
+    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/96e85d8a47e7f90fc8e97dc58e50d7de2f11f518/comments",
+    "author": {
+      "login": "Copilot",
+      "id": 198982749,
+      "node_id": "BOT_kgDOC9w8XQ",
+      "avatar_url": "https://avatars.githubusercontent.com/in/1143301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Copilot",
+      "html_url": "https://github.com/apps/copilot-swe-agent",
+      "followers_url": "https://api.github.com/users/Copilot/followers",
+      "following_url": "https://api.github.com/users/Copilot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Copilot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Copilot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Copilot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Copilot/orgs",
+      "repos_url": "https://api.github.com/users/Copilot/repos",
+      "events_url": "https://api.github.com/users/Copilot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Copilot/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4556539f3ebc8e43c67ea86fd680d2fa943f0e07",
+        "url": "https://api.github.com/repos/KarinJS/Karin/commits/4556539f3ebc8e43c67ea86fd680d2fa943f0e07",
+        "html_url": "https://github.com/KarinJS/Karin/commit/4556539f3ebc8e43c67ea86fd680d2fa943f0e07"
+      }
+    ]
+  },
+  {
     "sha": "4556539f3ebc8e43c67ea86fd680d2fa943f0e07",
     "node_id": "C_kwDOLcebn9oAKDQ1NTY1MzlmM2ViYzhlNDNjNjdlYTg2ZmQ2ODBkMmZhOTQzZjBlMDc",
     "commit": {
@@ -2374,88 +2456,6 @@
         "sha": "06ee51ddb07139d1fd7d9ff6d51cfdf43db10274",
         "url": "https://api.github.com/repos/KarinJS/Karin/commits/06ee51ddb07139d1fd7d9ff6d51cfdf43db10274",
         "html_url": "https://github.com/KarinJS/Karin/commit/06ee51ddb07139d1fd7d9ff6d51cfdf43db10274"
-      }
-    ]
-  },
-  {
-    "sha": "06ee51ddb07139d1fd7d9ff6d51cfdf43db10274",
-    "node_id": "C_kwDOLcebn9oAKDA2ZWU1MWRkYjA3MTM5ZDFmZDdkOWZmNmQ1MWNmZGY0M2RiMTAyNzQ",
-    "commit": {
-      "author": {
-        "name": "时瑾",
-        "email": "shijinn520@gmail.com",
-        "date": "2025-12-12T05:51:19Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2025-12-12T05:51:19Z"
-      },
-      "message": "fix: 优化ci (#584)",
-      "tree": {
-        "sha": "cffec0b7333d6796bf5203dd801943a314c22fc9",
-        "url": "https://api.github.com/repos/KarinJS/Karin/git/trees/cffec0b7333d6796bf5203dd801943a314c22fc9"
-      },
-      "url": "https://api.github.com/repos/KarinJS/Karin/git/commits/06ee51ddb07139d1fd7d9ff6d51cfdf43db10274",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpO61XCRC1aQ7uu5UhlAAA4sEQAFS2xIdrMBhYmNpc1aVWfDN4\ntjs9BQ2Dv5ye159O1lAsnoHbZtOo1C7xrTvo1WUWjdRGHllBsepFdUKqXkwV3yqo\nMpPj2Hmobx+JBKT1x7g1uDa8za2sI5JVCwwiiMSjmJMW1SSVwzXikJjq+abc2XB3\nEHyIgiFncfORLQDbi52HVrFYh/PntVpHEI/8QADFgFnzRlzVna5IswWBaBH5zs3U\nly5rTpyF7hupX6uyYZ9fHrnbYcm8XHBgVRD8i5Rv1PBR2kQRD6HgXtFvFFsXowsC\n8hjol1zDcfhkSjJhXrGbtIyv35CjG/DSsDGFnYRpdPsHm8haFU1bOuXVX/SS1EK5\nBg3WrRwRJGDh2kYPMdU5WCfe8IWCb2VFqHGqTpoHwjwXgqmHmmZhsVQ+n8MvEHtq\nqmKXCrEoD3N3sVZRYSuoy0ZAuHww/U+yImWAklVfeo0DkBGW9rHM5WZYwkLlNj3S\nnCSsMD2XpI1ZS81WxAJxW24D8u2TY8d9bLU/DmY+bB6F71Uk8x92/J26n0zZ2ArG\n4t0fBmdRdqPTCb65IcR4tm/iBprYZnYbRPPrhAVoYE4MZlxU2htGKhMWKUXCJDDW\neVz5fwST7KTXAwtfyU4sVE6mvJPO9t9NDnnxLkz+T6UCW3cNlpf2CM2zy8SRwcBv\nagg7zRgjO8pr7Rqsf5kN\n=tFzQ\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree cffec0b7333d6796bf5203dd801943a314c22fc9\nparent 8e30880979f34a6d71b80749cbd7431db954d53a\nauthor 时瑾 <shijinn520@gmail.com> 1765518679 +0800\ncommitter GitHub <noreply@github.com> 1765518679 +0800\n\nfix: 优化ci (#584)\n\n",
-        "verified_at": "2025-12-12T05:51:20Z"
-      }
-    },
-    "url": "https://api.github.com/repos/KarinJS/Karin/commits/06ee51ddb07139d1fd7d9ff6d51cfdf43db10274",
-    "html_url": "https://github.com/KarinJS/Karin/commit/06ee51ddb07139d1fd7d9ff6d51cfdf43db10274",
-    "comments_url": "https://api.github.com/repos/KarinJS/Karin/commits/06ee51ddb07139d1fd7d9ff6d51cfdf43db10274/comments",
-    "author": {
-      "login": "sj817",
-      "id": 74231782,
-      "node_id": "MDQ6VXNlcjc0MjMxNzgy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74231782?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/sj817",
-      "html_url": "https://github.com/sj817",
-      "followers_url": "https://api.github.com/users/sj817/followers",
-      "following_url": "https://api.github.com/users/sj817/following{/other_user}",
-      "gists_url": "https://api.github.com/users/sj817/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/sj817/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/sj817/subscriptions",
-      "organizations_url": "https://api.github.com/users/sj817/orgs",
-      "repos_url": "https://api.github.com/users/sj817/repos",
-      "events_url": "https://api.github.com/users/sj817/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/sj817/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "8e30880979f34a6d71b80749cbd7431db954d53a",
-        "url": "https://api.github.com/repos/KarinJS/Karin/commits/8e30880979f34a6d71b80749cbd7431db954d53a",
-        "html_url": "https://github.com/KarinJS/Karin/commit/8e30880979f34a6d71b80749cbd7431db954d53a"
       }
     ]
   }
