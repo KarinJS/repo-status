@@ -48,14 +48,6 @@
     "protected": false
   },
   {
-    "name": "copilot/update-input-interface",
-    "commit": {
-      "sha": "76cd5721c75b3fc7931bfff06e8c0907900d06fd",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/76cd5721c75b3fc7931bfff06e8c0907900d06fd"
-    },
-    "protected": false
-  },
-  {
     "name": "docs",
     "commit": {
       "sha": "49301eea792818408fb8607933fddbda77047651",
@@ -114,8 +106,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "df39819777975fba925ad30bd90b22aab62d25ec",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/df39819777975fba925ad30bd90b22aab62d25ec"
+      "sha": "e762c573bd943944b530e6c67fc98753a1e4dfad",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e762c573bd943944b530e6c67fc98753a1e4dfad"
     },
     "protected": true
   },
@@ -154,8 +146,8 @@
   {
     "name": "release-please--branches--main",
     "commit": {
-      "sha": "67bc40ce122860bdefc319fc6414c7aad811634f",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/67bc40ce122860bdefc319fc6414c7aad811634f"
+      "sha": "93bf5ec277ed5554d706b305650785b51f593dd2",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/93bf5ec277ed5554d706b305650785b51f593dd2"
     },
     "protected": false
   },
