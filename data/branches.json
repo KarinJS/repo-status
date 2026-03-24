@@ -34,16 +34,8 @@
   {
     "name": "copilot/feat-adapter-offline-notification",
     "commit": {
-      "sha": "5903f678761c2f65fabc9feb5d1e7a6088e2d9ec",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/5903f678761c2f65fabc9feb5d1e7a6088e2d9ec"
-    },
-    "protected": false
-  },
-  {
-    "name": "copilot/fix-debug-log-level-issue",
-    "commit": {
-      "sha": "a7521f3b71bdaab613e917dc12b1308acd300dc1",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/a7521f3b71bdaab613e917dc12b1308acd300dc1"
+      "sha": "da737ebadb3d8fe38b340e538f575bc845683015",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/da737ebadb3d8fe38b340e538f575bc845683015"
     },
     "protected": false
   },
@@ -58,8 +50,8 @@
   {
     "name": "copilot/update-input-interface",
     "commit": {
-      "sha": "d1126b4a8170deb53940130566c47b84d6a2c282",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d1126b4a8170deb53940130566c47b84d6a2c282"
+      "sha": "76cd5721c75b3fc7931bfff06e8c0907900d06fd",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/76cd5721c75b3fc7931bfff06e8c0907900d06fd"
     },
     "protected": false
   },
@@ -122,8 +114,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "96e85d8a47e7f90fc8e97dc58e50d7de2f11f518",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/96e85d8a47e7f90fc8e97dc58e50d7de2f11f518"
+      "sha": "df39819777975fba925ad30bd90b22aab62d25ec",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/df39819777975fba925ad30bd90b22aab62d25ec"
     },
     "protected": true
   },
@@ -162,8 +154,8 @@
   {
     "name": "release-please--branches--main",
     "commit": {
-      "sha": "1e739cb41f4aec72b68d26e88ec34b64569c9aee",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/1e739cb41f4aec72b68d26e88ec34b64569c9aee"
+      "sha": "67bc40ce122860bdefc319fc6414c7aad811634f",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/67bc40ce122860bdefc319fc6414c7aad811634f"
     },
     "protected": false
   },
