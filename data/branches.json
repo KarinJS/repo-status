@@ -40,6 +40,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/packages/cli-Internal/yaml-2.8.3",
+    "commit": {
+      "sha": "001e2c6bf06fbaf6f15774a20df071a165637cbe",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/001e2c6bf06fbaf6f15774a20df071a165637cbe"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/packages/core/yaml-2.8.3",
     "commit": {
       "sha": "8817ff796c3c72932596467c0a44ada034203247",
