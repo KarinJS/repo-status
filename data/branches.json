@@ -40,6 +40,22 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/packages/core/yaml-2.8.3",
+    "commit": {
+      "sha": "8817ff796c3c72932596467c0a44ada034203247",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/8817ff796c3c72932596467c0a44ada034203247"
+    },
+    "protected": false
+  },
+  {
+    "name": "dependabot/npm_and_yarn/yaml-2.8.3",
+    "commit": {
+      "sha": "85c57ac748ca856cb43b7de19b9aa991e73623bf",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/85c57ac748ca856cb43b7de19b9aa991e73623bf"
+    },
+    "protected": false
+  },
+  {
     "name": "docs",
     "commit": {
       "sha": "49301eea792818408fb8607933fddbda77047651",
