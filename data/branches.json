@@ -32,14 +32,6 @@
     "protected": false
   },
   {
-    "name": "copilot/fix-getrkey-undefined-issue",
-    "commit": {
-      "sha": "fa1956907bf82732133c4db28e624ca0eebcd4f8",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/fa1956907bf82732133c4db28e624ca0eebcd4f8"
-    },
-    "protected": false
-  },
-  {
     "name": "copilot/fix-initial-launch-error",
     "commit": {
       "sha": "3af794beb61d0b1906d9d05e87503a42a68c9eaa",
@@ -130,8 +122,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "55754bb1009e1f97a82be68d468707b24c315d15",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/55754bb1009e1f97a82be68d468707b24c315d15"
+      "sha": "87f1184e6c005e6dbe5283180b5a256378066967",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/87f1184e6c005e6dbe5283180b5a256378066967"
     },
     "protected": true
   },
@@ -164,6 +156,14 @@
     "commit": {
       "sha": "f817269c26c220f102bfd0903ee1d22ba150d85b",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/f817269c26c220f102bfd0903ee1d22ba150d85b"
+    },
+    "protected": false
+  },
+  {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "402a081a99cac3c878e4ab49912c50bda38538d9",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/402a081a99cac3c878e4ab49912c50bda38538d9"
     },
     "protected": false
   },
