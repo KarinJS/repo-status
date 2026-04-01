@@ -16,6 +16,14 @@
     "protected": false
   },
   {
+    "name": "adapterinfo",
+    "commit": {
+      "sha": "276465b0f52bc6bf2a7520a1c5809dbf5cfc889e",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/276465b0f52bc6bf2a7520a1c5809dbf5cfc889e"
+    },
+    "protected": false
+  },
+  {
     "name": "choer-npm",
     "commit": {
       "sha": "659b943c3f67bef14bffd149800623d4970d1c8c",
