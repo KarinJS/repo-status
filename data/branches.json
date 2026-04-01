@@ -72,14 +72,6 @@
     "protected": false
   },
   {
-    "name": "extended-adapter-type",
-    "commit": {
-      "sha": "521f69d6e9ac7c0822ce250aa9142907103c721e",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/521f69d6e9ac7c0822ce250aa9142907103c721e"
-    },
-    "protected": false
-  },
-  {
     "name": "feat-328",
     "commit": {
       "sha": "b04e7cd7ef4010b5ec6b35e2b51d8ef06c365b03",
@@ -130,8 +122,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "6b16f4c932fdcde21ee0697ebf17ce590177177b",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/6b16f4c932fdcde21ee0697ebf17ce590177177b"
+      "sha": "55754bb1009e1f97a82be68d468707b24c315d15",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/55754bb1009e1f97a82be68d468707b24c315d15"
     },
     "protected": true
   },
