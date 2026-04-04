@@ -83,7 +83,7 @@
   "has_wiki": true,
   "has_pages": false,
   "has_discussions": true,
-  "forks_count": 17,
+  "forks_count": 19,
   "mirror_url": null,
   "archived": false,
   "disabled": false,
@@ -104,7 +104,7 @@
     "karin"
   ],
   "visibility": "public",
-  "forks": 17,
+  "forks": 19,
   "open_issues": 15,
   "watchers": 178,
   "default_branch": "main",
@@ -138,6 +138,6 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "network_count": 17,
+  "network_count": 19,
   "subscribers_count": 2
 }
