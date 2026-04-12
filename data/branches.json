@@ -48,6 +48,14 @@
     "protected": false
   },
   {
+    "name": "copilot/implement-auto-import-sorting",
+    "commit": {
+      "sha": "87f1184e6c005e6dbe5283180b5a256378066967",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/87f1184e6c005e6dbe5283180b5a256378066967"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/axios-1.15.0",
     "commit": {
       "sha": "29dc1c28394c8ab1ec583f3b19ae08f9b1b58bf3",
