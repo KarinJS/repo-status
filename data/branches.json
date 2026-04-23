@@ -136,6 +136,14 @@
     "protected": false
   },
   {
+    "name": "fix-checkPkgUpdate",
+    "commit": {
+      "sha": "ddc9db2a0a6e2c72694f5fd65e81accead47f904",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/ddc9db2a0a6e2c72694f5fd65e81accead47f904"
+    },
+    "protected": false
+  },
+  {
     "name": "fix-ffmpeg",
     "commit": {
       "sha": "5fcf7bcd1bc777fdee9aa0d8772c7d5da89b6664",
