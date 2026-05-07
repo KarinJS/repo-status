@@ -56,10 +56,10 @@
     "protected": false
   },
   {
-    "name": "dependabot/npm_and_yarn/axios-1.15.0",
+    "name": "dependabot/npm_and_yarn/axios-1.15.2",
     "commit": {
-      "sha": "29dc1c28394c8ab1ec583f3b19ae08f9b1b58bf3",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/29dc1c28394c8ab1ec583f3b19ae08f9b1b58bf3"
+      "sha": "479d3432a7390970ccd694397011d9c81a56ee96",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/479d3432a7390970ccd694397011d9c81a56ee96"
     },
     "protected": false
   },
