@@ -32,6 +32,14 @@
     "protected": false
   },
   {
+    "name": "chore/node22-pnpm-and-tests",
+    "commit": {
+      "sha": "da9166d2388002451cfae691d5c5ee0f04ce8b44",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/da9166d2388002451cfae691d5c5ee0f04ce8b44"
+    },
+    "protected": false
+  },
+  {
     "name": "codex/解决-github-问题-#368",
     "commit": {
       "sha": "470b60d3494e7cddb11ec7df837727df8b6de1f7",
