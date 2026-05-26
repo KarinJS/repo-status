@@ -2513,7 +2513,7 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/619/reactions",
-      "total_count": 1,
+      "total_count": 0,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
@@ -2521,7 +2521,7 @@
       "confused": 0,
       "heart": 0,
       "rocket": 0,
-      "eyes": 1
+      "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/619/timeline",
     "performed_via_github_app": null,
@@ -2661,7 +2661,7 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/618/reactions",
-      "total_count": 1,
+      "total_count": 0,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
@@ -2669,7 +2669,7 @@
       "confused": 0,
       "heart": 0,
       "rocket": 0,
-      "eyes": 1
+      "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/618/timeline",
     "performed_via_github_app": null,
@@ -2961,7 +2961,7 @@
     },
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/615/reactions",
-      "total_count": 1,
+      "total_count": 0,
       "+1": 0,
       "-1": 0,
       "laugh": 0,
@@ -2969,7 +2969,7 @@
       "confused": 0,
       "heart": 0,
       "rocket": 0,
-      "eyes": 1
+      "eyes": 0
     },
     "timeline_url": "https://api.github.com/repos/KarinJS/Karin/issues/615/timeline",
     "performed_via_github_app": null,
