@@ -104,6 +104,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/ws-8.20.1",
+    "commit": {
+      "sha": "4e3f5e04384ef272164db6df5a4b58cce2f81a22",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4e3f5e04384ef272164db6df5a4b58cce2f81a22"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/yaml-2.8.3",
     "commit": {
       "sha": "85c57ac748ca856cb43b7de19b9aa991e73623bf",
