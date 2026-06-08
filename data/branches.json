@@ -112,10 +112,10 @@
     "protected": false
   },
   {
-    "name": "dependabot/npm_and_yarn/vitest-4.1.0",
+    "name": "dependabot/npm_and_yarn/vitest-3.2.6",
     "commit": {
-      "sha": "c34baacd3655546f42cc8168b454822b929d5ba7",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/c34baacd3655546f42cc8168b454822b929d5ba7"
+      "sha": "4fefc832d465464f60b9fcd6dd100e9d17d9428a",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4fefc832d465464f60b9fcd6dd100e9d17d9428a"
     },
     "protected": false
   },
