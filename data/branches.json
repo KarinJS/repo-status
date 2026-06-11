@@ -48,14 +48,6 @@
     "protected": false
   },
   {
-    "name": "codex/support-iframe",
-    "commit": {
-      "sha": "e5d72bdc30b1f0fd2cfb46dd90c3f2283e309068",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/e5d72bdc30b1f0fd2cfb46dd90c3f2283e309068"
-    },
-    "protected": false
-  },
-  {
     "name": "copilot/fix-initial-launch-error",
     "commit": {
       "sha": "3af794beb61d0b1906d9d05e87503a42a68c9eaa",
@@ -74,8 +66,8 @@
   {
     "name": "dependabot/npm_and_yarn/axios-1.16.0",
     "commit": {
-      "sha": "cc60107dd5d4b896f03d1f1837c4c8190c607427",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/cc60107dd5d4b896f03d1f1837c4c8190c607427"
+      "sha": "7caf7acb9ed1616c36155d541e5bd1d324879af1",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7caf7acb9ed1616c36155d541e5bd1d324879af1"
     },
     "protected": false
   },
@@ -98,8 +90,8 @@
   {
     "name": "dependabot/npm_and_yarn/packages/web/axios-1.16.0",
     "commit": {
-      "sha": "d9b6418dfd65a59b3404202c485651ab5e53c687",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/d9b6418dfd65a59b3404202c485651ab5e53c687"
+      "sha": "3eaabf4880c73d725a5b6e9f62356d7bf28a78dd",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3eaabf4880c73d725a5b6e9f62356d7bf28a78dd"
     },
     "protected": false
   },
@@ -112,18 +104,10 @@
     "protected": false
   },
   {
-    "name": "dependabot/npm_and_yarn/vitest-3.2.6",
-    "commit": {
-      "sha": "4fefc832d465464f60b9fcd6dd100e9d17d9428a",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4fefc832d465464f60b9fcd6dd100e9d17d9428a"
-    },
-    "protected": false
-  },
-  {
     "name": "dependabot/npm_and_yarn/ws-8.20.1",
     "commit": {
-      "sha": "4e3f5e04384ef272164db6df5a4b58cce2f81a22",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4e3f5e04384ef272164db6df5a4b58cce2f81a22"
+      "sha": "ae245ca84faf771a4ecb1c79ec1339ac7d3e13eb",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/ae245ca84faf771a4ecb1c79ec1339ac7d3e13eb"
     },
     "protected": false
   },
@@ -194,8 +178,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "b2eef436feec18768930373e85ca104cc181d8e9",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/b2eef436feec18768930373e85ca104cc181d8e9"
+      "sha": "faa725b36300a400c137ed9f625c34321a2198a0",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/faa725b36300a400c137ed9f625c34321a2198a0"
     },
     "protected": true
   },
@@ -232,10 +216,26 @@
     "protected": false
   },
   {
+    "name": "release-please--branches--main",
+    "commit": {
+      "sha": "f525332f698871e269b133cf1d430caca5382fe8",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f525332f698871e269b133cf1d430caca5382fe8"
+    },
+    "protected": false
+  },
+  {
     "name": "sj817-patch-1",
     "commit": {
       "sha": "18be0239ef9f7b82aced3f631be1473cb67316ef",
       "url": "https://api.github.com/repos/KarinJS/Karin/commits/18be0239ef9f7b82aced3f631be1473cb67316ef"
+    },
+    "protected": false
+  },
+  {
+    "name": "ts",
+    "commit": {
+      "sha": "9e1c61529b7c109bd77e82b5aeb3fe52a69a7e87",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/9e1c61529b7c109bd77e82b5aeb3fe52a69a7e87"
     },
     "protected": false
   }
