@@ -785,7 +785,7 @@
     "updated_at": "2026-05-15T14:15:50Z",
     "closed_at": null,
     "merged_at": null,
-    "merge_commit_sha": "eb98f7fb594c81df6726cc83ae4a9c2400174c84",
+    "merge_commit_sha": null,
     "assignees": [],
     "requested_reviewers": [],
     "requested_teams": [],
