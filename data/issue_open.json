@@ -38,7 +38,7 @@
     "milestone": null,
     "comments": 3,
     "created_at": "2026-07-16T06:39:29Z",
-    "updated_at": "2026-07-16T06:41:12Z",
+    "updated_at": "2026-07-16T07:24:37Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "CONTRIBUTOR",
@@ -53,7 +53,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/666.patch",
       "merged_at": null
     },
-    "body": "## Summary by Sourcery\n\nBug Fixes:\n- 修复 `getBotsRouter` 处理程序，使其返回所有机器人，而不仅仅是机器人数量。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nBug Fixes:\n- Fix the getBotsRouter handler to return all bots rather than only the bot count.\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **Bug Fixes**\n  * The bot listing now displays the complete list of available bots instead of only showing the total count.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "body": "## Summary by Sourcery\n\nBug Fixes:\n- 修复 `getBotsRouter` 处理程序，使其返回所有机器人，而不仅仅是机器人数量。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nBug Fixes:\n- Fix the getBotsRouter handler to return all bots rather than only the bot count.\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n* **Bug Fixes**\n  * Updated the bot listing to show the full set of available bots rather than only the total number of bots.\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/666/reactions",
