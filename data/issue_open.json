@@ -38,7 +38,7 @@
     "milestone": null,
     "comments": 4,
     "created_at": "2026-07-27T11:44:29Z",
-    "updated_at": "2026-07-27T11:47:15Z",
+    "updated_at": "2026-07-30T13:35:55Z",
     "closed_at": null,
     "assignee": null,
     "author_association": "CONTRIBUTOR",
@@ -53,7 +53,7 @@
       "patch_url": "https://github.com/KarinJS/Karin/pull/671.patch",
       "merged_at": null
     },
-    "body": "## Summary by Sourcery\n\n将 OneBot nc 适配器的表情反应通知与 `is_add` 标志对齐，而不是强制将表情反应视为已设置。\n\nBug Fixes:\n- 在核心适配器中，根据 `OneBot NcGroupEmojiLikeNoticeEvent` 的 `is_add` 标志设置表情反应的 `isSet`，以避免其值始终为 true 的错误。\n\nEnhancements:\n- 为 `NcGroupEmojiLikeNoticeEvent` 扩展一个 `is_add` 字段，用于表示表情反应是被添加还是被移除。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nAlign OneBot nc adapter emoji reaction notices with the is_add flag instead of forcing emoji responses as set.\n\nBug Fixes:\n- Respect the OneBot NcGroupEmojiLikeNoticeEvent is_add flag when setting emoji reaction isSet in the core adapter to avoid incorrect always-true values.\n\nEnhancements:\n- Extend NcGroupEmojiLikeNoticeEvent with an is_add field to represent whether an emoji reaction is being added.\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n- **Bug Fixes**\n  - Emoji reaction notifications now correctly indicate whether a reaction was added or removed.\n  - Improved handling of reaction state updates for OneBot events.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "body": "## Summary by Sourcery\n\n将 OneBot nc 适配器的表情反应通知与 `is_add` 标志对齐，而不是强制将表情反应视为已设置。\n\nBug Fixes:\n- 在核心适配器中，根据 `OneBot NcGroupEmojiLikeNoticeEvent` 的 `is_add` 标志设置表情反应的 `isSet`，以避免其值始终为 true 的错误。\n\nEnhancements:\n- 为 `NcGroupEmojiLikeNoticeEvent` 扩展一个 `is_add` 字段，用于表示表情反应是被添加还是被移除。\n\n<details>\n<summary>Original summary in English</summary>\n\n## Summary by Sourcery\n\nAlign OneBot nc adapter emoji reaction notices with the is_add flag instead of forcing emoji responses as set.\n\nBug Fixes:\n- Respect the OneBot NcGroupEmojiLikeNoticeEvent is_add flag when setting emoji reaction isSet in the core adapter to avoid incorrect always-true values.\n\nEnhancements:\n- Extend NcGroupEmojiLikeNoticeEvent with an is_add field to represent whether an emoji reaction is being added.\n\n</details>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n## Summary by CodeRabbit\n\n- **Bug Fixes**\n  - Emoji reaction notifications now correctly indicate whether a reaction was added or removed.\n  - OneBot chat history timestamps now use the original per-message time instead of the conversion time.\n- **New Features**\n  - OneBot markdown messages are now converted into Karin markdown segments for improved message rendering.\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
     "closed_by": null,
     "reactions": {
       "url": "https://api.github.com/repos/KarinJS/Karin/issues/671/reactions",
