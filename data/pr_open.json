@@ -757,7 +757,9 @@
         "name": "dependencies",
         "color": "0366d6",
         "default": false,
-        "description": "Pull requests that update a dependency file"
+        "description": "Pull requests that update a dependency file",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 8350724091,
@@ -766,7 +768,9 @@
         "name": "javascript",
         "color": "168700",
         "default": false,
-        "description": "Pull requests that update javascript code"
+        "description": "Pull requests that update javascript code",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "milestone": null,
@@ -1131,7 +1135,9 @@
         "name": "dependencies",
         "color": "0366d6",
         "default": false,
-        "description": "Pull requests that update a dependency file"
+        "description": "Pull requests that update a dependency file",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 8350724091,
@@ -1140,7 +1146,9 @@
         "name": "javascript",
         "color": "168700",
         "default": false,
-        "description": "Pull requests that update javascript code"
+        "description": "Pull requests that update javascript code",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "milestone": null,
@@ -1860,7 +1868,9 @@
         "name": "dependencies",
         "color": "0366d6",
         "default": false,
-        "description": "Pull requests that update a dependency file"
+        "description": "Pull requests that update a dependency file",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 8350724091,
@@ -1869,7 +1879,9 @@
         "name": "javascript",
         "color": "168700",
         "default": false,
-        "description": "Pull requests that update javascript code"
+        "description": "Pull requests that update javascript code",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "milestone": null,
@@ -2589,7 +2601,9 @@
         "name": "dependencies",
         "color": "0366d6",
         "default": false,
-        "description": "Pull requests that update a dependency file"
+        "description": "Pull requests that update a dependency file",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 8350724091,
@@ -2598,7 +2612,9 @@
         "name": "javascript",
         "color": "168700",
         "default": false,
-        "description": "Pull requests that update javascript code"
+        "description": "Pull requests that update javascript code",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "milestone": null,
@@ -2963,7 +2979,9 @@
         "name": "dependencies",
         "color": "0366d6",
         "default": false,
-        "description": "Pull requests that update a dependency file"
+        "description": "Pull requests that update a dependency file",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 8350724091,
@@ -2972,7 +2990,9 @@
         "name": "javascript",
         "color": "168700",
         "default": false,
-        "description": "Pull requests that update javascript code"
+        "description": "Pull requests that update javascript code",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "milestone": null,
@@ -3337,7 +3357,9 @@
         "name": "dependencies",
         "color": "0366d6",
         "default": false,
-        "description": "Pull requests that update a dependency file"
+        "description": "Pull requests that update a dependency file",
+        "archived_at": null,
+        "archived_by": null
       },
       {
         "id": 8350724091,
@@ -3346,7 +3368,9 @@
         "name": "javascript",
         "color": "168700",
         "default": false,
-        "description": "Pull requests that update javascript code"
+        "description": "Pull requests that update javascript code",
+        "archived_at": null,
+        "archived_by": null
       }
     ],
     "milestone": null,
