@@ -64,54 +64,6 @@
     "protected": false
   },
   {
-    "name": "dependabot/npm_and_yarn/axios-1.16.0",
-    "commit": {
-      "sha": "75111e3f1845cf1969b2e0b8a19dfb6604e8e9b4",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/75111e3f1845cf1969b2e0b8a19dfb6604e8e9b4"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/packages/cli-Internal/yaml-2.8.3",
-    "commit": {
-      "sha": "001e2c6bf06fbaf6f15774a20df071a165637cbe",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/001e2c6bf06fbaf6f15774a20df071a165637cbe"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/packages/core/yaml-2.8.3",
-    "commit": {
-      "sha": "8817ff796c3c72932596467c0a44ada034203247",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/8817ff796c3c72932596467c0a44ada034203247"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/packages/web/axios-1.16.0",
-    "commit": {
-      "sha": "3eaabf4880c73d725a5b6e9f62356d7bf28a78dd",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/3eaabf4880c73d725a5b6e9f62356d7bf28a78dd"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/vite-6.4.2",
-    "commit": {
-      "sha": "f4bb78e07deb43ae784d1ba4a67887617fbab04c",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/f4bb78e07deb43ae784d1ba4a67887617fbab04c"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/yaml-2.8.3",
-    "commit": {
-      "sha": "85c57ac748ca856cb43b7de19b9aa991e73623bf",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/85c57ac748ca856cb43b7de19b9aa991e73623bf"
-    },
-    "protected": false
-  },
-  {
     "name": "docs",
     "commit": {
       "sha": "49301eea792818408fb8607933fddbda77047651",
@@ -170,8 +122,8 @@
   {
     "name": "main",
     "commit": {
-      "sha": "208b585c17b0d2799d9c09d0078d415077aec414",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/208b585c17b0d2799d9c09d0078d415077aec414"
+      "sha": "608a368afeb382df20c5a8b76c4e9f31e6e15da6",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/608a368afeb382df20c5a8b76c4e9f31e6e15da6"
     },
     "protected": true
   },
