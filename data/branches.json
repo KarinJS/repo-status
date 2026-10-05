@@ -96,6 +96,14 @@
     "protected": false
   },
   {
+    "name": "fix/pnpm-v10-v12-compat",
+    "commit": {
+      "sha": "8f8dd85ceb6079c8b3f3ae208780cbbc124eaad4",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/8f8dd85ceb6079c8b3f3ae208780cbbc124eaad4"
+    },
+    "protected": false
+  },
+  {
     "name": "fix-ffmpeg",
     "commit": {
       "sha": "5fcf7bcd1bc777fdee9aa0d8772c7d5da89b6664",
