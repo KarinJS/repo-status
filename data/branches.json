@@ -64,22 +64,6 @@
     "protected": false
   },
   {
-    "name": "dependabot/npm_and_yarn/axios-1.20.0",
-    "commit": {
-      "sha": "7e4c7db4c58b07120b2f2964491ff172b49b5ab6",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/7e4c7db4c58b07120b2f2964491ff172b49b5ab6"
-    },
-    "protected": false
-  },
-  {
-    "name": "dependabot/npm_and_yarn/fast-uri-3.1.8",
-    "commit": {
-      "sha": "0cb7c04d8117e4c715e0d487bb07bec77224e158",
-      "url": "https://api.github.com/repos/KarinJS/Karin/commits/0cb7c04d8117e4c715e0d487bb07bec77224e158"
-    },
-    "protected": false
-  },
-  {
     "name": "docs",
     "commit": {
       "sha": "49301eea792818408fb8607933fddbda77047651",
