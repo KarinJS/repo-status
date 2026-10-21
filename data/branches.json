@@ -72,6 +72,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/markdown-it-14.3.3",
+    "commit": {
+      "sha": "cea177f9b38b866cd39db66df144761f7a3743e6",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/cea177f9b38b866cd39db66df144761f7a3743e6"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/vite-8.1.6",
     "commit": {
       "sha": "8632ac6a31d773766e2f3bb3543581c5c41ad9cb",
