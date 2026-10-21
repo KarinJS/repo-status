@@ -72,6 +72,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/vite-8.1.6",
+    "commit": {
+      "sha": "8632ac6a31d773766e2f3bb3543581c5c41ad9cb",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/8632ac6a31d773766e2f3bb3543581c5c41ad9cb"
+    },
+    "protected": false
+  },
+  {
     "name": "docs",
     "commit": {
       "sha": "49301eea792818408fb8607933fddbda77047651",
