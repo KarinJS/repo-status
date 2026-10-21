@@ -64,6 +64,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/follow-redirects-1.16.1",
+    "commit": {
+      "sha": "af27a06b2e87d184eb263a9f9281cab419e15cae",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/af27a06b2e87d184eb263a9f9281cab419e15cae"
+    },
+    "protected": false
+  },
+  {
     "name": "docs",
     "commit": {
       "sha": "49301eea792818408fb8607933fddbda77047651",
