@@ -64,6 +64,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/fast-uri-3.1.9",
+    "commit": {
+      "sha": "4f248b60d0b67dc2b92370934a04ecf31951b3ac",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/4f248b60d0b67dc2b92370934a04ecf31951b3ac"
+    },
+    "protected": false
+  },
+  {
     "name": "dependabot/npm_and_yarn/follow-redirects-1.16.1",
     "commit": {
       "sha": "af27a06b2e87d184eb263a9f9281cab419e15cae",
