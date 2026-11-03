@@ -104,6 +104,14 @@
     "protected": false
   },
   {
+    "name": "dependabot/npm_and_yarn/zod-4.6.6",
+    "commit": {
+      "sha": "16205146aeec9e835efe830b0dd3d4708e638f6e",
+      "url": "https://api.github.com/repos/KarinJS/Karin/commits/16205146aeec9e835efe830b0dd3d4708e638f6e"
+    },
+    "protected": false
+  },
+  {
     "name": "docs",
     "commit": {
       "sha": "49301eea792818408fb8607933fddbda77047651",
